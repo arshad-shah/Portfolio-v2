@@ -66,7 +66,7 @@ export default function App(props) {
 
         <ScrollToTop {...props}>
           <Fab
-            data-block="back-to-top-button"
+            data-block="backtotopbutton"
             color="secondary"
             size="medium"
             aria-label="scroll back to top"
