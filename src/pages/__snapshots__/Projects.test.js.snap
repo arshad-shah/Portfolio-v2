@@ -112,7 +112,7 @@ exports[`Projects of the site: should render Projects with all the information i
             <p
               class="MuiTypography-root MuiTypography-body2"
             >
-              The current verion of the Portfolio site that contains all the work i have done so far. Includes work from college such as exercises, projects and also from outside college such as the android app.This is the first version written in pure HTML, CSS and javascript with a pinch of jquery.
+              The current version of the Portfolio site that contains all the work i have done so far. Includes work from college such as exercises, projects and also from outside college such as the android app.This is the second version written in javascript using the React framework, and designed using Material UI.
             </p>
             <span
               class="MuiTypography-root MuiTypography-overline"
