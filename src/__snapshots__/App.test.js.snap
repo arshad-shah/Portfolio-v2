@@ -199,14 +199,13 @@ exports[`the full app: should render the full app 1`] = `
         <a>
           <button
             aria-label="scroll down button"
-            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeSmall"
+            class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-outlinedSizeSmall MuiButton-sizeSmall"
             data-block="scrolldown"
             tabindex="0"
             type="button"
-            variant="outlined"
           >
             <span
-              class="MuiIconButton-label"
+              class="MuiButton-label"
             >
               <svg
                 aria-hidden="true"

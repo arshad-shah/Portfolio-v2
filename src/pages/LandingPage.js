@@ -1,6 +1,6 @@
 import React from "react";
 import useStyles from "./styles/LandingPage.styles";
-import { Box, Typography, IconButton } from "@material-ui/core";
+import { Box, Typography, Button, IconButton } from "@material-ui/core";
 import { Link } from "react-scroll";
 
 import ArrowDownwardRoundedIcon from "@material-ui/icons/ArrowDownwardRounded";
@@ -61,7 +61,7 @@ export default function LandingPage() {
         </IconButton>
       </Box>
       <Link to="aboutme" spy={true} smooth={true}>
-        <IconButton
+        <Button
           aria-label="scroll down button"
           size="small"
           color="secondary"
@@ -69,7 +69,7 @@ export default function LandingPage() {
           data-block="scrolldown"
         >
           <ArrowDownwardRoundedIcon />
-        </IconButton>
+        </Button>
       </Link>
     </Box>
   );
