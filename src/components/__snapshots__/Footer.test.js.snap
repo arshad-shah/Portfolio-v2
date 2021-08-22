@@ -29,7 +29,7 @@ exports[`Footer of the site: should render footer 1`] = `
         >
           <svg
             aria-hidden="true"
-            class="MuiSvgIcon-root"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
             focusable="false"
             viewBox="0 0 24 24"
           >
@@ -56,7 +56,7 @@ exports[`Footer of the site: should render footer 1`] = `
         >
           <svg
             aria-hidden="true"
-            class="MuiSvgIcon-root"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
             focusable="false"
             viewBox="0 0 24 24"
           >
@@ -83,7 +83,7 @@ exports[`Footer of the site: should render footer 1`] = `
         >
           <svg
             aria-hidden="true"
-            class="MuiSvgIcon-root"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
             focusable="false"
             viewBox="0 0 24 24"
           >

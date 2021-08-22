@@ -23,7 +23,7 @@ export default function Footer() {
           data-block="linktoGithub"
           href="https://github.com/arshad-shah"
         >
-          <GitHubIcon />
+          <GitHubIcon fontSize="large" />
         </IconButton>
 
         <IconButton
@@ -34,7 +34,7 @@ export default function Footer() {
           data-block="linktoLinkedin"
           href="https://www.linkedin.com/in/arshadshah"
         >
-          <LinkedInIcon />
+          <LinkedInIcon fontSize="large" />
         </IconButton>
 
         <IconButton
@@ -45,7 +45,7 @@ export default function Footer() {
           data-block="linktoMail"
           href="mailto:shaharshad1999@outlook.com"
         >
-          <MailIcon />
+          <MailIcon fontSize="large" />
         </IconButton>
       </Box>
       <Typography variant="subtitle2">

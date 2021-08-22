@@ -1,24 +1,53 @@
 import React from "react";
-import { IconButton, Menu, MenuItem, Button } from "@material-ui/core";
-import MenuRoundedIcon from "@material-ui/icons/MenuRounded";
+import { IconButton, Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { Link } from "react-scroll";
 import Resume from "../../assets/ArshadResume.pdf";
+import { Divide as Hamburger } from "hamburger-react";
+import { slide as Menu } from "react-burger-menu";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
+  menuButton: {},
   title: {
     flexGrow: 1,
   },
 }));
 
-export default function Mobile({ anchor, open, closeMobileMenu, handleMenu }) {
+var styles = {
+  bmMenuWrap: {
+    position: "fixed",
+    height: "35%",
+    top: "4.5rem",
+  },
+  bmMenu: {
+    background: "#fdff95",
+    padding: "1.5em",
+    borderRadius: "0 0 0 1rem",
+  },
+  bmMorphShape: {
+    fill: "#fdff95",
+  },
+  bmItemList: {
+    color: "#fdff95",
+    display: "flex",
+    flexDirection: "column",
+    alignContent: "center",
+    justifyContent: "space-between",
+  },
+  bmItem: {
+    display: "inherit",
+  },
+  bmOverlay: {
+    background: "transparent",
+  },
+};
+
+export default function Mobile({ click, closeMobileMenu, handleMenu }) {
   const classes = useStyles();
+
   return (
     <>
       <IconButton
@@ -29,53 +58,56 @@ export default function Mobile({ anchor, open, closeMobileMenu, handleMenu }) {
         onClick={handleMenu}
         data-block="hamburgermenubuttonmobile"
       >
-        <MenuRoundedIcon />
+        <Hamburger
+          distance="md"
+          toggled={click}
+          size={40}
+          rounded
+          color="#c78f00"
+        />
       </IconButton>
 
       <Menu
-        id="menu-appbar"
-        anchorEl={anchor}
-        anchorOrigin={{
-          vertical: "bottom",
-          horizontal: "center",
-        }}
-        KeepMounted
-        transformOrigin={{
-          vertical: "top",
-          horizontal: "center",
-        }}
-        open={open}
+        right
+        isOpen={click}
+        customBurgerIcon={false}
+        customCrossIcon={false}
+        width={200}
+        styles={styles}
       >
         <Link
           data-block="Aboutmemenuitemmobile"
           to="aboutme"
           spy={true}
           smooth={true}
+          onClick={() => closeMobileMenu()}
+          role="menu-item"
         >
-          <MenuItem role="menu-item" onClick={() => closeMobileMenu()}>
+          <Button fullWidth variant="text">
             About Me
-          </MenuItem>
+          </Button>
         </Link>
         <Link
           data-block="Projectsmenuitemmobile"
           to="projects"
           spy={true}
           smooth={true}
+          onClick={() => closeMobileMenu()}
+          role="menu-item"
         >
-          <MenuItem role="menu-item" onClick={() => closeMobileMenu()}>
+          <Button fullWidth variant="text">
             Projects
-          </MenuItem>
+          </Button>
         </Link>
-
-        <MenuItem
+        <Button
+          onClick={() => closeMobileMenu()}
+          variant="outlined"
+          href={Resume}
           role="menu-item"
           data-block="Resumemenuitemmobile"
-          onClick={() => closeMobileMenu()}
         >
-          <Button variant="text" href={Resume}>
-            Resume
-          </Button>
-        </MenuItem>
+          Resume
+        </Button>
       </Menu>
     </>
   );

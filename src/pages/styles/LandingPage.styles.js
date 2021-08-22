@@ -23,11 +23,6 @@ export default makeStyles((theme) => ({
     padding: "1rem",
   },
   Links: {
-    "&:visited": {
-      color: "#ffffff",
-    },
-    "&:link": {
-      color: "#ffffff",
-    },
+    padding: "1rem",
   },
 }));

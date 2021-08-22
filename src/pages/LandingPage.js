@@ -26,7 +26,7 @@ export default function LandingPage() {
         programming.
       </Typography>
 
-      <Box>
+      <Box className={classes.Links}>
         <IconButton
           role="button"
           className={classes.socialLinks}
@@ -35,7 +35,7 @@ export default function LandingPage() {
           data-block="linktoGithub"
           href="https://github.com/arshad-shah"
         >
-          <GitHubIcon />
+          <GitHubIcon fontSize="large" />
         </IconButton>
 
         <IconButton
@@ -46,7 +46,7 @@ export default function LandingPage() {
           data-block="linktoLinkedin"
           href="https://www.linkedin.com/in/arshadshah"
         >
-          <LinkedInIcon />
+          <LinkedInIcon fontSize="large" />
         </IconButton>
 
         <IconButton
@@ -57,7 +57,7 @@ export default function LandingPage() {
           data-block="linktoMail"
           href="mailto:shaharshad1999@outlook.com"
         >
-          <MailIcon />
+          <MailIcon fontSize="large" />
         </IconButton>
       </Box>
       <Link to="aboutme" spy={true} smooth={true}>
@@ -68,7 +68,7 @@ export default function LandingPage() {
           variant="outlined"
           data-block="scrolldown"
         >
-          <ArrowDownwardRoundedIcon />
+          <ArrowDownwardRoundedIcon fontSize="large" />
         </Button>
       </Link>
     </Box>

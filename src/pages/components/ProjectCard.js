@@ -36,9 +36,9 @@ export default function ProjectCard({
           href={repoLink}
         >
           {heading === "Android App Project | Nimaz" ? (
-            <ShopRoundedIcon />
+            <ShopRoundedIcon fontSize="large" />
           ) : (
-            <GitHubIcon />
+            <GitHubIcon fontSize="large" />
           )}
         </IconButton>
       </CardActions>

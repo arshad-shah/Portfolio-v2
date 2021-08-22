@@ -12,21 +12,17 @@ import logo from "../assets/logo.svg";
 const Header = (props) => {
   const theme = useTheme();
   const classes = useStyles();
-  const [anchor, setAnchor] = useState(null);
-  const open = Boolean(anchor);
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => {
     setClick(false);
-    setAnchor(null);
   };
 
-  const handleMenu = (event) => {
+  const handleMenu = () => {
     closeMobileMenu();
     handleClick();
-    setAnchor(event.currentTarget);
   };
 
   return (
@@ -48,9 +44,7 @@ const Header = (props) => {
               <>
                 <Mobile
                   aria-label="mobileMenu"
-                  anchor={anchor}
                   click={click}
-                  open={open}
                   closeMobileMenu={closeMobileMenu}
                   handleMenu={handleMenu}
                 />
