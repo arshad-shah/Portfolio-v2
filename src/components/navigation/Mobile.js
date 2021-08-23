@@ -1,18 +1,38 @@
 import React from "react";
-import { IconButton, Button } from "@material-ui/core";
+import { IconButton } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { Link } from "react-scroll";
 import Resume from "../../assets/ArshadResume.pdf";
 import { Divide as Hamburger } from "hamburger-react";
 import { slide as Menu } from "react-burger-menu";
+import { Typography } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
-  menuButton: {},
   title: {
     flexGrow: 1,
+  },
+  button: {
+    "&:hover": {
+      backgroundColor: "transparent",
+    },
+    "&:active": {
+      backgroundColor: "transparent",
+    },
+    "&:visited": {
+      backgroundColor: "transparent",
+    },
+    "&:link": {
+      backgroundColor: "none",
+    },
+    color: "#000000",
+    padding: "0.7rem",
+    textDecoration: "none",
+    cursor: "pointer",
+    borderRadius: "0.5rem",
+    transition: "all 0.5s ease",
   },
 }));
 
@@ -24,8 +44,9 @@ var styles = {
   },
   bmMenu: {
     background: "#fdff95",
-    padding: "1.5em",
+    padding: "0.5rem",
     borderRadius: "0 0 0 1rem",
+    border: "1px solid black",
   },
   bmMorphShape: {
     fill: "#fdff95",
@@ -35,7 +56,8 @@ var styles = {
     display: "flex",
     flexDirection: "column",
     alignContent: "center",
-    justifyContent: "space-between",
+    alignItems: "stretch",
+    justifyContent: "space-around",
   },
   bmItem: {
     display: "inherit",
@@ -47,6 +69,15 @@ var styles = {
 
 export default function Mobile({ click, closeMobileMenu, handleMenu }) {
   const classes = useStyles();
+
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos < currentScrollPos) {
+      closeMobileMenu();
+    }
+    prevScrollpos = currentScrollPos;
+  };
 
   return (
     <>
@@ -72,42 +103,38 @@ export default function Mobile({ click, closeMobileMenu, handleMenu }) {
         isOpen={click}
         customBurgerIcon={false}
         customCrossIcon={false}
-        width={200}
+        width={180}
         styles={styles}
       >
         <Link
+          className={classes.button}
           data-block="Aboutmemenuitemmobile"
           to="aboutme"
           spy={true}
           smooth={true}
           onClick={() => closeMobileMenu()}
-          role="menu-item"
         >
-          <Button fullWidth variant="text">
-            About Me
-          </Button>
+          <Typography variant="button">About Me</Typography>
         </Link>
         <Link
+          className={classes.button}
           data-block="Projectsmenuitemmobile"
           to="projects"
           spy={true}
           smooth={true}
           onClick={() => closeMobileMenu()}
-          role="menu-item"
         >
-          <Button fullWidth variant="text">
-            Projects
-          </Button>
+          <Typography variant="button">Projects</Typography>
         </Link>
-        <Button
+        <a
+          className={classes.button}
           onClick={() => closeMobileMenu()}
           variant="outlined"
           href={Resume}
-          role="menu-item"
           data-block="Resumemenuitemmobile"
         >
-          Resume
-        </Button>
+          <Typography variant="button">Resume</Typography>
+        </a>
       </Menu>
     </>
   );

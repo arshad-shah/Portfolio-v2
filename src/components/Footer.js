@@ -11,8 +11,8 @@ export default function Footer() {
   const classes = useStyles();
   return (
     <Box className={classes.root}>
-      <Typography variant="h6">
-        &copy; {new Date().getFullYear()} Designed and Created By: Arshad Shah
+      <Typography variant="overline">
+        &copy; {new Date().getFullYear()} Arshad Shah
       </Typography>
       <Box>
         <IconButton
@@ -48,10 +48,7 @@ export default function Footer() {
           <MailIcon fontSize="large" />
         </IconButton>
       </Box>
-      <Typography variant="subtitle2">
-        Google Play and the Google Play logo are trademarks of Google LLC.
-      </Typography>
-      <Typography variant="subtitle2">V2.0 Date: 15/August/2021</Typography>
+      <Typography variant="subtitle2">V2.1 Date:13 / August / 2021</Typography>
     </Box>
   );
 }

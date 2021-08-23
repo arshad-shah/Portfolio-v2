@@ -1,41 +1,68 @@
 import React from "react";
-import { Button } from "@material-ui/core";
+import { Button, Typography } from "@material-ui/core";
 import { Link } from "react-scroll";
 import Resume from "../../assets/ArshadResume.pdf";
+import { makeStyles } from "@material-ui/core/styles";
 
+const useStyles = makeStyles((theme) => ({
+  menuItem: {
+    marginRight: "1.5rem",
+    "&:hover": {
+      backgroundColor: "#fff152",
+    },
+    "&:active": {
+      backgroundColor: "transparent",
+    },
+    "&:visited": {
+      backgroundColor: "transparent",
+    },
+    "&:link": {
+      backgroundColor: "none",
+    },
+    color: "#000000",
+    textDecoration: "none",
+    cursor: "pointer",
+    borderRadius: "0.5rem",
+    transition: "all 0.5s ease",
+    padding: "1rem",
+  },
+}));
 export default function Desktop() {
+  const classes = useStyles();
   return (
-    <div aria-label="desktopMenu" style={{ marginRight: "2rem" }}>
-      <Button
+    <div aria-label="desktopMenu">
+      <Link
+        to="aboutme"
+        spy={true}
+        smooth={true}
         data-block="Aboutmemenuitemdesktop"
-        variant="text"
         color="default"
         aria-label="menuItem"
+        className={classes.menuItem}
       >
-        <Link to="aboutme" spy={true} smooth={true}>
-          About Me
-        </Link>
-      </Button>
-      <Button
+        <Typography variant="button">About Me</Typography>
+      </Link>
+      <Link
+        to="projects"
+        spy={true}
+        smooth={true}
         data-block="Projectsmenuitemdesktop"
-        variant="text"
         color="default"
         aria-label="menuItem"
+        className={classes.menuItem}
       >
-        <Link to="projects" spy={true} smooth={true}>
-          Projects
-        </Link>
-      </Button>
+        <Typography variant="button">Projects</Typography>
+      </Link>
 
-      <Button
+      <a
         aria-label="menuItem"
         data-block="Resumemenuitemdesktop"
         href={Resume}
-        variant="outlined"
         color="default"
+        className={classes.menuItem}
       >
-        Resume
-      </Button>
+        <Typography variant="button">Resume</Typography>
+      </a>
     </div>
   );
 }

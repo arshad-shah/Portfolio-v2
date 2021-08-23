@@ -4,7 +4,7 @@ exports[`Mobile of the site: should render Mobile 1`] = `
 <div>
   <button
     aria-label="menu"
-    class="MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-5"
+    class="MuiButtonBase-root MuiIconButton-root"
     data-block="hamburgermenubuttonmobile"
     role="button"
     tabindex="0"
@@ -52,77 +52,53 @@ exports[`Mobile of the site: should render Mobile 1`] = `
       aria-hidden="true"
       class="bm-menu-wrap"
       id=""
-      style="position: fixed; right: 0px; z-index: 1100; width: 200px; height: 35%; transform: translate3d(100%, 0, 0); transition: all 0.5s; top: 4.5rem;"
+      style="position: fixed; right: 0px; z-index: 1100; width: 180px; height: 35%; transform: translate3d(100%, 0, 0); transition: all 0.5s; top: 4.5rem;"
     >
       <div
         class="bm-menu"
-        style="height: 100%; box-sizing: border-box; overflow: auto; background: rgb(253, 255, 149); padding: 1.5em; border-radius: 0 0 0 1rem;"
+        style="height: 100%; box-sizing: border-box; overflow: auto; background: rgb(253, 255, 149); padding: 0.5rem; border-radius: 0 0 0 1rem; border: 1px solid black;"
       >
         <nav
           class="bm-item-list"
-          style="height: 100%; color: rgb(253, 255, 149); display: flex; flex-direction: column; align-content: center; justify-content: space-between;"
+          style="height: 100%; color: rgb(253, 255, 149); display: flex; flex-direction: column; align-content: center; align-items: stretch; justify-content: space-around;"
         >
           <a
-            class="bm-item"
+            class="bm-item makeStyles-button-6"
             data-block="Aboutmemenuitemmobile"
-            role="menu-item"
-            style="display: inherit;"
-            tabindex="-1"
-          >
-            <button
-              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-fullWidth"
-              tabindex="0"
-              type="button"
-            >
-              <span
-                class="MuiButton-label"
-              >
-                About Me
-              </span>
-              <span
-                class="MuiTouchRipple-root"
-              />
-            </button>
-          </a>
-          <a
-            class="bm-item"
-            data-block="Projectsmenuitemmobile"
-            role="menu-item"
-            style="display: inherit;"
-            tabindex="-1"
-          >
-            <button
-              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-fullWidth"
-              tabindex="0"
-              type="button"
-            >
-              <span
-                class="MuiButton-label"
-              >
-                Projects
-              </span>
-              <span
-                class="MuiTouchRipple-root"
-              />
-            </button>
-          </a>
-          <a
-            aria-disabled="false"
-            class="MuiButtonBase-root MuiButton-root MuiButton-outlined bm-item"
-            data-block="Resumemenuitemmobile"
-            href="ArshadResume.pdf"
-            role="menu-item"
             style="display: inherit;"
             tabindex="-1"
           >
             <span
-              class="MuiButton-label"
+              class="MuiTypography-root MuiTypography-button"
+            >
+              About Me
+            </span>
+          </a>
+          <a
+            class="bm-item makeStyles-button-6"
+            data-block="Projectsmenuitemmobile"
+            style="display: inherit;"
+            tabindex="-1"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-button"
+            >
+              Projects
+            </span>
+          </a>
+          <a
+            class="bm-item makeStyles-button-6"
+            data-block="Resumemenuitemmobile"
+            href="ArshadResume.pdf"
+            style="display: inherit;"
+            tabindex="-1"
+            variant="outlined"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-button"
             >
               Resume
             </span>
-            <span
-              class="MuiTouchRipple-root"
-            />
           </a>
         </nav>
       </div>

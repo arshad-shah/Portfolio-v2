@@ -108,7 +108,7 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
     <a>
       <button
         aria-label="scroll down button"
-        class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-outlinedSizeSmall MuiButton-sizeSmall"
+        class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-outlinedSizeLarge MuiButton-sizeLarge"
         data-block="scrolldown"
         tabindex="0"
         type="button"

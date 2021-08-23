@@ -5,13 +5,13 @@ exports[`Footer of the site: should render footer 1`] = `
   <div
     class="MuiBox-root MuiBox-root-11 makeStyles-root-9"
   >
-    <h6
-      class="MuiTypography-root MuiTypography-h6"
+    <span
+      class="MuiTypography-root MuiTypography-overline"
     >
       © 
       2021
-       Designed and Created By: Arshad Shah
-    </h6>
+       Arshad Shah
+    </span>
     <div
       class="MuiBox-root MuiBox-root-12"
     >
@@ -100,12 +100,7 @@ exports[`Footer of the site: should render footer 1`] = `
     <h6
       class="MuiTypography-root MuiTypography-subtitle2"
     >
-      Google Play and the Google Play logo are trademarks of Google LLC.
-    </h6>
-    <h6
-      class="MuiTypography-root MuiTypography-subtitle2"
-    >
-      V2.0 Date: 15/August/2021
+      V2.1 Date:13 / August / 2021
     </h6>
   </div>
 </div>
