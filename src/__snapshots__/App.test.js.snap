@@ -229,7 +229,7 @@ exports[`the full app: should render the full app 1`] = `
           <img
             aria-label="Picture of Arshad shah."
             class="Aboutme-picture-18"
-            src="Picture.png"
+            src="Picture.webp"
           />
         </div>
         <div
