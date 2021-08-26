@@ -11,9 +11,10 @@ import ScrollToTop, { ScrollToFade } from "./App.util";
 import useStyles from "./App.styles";
 import Loading from "./components/Loading";
 
-const Header = lazy(() => import("./components/Header"));
+import Header from "./components/Header";
+import LandingPage from "./pages/LandingPage";
+
 const Footer = lazy(() => import("./components/Footer"));
-const LandingPage = lazy(() => import("./pages/LandingPage"));
 const Aboutme = lazy(() => import("./pages/Aboutme"));
 const Projects = lazy(() => import("./pages/Projects"));
 
@@ -51,13 +52,12 @@ export default function App(props) {
     <ThemeProvider theme={theme}>
       <div className={classes.root}>
         <CssBaseline />
+        <Header />
+
+        <ScrollToFade {...props}>
+          <LandingPage />
+        </ScrollToFade>
         <Suspense fallback={renderLoader()}>
-          <Header />
-
-          <ScrollToFade {...props}>
-            <LandingPage />
-          </ScrollToFade>
-
           <Aboutme />
 
           <Projects />
