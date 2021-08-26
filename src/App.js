@@ -9,6 +9,7 @@ import Fab from "@material-ui/core/Fab";
 import ArrowUpwardRoundedIcon from "@material-ui/icons/ArrowUpwardRounded";
 import ScrollToTop, { ScrollToFade } from "./App.util";
 import useStyles from "./App.styles";
+import Loading from "./components/Loading";
 
 const Header = lazy(() => import("./components/Header"));
 const Footer = lazy(() => import("./components/Footer"));
@@ -41,7 +42,7 @@ let theme = createTheme({
 
 theme = responsiveFontSizes(theme);
 
-const renderLoader = () => <p>Loading...</p>;
+const renderLoader = () => <Loading />;
 
 export default function App(props) {
   const classes = useStyles();
