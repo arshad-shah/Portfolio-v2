@@ -26,6 +26,7 @@ exports[`Projects of the site: should render Projects with all the information i
         >
           <div
             class="MuiCardHeader-root"
+            id="heading"
           >
             <div
               class="MuiCardHeader-content"
@@ -85,7 +86,7 @@ exports[`Projects of the site: should render Projects with all the information i
             </a>
             <a
               aria-disabled="false"
-              aria-label="link to Github for portfolio version 1"
+              aria-labelledby="Portfolio website version 1.0"
               class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary"
               data-block="projectLinkToSite"
               href="https://arshad-shah.github.io/portfoliov1/index.html"
@@ -122,6 +123,7 @@ exports[`Projects of the site: should render Projects with all the information i
         >
           <div
             class="MuiCardHeader-root"
+            id="heading"
           >
             <div
               class="MuiCardHeader-content"
@@ -191,6 +193,7 @@ exports[`Projects of the site: should render Projects with all the information i
         >
           <div
             class="MuiCardHeader-root"
+            id="heading"
           >
             <div
               class="MuiCardHeader-content"
@@ -260,6 +263,7 @@ exports[`Projects of the site: should render Projects with all the information i
         >
           <div
             class="MuiCardHeader-root"
+            id="heading"
           >
             <div
               class="MuiCardHeader-content"
@@ -329,6 +333,7 @@ exports[`Projects of the site: should render Projects with all the information i
         >
           <div
             class="MuiCardHeader-root"
+            id="heading"
           >
             <div
               class="MuiCardHeader-content"
@@ -388,7 +393,7 @@ exports[`Projects of the site: should render Projects with all the information i
             </a>
             <a
               aria-disabled="false"
-              aria-label="link to Github for yaer wbsite project repo"
+              aria-labelledby="Year 1 Website Project"
               class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary"
               data-block="projectLinkToSite"
               href="https://arshad-shah.github.io/Year-1-Web-Dev-Project/website/index.html"
@@ -425,6 +430,7 @@ exports[`Projects of the site: should render Projects with all the information i
         >
           <div
             class="MuiCardHeader-root"
+            id="heading"
           >
             <div
               class="MuiCardHeader-content"
@@ -494,6 +500,7 @@ exports[`Projects of the site: should render Projects with all the information i
         >
           <div
             class="MuiCardHeader-root"
+            id="heading"
           >
             <div
               class="MuiCardHeader-content"

@@ -7,6 +7,7 @@ exports[`ProjectCard of the site: should render ProjectCard with all the informa
   >
     <div
       class="MuiCardHeader-root"
+      id="heading"
     >
       <div
         class="MuiCardHeader-content"
