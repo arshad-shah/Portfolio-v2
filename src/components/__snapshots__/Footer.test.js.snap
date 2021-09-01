@@ -8,7 +8,7 @@ exports[`Footer of the site: should render footer 1`] = `
     <span
       class="MuiTypography-root MuiTypography-overline"
     >
-      © 
+      Copyright © 
       2021
        Arshad Shah
     </span>
@@ -100,7 +100,7 @@ exports[`Footer of the site: should render footer 1`] = `
     <h6
       class="MuiTypography-root MuiTypography-subtitle2"
     >
-      V2.1 Date:13 / August / 2021
+      V2.2 Date: 01 / September / 2021
     </h6>
   </div>
 </div>

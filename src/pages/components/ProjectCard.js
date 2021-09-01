@@ -7,6 +7,7 @@ import useStyles from "./ProjectCard.styles";
 import { IconButton, Typography } from "@material-ui/core";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import ShopRoundedIcon from "@material-ui/icons/ShopRounded";
+import LaunchRoundedIcon from "@material-ui/icons/LaunchRounded";
 
 export default function ProjectCard({
   heading,
@@ -14,6 +15,7 @@ export default function ProjectCard({
   languages,
   linkAriaLabel,
   repoLink,
+  siteLink,
 }) {
   const classes = useStyles();
   return (
@@ -41,6 +43,18 @@ export default function ProjectCard({
             <GitHubIcon fontSize="large" />
           )}
         </IconButton>
+
+        {siteLink ? (
+          <IconButton
+            data-block="projectlink"
+            role="button"
+            color="secondary"
+            aria-label={linkAriaLabel}
+            href={siteLink}
+          >
+            <LaunchRoundedIcon fontSize="large" />
+          </IconButton>
+        ) : null}
       </CardActions>
     </Card>
   );
