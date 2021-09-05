@@ -15,6 +15,12 @@ describe("Header of the site:", () => {
     expect(Logo).toBeInTheDocument();
   });
 
+  it("should render the Mobile menu", () => {
+    render(<Header isMobile />);
+    const menu = screen.getByLabelText("mobileMenu");
+    expect(menu).toBeInTheDocument();
+  });
+
   it("should render the Desktop menu", () => {
     render(<Header />);
     const menu = screen.getByLabelText("desktopMenu");

@@ -33,7 +33,7 @@ describe("the full app:", () => {
     expect(container).toBeInTheDocument();
   });
 
-  it("should render the Landing page", () => {
+  it("should render the Footer", () => {
     const { container } = render(<Footer />);
     expect(container).toBeInTheDocument();
   });

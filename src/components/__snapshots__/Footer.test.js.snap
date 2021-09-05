@@ -8,7 +8,7 @@ exports[`Footer of the site: should render footer 1`] = `
     <span
       class="MuiTypography-root MuiTypography-overline"
     >
-      Copyright © 
+      © 
       2021
        Arshad Shah
     </span>

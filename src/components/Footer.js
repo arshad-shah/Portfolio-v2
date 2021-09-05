@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <Box className={classes.root}>
       <Typography variant="overline">
-        Copyright &copy; {new Date().getFullYear()} Arshad Shah
+        &copy; {new Date().getFullYear()} Arshad Shah
       </Typography>
       <Box>
         <IconButton

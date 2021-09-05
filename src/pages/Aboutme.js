@@ -17,6 +17,8 @@ export default function Aboutme() {
             src={Picture}
             aria-label="Picture of Arshad shah."
             className={classes.picture}
+            width={150}
+            height={150}
           />
         </div>
         <div className={classes.aboutMeDesc}>
@@ -51,7 +53,7 @@ export default function Aboutme() {
               </Typography>
             </Typography>
             <Typography variant="body2">
-              During this internship i worked on one of the UI team reponsible
+              During this internship i worked on one of the UI team responsible
               for the HMH flagship product HMH ED.
               <br />
               Here i learned the React framework using the Single SPA pattern,

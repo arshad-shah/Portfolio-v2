@@ -14,9 +14,9 @@ describe("Aboutme of the site:", () => {
     expect(pictureOfArshad).toBeInTheDocument();
   });
 
-  it("should render the 'Certificates:' heading in aboutme", () => {
+  it("should render the 'About Me' heading in aboutme", () => {
     render(<Aboutme />);
-    const headingInsideTheText = screen.getByText("Certificates:");
-    expect(headingInsideTheText).toBeInTheDocument();
+    const heading = screen.getByText("About Me");
+    expect(heading).toBeInTheDocument();
   });
 });

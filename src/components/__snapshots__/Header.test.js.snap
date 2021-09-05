@@ -3,7 +3,7 @@
 exports[`Header of the site: should render Header 1`] = `
 <div>
   <div
-    class="makeStyles-root-13"
+    class="makeStyles-root-19"
   >
     <div
       class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -18,11 +18,11 @@ exports[`Header of the site: should render Header 1`] = `
         <img
           alt=""
           aria-label="Logo"
-          class="makeStyles-logo-15"
+          class="makeStyles-logo-21"
           src="logo.svg"
         />
         <p
-          class="MuiTypography-root makeStyles-title-14 MuiTypography-h5 MuiTypography-colorTextPrimary"
+          class="MuiTypography-root makeStyles-title-20 MuiTypography-h5 MuiTypography-colorTextPrimary"
         >
           A SHAH
         </p>
@@ -30,8 +30,8 @@ exports[`Header of the site: should render Header 1`] = `
           aria-label="desktopMenu"
         >
           <a
-            aria-label="menuItem"
-            class="makeStyles-menuItem-16"
+            aria-label="About Me"
+            class="makeStyles-menuItem-22"
             color="default"
             data-block="Aboutmemenuitemdesktop"
           >
@@ -42,8 +42,8 @@ exports[`Header of the site: should render Header 1`] = `
             </span>
           </a>
           <a
-            aria-label="menuItem"
-            class="makeStyles-menuItem-16"
+            aria-label="Projects"
+            class="makeStyles-menuItem-22"
             color="default"
             data-block="Projectsmenuitemdesktop"
           >
@@ -54,8 +54,8 @@ exports[`Header of the site: should render Header 1`] = `
             </span>
           </a>
           <a
-            aria-label="menuItem"
-            class="makeStyles-menuItem-16"
+            aria-label="Resume"
+            class="makeStyles-menuItem-22"
             color="default"
             data-block="Resumemenuitemdesktop"
             href="ArshadResume.pdf"
