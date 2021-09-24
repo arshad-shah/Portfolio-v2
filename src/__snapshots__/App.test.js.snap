@@ -92,7 +92,7 @@ exports[`the full app: should render the full app 1`] = `
         <h4
           class="MuiTypography-root makeStyles-typography-7 MuiTypography-h4"
         >
-          A Second Year Computer Science Student, With a love for everything programming.
+          A Third Year Computer Science Student, With a love for everything programming.
         </h4>
         <div
           class="MuiBox-root MuiBox-root-11 makeStyles-Links-9"
