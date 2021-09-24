@@ -23,6 +23,10 @@ export default function Aboutme() {
         </div>
         <div className={classes.aboutMeDesc}>
           <Typography variant="body1">
+            I have real world experience with front end technologies, such as
+            React for web developement, Ionic and capacitor for javascript to
+            native application development.
+            <br />
             I like designing and creating stuff for all domains from mobile to
             desktop.
             <br />
@@ -59,10 +63,10 @@ export default function Aboutme() {
               Here i learned the React framework using the Single SPA pattern,
               unit testing, integration testing, and End to End testing.
               <br />i learned crucial skills, following an agile development
-              methodology participating in sprints, completing tickets. And the
-              most important aspect that i learned was the CI pipeline for
-              building complex software traiging the build process across
-              multiple teams.
+              methodology participating in sprints, completing tickets. The most
+              important aspect that i learned was the CI pipeline for building
+              complex software and traiging the build process across multiple
+              teams.
             </Typography>
             <Typography variant="subtitle2">06/2021 - 08/2021</Typography>
           </Typography>
