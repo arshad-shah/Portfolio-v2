@@ -17,7 +17,7 @@ export default function LandingPage() {
       <TypeWriter typing={1} initDelay={2000}>
         <Typography className={classes.typography} variant="h4">
           Hi, My Name Is
-          <Typography className={classes.typography} variant="h1">
+          <Typography className={classes.typography} variant="h2">
             Arshad Shah!
             <Typography className={classes.typography} variant="h4">
               A Third Year Computer Science Student, With a love for everything

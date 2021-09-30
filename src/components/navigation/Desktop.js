@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography } from "@material-ui/core";
+import { Box, Typography } from "@material-ui/core";
 import { Link } from "react-scroll";
 import Resume from "../../assets/ArshadResume.pdf";
 import { makeStyles } from "@material-ui/core/styles";
@@ -30,8 +30,9 @@ const useStyles = makeStyles((theme) => ({
 export default function Desktop() {
   const classes = useStyles();
   return (
-    <div aria-label="desktopMenu">
+    <Box aria-label="desktopMenu" data-testid="desktopMenu">
       <Link
+        data-testid="aboutme"
         to="aboutme"
         spy={true}
         smooth={true}
@@ -53,7 +54,6 @@ export default function Desktop() {
       >
         <Typography variant="button">Projects</Typography>
       </Link>
-
       <a
         aria-label="Resume"
         data-block="Resumemenuitemdesktop"
@@ -63,6 +63,6 @@ export default function Desktop() {
       >
         <Typography variant="button">Resume</Typography>
       </a>
-    </div>
+    </Box>
   );
 }

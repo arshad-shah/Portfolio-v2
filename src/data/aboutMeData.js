@@ -5,7 +5,7 @@ export const aboutMeData = {
   grade: "With Distinction",
   modules:
     "Software Development, Web Development, Algorithms, Software Architecture",
-  certData: "08/2018 - 08/2019",
+  certDate: "08/2018 - 08/2019",
   jobTitle: "Software Engineer - Intern",
   jobCompany: "Houghton Mifflin Harcourt - Dublin",
   jobDescription:

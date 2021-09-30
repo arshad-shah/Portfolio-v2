@@ -1,5 +1,5 @@
 import React from "react";
-import { IconButton } from "@material-ui/core";
+import { Box, IconButton, List, ListItem } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { Link } from "react-scroll";
 import Resume from "../../assets/ArshadResume.pdf";
@@ -34,12 +34,19 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: "0.5rem",
     transition: "all 0.5s ease",
   },
+  mobileMenuList: {
+    display: "flex",
+    flexDirection: "column",
+  },
+  mobileMenuItem: {
+    justifyContent: "center",
+  },
 }));
 
 var styles = {
   bmMenuWrap: {
     position: "fixed",
-    height: "35%",
+    height: "45%",
     top: "4.5rem",
   },
   bmMenu: {
@@ -80,7 +87,7 @@ export default function Mobile({ click, closeMobileMenu, handleMenu }) {
   };
 
   return (
-    <div aria-label="mobileMenu">
+    <Box aria-label="mobileMenu">
       <IconButton
         role="button"
         color="default"
@@ -106,39 +113,47 @@ export default function Mobile({ click, closeMobileMenu, handleMenu }) {
         width={180}
         styles={styles}
       >
-        <Link
-          className={classes.button}
-          data-block="Aboutmemenuitemmobile"
-          to="aboutme"
-          spy={true}
-          smooth={true}
-          onClick={() => closeMobileMenu()}
-          aria-label="About Me"
-        >
-          <Typography variant="button">About Me</Typography>
-        </Link>
-        <Link
-          className={classes.button}
-          data-block="Projectsmenuitemmobile"
-          to="projects"
-          spy={true}
-          smooth={true}
-          onClick={() => closeMobileMenu()}
-          aria-label="Projects"
-        >
-          <Typography variant="button">Projects</Typography>
-        </Link>
-        <a
-          className={classes.button}
-          onClick={() => closeMobileMenu()}
-          variant="outlined"
-          href={Resume}
-          data-block="Resumemenuitemmobile"
-          aria-label="Resume"
-        >
-          <Typography variant="button">Resume</Typography>
-        </a>
+        <List className={classes.mobileMenuList}>
+          <ListItem divider className={classes.mobileMenuItem}>
+            <Link
+              className={classes.button}
+              data-block="Aboutmemenuitemmobile"
+              to="aboutme"
+              spy={true}
+              smooth={true}
+              onClick={() => closeMobileMenu()}
+              aria-label="About Me"
+            >
+              <Typography variant="button">About Me</Typography>
+            </Link>
+          </ListItem>
+          <ListItem divider className={classes.mobileMenuItem}>
+            <Link
+              className={classes.button}
+              data-block="Projectsmenuitemmobile"
+              to="projects"
+              spy={true}
+              smooth={true}
+              onClick={() => closeMobileMenu()}
+              aria-label="Projects"
+            >
+              <Typography variant="button">Projects</Typography>
+            </Link>
+          </ListItem>
+          <ListItem className={classes.mobileMenuItem}>
+            <a
+              className={classes.button}
+              onClick={() => closeMobileMenu()}
+              variant="outlined"
+              href={Resume}
+              data-block="Resumemenuitemmobile"
+              aria-label="Resume"
+            >
+              <Typography variant="button">Resume</Typography>
+            </a>
+          </ListItem>
+        </List>
       </Menu>
-    </div>
+    </Box>
   );
 }
