@@ -14,6 +14,7 @@ exports[`the full app: should render the full app 1`] = `
       />
       <header
         class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary mui-fixed MuiPaper-elevation4"
+        data-testid="header"
       >
         <div
           class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -52,6 +53,7 @@ exports[`the full app: should render the full app 1`] = `
               class="makeStyles-menuItem-5"
               color="default"
               data-block="Projectsmenuitemdesktop"
+              data-testid="projects"
             >
               <span
                 class="MuiTypography-root MuiTypography-button"
@@ -64,6 +66,7 @@ exports[`the full app: should render the full app 1`] = `
               class="makeStyles-menuItem-5"
               color="default"
               data-block="Resumemenuitemdesktop"
+              data-testid="resume"
               href="ArshadResume.pdf"
             >
               <span
@@ -81,6 +84,7 @@ exports[`the full app: should render the full app 1`] = `
     >
       <div
         class="MuiBox-root MuiBox-root-11 makeStyles-hero-7"
+        data-testid="hero"
       >
         <span
           initdelay="2000"
@@ -130,6 +134,7 @@ exports[`the full app: should render the full app 1`] = `
             aria-label="link to Github account of Arshad shah"
             class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-9 MuiIconButton-colorPrimary"
             data-block="linktoGithub"
+            data-testid="githubForHero"
             href="https://github.com/arshad-shah"
             role="button"
             tabindex="0"
@@ -157,6 +162,7 @@ exports[`the full app: should render the full app 1`] = `
             aria-label="link to Linkedin account of Arshad shah"
             class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-9 MuiIconButton-colorPrimary"
             data-block="linktoLinkedin"
+            data-testid="linkedInForHero"
             href="https://www.linkedin.com/in/arshadshah"
             role="button"
             tabindex="0"
@@ -184,6 +190,7 @@ exports[`the full app: should render the full app 1`] = `
             aria-label="link to mail account of Arshad shah"
             class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-9 MuiIconButton-colorPrimary"
             data-block="linktoMail"
+            data-testid="mailForHero"
             href="mailto:shaharshad1999@outlook.com"
             role="button"
             tabindex="0"
@@ -212,6 +219,7 @@ exports[`the full app: should render the full app 1`] = `
             aria-label="scroll down button"
             class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-outlinedSizeLarge MuiButton-sizeLarge"
             data-block="scrolldown"
+            data-testid="scrollDown"
             tabindex="0"
             type="button"
           >

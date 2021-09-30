@@ -44,6 +44,7 @@ export default function Desktop() {
         <Typography variant="button">About Me</Typography>
       </Link>
       <Link
+        data-testid="projects"
         to="projects"
         spy={true}
         smooth={true}
@@ -55,6 +56,7 @@ export default function Desktop() {
         <Typography variant="button">Projects</Typography>
       </Link>
       <a
+        data-testid="resume"
         aria-label="Resume"
         data-block="Resumemenuitemdesktop"
         href={Resume}

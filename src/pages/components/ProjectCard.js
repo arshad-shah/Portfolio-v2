@@ -20,7 +20,7 @@ export default function ProjectCard({
   const classes = useStyles();
   return (
     <Card raised className={classes.root}>
-      <CardHeader id="heading" title={heading} />
+      <CardHeader id="heading" title={heading} data-testid="projectHeading" />
       <CardContent>
         <Typography variant="body2">{description}</Typography>
         <Typography variant="overline">
