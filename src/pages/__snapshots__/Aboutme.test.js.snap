@@ -3,7 +3,7 @@
 exports[`Aboutme of the site: should render Aboutme with all the information in it 1`] = `
 <div>
   <div
-    class="Aboutme-root-1"
+    class="MuiBox-root MuiBox-root-9 Aboutme-root-1"
   >
     <div
       class="MuiToolbar-root MuiToolbar-regular Aboutme-aboutMeLink-3 MuiToolbar-gutters"
@@ -15,10 +15,10 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
       About Me
     </h2>
     <div
-      class="Aboutme-row-4"
+      class="MuiBox-root MuiBox-root-10 Aboutme-row-4"
     >
       <div
-        class="Aboutme-aboutMePicture-5"
+        class="MuiBox-root MuiBox-root-11 Aboutme-aboutMePicture-5"
       >
         <img
           aria-label="Picture of Arshad shah."
@@ -29,7 +29,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
         />
       </div>
       <div
-        class="Aboutme-aboutMeDesc-6"
+        class="MuiBox-root MuiBox-root-12 Aboutme-aboutMeDesc-6"
       >
         <p
           class="MuiTypography-root MuiTypography-body1"
@@ -58,7 +58,9 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
         </p>
         <h6
           class="MuiTypography-root MuiTypography-subtitle2"
-        />
+        >
+          08/2018 - 08/2019
+        </h6>
         <h5
           class="MuiTypography-root Aboutme-subheading-8 MuiTypography-h5"
         >

@@ -21,8 +21,8 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
           Hi, My Name Is
         </span>
         
-        <h1
-          class="MuiTypography-root makeStyles-typography-2 MuiTypography-h1"
+        <h2
+          class="MuiTypography-root makeStyles-typography-2 MuiTypography-h2"
         >
           
           <span
@@ -42,7 +42,7 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
             </span>
             
           </h4>
-        </h1>
+        </h2>
       </h4>
     </span>
     <div

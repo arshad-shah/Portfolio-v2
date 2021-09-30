@@ -4,6 +4,7 @@ exports[`Mobile of the site: should render Mobile 1`] = `
 <div>
   <div
     aria-label="mobileMenu"
+    class="MuiBox-root MuiBox-root-30"
   >
     <button
       aria-label="menu toggle"
@@ -55,7 +56,7 @@ exports[`Mobile of the site: should render Mobile 1`] = `
         aria-hidden="true"
         class="bm-menu-wrap"
         id=""
-        style="position: fixed; right: 0px; z-index: 1100; width: 180px; height: 35%; transform: translate3d(100%, 0, 0); transition: all 0.5s; top: 4.5rem;"
+        style="position: fixed; right: 0px; z-index: 1100; width: 180px; height: 45%; transform: translate3d(100%, 0, 0); transition: all 0.5s; top: 4.5rem;"
       >
         <div
           class="bm-menu"
@@ -65,47 +66,59 @@ exports[`Mobile of the site: should render Mobile 1`] = `
             class="bm-item-list"
             style="height: 100%; color: rgb(253, 255, 149); display: flex; flex-direction: column; align-content: center; align-items: stretch; justify-content: space-around;"
           >
-            <a
-              aria-label="About Me"
-              class="bm-item makeStyles-button-15"
-              data-block="Aboutmemenuitemmobile"
+            <ul
+              class="MuiList-root bm-item makeStyles-mobileMenuList-28 MuiList-padding"
               style="display: inherit;"
               tabindex="-1"
             >
-              <span
-                class="MuiTypography-root MuiTypography-button"
+              <li
+                class="MuiListItem-root makeStyles-mobileMenuItem-29 MuiListItem-gutters MuiListItem-divider"
               >
-                About Me
-              </span>
-            </a>
-            <a
-              aria-label="Projects"
-              class="bm-item makeStyles-button-15"
-              data-block="Projectsmenuitemmobile"
-              style="display: inherit;"
-              tabindex="-1"
-            >
-              <span
-                class="MuiTypography-root MuiTypography-button"
+                <a
+                  aria-label="About Me"
+                  class="makeStyles-button-27"
+                  data-block="Aboutmemenuitemmobile"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-button"
+                  >
+                    About Me
+                  </span>
+                </a>
+              </li>
+              <li
+                class="MuiListItem-root makeStyles-mobileMenuItem-29 MuiListItem-gutters MuiListItem-divider"
               >
-                Projects
-              </span>
-            </a>
-            <a
-              aria-label="Resume"
-              class="bm-item makeStyles-button-15"
-              data-block="Resumemenuitemmobile"
-              href="ArshadResume.pdf"
-              style="display: inherit;"
-              tabindex="-1"
-              variant="outlined"
-            >
-              <span
-                class="MuiTypography-root MuiTypography-button"
+                <a
+                  aria-label="Projects"
+                  class="makeStyles-button-27"
+                  data-block="Projectsmenuitemmobile"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-button"
+                  >
+                    Projects
+                  </span>
+                </a>
+              </li>
+              <li
+                class="MuiListItem-root makeStyles-mobileMenuItem-29 MuiListItem-gutters"
               >
-                Resume
-              </span>
-            </a>
+                <a
+                  aria-label="Resume"
+                  class="makeStyles-button-27"
+                  data-block="Resumemenuitemmobile"
+                  href="ArshadResume.pdf"
+                  variant="outlined"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-button"
+                  >
+                    Resume
+                  </span>
+                </a>
+              </li>
+            </ul>
           </nav>
         </div>
       </div>

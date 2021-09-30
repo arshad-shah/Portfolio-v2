@@ -4,12 +4,15 @@ exports[`Desktop of the site: should render Desktop 1`] = `
 <div>
   <div
     aria-label="desktopMenu"
+    class="MuiBox-root MuiBox-root-8"
+    data-testid="desktopMenu"
   >
     <a
       aria-label="About Me"
-      class="makeStyles-menuItem-4"
+      class="makeStyles-menuItem-7"
       color="default"
       data-block="Aboutmemenuitemdesktop"
+      data-testid="aboutme"
     >
       <span
         class="MuiTypography-root MuiTypography-button"
@@ -19,7 +22,7 @@ exports[`Desktop of the site: should render Desktop 1`] = `
     </a>
     <a
       aria-label="Projects"
-      class="makeStyles-menuItem-4"
+      class="makeStyles-menuItem-7"
       color="default"
       data-block="Projectsmenuitemdesktop"
     >
@@ -31,7 +34,7 @@ exports[`Desktop of the site: should render Desktop 1`] = `
     </a>
     <a
       aria-label="Resume"
-      class="makeStyles-menuItem-4"
+      class="makeStyles-menuItem-7"
       color="default"
       data-block="Resumemenuitemdesktop"
       href="ArshadResume.pdf"
