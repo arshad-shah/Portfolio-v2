@@ -83,56 +83,31 @@ exports[`the full app: should render the full app 1`] = `
       style="opacity: 1; webkit-transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     >
       <div
-        class="MuiBox-root MuiBox-root-11 makeStyles-hero-7"
+        class="MuiBox-root MuiBox-root-13 makeStyles-hero-7"
         data-testid="hero"
       >
-        <span
-          initdelay="2000"
-          maxdelay="100"
-          mindelay="20"
-          typing="1"
+        <h4
+          class="MuiTypography-root makeStyles-landingIntro-8 MuiTypography-h4"
         >
-          <h4
-            class="MuiTypography-root makeStyles-typography-8 MuiTypography-h4"
-          >
-            
-            <span
-              style="display: none;"
-            >
-              Hi, My Name Is
-            </span>
-            
-            <h2
-              class="MuiTypography-root makeStyles-typography-8 MuiTypography-h2"
-            >
-              
-              <span
-                style="display: none;"
-              >
-                Arshad Shah!
-              </span>
-              
-              <h4
-                class="MuiTypography-root makeStyles-typography-8 MuiTypography-h4"
-              >
-                
-                <span
-                  style="display: none;"
-                >
-                  A Third Year Computer Science Student, With a love for everything programming.
-                </span>
-                
-              </h4>
-            </h2>
-          </h4>
-        </span>
+          Hi, My Name Is
+        </h4>
+        <h2
+          class="MuiTypography-root makeStyles-landingName-9 MuiTypography-h2"
+        >
+          Arshad Shah!
+        </h2>
+        <h4
+          class="MuiTypography-root makeStyles-landingDesc-10 MuiTypography-h4"
+        >
+          A Third Year Computer Science Student.
+        </h4>
         <div
-          class="MuiBox-root MuiBox-root-12 makeStyles-Links-10"
+          class="MuiBox-root MuiBox-root-14 makeStyles-Links-12"
         >
           <a
             aria-disabled="false"
             aria-label="link to Github account of Arshad shah"
-            class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-9 MuiIconButton-colorPrimary"
+            class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-11 MuiIconButton-colorPrimary"
             data-block="linktoGithub"
             data-testid="githubForHero"
             href="https://github.com/arshad-shah"
@@ -160,7 +135,7 @@ exports[`the full app: should render the full app 1`] = `
           <a
             aria-disabled="false"
             aria-label="link to Linkedin account of Arshad shah"
-            class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-9 MuiIconButton-colorPrimary"
+            class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-11 MuiIconButton-colorPrimary"
             data-block="linktoLinkedin"
             data-testid="linkedInForHero"
             href="https://www.linkedin.com/in/arshadshah"
@@ -188,7 +163,7 @@ exports[`the full app: should render the full app 1`] = `
           <a
             aria-disabled="false"
             aria-label="link to mail account of Arshad shah"
-            class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-9 MuiIconButton-colorPrimary"
+            class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-11 MuiIconButton-colorPrimary"
             data-block="linktoMail"
             data-testid="mailForHero"
             href="mailto:shaharshad1999@outlook.com"
@@ -245,7 +220,7 @@ exports[`the full app: should render the full app 1`] = `
       </div>
     </div>
     <div
-      class="makeStyles-root-13"
+      class="makeStyles-root-15"
       role="presentation"
       style="transform: scale(0); visibility: hidden; display: none;"
     >
@@ -276,10 +251,10 @@ exports[`the full app: should render the full app 1`] = `
       </button>
     </div>
     <div
-      class="Loading-root-14"
+      class="Loading-root-16"
     >
       <h4
-        class="MuiTypography-root Loading-name-15 MuiTypography-h4"
+        class="MuiTypography-root Loading-name-17 MuiTypography-h4"
       >
         Loading.....
       </h4>

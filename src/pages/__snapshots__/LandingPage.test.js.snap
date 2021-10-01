@@ -3,56 +3,31 @@
 exports[`LandingPage of the site: should render LandingPage with all the information in it 1`] = `
 <div>
   <div
-    class="MuiBox-root MuiBox-root-5 makeStyles-hero-1"
+    class="MuiBox-root MuiBox-root-7 makeStyles-hero-1"
     data-testid="hero"
   >
-    <span
-      initdelay="2000"
-      maxdelay="100"
-      mindelay="20"
-      typing="1"
+    <h4
+      class="MuiTypography-root makeStyles-landingIntro-2 MuiTypography-h4"
     >
-      <h4
-        class="MuiTypography-root makeStyles-typography-2 MuiTypography-h4"
-      >
-        
-        <span
-          style="display: none;"
-        >
-          Hi, My Name Is
-        </span>
-        
-        <h2
-          class="MuiTypography-root makeStyles-typography-2 MuiTypography-h2"
-        >
-          
-          <span
-            style="display: none;"
-          >
-            Arshad Shah!
-          </span>
-          
-          <h4
-            class="MuiTypography-root makeStyles-typography-2 MuiTypography-h4"
-          >
-            
-            <span
-              style="display: none;"
-            >
-              A Third Year Computer Science Student, With a love for everything programming.
-            </span>
-            
-          </h4>
-        </h2>
-      </h4>
-    </span>
+      Hi, My Name Is
+    </h4>
+    <h2
+      class="MuiTypography-root makeStyles-landingName-3 MuiTypography-h2"
+    >
+      Arshad Shah!
+    </h2>
+    <h4
+      class="MuiTypography-root makeStyles-landingDesc-4 MuiTypography-h4"
+    >
+      A Third Year Computer Science Student.
+    </h4>
     <div
-      class="MuiBox-root MuiBox-root-6 makeStyles-Links-4"
+      class="MuiBox-root MuiBox-root-8 makeStyles-Links-6"
     >
       <a
         aria-disabled="false"
         aria-label="link to Github account of Arshad shah"
-        class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-3 MuiIconButton-colorPrimary"
+        class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-5 MuiIconButton-colorPrimary"
         data-block="linktoGithub"
         data-testid="githubForHero"
         href="https://github.com/arshad-shah"
@@ -80,7 +55,7 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
       <a
         aria-disabled="false"
         aria-label="link to Linkedin account of Arshad shah"
-        class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-3 MuiIconButton-colorPrimary"
+        class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-5 MuiIconButton-colorPrimary"
         data-block="linktoLinkedin"
         data-testid="linkedInForHero"
         href="https://www.linkedin.com/in/arshadshah"
@@ -108,7 +83,7 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
       <a
         aria-disabled="false"
         aria-label="link to mail account of Arshad shah"
-        class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-3 MuiIconButton-colorPrimary"
+        class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-5 MuiIconButton-colorPrimary"
         data-block="linktoMail"
         data-testid="mailForHero"
         href="mailto:shaharshad1999@outlook.com"
