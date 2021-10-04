@@ -23,9 +23,7 @@ exports.config = {
   mocha: {},
   name: "e2e",
   plugins: {
-    allure: {
-      enabled: true,
-    },
+    allure: {},
     customLocator: {
       enabled: true,
       attribute: "data-testid",

@@ -4,33 +4,34 @@
   "private": true,
   "homepage": "https://arshad-shah.github.io/",
   "dependencies": {
-    "@material-ui/core": "^4.12.2",
+    "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.2",
     "gh-pages": "^3.2.3",
     "hamburger-react": "^2.4.1",
     "react": "^17.0.2",
     "react-burger-menu": "^3.0.6",
     "react-dom": "^17.0.2",
     "react-ga": "^3.3.0",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
-    "react-scroll": "^1.8.3",
-    "web-vitals": "^1.1.2",
-    "workbox-background-sync": "^5.1.3",
-    "workbox-broadcast-update": "^5.1.3",
-    "workbox-cacheable-response": "^5.1.3",
-    "workbox-core": "^5.1.3",
-    "workbox-expiration": "^5.1.3",
-    "workbox-google-analytics": "^5.1.3",
-    "workbox-navigation-preload": "^5.1.3",
-    "workbox-precaching": "^5.1.3",
-    "workbox-range-requests": "^5.1.3",
-    "workbox-routing": "^5.1.3",
-    "workbox-strategies": "^5.1.3",
-    "workbox-streams": "^5.1.3"
+    "react-scroll": "^1.8.4",
+    "web-vitals": "^2.1.0",
+    "workbox-background-sync": "^6.3.0",
+    "workbox-broadcast-update": "^6.3.0",
+    "workbox-cacheable-response": "^6.3.0",
+    "workbox-core": "^6.3.0",
+    "workbox-expiration": "^6.3.0",
+    "workbox-google-analytics": "^6.3.0",
+    "workbox-navigation-preload": "^6.3.0",
+    "workbox-precaching": "^6.3.0",
+    "workbox-range-requests": "^6.3.0",
+    "workbox-routing": "^6.3.0",
+    "workbox-strategies": "^6.3.0",
+    "workbox-streams": "^6.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,7 +40,9 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "e2e": "concurrently --kill-others \"chromedriver\" \"cd ./e2e && npm run codeceptjs\""
+    "clean:output": "cd ./e2e && rmdir /s /q output",
+    "e2e": "concurrently --kill-others \"chromedriver\" \"cd ./e2e && npm run clean:output && npm run codeceptjs\"",
+    "allure:reports": "cd ./e2e && allure serve output"
   },
   "eslintConfig": {
     "extends": [
@@ -60,6 +63,6 @@
     ]
   },
   "devDependencies": {
-    "concurrently": "^6.2.2"
+    "concurrently": "^6.3.0"
   }
 }
