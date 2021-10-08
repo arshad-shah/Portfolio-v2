@@ -74,7 +74,7 @@ exports[`Footer of the site: should render footer 1`] = `
         aria-label="link to mail account of Arshad shah"
         class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-10"
         data-block="linktoMail"
-        href="mailto:shaharshad1999@outlook.com"
+        href="mailto:info@arshadshah.com"
         role="button"
         tabindex="0"
       >

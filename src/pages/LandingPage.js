@@ -57,7 +57,7 @@ export default function LandingPage() {
           role="button"
           aria-label="link to mail account of Arshad shah"
           data-block="linktoMail"
-          href="mailto:shaharshad1999@outlook.com"
+          href="mailto:info@arshadshah.com"
         >
           <MailIcon fontSize="large" />
         </IconButton>
