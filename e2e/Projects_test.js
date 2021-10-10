@@ -23,7 +23,7 @@ Scenario(
 
 Scenario("As a user I can see the project headings", ({ I }) => {
   I.see("Projects");
-  I.seeNumberOfElements("$projectHeading", 8);
+  I.seeNumberOfElements("$projectHeading", 6);
 });
 
 Scenario(
