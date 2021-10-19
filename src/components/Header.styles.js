@@ -7,7 +7,9 @@ export default makeStyles((theme) => ({
   },
   title: {
     flexGrow: 1,
-    padding: "0.5rem",
+    padding: "0.9rem",
+    fontWeight: "bold",
+    letterSpacing: "3px",
   },
   logo: {
     height: "3rem",

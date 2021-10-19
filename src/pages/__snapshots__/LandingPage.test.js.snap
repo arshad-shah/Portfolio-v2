@@ -19,7 +19,7 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
     <h4
       class="MuiTypography-root makeStyles-landingDesc-4 MuiTypography-h4"
     >
-      A Third Year Computer Science Student.
+      A Third Year Computer Science Student and a software Engineer.
     </h4>
     <div
       class="MuiBox-root MuiBox-root-8 makeStyles-Links-6"

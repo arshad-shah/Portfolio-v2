@@ -13,7 +13,6 @@ export default makeStyles(
       backgroundImage: `url(${backgroundImage})`,
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
-      backgroundPosition: "center",
       backgroundAttachment: "fixed",
     },
   }),

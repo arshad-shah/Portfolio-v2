@@ -23,8 +23,9 @@ export const cardData = [
       "An app that calculates Muslim Prayer times and displays it in a clean UI. Features are Alarms for each prayer, Tasbeeh counter, Qibla compass, Names of Allah with translation and transliterations",
     languages: "Kotlin | Xml",
     linkAriaLabel: "link to Google play store for Nimaz App",
-    repoLink:
+    shopLink:
       "https://play.google.com/store/apps/details?id=com.arshadshah.nimaz&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1",
+    repoLink: "https://github.com/arshad-shah/Nimaz",
   },
   {
     heading: "Uber Clone",

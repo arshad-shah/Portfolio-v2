@@ -22,7 +22,7 @@ export default function LandingPage() {
       </Typography>
 
       <Typography className={classes.landingDesc} variant="h4">
-        A Third Year Computer Science Student.
+        A Third Year Computer Science Student and a software Engineer.
       </Typography>
 
       <Box className={classes.Links}>
