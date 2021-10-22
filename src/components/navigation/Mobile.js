@@ -1,11 +1,10 @@
 import React from "react";
-import { Box, IconButton, List, ListItem } from "@material-ui/core";
+import { Box, IconButton, List, ListItem, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { Link } from "react-scroll";
 import Resume from "../../assets/ArshadResume.pdf";
 import { Divide as Hamburger } from "hamburger-react";
 import { slide as Menu } from "react-burger-menu";
-import { Typography } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -46,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
 var styles = {
   bmMenuWrap: {
     position: "fixed",
-    height: "45%",
+    height: "auto",
     top: "4.5rem",
   },
   bmMenu: {
@@ -64,13 +63,15 @@ var styles = {
     flexDirection: "column",
     alignContent: "center",
     alignItems: "stretch",
-    justifyContent: "space-around",
+    justifyContent: "space-between",
   },
   bmItem: {
     display: "inherit",
   },
   bmOverlay: {
     background: "transparent",
+    display: "hidden",
+    zIndex: "0",
   },
 };
 
@@ -99,7 +100,7 @@ export default function Mobile({ click, closeMobileMenu, handleMenu }) {
         <Hamburger
           distance="md"
           toggled={click}
-          size={35}
+          size={48}
           rounded
           color="#c78f00"
         />
