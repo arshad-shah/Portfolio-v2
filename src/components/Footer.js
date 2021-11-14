@@ -43,13 +43,13 @@ export default function Footer() {
           role="button"
           aria-label="link to mail account of Arshad shah"
           data-block="linktoMail"
-          href="mailto:info@arshadshah.com"
+          href="mailto:arshad@arshadshah.com"
         >
           <MailIcon fontSize="large" />
         </IconButton>
       </Box>
       <Typography variant="subtitle2">
-        V2.2 Date: 29 / September / 2021
+        V2.3 Date: 14 / November / 2021
       </Typography>
     </Box>
   );
