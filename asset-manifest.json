@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d1e21030.chunk.css",
-    "main.js": "/static/js/main.1a80d9d9.chunk.js",
-    "main.js.map": "/static/js/main.1a80d9d9.chunk.js.map",
+    "main.js": "/static/js/main.fbff9e52.chunk.js",
+    "main.js.map": "/static/js/main.fbff9e52.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8a186f1e.js",
     "runtime-main.js.map": "/static/js/runtime-main.8a186f1e.js.map",
     "static/js/2.fc131cf6.chunk.js": "/static/js/2.fc131cf6.chunk.js",
@@ -20,7 +20,7 @@
     "service-worker.js.map": "/service-worker.js.map",
     "static/css/main.d1e21030.chunk.css.map": "/static/css/main.d1e21030.chunk.css.map",
     "static/js/2.fc131cf6.chunk.js.LICENSE.txt": "/static/js/2.fc131cf6.chunk.js.LICENSE.txt",
-    "static/media/ArshadResume.11e2fca8.pdf": "/static/media/ArshadResume.11e2fca8.pdf",
+    "static/media/ArshadResume.19d404c6.pdf": "/static/media/ArshadResume.19d404c6.pdf",
     "static/media/Picture.96a8ac04.webp": "/static/media/Picture.96a8ac04.webp",
     "static/media/background.abc1dc3c.webp": "/static/media/background.abc1dc3c.webp",
     "static/media/backgroundmobile.82063681.jpg": "/static/media/backgroundmobile.82063681.jpg",
@@ -30,6 +30,6 @@
     "static/js/runtime-main.8a186f1e.js",
     "static/js/2.fc131cf6.chunk.js",
     "static/css/main.d1e21030.chunk.css",
-    "static/js/main.1a80d9d9.chunk.js"
+    "static/js/main.fbff9e52.chunk.js"
   ]
 }
