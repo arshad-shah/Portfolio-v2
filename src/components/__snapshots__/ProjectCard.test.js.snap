@@ -33,7 +33,46 @@ exports[`ProjectCard of the site: should render ProjectCard with all the informa
       >
         Languages Used: 
         <br />
-        HTML | CSS | Javascript | jQuery
+        <div
+          class="MuiChip-root MuiChip-colorSecondary"
+          data-testid="languageChip"
+        >
+          <span
+            class="MuiChip-label"
+          >
+            HTML
+          </span>
+        </div>
+        <div
+          class="MuiChip-root MuiChip-colorSecondary"
+          data-testid="languageChip"
+        >
+          <span
+            class="MuiChip-label"
+          >
+            CSS
+          </span>
+        </div>
+        <div
+          class="MuiChip-root MuiChip-colorSecondary"
+          data-testid="languageChip"
+        >
+          <span
+            class="MuiChip-label"
+          >
+            Javascript
+          </span>
+        </div>
+        <div
+          class="MuiChip-root MuiChip-colorSecondary"
+          data-testid="languageChip"
+        >
+          <span
+            class="MuiChip-label"
+          >
+            jQuery
+          </span>
+        </div>
       </span>
     </div>
     <div
@@ -48,6 +87,7 @@ exports[`ProjectCard of the site: should render ProjectCard with all the informa
         href="https://github.com/arshad-shah/arshad-shah.github.io"
         role="button"
         tabindex="0"
+        title="Github Repo"
       >
         <span
           class="MuiIconButton-label"
@@ -76,6 +116,7 @@ exports[`ProjectCard of the site: should render ProjectCard with all the informa
         href="https://arshad-shah.github.io/portfoliov1/index.html"
         role="button"
         tabindex="0"
+        title="Live Site Link"
       >
         <span
           class="MuiIconButton-label"

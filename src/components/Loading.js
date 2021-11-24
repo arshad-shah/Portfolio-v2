@@ -6,10 +6,8 @@ export default function Loading() {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <Typography className={classes.name} variant="h4">
-        Loading.....
-      </Typography>
-      <CircularProgress color="secondary" />
+      <CircularProgress primary />
+      <Typography variant="h3">Loading...</Typography>
     </div>
   );
 }
