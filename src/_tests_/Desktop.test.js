@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import Desktop from "./Desktop";
+import Desktop from "../components/navigation/Desktop";
 
 describe("Desktop of the site:", () => {
   it("should render Desktop menu with the About me link", () => {

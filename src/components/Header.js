@@ -4,7 +4,7 @@ import HideOnScroll from "./HideOnScroll";
 
 import Desktop from "./navigation/Desktop";
 import Mobile from "./navigation/Mobile";
-import useStyles from "./Header.styles";
+import useStyles from "../styles/Header.styles";
 import logo from "../assets/logo.svg";
 import PropTypes from "prop-types";
 

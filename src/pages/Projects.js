@@ -1,6 +1,6 @@
 import { Box, Grid, Toolbar, Typography } from "@material-ui/core";
 import React from "react";
-import useStyles from "./styles/Projects.styles";
+import useStyles from "../styles/Projects.styles";
 import ProjectCard from "../components/ProjectCard";
 import { cardData } from "../data/projectData";
 

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Mobile of the site: should render Mobile 1`] = `
+exports[`Mobile layout of the site: should render Mobile 1`] = `
 <div>
   <div
     aria-label="mobileMenu"

@@ -7,7 +7,7 @@ import { Chip, IconButton, Tooltip, Typography } from "@material-ui/core";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import ShopRoundedIcon from "@material-ui/icons/ShopRounded";
 import LaunchRoundedIcon from "@material-ui/icons/LaunchRounded";
-import useStyles from "./ProjectCard.styles";
+import useStyles from "../styles/ProjectCard.styles";
 import PropTypes from "prop-types";
 
 export default function ProjectCard({

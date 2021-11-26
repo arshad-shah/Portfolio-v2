@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import Loading from "./Loading";
+import Loading from "../components/Loading";
 
 describe("Header of the site:", () => {
   it("should render Header", () => {

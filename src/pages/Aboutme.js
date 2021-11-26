@@ -1,6 +1,6 @@
 import { Typography, Toolbar, Box } from "@material-ui/core";
 import React from "react";
-import useStyles from "./styles/aboutMe.styles";
+import useStyles from "../styles/aboutMe.styles";
 import Picture from "../assets/Picture.webp";
 import { aboutMeData } from "../data/aboutMeData";
 

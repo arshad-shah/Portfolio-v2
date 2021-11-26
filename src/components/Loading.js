@@ -1,13 +1,13 @@
-import React from 'react';
-import { CircularProgress, Typography } from '@material-ui/core';
-import useStyles from './Loading.styles';
+import React from "react";
+import { CircularProgress, Typography } from "@material-ui/core";
+import useStyles from "../styles/Loading.styles";
 
 export default function Loading() {
-	const classes = useStyles();
-	return (
-		<div className={classes.root}>
-			<CircularProgress color="primary" />
-			<Typography variant="h3">Loading...</Typography>
-		</div>
-	);
+  const classes = useStyles();
+  return (
+    <div className={classes.root}>
+      <CircularProgress color="primary" />
+      <Typography variant="h3">Loading...</Typography>
+    </div>
+  );
 }
