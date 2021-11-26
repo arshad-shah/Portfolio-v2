@@ -6,9 +6,9 @@ exports[`Header of the site: should render Header 1`] = `
     class="Loading-root-1"
   >
     <div
-      class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+      class="MuiCircularProgress-root Loading-progress-3 MuiCircularProgress-colorSecondary MuiCircularProgress-indeterminate"
       role="progressbar"
-      style="width: 40px; height: 40px;"
+      style="width: 100px; height: 100px;"
     >
       <svg
         class="MuiCircularProgress-svg"
@@ -19,13 +19,13 @@ exports[`Header of the site: should render Header 1`] = `
           cx="44"
           cy="44"
           fill="none"
-          r="20.2"
-          stroke-width="3.6"
+          r="19.5"
+          stroke-width="5"
         />
       </svg>
     </div>
     <h3
-      class="MuiTypography-root MuiTypography-h3"
+      class="MuiTypography-root Loading-name-2 MuiTypography-h3"
     >
       Loading...
     </h3>

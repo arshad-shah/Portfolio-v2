@@ -681,7 +681,7 @@ exports[`Projects of the site: should render Projects with all the information i
               class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary"
               data-block="projectlink"
               data-testid="githublink"
-              href="https://github.com/arshad-shah/medicineReminder"
+              href="/error.html"
               role="button"
               tabindex="0"
               title="Github Repo"

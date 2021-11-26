@@ -6,85 +6,10 @@ exports[`the full app: should render the full app 1`] = `
     class="App-root-1"
   >
     <div
-      class="makeStyles-root-2"
-      style="display: none;"
-    >
-      <div
-        class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
-        id="back-to-top-anchor"
-      />
-      <header
-        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary mui-fixed MuiPaper-elevation4"
-        data-testid="header"
-      >
-        <div
-          class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
-        >
-          <img
-            alt=""
-            aria-label="Logo"
-            class="makeStyles-logo-4"
-            src="logo.svg"
-          />
-          <p
-            class="MuiTypography-root makeStyles-title-3 MuiTypography-h5 MuiTypography-colorTextPrimary"
-          >
-            A SHAH
-          </p>
-          <div
-            aria-label="desktopMenu"
-            class="MuiBox-root MuiBox-root-6"
-            data-testid="desktopMenu"
-          >
-            <a
-              aria-label="About Me"
-              class="makeStyles-menuItem-5"
-              color="default"
-              data-block="Aboutmemenuitemdesktop"
-              data-testid="aboutmeOption"
-            >
-              <span
-                class="MuiTypography-root MuiTypography-button"
-              >
-                About Me
-              </span>
-            </a>
-            <a
-              aria-label="Projects"
-              class="makeStyles-menuItem-5"
-              color="default"
-              data-block="Projectsmenuitemdesktop"
-              data-testid="projectsOption"
-            >
-              <span
-                class="MuiTypography-root MuiTypography-button"
-              >
-                Projects
-              </span>
-            </a>
-            <a
-              aria-label="Resume"
-              class="makeStyles-menuItem-5"
-              color="default"
-              data-block="Resumemenuitemdesktop"
-              data-testid="resumeOption"
-              href="ArshadResume.pdf"
-            >
-              <span
-                class="MuiTypography-root MuiTypography-button"
-              >
-                Resume
-              </span>
-            </a>
-          </div>
-        </div>
-      </header>
-    </div>
-    <div
       style="opacity: 1; display: none; webkit-transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     />
     <div
-      class="makeStyles-root-7"
+      class="makeStyles-root-2"
       data-block="backtotopbutton"
       role="presentation"
       style="transform: scale(0); visibility: hidden; display: none;"
@@ -117,12 +42,12 @@ exports[`the full app: should render the full app 1`] = `
       </button>
     </div>
     <div
-      class="Loading-root-8"
+      class="Loading-root-3"
     >
       <div
-        class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+        class="MuiCircularProgress-root Loading-progress-5 MuiCircularProgress-colorSecondary MuiCircularProgress-indeterminate"
         role="progressbar"
-        style="width: 40px; height: 40px;"
+        style="width: 100px; height: 100px;"
       >
         <svg
           class="MuiCircularProgress-svg"
@@ -133,13 +58,13 @@ exports[`the full app: should render the full app 1`] = `
             cx="44"
             cy="44"
             fill="none"
-            r="20.2"
-            stroke-width="3.6"
+            r="19.5"
+            stroke-width="5"
           />
         </svg>
       </div>
       <h3
-        class="MuiTypography-root MuiTypography-h3"
+        class="MuiTypography-root Loading-name-4 MuiTypography-h3"
       >
         Loading...
       </h3>
