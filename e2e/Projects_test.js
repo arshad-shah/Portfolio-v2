@@ -1,27 +1,13 @@
+/* eslint-disable no-undef */
 Feature('Projects');
 
-Scenario(
-	'As a user I see the projects section when i click on the menu option in the header',
-	({ I }) => {
-		I.scrollPageToTop();
-		I.seeElementInDOM('$projectsOption');
-		I.click('$projectsOption');
-		I.see('Projects');
-	}
-);
-
-Scenario(
-	'As a user I see the projects section when i click on the menu option in the header',
-	({ I }) => {
-		I.scrollPageToTop();
-		I.waitForElement('$header', 3);
-		I.seeElementInDOM('$projectsOption');
-		I.click('$projectsOption');
-		I.seeElementInDOM('$projectsSection');
-	}
-);
+Scenario('As a user I can see the full site', ({ I }) => {
+	I.amOnPage('/');
+	I.resizeWindow(1024, 816);
+});
 
 Scenario('As a user I can see the project headings', ({ I }) => {
+	I.amOnPage('/');
 	I.see('Projects');
 	I.seeNumberOfElements('$projectHeading', 7);
 });

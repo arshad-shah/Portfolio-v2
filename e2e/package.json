@@ -8,10 +8,7 @@
 	"scripts": {
 		"codeceptjs": "codeceptjs run --steps --plugins allure",
 		"codeceptjs:headless": "HEADLESS=true codeceptjs run --steps",
-		"codeceptjs:ui": "codecept-ui --app",
-		"codeceptjs:demo": "codeceptjs run --steps -c node_modules/@codeceptjs/examples/codecept.webdriver.conf.js",
-		"codeceptjs:demo:headless": "HEADLESS=true codeceptjs run --steps -c node_modules/@codeceptjs/examples/codecept.webdriver.conf.js",
-		"codeceptjs:demo:ui": "codecept-ui --app  -c node_modules/@codeceptjs/examples/codecept.webdriver.conf.js"
+		"codeceptjs:ui": "codecept-ui --app"
 	},
 	"devDependencies": {
 		"@codeceptjs/configure": "^0.7.0",

@@ -85,6 +85,7 @@ exports[`the full app: should render the full app 1`] = `
     />
     <div
       class="makeStyles-root-7"
+      data-block="backtotopbutton"
       role="presentation"
       style="transform: scale(0); visibility: hidden; display: none;"
     >
@@ -92,6 +93,7 @@ exports[`the full app: should render the full app 1`] = `
         aria-label="scroll back to top"
         class="MuiButtonBase-root MuiFab-root MuiFab-secondary"
         data-block="backtotopbutton"
+        data-testid="backtoTopButton"
         tabindex="0"
         type="button"
       >
