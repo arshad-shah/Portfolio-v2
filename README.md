@@ -5,6 +5,8 @@ My personal portfolio in react and material ui.
 
 [![CodeQL](https://github.com/arshad-shah/portfolio-v2.0/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/arshad-shah/portfolio-v2.0/actions/workflows/codeql-analysis.yml)
 
+[![sonarCubeScan](https://github.com/arshad-shah/Portfolio-v2/actions/workflows/sonarScan.yml/badge.svg)](https://github.com/arshad-shah/Portfolio-v2/actions/workflows/sonarScan.yml)
+
 
 [![codecov](https://codecov.io/gh/arshad-shah/Portfolio-v2/branch/master/graph/badge.svg?token=JVIBKZ5AWF)](https://codecov.io/gh/arshad-shah/Portfolio-v2)
 
@@ -14,4 +16,4 @@ My personal portfolio in react and material ui.
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=arshad-shah_Portfolio-v2&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=arshad-shah_Portfolio-v2)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=arshad-shah_Portfolio-v2&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=arshad-shah_Portfolio-v2)
 
-# Rest of explaination coming soon
+# Rest coming soon
