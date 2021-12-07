@@ -42,10 +42,10 @@ exports[`the full app: should render the full app 1`] = `
       </button>
     </div>
     <div
-      class="Loading-root-3"
+      class="Loading-root-4"
     >
       <div
-        class="MuiCircularProgress-root Loading-progress-5 MuiCircularProgress-colorSecondary MuiCircularProgress-indeterminate"
+        class="MuiCircularProgress-root Loading-progress-6 MuiCircularProgress-colorSecondary MuiCircularProgress-indeterminate"
         role="progressbar"
         style="width: 100px; height: 100px;"
       >
@@ -64,7 +64,7 @@ exports[`the full app: should render the full app 1`] = `
         </svg>
       </div>
       <h3
-        class="MuiTypography-root Loading-name-4 MuiTypography-h3"
+        class="MuiTypography-root Loading-name-5 MuiTypography-h3"
       >
         Loading...
       </h3>

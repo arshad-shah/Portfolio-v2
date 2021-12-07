@@ -49,15 +49,6 @@ export const cardData = [
 			'A reminder designed for medicine doses, the primary focus of the app is to show a notification when it is time for a medicine dose, it uses sqlite for storage of the reminders, uses alarm manager for showing notifications.',
 		languages: ['Java', 'SQLite', 'Xml'],
 		linkAriaLabel: 'link to Github for MedicineReminder App',
-		// repoLink: "https://github.com/arshad-shah/medicineReminder",
-		repoLink: '/error.html',
-	},
-	{
-		heading: 'Library Booking System',
-		description:
-			'A Library booking system that does account management such as log in register, and password reset, borrowing, returning, fines.',
-		languages: ['HTML5', 'CSS3', 'Javascript', 'jQuery', 'PHP', 'MySQL'],
-		linkAriaLabel: 'link to Github for library booking system repo',
-		repoLink: 'https://github.com/arshad-shah/library_application.git',
+		repoLink: 'https://github.com/arshad-shah/medicineReminder',
 	},
 ];

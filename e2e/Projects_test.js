@@ -9,7 +9,7 @@ Scenario('As a user I can see the full site', ({ I }) => {
 Scenario('As a user I can see the project headings', ({ I }) => {
 	I.amOnPage('/');
 	I.see('Projects');
-	I.seeNumberOfElements('$projectHeading', 7);
+	I.seeNumberOfElements('$projectHeading', 6);
 });
 
 Scenario('As a user I am redirected to the github repo when i click on github link', ({ I }) => {

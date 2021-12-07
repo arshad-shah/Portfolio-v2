@@ -3,7 +3,7 @@
 exports[`Footer of the site: should render footer 1`] = `
 <div>
   <div
-    class="MuiBox-root MuiBox-root-11 makeStyles-root-9"
+    class="MuiBox-root MuiBox-root-14 makeStyles-root-11"
   >
     <span
       class="MuiTypography-root MuiTypography-overline"
@@ -13,12 +13,12 @@ exports[`Footer of the site: should render footer 1`] = `
        Arshad Shah
     </span>
     <div
-      class="MuiBox-root MuiBox-root-12"
+      class="MuiBox-root MuiBox-root-15"
     >
       <a
         aria-disabled="false"
         aria-label="link to Github account of Arshad shah"
-        class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-10"
+        class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-13"
         data-block="linktoGithub"
         data-testid="githubForFooter"
         href="https://github.com/arshad-shah"
@@ -47,7 +47,7 @@ exports[`Footer of the site: should render footer 1`] = `
       <a
         aria-disabled="false"
         aria-label="link to Linkedin account of Arshad shah"
-        class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-10"
+        class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-13"
         data-block="linktoLinkedin"
         data-testid="linkedinForFooter"
         href="https://www.linkedin.com/in/arshadshah"
@@ -76,7 +76,7 @@ exports[`Footer of the site: should render footer 1`] = `
       <a
         aria-disabled="false"
         aria-label="link to mail account of Arshad shah"
-        class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-10"
+        class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-13"
         data-block="linktoMail"
         data-testid="emailForFooter"
         href="mailto:arshad@arshadshah.com"

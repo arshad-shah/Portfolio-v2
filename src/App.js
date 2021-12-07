@@ -7,6 +7,7 @@ import ArrowUpwardRoundedIcon from '@material-ui/icons/ArrowUpwardRounded';
 import ScrollToTop, { ScrollToFade } from './App.util';
 import useStyles from './styles/App.styles';
 import Loading from './components/Loading';
+import Mobile from './components/navigation/Mobile';
 
 const Header = lazy(() => import('./components/Header'));
 const LandingPage = lazy(() => import('./pages/LandingPage'));
@@ -46,6 +47,9 @@ export default function App(props) {
 				<Suspense fallback={renderLoader()}>
 					<CssBaseline />
 					<Header isMobile={isMobile} data-testid="header" />
+
+					{isMobile ? <Mobile /> : null}
+
 					<ScrollToFade {...props}>
 						<LandingPage />
 					</ScrollToFade>
@@ -65,7 +69,7 @@ export default function App(props) {
 						</Fab>
 					</ScrollToTop>
 
-					<Footer />
+					<Footer isMobile={isMobile} />
 				</Suspense>
 			</div>
 		</ThemeProvider>

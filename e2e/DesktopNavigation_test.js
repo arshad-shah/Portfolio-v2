@@ -38,5 +38,5 @@ Scenario('As a user when i press Resume option in the menu, i see the resume', (
 	I.scrollPageToTop();
 	I.seeElementInDOM('$resumeOption');
 	I.click('$resumeOption');
-	I.amOnPage('/static/media/ArshadResume.19d404c6.pdf');
+	I.amOnPage('/static/media/ArshadResume.e3e2046f.pdf');
 });
