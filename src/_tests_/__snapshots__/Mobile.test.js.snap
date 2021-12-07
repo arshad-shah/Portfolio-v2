@@ -10,8 +10,11 @@ exports[`Mobile layout of the site: should render Mobile 1`] = `
     <ul
       class="MuiList-root makeStyles-mobileMenuList-14 MuiList-padding"
     >
-      <li
-        class="MuiListItem-root makeStyles-mobileMenuItem-15 MuiListItem-gutters"
+      <div
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiListItem-root makeStyles-mobileMenuItem-15 MuiListItem-gutters MuiListItem-button"
+        role="button"
+        tabindex="0"
       >
         <a
           aria-label="About Me"
@@ -25,9 +28,15 @@ exports[`Mobile layout of the site: should render Mobile 1`] = `
             About Me
           </span>
         </a>
-      </li>
-      <li
-        class="MuiListItem-root makeStyles-mobileMenuItem-15 MuiListItem-gutters"
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </div>
+      <div
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiListItem-root makeStyles-mobileMenuItem-15 MuiListItem-gutters MuiListItem-button"
+        role="button"
+        tabindex="0"
       >
         <a
           aria-label="Projects"
@@ -41,9 +50,15 @@ exports[`Mobile layout of the site: should render Mobile 1`] = `
             Projects
           </span>
         </a>
-      </li>
-      <li
-        class="MuiListItem-root makeStyles-mobileMenuItem-15 MuiListItem-gutters"
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </div>
+      <div
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiListItem-root makeStyles-mobileMenuItem-15 MuiListItem-gutters MuiListItem-button"
+        role="button"
+        tabindex="0"
       >
         <a
           aria-label="Resume"
@@ -59,7 +74,10 @@ exports[`Mobile layout of the site: should render Mobile 1`] = `
             Resume
           </span>
         </a>
-      </li>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </div>
     </ul>
   </div>
 </div>
