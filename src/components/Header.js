@@ -39,7 +39,7 @@ export default function Header(props) {
 								className={classes.title}>
 								A SHAH
 							</Typography>
-							{isMobile ? null : <Desktop />}
+							<Desktop />
 						</Toolbar>
 					</AppBar>
 				</HideOnScroll>

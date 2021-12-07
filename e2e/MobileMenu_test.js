@@ -24,5 +24,5 @@ Scenario('As a user i can open the menu and click the resume button', ({ I }) =>
 	I.resizeWindow(425, 875);
 	
 	I.click('$aboutmeOption');
-	I.amOnPage('/static/media/ArshadResume.e3e2046f.pdf');
+	I.amOnPage('/static/media/ArshadResume.e3e2046f.pdf	');
 });

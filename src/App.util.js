@@ -1,10 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles, useTheme } from '@material-ui/core/styles';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Zoom from '@material-ui/core/Zoom';
 import { Fade, useMediaQuery } from '@material-ui/core';
-import { useTheme } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
