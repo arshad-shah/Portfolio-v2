@@ -55,7 +55,7 @@ export default function Footer({ isMobile }) {
 					</IconButton>
 				</Tooltip>
 			</Box>
-			<Typography variant="subtitle2">V2.5 Date: 24 / November / 2021</Typography>
+			<Typography variant="subtitle2">V2.6 Date: 07 / December / 2021</Typography>
 		</Box>
 	);
 }
