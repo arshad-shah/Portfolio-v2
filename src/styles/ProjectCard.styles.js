@@ -6,7 +6,6 @@ export default makeStyles(
 			backgroundColor: '#ffffff',
 			padding: '1rem',
 		},
-		projectsCard: {},
 		githubLinksAnchor: {
 			'&:visited': {
 				color: '#000000',
@@ -15,8 +14,11 @@ export default makeStyles(
 				color: '#000000',
 			},
 		},
-		GooglePlayIcon: {
-			width: '50%',
+		LanguageChip: {
+			margin: '0.3rem',
+			borderRadius: '5px',
+			padding: '0.5rem',
+			fontWeight: 'bold',
 		},
 	}),
 	{ name: 'ProjectCard' }

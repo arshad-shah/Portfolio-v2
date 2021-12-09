@@ -7,6 +7,21 @@ import { Chip, IconButton, Tooltip, Typography } from '@material-ui/core';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import ShopRoundedIcon from '@material-ui/icons/ShopRounded';
 import LaunchRoundedIcon from '@material-ui/icons/LaunchRounded';
+import {
+	SiCss3,
+	SiHtml5,
+	SiJava,
+	SiJavascript,
+	SiJquery,
+	SiKotlin,
+	SiMaterialui,
+	SiNextdotjs,
+	SiReact,
+	SiRedux,
+	SiSqlite,
+	SiStyledcomponents,
+	SiTailwindcss,
+} from 'react-icons/si';
 import useStyles from '../styles/ProjectCard.styles';
 import PropTypes from 'prop-types';
 
@@ -20,18 +35,55 @@ export default function ProjectCard({
 	shopLink,
 }) {
 	const classes = useStyles();
+	//a function that find the correct icon for a given language array
+	const getIcon = (language) => {
+		switch (language) {
+			case 'Kotlin':
+				return <SiKotlin />;
+			case 'React Native':
+			case 'ReactJS':
+				return <SiReact />;
+			case 'Redux toolkit':
+				return <SiRedux />;
+			case 'Tailwind CSS':
+				return <SiTailwindcss />;
+			case 'NextJS':
+				return <SiNextdotjs />;
+			case 'Material UI':
+				return <SiMaterialui />;
+			case 'Styled components':
+				return <SiStyledcomponents />;
+			case 'HTML':
+				return <SiHtml5 />;
+			case 'CSS':
+				return <SiCss3 />;
+			case 'Javascript':
+				return <SiJavascript />;
+			case 'JQuery':
+				return <SiJquery />;
+			case 'Java':
+				return <SiJava />;
+			case 'SQLite':
+				return <SiSqlite />;
+			default:
+				return null;
+		}
+	};
+
 	return (
 		<Card raised className={classes.root}>
 			<CardHeader id="heading" title={heading} data-testid="projectHeading" />
 			<CardContent>
 				<Typography variant="body2">{description}</Typography>
 				<Typography variant="overline">
-					Languages Used: <br />
+					<br />
 					{languages.map((language) => (
 						<Chip
+							icon={getIcon(language)}
 							color="secondary"
 							key={language}
 							label={language}
+							className={classes.LanguageChip}
 							data-testid="languageChip"
 						/>
 					))}

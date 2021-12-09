@@ -9,17 +9,25 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
     <h4
       class="MuiTypography-root makeStyles-landingIntro-2 MuiTypography-h4"
     >
-      Hi, My Name Is
+      Hi, My Name Is -
     </h4>
-    <h2
-      class="MuiTypography-root makeStyles-landingName-3 MuiTypography-h2"
+    <h1
+      class="MuiTypography-root makeStyles-landingName-3 MuiTypography-h1"
     >
       Arshad Shah!
-    </h2>
+    </h1>
     <h4
       class="MuiTypography-root makeStyles-landingDesc-4 MuiTypography-h4"
     >
-      A Third Year Computer Science Student and a software Engineer.
+      A Third Year 
+      <b>
+        Computer Science
+      </b>
+       Student and a 
+      <b>
+        Software Engineer
+      </b>
+      .
     </h4>
     <div
       class="MuiBox-root MuiBox-root-8 makeStyles-Links-6"
