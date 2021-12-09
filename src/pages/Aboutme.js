@@ -3,6 +3,7 @@ import React from 'react';
 import useStyles from '../styles/aboutMe.styles';
 import Picture from '../assets/Picture.webp';
 import { aboutMeData } from '../data/aboutMeData';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function Aboutme() {
 	const classes = useStyles();
@@ -14,12 +15,13 @@ export default function Aboutme() {
 			</Typography>
 			<Box className={classes.row}>
 				<Box className={classes.aboutMePicture}>
-					<img
-						src={Picture}
+					<LazyLoadImage
 						aria-label="Picture of Arshad shah."
-						className={classes.picture}
-						width={150}
+						alt="Picture of Arshad shah."
 						height={150}
+						className={classes.picture}
+						src={Picture}
+						width={100}
 					/>
 				</Box>
 				<Box className={classes.aboutMeDesc}>

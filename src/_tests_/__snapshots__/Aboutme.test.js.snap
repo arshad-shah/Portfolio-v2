@@ -21,11 +21,12 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
         class="MuiBox-root MuiBox-root-12 Aboutme-aboutMePicture-5"
       >
         <img
+          alt="Picture of Arshad shah."
           aria-label="Picture of Arshad shah."
           class="Aboutme-picture-7"
           height="150"
           src="Picture.webp"
-          width="150"
+          width="100"
         />
       </div>
       <div
