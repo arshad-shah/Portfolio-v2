@@ -9,6 +9,7 @@ export const aboutMeData = {
 		'MongoDB',
 		'Mongoose',
 		'Jest',
+		'Codeceptjs',
 		'Java',
 		'HTML',
 		'CSS',
@@ -20,9 +21,5 @@ export const aboutMeData = {
 		'Firebase',
 		'Firestore',
 	],
-	jobTitle: 'Software Engineer - Intern',
-	jobCompany: 'Houghton Mifflin Harcourt - Dublin',
-	jobDescription:
-		'During this internship i worked on one of the UI team responsible for the HMH flagship product HMH ED. Here i learned the React framework using the Single SPA pattern, unit testing, integration testing, and End to End testing. I learned crucial skills, following an agile development methodology participating in sprints, completing tickets. The most important aspect that I learned was the CI pipeline for building complex software and traiging the build process across multiple teams.',
 	jobDate: '06/2021 - 08/2021',
 };

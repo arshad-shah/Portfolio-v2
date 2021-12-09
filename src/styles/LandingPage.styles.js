@@ -9,7 +9,6 @@ export default makeStyles((theme) => ({
 		textAlign: 'center',
 		alignItems: 'center',
 		justifyContent: 'center',
-
 		minHeight: '100vh',
 		[theme.breakpoints.down('xs')]: {
 			flexDirection: 'column',
@@ -18,21 +17,24 @@ export default makeStyles((theme) => ({
 	},
 	landingIntro: {
 		padding: '0.7rem',
-		transition: 'width 0.5s, height 0.5s, opacity 0.5s 0.5s',
+		[theme.breakpoints.down('xs')]: {
+			paddingBottom: '0',
+		},
 	},
 	landingName: {
 		padding: '0.7rem',
-		transition: 'width 0.5s, height 0.5s, opacity 0.5s 0.5s',
 	},
 	landingDesc: {
 		padding: '0.7rem',
 		transitionDelay: '3s',
-		transition: 'width 1s, height 1s, opacity 1s 1s',
 	},
 	socialLinks: {
 		padding: '1rem',
 	},
 	Links: {
 		padding: '1rem',
+		[theme.breakpoints.down('xs')]: {
+			paddingTop: '0',
+		},
 	},
 }));

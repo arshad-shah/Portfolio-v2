@@ -19,7 +19,10 @@ export default makeStyles(
 			display: 'flex',
 			flexDirection: 'row',
 			padding: '1rem',
-			[theme.breakpoints.down('xs')]: {
+			[theme.breakpoints.down('md')]: {
+				flexDirection: 'row',
+			},
+			[theme.breakpoints.down('sm')]: {
 				flexDirection: 'column',
 			},
 		},
@@ -27,9 +30,19 @@ export default makeStyles(
 			display: 'flex',
 			flexDirection: 'column',
 			padding: '1rem',
-			width: '30%',
-			height: '50%',
+			width: '25%',
+			height: '60%',
 			margin: 'auto',
+			[theme.breakpoints.down('md')]: {
+				flexDirection: 'column',
+				width: '30%',
+				height: '100%',
+			},
+			[theme.breakpoints.down('sm')]: {
+				flexDirection: 'column',
+				width: '50%',
+				height: '100%',
+			},
 			[theme.breakpoints.down('xs')]: {
 				flexDirection: 'column',
 				width: '100%',
@@ -46,6 +59,8 @@ export default makeStyles(
 			borderRadius: '1rem',
 			width: 'auto',
 			height: 'auto',
+			boxShadow: '0px 0px 10px #000000',
+			transition: 'all 0.5s ease-out',
 		},
 		subheading: {
 			paddingTop: '1rem',

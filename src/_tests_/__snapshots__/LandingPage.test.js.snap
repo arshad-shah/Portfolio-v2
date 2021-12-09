@@ -11,11 +11,11 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
     >
       Hi, My Name Is -
     </h4>
-    <h1
-      class="MuiTypography-root makeStyles-landingName-3 MuiTypography-h1"
+    <h2
+      class="MuiTypography-root makeStyles-landingName-3 MuiTypography-h2"
     >
       Arshad Shah!
-    </h1>
+    </h2>
     <h4
       class="MuiTypography-root makeStyles-landingDesc-4 MuiTypography-h4"
     >

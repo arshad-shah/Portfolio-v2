@@ -12,9 +12,7 @@ export default function Footer({ isMobile }) {
 	const classes = useStyles();
 	return (
 		<Box className={isMobile ? classes.rootMobileFooter : classes.root}>
-			<Typography variant="overline">
-				&copy; {new Date().getFullYear()} Arshad Shah
-			</Typography>
+			<Typography variant="h6">&copy; {new Date().getFullYear()} Arshad Shah</Typography>
 			<Box>
 				<Tooltip title="Github Profile" arrow>
 					<IconButton
@@ -55,7 +53,7 @@ export default function Footer({ isMobile }) {
 					</IconButton>
 				</Tooltip>
 			</Box>
-			<Typography variant="subtitle2">V2.6 Date: 07 / December / 2021</Typography>
+			<Typography variant="subtitle2">V2.7 Date: 09 / December / 2021</Typography>
 		</Box>
 	);
 }
