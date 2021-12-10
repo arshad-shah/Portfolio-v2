@@ -60,17 +60,17 @@ export default function LandingPage() {
           <MailIcon />
         </IconButton>
       </Box>
-      <Button
-        aria-label="scroll down button"
-        size="small"
-        color="secondary"
-        variant="outlined"
-        data-block="scrolldown"
-      >
-        <Link to="aboutme" spy={true} smooth={true}>
+      <Link to="aboutme" spy={true} smooth={true}>
+        <IconButton
+          aria-label="scroll down button"
+          size="small"
+          color="secondary"
+          variant="outlined"
+          data-block="scrolldown"
+        >
           <ArrowDownwardRoundedIcon />
-        </Link>
-      </Button>
+        </IconButton>
+      </Link>
     </Box>
   );
 }
