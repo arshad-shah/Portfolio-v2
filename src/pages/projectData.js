@@ -11,7 +11,7 @@ export const cardData = [
   {
     heading: "Portfolio website version 2.0",
     description:
-      "The current verion of the Portfolio site that contains all the work i have done so far. Includes work from college such as exercises, projects and also from outside college such as the android app.This is the first version written in pure HTML, CSS and javascript with a pinch of jquery.",
+      "The current version of the Portfolio site that contains all the work i have done so far. Includes work from college such as exercises, projects and also from outside college such as the android app.This is the second version written in javascript using the React framework, and designed using Material UI.",
     languages: "HTML | Javascript | React framework | Material UI",
     linkAriaLabel: "link to Github for portfolio version 2",
     repoLink: "https://github.com/arshad-shah/arshad-shah.github.io",
