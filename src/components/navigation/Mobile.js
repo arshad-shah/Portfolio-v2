@@ -79,9 +79,9 @@ const styles = {
 export default function Mobile({ click, closeMobileMenu, handleMenu }) {
   const classes = useStyles();
 
-  let prevScrollpos = window.pageYOffset;
+  let prevScrollpos = window.scrollY;
   window.onscroll = function () {
-    const currentScrollPos = window.pageYOffset;
+    const currentScrollPos = window.scrollY;
     if (prevScrollpos < currentScrollPos) {
       closeMobileMenu();
     }
