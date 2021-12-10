@@ -39,9 +39,40 @@ exports[`the full app: should render the full app 1`] = `
         />
       </button>
     </div>
-    <p>
-      Loading...
-    </p>
+    <div
+      class="Loading-root-3"
+    >
+      <img
+        alt="Logo"
+        height="100"
+        src="logo.svg"
+        width="100"
+      />
+      <h4
+        class="MuiTypography-root Loading-name-4 MuiTypography-h4"
+      >
+        A SHAH
+      </h4>
+      <div
+        class="MuiCircularProgress-root MuiCircularProgress-colorSecondary MuiCircularProgress-indeterminate"
+        role="progressbar"
+        style="width: 40px; height: 40px;"
+      >
+        <svg
+          class="MuiCircularProgress-svg"
+          viewBox="22 22 44 44"
+        >
+          <circle
+            class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+            cx="44"
+            cy="44"
+            fill="none"
+            r="20.2"
+            stroke-width="3.6"
+          />
+        </svg>
+      </div>
+    </div>
   </div>
 </div>
 `;
