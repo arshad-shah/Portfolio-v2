@@ -31,12 +31,15 @@ exports[`the full app: should render the full app 1`] = `
           </p>
           <div
             aria-label="desktopMenu"
+            class="MuiBox-root MuiBox-root-6"
+            data-testid="desktopMenu"
           >
             <a
               aria-label="About Me"
               class="makeStyles-menuItem-5"
               color="default"
               data-block="Aboutmemenuitemdesktop"
+              data-testid="aboutme"
             >
               <span
                 class="MuiTypography-root MuiTypography-button"
@@ -77,7 +80,7 @@ exports[`the full app: should render the full app 1`] = `
       style="opacity: 1; webkit-transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     >
       <div
-        class="MuiBox-root MuiBox-root-10 makeStyles-hero-6"
+        class="MuiBox-root MuiBox-root-11 makeStyles-hero-7"
       >
         <span
           initdelay="2000"
@@ -86,7 +89,7 @@ exports[`the full app: should render the full app 1`] = `
           typing="1"
         >
           <h4
-            class="MuiTypography-root makeStyles-typography-7 MuiTypography-h4"
+            class="MuiTypography-root makeStyles-typography-8 MuiTypography-h4"
           >
             
             <span
@@ -95,8 +98,8 @@ exports[`the full app: should render the full app 1`] = `
               Hi, My Name Is
             </span>
             
-            <h1
-              class="MuiTypography-root makeStyles-typography-7 MuiTypography-h1"
+            <h2
+              class="MuiTypography-root makeStyles-typography-8 MuiTypography-h2"
             >
               
               <span
@@ -106,7 +109,7 @@ exports[`the full app: should render the full app 1`] = `
               </span>
               
               <h4
-                class="MuiTypography-root makeStyles-typography-7 MuiTypography-h4"
+                class="MuiTypography-root makeStyles-typography-8 MuiTypography-h4"
               >
                 
                 <span
@@ -116,16 +119,16 @@ exports[`the full app: should render the full app 1`] = `
                 </span>
                 
               </h4>
-            </h1>
+            </h2>
           </h4>
         </span>
         <div
-          class="MuiBox-root MuiBox-root-11 makeStyles-Links-9"
+          class="MuiBox-root MuiBox-root-12 makeStyles-Links-10"
         >
           <a
             aria-disabled="false"
             aria-label="link to Github account of Arshad shah"
-            class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-8 MuiIconButton-colorPrimary"
+            class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-9 MuiIconButton-colorPrimary"
             data-block="linktoGithub"
             href="https://github.com/arshad-shah"
             role="button"
@@ -152,7 +155,7 @@ exports[`the full app: should render the full app 1`] = `
           <a
             aria-disabled="false"
             aria-label="link to Linkedin account of Arshad shah"
-            class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-8 MuiIconButton-colorPrimary"
+            class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-9 MuiIconButton-colorPrimary"
             data-block="linktoLinkedin"
             href="https://www.linkedin.com/in/arshadshah"
             role="button"
@@ -179,7 +182,7 @@ exports[`the full app: should render the full app 1`] = `
           <a
             aria-disabled="false"
             aria-label="link to mail account of Arshad shah"
-            class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-8 MuiIconButton-colorPrimary"
+            class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-9 MuiIconButton-colorPrimary"
             data-block="linktoMail"
             href="mailto:shaharshad1999@outlook.com"
             role="button"
@@ -234,7 +237,7 @@ exports[`the full app: should render the full app 1`] = `
       </div>
     </div>
     <div
-      class="makeStyles-root-12"
+      class="makeStyles-root-13"
       role="presentation"
       style="transform: scale(0); visibility: hidden; display: none;"
     >
@@ -265,10 +268,10 @@ exports[`the full app: should render the full app 1`] = `
       </button>
     </div>
     <div
-      class="Loading-root-13"
+      class="Loading-root-14"
     >
       <h4
-        class="MuiTypography-root Loading-name-14 MuiTypography-h4"
+        class="MuiTypography-root Loading-name-15 MuiTypography-h4"
       >
         Loading.....
       </h4>
