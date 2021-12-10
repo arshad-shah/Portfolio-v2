@@ -15,7 +15,7 @@ export const cardData = [
       "The current version of the Portfolio site that contains all the work i have done so far. Includes work from college such as exercises, projects and also from outside college such as the android app.This is the second version written in javascript using the React framework, and designed using Material UI.",
     languages: "HTML | Javascript | React framework | Material UI",
     linkAriaLabel: "link to Github for portfolio version 2",
-    repoLink: "https://github.com/arshad-shah/arshad-shah.github.io",
+    repoLink: "https://github.com/arshad-shah/portfolio-v2",
   },
   {
     heading: "Android App Project | Nimaz",
@@ -59,7 +59,7 @@ export const cardData = [
     linkAriaLabel: "link to Github for year 2 excercises in university repo",
     repoLink: "https://github.com/arshad-shah/web_exercises_year2.git",
   },
-    {
+  {
     heading: "Uber Clone",
     description:
       "A clone app of uber in react native, for the purpose of learning redux state management.",
