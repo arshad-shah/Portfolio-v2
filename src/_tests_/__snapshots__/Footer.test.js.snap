@@ -5,13 +5,13 @@ exports[`Footer of the site: should render footer 1`] = `
   <div
     class="MuiBox-root MuiBox-root-14 makeStyles-root-11"
   >
-    <span
-      class="MuiTypography-root MuiTypography-overline"
+    <h6
+      class="MuiTypography-root MuiTypography-h6"
     >
       © 
       2021
        Arshad Shah
-    </span>
+    </h6>
     <div
       class="MuiBox-root MuiBox-root-15"
     >
@@ -106,7 +106,7 @@ exports[`Footer of the site: should render footer 1`] = `
     <h6
       class="MuiTypography-root MuiTypography-subtitle2"
     >
-      V2.6 Date: 07 / December / 2021
+      V2.7 Date: 09 / December / 2021
     </h6>
   </div>
 </div>

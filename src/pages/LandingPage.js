@@ -19,7 +19,7 @@ export default function LandingPage({ isMobile }) {
 				Hi, My Name Is -
 			</Typography>
 
-			<Typography className={classes.landingName} variant="h1">
+			<Typography className={classes.landingName} variant="h2">
 				Arshad Shah!
 			</Typography>
 

@@ -22,11 +22,7 @@ exports[`Mobile layout of the site: should render Mobile 1`] = `
           data-block="Aboutmemenuitemmobile"
           data-testid="aboutmeOption"
         >
-          <span
-            class="MuiTypography-root MuiTypography-button"
-          >
-            About Me
-          </span>
+          ABOUT ME
         </a>
         <span
           class="MuiTouchRipple-root"
@@ -44,11 +40,7 @@ exports[`Mobile layout of the site: should render Mobile 1`] = `
           data-block="Projectsmenuitemmobile"
           data-testid="projectsOption"
         >
-          <span
-            class="MuiTypography-root MuiTypography-button"
-          >
-            Projects
-          </span>
+          PROJECTS
         </a>
         <span
           class="MuiTouchRipple-root"
@@ -62,17 +54,12 @@ exports[`Mobile layout of the site: should render Mobile 1`] = `
       >
         <a
           aria-label="Resume"
-          class="makeStyles-button-13"
+          class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-button-13 MuiTypography-colorPrimary"
           data-block="Resumemenuitemmobile"
           data-testid="resumeOption"
           href="ArshadResume.pdf"
-          variant="outlined"
         >
-          <span
-            class="MuiTypography-root MuiTypography-button"
-          >
-            Resume
-          </span>
+          RESUME
         </a>
         <span
           class="MuiTouchRipple-root"

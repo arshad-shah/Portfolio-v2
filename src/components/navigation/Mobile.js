@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, List, ListItem, Typography } from '@material-ui/core';
+import { Box, List, ListItem, Link as ExternalLink } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { Link } from 'react-scroll';
 import Resume from '../../assets/ArshadResume.pdf';
@@ -47,7 +47,7 @@ export default function Mobile() {
 						spy
 						smooth
 						aria-label="About Me">
-						<Typography variant="button">About Me</Typography>
+						ABOUT ME
 					</Link>
 				</ListItem>
 				<ListItem button className={classes.mobileMenuItem}>
@@ -59,19 +59,19 @@ export default function Mobile() {
 						spy
 						smooth
 						aria-label="Projects">
-						<Typography variant="button">Projects</Typography>
+						PROJECTS
 					</Link>
 				</ListItem>
 				<ListItem button className={classes.mobileMenuItem}>
-					<a
+					<ExternalLink
 						className={classes.button}
 						data-testid="resumeOption"
 						variant="outlined"
 						href={Resume}
 						data-block="Resumemenuitemmobile"
 						aria-label="Resume">
-						<Typography variant="button">Resume</Typography>
-					</a>
+						RESUME
+					</ExternalLink>
 				</ListItem>
 			</List>
 		</Box>

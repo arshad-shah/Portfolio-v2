@@ -26,14 +26,14 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
           class="Aboutme-picture-7"
           height="150"
           src="Picture.webp"
-          width="100"
+          width="150"
         />
       </div>
       <div
         class="MuiBox-root MuiBox-root-13 Aboutme-aboutMeDesc-6"
       >
         <p
-          class="MuiTypography-root MuiTypography-body1"
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
         >
           I am a student 
           <b>
@@ -47,25 +47,14 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
           <b>
             Intuitive
           </b>
-           user interfaces.
-          <br />
-          I have a passion for 
+           user interfaces and 
           <b>
             Learning
           </b>
-           new technologies and building products that 
+           
+          new technologies to building products that 
           <b>
             solve real-world problems
-          </b>
-          .
-          <br />
-          I have real world experience in 
-          <b>
-            Frontend technologies
-          </b>
-           like
-          <b>
-             React 
           </b>
           .
           <br />
@@ -83,7 +72,15 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
           </b>
           .
           <br />
-          I have also worked with 
+          I have real world experience in 
+          <b>
+            Frontend technologies
+          </b>
+           like
+          <b>
+             React 
+          </b>
+          . I have also worked with 
           <b>
             Backend technologies
           </b>
@@ -116,12 +113,12 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
            that give an easy and Perfect experience.
         </p>
         <h5
-          class="MuiTypography-root Aboutme-subheading-8 MuiTypography-h5"
+          class="MuiTypography-root Aboutme-subheading-8 MuiTypography-h5 MuiTypography-gutterBottom"
         >
           Technologies I Use
         </h5>
         <p
-          class="MuiTypography-root MuiTypography-body1"
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
         >
           <div
             class="MuiChip-root Aboutme-TechChip-9 MuiChip-colorSecondary"
@@ -191,6 +188,16 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
               class="MuiChip-label"
             >
               Jest
+            </span>
+          </div>
+          <div
+            class="MuiChip-root Aboutme-TechChip-9 MuiChip-colorSecondary"
+            data-testid="languageChip"
+          >
+            <span
+              class="MuiChip-label"
+            >
+              Codeceptjs
             </span>
           </div>
           <div
@@ -295,30 +302,66 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
           </div>
         </p>
         <h5
-          class="MuiTypography-root Aboutme-subheading-8 MuiTypography-h5"
+          class="MuiTypography-root Aboutme-subheading-8 MuiTypography-h5 MuiTypography-gutterBottom"
         >
-          Work Experience:
-          <p
-            class="MuiTypography-root MuiTypography-body1"
-          >
-            Software Engineer - Intern
-            <h6
-              class="MuiTypography-root MuiTypography-subtitle1"
-            >
-              Houghton Mifflin Harcourt - Dublin
-            </h6>
-          </p>
-          <p
-            class="MuiTypography-root MuiTypography-body2"
-          >
-            During this internship i worked on one of the UI team responsible for the HMH flagship product HMH ED. Here i learned the React framework using the Single SPA pattern, unit testing, integration testing, and End to End testing. I learned crucial skills, following an agile development methodology participating in sprints, completing tickets. The most important aspect that I learned was the CI pipeline for building complex software and traiging the build process across multiple teams.
-          </p>
-          <h6
-            class="MuiTypography-root MuiTypography-subtitle2"
-          >
-            06/2021 - 08/2021
-          </h6>
+          Work Experience
         </h5>
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+        >
+          <b>
+            Software Engineer
+          </b>
+           - Intern 
+          06/2021 - 08/2021
+        </p>
+        <h6
+          class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-gutterBottom"
+        >
+          <b>
+            Houghton Mifflin Harcourt
+          </b>
+           - Dublin, Ireland
+        </h6>
+        <p
+          class="MuiTypography-root MuiTypography-body2"
+        >
+          During this 
+          <b>
+            Internship
+          </b>
+           i worked on a 
+          <b>
+            Frontend Team
+          </b>
+           team responsible for the HMH flagship product 
+          <b>
+            HMH ED
+          </b>
+          .
+          <br />
+          Here i learned the 
+          <b>
+            React framework
+          </b>
+           using the 
+          <b>
+            SPA pattern
+          </b>
+          , unit testing, integration testing, and End to End testing.
+          <br />
+          I learned crucial skills, following an 
+          <b>
+             Agile development 
+          </b>
+          methodology participating in 
+          <b>
+            sprints
+          </b>
+          , and completing tickets.
+          <br />
+          The most important aspect that I learned was the CI pipeline for building complex software and triaging the build process across multiple teams.
+        </p>
       </div>
     </div>
   </div>

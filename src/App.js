@@ -11,9 +11,9 @@ import Mobile from './components/navigation/Mobile';
 
 const Header = lazy(() => import('./components/Header'));
 const LandingPage = lazy(() => import('./pages/LandingPage'));
-const Footer = lazy(() => import('./components/Footer'));
 const Aboutme = lazy(() => import('./pages/Aboutme'));
 const Projects = lazy(() => import('./pages/Projects'));
+const Footer = lazy(() => import('./components/Footer'));
 let theme = createTheme({
 	palette: {
 		type: 'light',
@@ -29,7 +29,7 @@ let theme = createTheme({
 	},
 	typography: {
 		fontFamily: 'Nunito',
-		fontSize: 16,
+		fontSize: 18,
 	},
 });
 

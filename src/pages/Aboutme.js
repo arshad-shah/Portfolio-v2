@@ -5,7 +5,7 @@ import Picture from '../assets/Picture.webp';
 import { aboutMeData } from '../data/aboutMeData';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
-export default function Aboutme() {
+export default function Aboutme(props) {
 	const classes = useStyles();
 	return (
 		<Box className={classes.root}>
@@ -21,22 +21,20 @@ export default function Aboutme() {
 						height={150}
 						className={classes.picture}
 						src={Picture}
-						width={100}
+						width={150}
 					/>
 				</Box>
 				<Box className={classes.aboutMeDesc}>
-					<Typography variant="body1">
+					<Typography gutterBottom variant="body1">
 						I am a student <b>Software Engineer</b> with a passion for building
-						<b> Beautiful</b> and <b>Intuitive</b> user interfaces.
-						<br />I have a passion for <b>Learning</b> new technologies and building
-						products that <b>solve real-world problems</b>.
-						<br />I have real world experience in <b>Frontend technologies</b> like
-						<b> React </b>.
+						<b> Beautiful</b> and <b>Intuitive</b> user interfaces and <b>Learning</b>{' '}
+						new technologies to building products that <b>solve real-world problems</b>.
 						<br />I am a <b>Team Player</b> and <b>Hard Worker</b> and I am always
 						<b> Looking for new challenges</b>.
-						<br />I have also worked with <b>Backend technologies</b> such as Node.js,
-						Express.js, MongoDB, Firebase, and Firestore as well as with different
-						frameworks such as NextJS, React Native, and Flutter.
+						<br />I have real world experience in <b>Frontend technologies</b> like
+						<b> React </b>. I have also worked with <b>Backend technologies</b> such as
+						Node.js, Express.js, MongoDB, Firebase, and Firestore as well as with
+						different frameworks such as NextJS, React Native, and Flutter.
 						<br />I like designing and creating stuff for all domains from <b>
 							Mobile
 						</b>{' '}
@@ -46,11 +44,11 @@ export default function Aboutme() {
 						<b>Clean Application</b> that give an easy and Perfect experience.
 					</Typography>
 
-					<Typography className={classes.subheading} variant="h5">
+					<Typography gutterBottom className={classes.subheading} variant="h5">
 						{aboutMeData.Technologies}
 					</Typography>
 
-					<Typography variant="body1">
+					<Typography gutterBottom variant="body1">
 						{aboutMeData.TechnologiesList.map((tech) => (
 							<Chip
 								color="secondary"
@@ -62,14 +60,27 @@ export default function Aboutme() {
 						))}
 					</Typography>
 
-					<Typography className={classes.subheading} variant="h5">
-						Work Experience:
-						<Typography variant="body1">
-							{aboutMeData.jobTitle}
-							<Typography variant="subtitle1">{aboutMeData.jobCompany}</Typography>
-						</Typography>
-						<Typography variant="body2">{aboutMeData.jobDescription}</Typography>
-						<Typography variant="subtitle2">{aboutMeData.jobDate}</Typography>
+					<Typography className={classes.subheading} gutterBottom variant="h5">
+						Work Experience
+					</Typography>
+
+					<Typography gutterBottom variant="body1">
+						<b>Software Engineer</b> - Intern {aboutMeData.jobDate}
+					</Typography>
+					<Typography gutterBottom variant="subtitle1">
+						<b>Houghton Mifflin Harcourt</b> - Dublin, Ireland
+					</Typography>
+					<Typography variant="body2">
+						During this <b>Internship</b> i worked on a <b>Frontend Team</b> team
+						responsible for the HMH flagship product <b>HMH ED</b>.
+						<br />
+						Here i learned the <b>React framework</b> using the <b>SPA pattern</b>, unit
+						testing, integration testing, and End to End testing.
+						<br />I learned crucial skills, following an <b> Agile development </b>
+						methodology participating in <b>sprints</b>, and completing tickets.
+						<br />
+						The most important aspect that I learned was the CI pipeline for building
+						complex software and triaging the build process across multiple teams.
 					</Typography>
 				</Box>
 			</Box>
