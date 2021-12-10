@@ -11,7 +11,7 @@ describe("Projects of the site:", () => {
   it("should have 7 project cards", () => {
     render(<Projects />);
     const numberOfProjects = screen.getAllByLabelText("ProjectCard");
-    expect(numberOfProjects.length).toEqual(7);
+    expect(numberOfProjects.length).toEqual(8);
   });
 
   it("should render the heading 'Projects'", () => {
