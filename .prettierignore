@@ -1,0 +1,8 @@
+**/node_modules/**
+**/build/**
+**/dist/**
+**/.git/**
+**/public/**
+**/e2e/**
+**/_snapshots_/**
+**/.github/**

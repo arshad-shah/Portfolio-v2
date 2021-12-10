@@ -5,11 +5,13 @@ exports[`Mobile of the site: should render Mobile 1`] = `
   <div
     aria-label="mobileMenu"
     class="MuiBox-root MuiBox-root-30"
+    data-toggle="mobileMenu"
   >
     <button
       aria-label="menu toggle"
       class="MuiButtonBase-root MuiIconButton-root"
       data-block="hamburgermenubuttonmobile"
+      data-testid="menuToggle"
       role="button"
       tabindex="0"
       type="button"
@@ -78,6 +80,7 @@ exports[`Mobile of the site: should render Mobile 1`] = `
                   aria-label="About Me"
                   class="makeStyles-button-27"
                   data-block="Aboutmemenuitemmobile"
+                  data-testid="aboutmeOption"
                 >
                   <span
                     class="MuiTypography-root MuiTypography-button"
@@ -93,6 +96,7 @@ exports[`Mobile of the site: should render Mobile 1`] = `
                   aria-label="Projects"
                   class="makeStyles-button-27"
                   data-block="Projectsmenuitemmobile"
+                  data-testid="projectsOption"
                 >
                   <span
                     class="MuiTypography-root MuiTypography-button"
@@ -108,6 +112,7 @@ exports[`Mobile of the site: should render Mobile 1`] = `
                   aria-label="Resume"
                   class="makeStyles-button-27"
                   data-block="Resumemenuitemmobile"
+                  data-testid="resumeOption"
                   href="ArshadResume.pdf"
                   variant="outlined"
                 >
