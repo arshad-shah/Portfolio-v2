@@ -59,4 +59,12 @@ export const cardData = [
     linkAriaLabel: "link to Github for year 2 excercises in university repo",
     repoLink: "https://github.com/arshad-shah/web_exercises_year2.git",
   },
+    {
+    heading: "Uber Clone",
+    description:
+      "A clone app of uber in react native, for the purpose of learning redux state management.",
+    languages: "React Native | Redux toolkit | tailwind CSS",
+    linkAriaLabel: "link to Github for Uber Clone repo",
+    repoLink: "https://github.com/arshad-shah/uber-clone",
+  },
 ];
