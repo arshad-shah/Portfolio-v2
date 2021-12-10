@@ -48,3 +48,15 @@ Scenario(
     );
   }
 );
+
+Scenario(
+  "As a user I am redirected to the google shop site when i click on shop link",
+  ({ I }) => {
+    I.amOnPage("/");
+    I.seeElementInDOM("$shoplinkfornimaz");
+    I.click("$shoplinkfornimaz");
+    I.amOnPage(
+      "https://play.google.com/store/apps/details?id=com.arshadshah.nimaz&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+    );
+  }
+);

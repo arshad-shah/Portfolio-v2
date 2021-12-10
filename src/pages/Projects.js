@@ -30,6 +30,7 @@ export default function Projects() {
                 linkAriaLabel={data.linkAriaLabel}
                 repoLink={data.repoLink}
                 siteLink={data.siteLink}
+                shopLink={data.shopLink}
               />
             </Grid>
           );

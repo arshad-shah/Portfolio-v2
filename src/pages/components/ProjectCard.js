@@ -16,6 +16,7 @@ export default function ProjectCard({
   linkAriaLabel,
   repoLink,
   siteLink,
+  shopLink,
 }) {
   const classes = useStyles();
   return (
@@ -38,12 +39,21 @@ export default function ProjectCard({
           aria-label={linkAriaLabel}
           href={repoLink}
         >
-          {heading === "Android App Project | Nimaz" ? (
-            <ShopRoundedIcon fontSize="large" />
-          ) : (
-            <GitHubIcon fontSize="large" />
-          )}
+          <GitHubIcon fontSize="large" />
         </IconButton>
+
+        {shopLink && (
+          <IconButton
+            data-testid="shoplinkfornimaz"
+            data-block="shoplinkfornimaz"
+            role="button"
+            color="secondary"
+            aria-label={linkAriaLabel}
+            href={shopLink}
+          >
+            <ShopRoundedIcon fontSize="large" />
+          </IconButton>
+        )}
 
         {siteLink ? (
           <IconButton
