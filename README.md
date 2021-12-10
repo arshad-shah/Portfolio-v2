@@ -12,6 +12,8 @@ My personal portfolio in react and material ui.
 >>>>>>> 0be2540 (Update README.md)
 [![CodeQL](https://github.com/arshad-shah/portfolio-v2.0/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/arshad-shah/portfolio-v2.0/actions/workflows/codeql-analysis.yml)
 
+[![sonarCubeScan](https://github.com/arshad-shah/Portfolio-v2/actions/workflows/sonarScan.yml/badge.svg)](https://github.com/arshad-shah/Portfolio-v2/actions/workflows/sonarScan.yml)
+
 
 [![codecov](https://codecov.io/gh/arshad-shah/Portfolio-v2/branch/master/graph/badge.svg?token=JVIBKZ5AWF)](https://codecov.io/gh/arshad-shah/Portfolio-v2)
 
