@@ -26,7 +26,6 @@ export default makeStyles((theme) => ({
 	},
 	landingDesc: {
 		padding: '0.7rem',
-		transitionDelay: '3s',
 	},
 	socialLinks: {
 		padding: '1rem',
