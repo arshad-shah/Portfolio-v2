@@ -23,7 +23,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
         <img
           aria-label="Picture of Arshad shah."
           class="Aboutme-picture-7"
-          src="Picture.png"
+          src="Picture.webp"
         />
       </div>
       <div

@@ -1,7 +1,7 @@
 import { Typography, Toolbar } from "@material-ui/core";
 import React from "react";
 import useStyles from "./styles/aboutMe.styles";
-import Picture from "../assets/Picture.png";
+import Picture from "../assets/Picture.webp";
 
 export default function Aboutme() {
   const classes = useStyles();
