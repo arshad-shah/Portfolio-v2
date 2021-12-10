@@ -1,6 +1,7 @@
 # My Personal Portfolio in React and Material UI.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [![Publish](https://github.com/arshad-shah/Portfolio-v2/actions/workflows/publish.yml/badge.svg)](https://github.com/arshad-shah/Portfolio-v2/actions/workflows/publish.yml)
 =======
 [![build](https://github.com/arshad-shah/Portfolio-v2/actions/workflows/publish.yml/badge.svg)](https://github.com/arshad-shah/Portfolio-v2/actions/workflows/publish.yml)
@@ -26,6 +27,22 @@
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=arshad-shah_Portfolio-v2&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=arshad-shah_Portfolio-v2)
 
 
+=======
+[![build](https://github.com/arshad-shah/Portfolio-v2/actions/workflows/publish.yml/badge.svg)](https://github.com/arshad-shah/Portfolio-v2/actions/workflows/publish.yml)
+[![CodeQL](https://github.com/arshad-shah/portfolio-v2.0/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/arshad-shah/portfolio-v2.0/actions/workflows/codeql-analysis.yml)
+[![SonarScan](https://github.com/arshad-shah/Portfolio-v2/actions/workflows/sonarScan.yml/badge.svg)](https://github.com/arshad-shah/Portfolio-v2/actions/workflows/sonarScan.yml)
+
+
+[![codecov](https://codecov.io/gh/arshad-shah/Portfolio-v2/branch/master/graph/badge.svg?token=JVIBKZ5AWF)](https://codecov.io/gh/arshad-shah/Portfolio-v2)
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=arshad-shah_Portfolio-v2&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=arshad-shah_Portfolio-v2)
+
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=arshad-shah_Portfolio-v2&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=arshad-shah_Portfolio-v2)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=arshad-shah_Portfolio-v2&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=arshad-shah_Portfolio-v2)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=arshad-shah_Portfolio-v2&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=arshad-shah_Portfolio-v2)
+
+
+>>>>>>> 40100283e5dee5792f3467357323880e9fb409ba
 [<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=2b9348">](https://github.com/SamKirkland/FTP-Deploy-Action)
 
 
