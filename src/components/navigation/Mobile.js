@@ -92,7 +92,7 @@ export default function Mobile({ click, closeMobileMenu, handleMenu }) {
         <Hamburger
           distance="md"
           toggled={click}
-          size={40}
+          size={35}
           rounded
           color="#c78f00"
         />

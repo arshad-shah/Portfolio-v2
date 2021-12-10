@@ -20,22 +20,22 @@ exports[`Mobile of the site: should render Mobile 1`] = `
         tabindex="0"
       >
         <div
-          style="background: rgb(199, 143, 0); height: 3px; left: 4px; position: absolute; border-radius: 9em 0 0 9em; width: 20px; top: 11px; transition: 0.4s cubic-bezier(0, 0, 0, 1); transform: none;"
+          style="background: rgb(199, 143, 0); height: 3px; left: 7px; position: absolute; border-radius: 9em 0 0 9em; width: 17.5px; top: 12px; transition: 0.4s cubic-bezier(0, 0, 0, 1); transform: none;"
         />
         <div
-          style="background: rgb(199, 143, 0); height: 3px; left: 50%; position: absolute; border-radius: 0 9em 9em 0; width: 20px; top: 11px; transition: 0.4s cubic-bezier(0, 0, 0, 1); transform: none;"
+          style="background: rgb(199, 143, 0); height: 3px; left: 50%; position: absolute; border-radius: 0 9em 9em 0; width: 17.5px; top: 12px; transition: 0.4s cubic-bezier(0, 0, 0, 1); transform: none;"
         />
         <div
-          style="background: rgb(199, 143, 0); height: 3px; left: 4px; position: absolute; border-radius: 9em 0 0 9em; width: 20px; top: 23px; transition: 0.4s cubic-bezier(0, 0, 0, 1); opacity: 1; transform: none;"
+          style="background: rgb(199, 143, 0); height: 3px; left: 7px; position: absolute; border-radius: 9em 0 0 9em; width: 17.5px; top: 23px; transition: 0.4s cubic-bezier(0, 0, 0, 1); opacity: 1; transform: none;"
         />
         <div
-          style="background: rgb(199, 143, 0); height: 3px; left: 50%; position: absolute; border-radius: 0 9em 9em 0; width: 20px; top: 23px; transition: 0.4s cubic-bezier(0, 0, 0, 1); opacity: 1; transform: none;"
+          style="background: rgb(199, 143, 0); height: 3px; left: 50%; position: absolute; border-radius: 0 9em 9em 0; width: 17.5px; top: 23px; transition: 0.4s cubic-bezier(0, 0, 0, 1); opacity: 1; transform: none;"
         />
         <div
-          style="background: rgb(199, 143, 0); height: 3px; left: 4px; position: absolute; border-radius: 9em 0 0 9em; width: 20px; top: 35px; transition: 0.4s cubic-bezier(0, 0, 0, 1); transform: none;"
+          style="background: rgb(199, 143, 0); height: 3px; left: 7px; position: absolute; border-radius: 9em 0 0 9em; width: 17.5px; top: 34px; transition: 0.4s cubic-bezier(0, 0, 0, 1); transform: none;"
         />
         <div
-          style="background: rgb(199, 143, 0); height: 3px; left: 50%; position: absolute; border-radius: 0 9em 9em 0; width: 20px; top: 35px; transition: 0.4s cubic-bezier(0, 0, 0, 1); transform: none;"
+          style="background: rgb(199, 143, 0); height: 3px; left: 50%; position: absolute; border-radius: 0 9em 9em 0; width: 17.5px; top: 34px; transition: 0.4s cubic-bezier(0, 0, 0, 1); transform: none;"
         />
       </div>
     </span>

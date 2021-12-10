@@ -1,4 +1,4 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import {
   ThemeProvider,
   createTheme,
@@ -8,12 +8,13 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import Fab from "@material-ui/core/Fab";
 import ArrowUpwardRoundedIcon from "@material-ui/icons/ArrowUpwardRounded";
 import ScrollToTop, { ScrollToFade } from "./App.util";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import LandingPage from "./pages/LandingPage";
-import Aboutme from "./pages/Aboutme";
-import Projects from "./pages/Projects";
 import useStyles from "./App.styles";
+
+const Header = lazy(() => import("./components/Header"));
+const Footer = lazy(() => import("./components/Footer"));
+const LandingPage = lazy(() => import("./pages/LandingPage"));
+const Aboutme = lazy(() => import("./pages/Aboutme"));
+const Projects = lazy(() => import("./pages/Projects"));
 
 let theme = createTheme({
   palette: {
@@ -40,6 +41,8 @@ let theme = createTheme({
 
 theme = responsiveFontSizes(theme);
 
+const renderLoader = () => <p>Loading...</p>;
+
 export default function App(props) {
   const classes = useStyles();
 
@@ -47,28 +50,30 @@ export default function App(props) {
     <ThemeProvider theme={theme}>
       <div className={classes.root}>
         <CssBaseline />
-        <Header />
+        <Suspense fallback={renderLoader()}>
+          <Header />
 
-        <ScrollToFade {...props}>
-          <LandingPage />
-        </ScrollToFade>
+          <ScrollToFade {...props}>
+            <LandingPage />
+          </ScrollToFade>
 
-        <Aboutme />
+          <Aboutme />
 
-        <Projects />
+          <Projects />
 
-        <ScrollToTop {...props}>
-          <Fab
-            data-block="backtotopbutton"
-            color="secondary"
-            size="large"
-            aria-label="scroll back to top"
-          >
-            <ArrowUpwardRoundedIcon fontSize="large" />
-          </Fab>
-        </ScrollToTop>
+          <ScrollToTop {...props}>
+            <Fab
+              data-block="backtotopbutton"
+              color="secondary"
+              size="large"
+              aria-label="scroll back to top"
+            >
+              <ArrowUpwardRoundedIcon fontSize="large" />
+            </Fab>
+          </ScrollToTop>
 
-        <Footer />
+          <Footer />
+        </Suspense>
       </div>
     </ThemeProvider>
   );
