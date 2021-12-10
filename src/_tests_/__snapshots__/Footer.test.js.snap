@@ -106,7 +106,7 @@ exports[`Footer of the site: should render footer 1`] = `
     <h6
       class="MuiTypography-root MuiTypography-subtitle2"
     >
-      V2.5 Date: 24 / November / 2021
+      V2.6 Date: 07 / December / 2021
     </h6>
   </div>
 </div>
