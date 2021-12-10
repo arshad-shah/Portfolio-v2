@@ -1,7 +1,3 @@
-Feature('Header');
+Feature("Header");
 
-Scenario('test something', ({ I }) => {
-
-    I.
-
-});
+Scenario("test something", ({ I }) => {});
