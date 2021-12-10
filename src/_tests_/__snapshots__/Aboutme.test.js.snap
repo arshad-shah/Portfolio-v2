@@ -34,7 +34,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
         <p
           class="MuiTypography-root MuiTypography-body1"
         >
-          I have real world experience with front end technologies, such as React for web developement, Ionic and capacitor for javascript to native application development. I like designing and creating stuff for all domains from mobile to desktop. My goal is to make Cross Platform efficient, Clean application that give an easy and Perfect experience.
+          I have real world experience with Front End technologies, such as React for web developement,Ionic and capacitor for javascript to native application development.I like designing and creating stuff for all domains from mobile to desktop.My goal is to make Cross Platform efficient, Clean application that give an easy and Perfect experience.
         </p>
         <h5
           class="MuiTypography-root Aboutme-subheading-8 MuiTypography-h5"
