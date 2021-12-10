@@ -86,7 +86,7 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
         class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-5 MuiIconButton-colorPrimary"
         data-block="linktoMail"
         data-testid="mailForHero"
-        href="mailto:info@arshadshah.com"
+        href="mailto:arshad@arshadshah.com"
         role="button"
         tabindex="0"
       >

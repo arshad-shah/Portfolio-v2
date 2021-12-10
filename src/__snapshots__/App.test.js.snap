@@ -166,7 +166,7 @@ exports[`the full app: should render the full app 1`] = `
             class="MuiButtonBase-root MuiIconButton-root makeStyles-socialLinks-11 MuiIconButton-colorPrimary"
             data-block="linktoMail"
             data-testid="mailForHero"
-            href="mailto:info@arshadshah.com"
+            href="mailto:arshad@arshadshah.com"
             role="button"
             tabindex="0"
           >
