@@ -9,7 +9,6 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "chromedriver": "^93.0.1",
     "gh-pages": "^3.2.3",
     "hamburger-react": "^2.4.1",
     "react": "^17.0.2",
@@ -41,14 +40,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "selenium:Server": "npx selenium-standalone start",
-    "e2e": "concurrently --kill-others \"npx selenium-standalone start\" \"codeceptjs run --steps\"",
-    "codeceptjs": "codeceptjs run --steps",
-    "codeceptjs:headless": "HEADLESS=true codeceptjs run --steps",
-    "codeceptjs:ui": "codecept-ui --app",
-    "codeceptjs:demo": "codeceptjs run --steps -c node_modules/@codeceptjs/examples",
-    "codeceptjs:demo:headless": "HEADLESS=true codeceptjs run --steps -c node_modules/@codeceptjs/examples",
-    "codeceptjs:demo:ui": "codecept-ui --app  -c node_modules/@codeceptjs/examples"
+    "e2e": "concurrently --kill-others \"chromedriver\" \"cd ./e2e && npm run codeceptjs\""
   },
   "eslintConfig": {
     "extends": [
@@ -69,13 +61,6 @@
     ]
   },
   "devDependencies": {
-    "@codeceptjs/configure": "^0.7.0",
-    "@codeceptjs/examples": "^1.2.1",
-    "@codeceptjs/ui": "^0.4.6",
-    "codeceptjs": "^3.1.2",
-    "concurrently": "^6.2.2",
-    "playwright": "^1.15.0",
-    "selenium-standalone": "^7.1.0",
-    "webdriverio": "^5.23.0"
+    "concurrently": "^6.2.2"
   }
 }

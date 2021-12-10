@@ -23,13 +23,9 @@ let theme = createTheme({
     type: "light",
     primary: {
       main: "#fdff95",
-      light: "#ffffc7",
-      dark: "#c8cc65",
     },
     secondary: {
       main: "#ffbf0d",
-      light: "#fff152",
-      dark: "#c78f00",
     },
     action: {
       hoverOpacity: 0.09,

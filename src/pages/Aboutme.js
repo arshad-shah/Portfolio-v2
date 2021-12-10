@@ -1,4 +1,4 @@
-import { Typography, Toolbar } from "@material-ui/core";
+import { Typography, Toolbar, Box } from "@material-ui/core";
 import React from "react";
 import useStyles from "./styles/aboutMe.styles";
 import Picture from "../assets/Picture.webp";
@@ -7,13 +7,13 @@ import { aboutMeData } from "../data/aboutMeData";
 export default function Aboutme() {
   const classes = useStyles();
   return (
-    <div className={classes.root}>
+    <Box className={classes.root}>
       <Toolbar className={classes.aboutMeLink} id="aboutme" />
       <Typography align="center" gutterBottom variant="h2">
         About Me
       </Typography>
-      <div className={classes.row}>
-        <div className={classes.aboutMePicture}>
+      <Box className={classes.row}>
+        <Box className={classes.aboutMePicture}>
           <img
             src={Picture}
             aria-label="Picture of Arshad shah."
@@ -21,8 +21,8 @@ export default function Aboutme() {
             width={150}
             height={150}
           />
-        </div>
-        <div className={classes.aboutMeDesc}>
+        </Box>
+        <Box className={classes.aboutMeDesc}>
           <Typography variant="body1">
             {aboutMeData.aboutMeDescription}
           </Typography>
@@ -49,8 +49,8 @@ export default function Aboutme() {
             </Typography>
             <Typography variant="subtitle2">{aboutMeData.jobDate}</Typography>
           </Typography>
-        </div>
-      </div>
-    </div>
+        </Box>
+      </Box>
+    </Box>
   );
 }
