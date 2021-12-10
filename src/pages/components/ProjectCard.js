@@ -28,14 +28,18 @@ export default function ProjectCard({
       </CardContent>
       <CardActions>
         {/* Link to github */}
-        <IconButton role="button" color="default" aria-label={linkAriaLabel}>
-          <a className={classes.githubLinksAnchor} href={repoLink}>
-            {heading === "Android App Project | Nimaz" ? (
-              <ShopRoundedIcon />
-            ) : (
-              <GitHubIcon />
-            )}
-          </a>
+        <IconButton
+          data-block="project link"
+          role="button"
+          color="secondary"
+          aria-label={linkAriaLabel}
+          href={repoLink}
+        >
+          {heading === "Android App Project | Nimaz" ? (
+            <ShopRoundedIcon />
+          ) : (
+            <GitHubIcon />
+          )}
         </IconButton>
       </CardActions>
     </Card>

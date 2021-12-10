@@ -20,13 +20,10 @@ export default function Footer() {
           className={classes.socialLinks}
           color="default"
           aria-label="link to Github account of Arshad shah"
+          data-block="link to Github"
+          href="https://github.com/arshad-shah"
         >
-          <a
-            className={classes.socialLinksFooter}
-            href="https://github.com/arshad-shah"
-          >
-            <GitHubIcon />
-          </a>
+          <GitHubIcon />
         </IconButton>
 
         <IconButton
@@ -34,13 +31,10 @@ export default function Footer() {
           className={classes.socialLinks}
           color="default"
           aria-label="link to Linkedin account of Arshad shah"
+          data-block="link to Linkedin"
+          href="https://www.linkedin.com/in/arshadshah"
         >
-          <a
-            className={classes.socialLinksFooter}
-            href="https://www.linkedin.com/in/arshadshah"
-          >
-            <LinkedInIcon />
-          </a>
+          <LinkedInIcon />
         </IconButton>
 
         <IconButton
@@ -48,13 +42,10 @@ export default function Footer() {
           color="default"
           role="button"
           aria-label="link to mail account of Arshad shah"
+          data-block="link to Mail"
+          href="mailto:shaharshad1999@outlook.com"
         >
-          <a
-            className={classes.socialLinksFooter}
-            href="mailto:shaharshad1999@outlook.com"
-          >
-            <MailIcon />
-          </a>
+          <MailIcon />
         </IconButton>
       </Box>
       <Typography variant="subtitle2">

@@ -19,4 +19,15 @@ export default makeStyles((theme) => ({
   typography: {
     padding: "0.7rem",
   },
+  socialLinks: {
+    padding: "1rem",
+  },
+  Links: {
+    "&:visited": {
+      color: "#ffffff",
+    },
+    "&:link": {
+      color: "#ffffff",
+    },
+  },
 }));

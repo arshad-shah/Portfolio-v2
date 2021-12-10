@@ -65,7 +65,12 @@ export default function App(props) {
         <Projects />
 
         <ScrollToTop {...props}>
-          <Fab color="secondary" size="medium" aria-label="scroll back to top">
+          <Fab
+            data-block="back-to-top-button"
+            color="secondary"
+            size="medium"
+            aria-label="scroll back to top"
+          >
             <ArrowUpwardRoundedIcon />
           </Fab>
         </ScrollToTop>
