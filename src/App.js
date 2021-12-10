@@ -51,7 +51,7 @@ export default function App(props) {
 					{isMobile ? <Mobile /> : null}
 
 					<ScrollToFade {...props}>
-						<LandingPage />
+						<LandingPage isMobile={isMobile} />
 					</ScrollToFade>
 
 					<Aboutme />
