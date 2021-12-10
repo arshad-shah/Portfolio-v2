@@ -13,8 +13,8 @@ import useStyles from "./App.styles";
 import Loading from "./components/Loading";
 
 import Header from "./components/Header";
-import LandingPage from "./pages/LandingPage";
 
+const LandingPage = lazy(() => import("./pages/LandingPage"));
 const Footer = lazy(() => import("./components/Footer"));
 const Aboutme = lazy(() => import("./pages/Aboutme"));
 const Projects = lazy(() => import("./pages/Projects"));
@@ -48,12 +48,13 @@ export default function App(props) {
   return (
     <ThemeProvider theme={theme}>
       <div className={classes.root}>
-        <CssBaseline />
-        <Header isMobile={isMobile} />
-        <ScrollToFade {...props}>
-          <LandingPage />
-        </ScrollToFade>
         <Suspense fallback={renderLoader()}>
+          <CssBaseline />
+          <Header isMobile={isMobile} />
+          <ScrollToFade {...props}>
+            <LandingPage />
+          </ScrollToFade>
+
           <Aboutme />
 
           <Projects data-testid="projectsSection" />

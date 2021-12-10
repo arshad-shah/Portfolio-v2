@@ -33,6 +33,7 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
         href="https://github.com/arshad-shah"
         role="button"
         tabindex="0"
+        title="Github Profile"
       >
         <span
           class="MuiIconButton-label"
@@ -61,6 +62,7 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
         href="https://www.linkedin.com/in/arshadshah"
         role="button"
         tabindex="0"
+        title="LinkedIn Profile"
       >
         <span
           class="MuiIconButton-label"
@@ -89,6 +91,7 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
         href="mailto:arshad@arshadshah.com"
         role="button"
         tabindex="0"
+        title="Email Me"
       >
         <span
           class="MuiIconButton-label"
@@ -109,7 +112,10 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
         />
       </a>
     </div>
-    <a>
+    <a
+      class=""
+      title="Scroll Down"
+    >
       <button
         aria-label="scroll down button"
         class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-outlinedSizeLarge MuiButton-sizeLarge"

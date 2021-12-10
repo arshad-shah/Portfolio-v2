@@ -1,6 +1,12 @@
 import React from "react";
 import useStyles from "./styles/LandingPage.styles";
-import { Box, Typography, Button, IconButton } from "@material-ui/core";
+import {
+  Box,
+  Typography,
+  Button,
+  IconButton,
+  Tooltip,
+} from "@material-ui/core";
 import { Link } from "react-scroll";
 
 import ArrowDownwardRoundedIcon from "@material-ui/icons/ArrowDownwardRounded";
@@ -26,54 +32,62 @@ export default function LandingPage() {
       </Typography>
 
       <Box className={classes.Links}>
-        <IconButton
-          data-testid="githubForHero"
-          role="button"
-          className={classes.socialLinks}
-          color="primary"
-          aria-label="link to Github account of Arshad shah"
-          data-block="linktoGithub"
-          href="https://github.com/arshad-shah"
-        >
-          <GitHubIcon fontSize="large" />
-        </IconButton>
+        <Tooltip title="Github Profile" arrow>
+          <IconButton
+            data-testid="githubForHero"
+            role="button"
+            className={classes.socialLinks}
+            color="primary"
+            aria-label="link to Github account of Arshad shah"
+            data-block="linktoGithub"
+            href="https://github.com/arshad-shah"
+          >
+            <GitHubIcon fontSize="large" />
+          </IconButton>
+        </Tooltip>
 
-        <IconButton
-          data-testid="linkedInForHero"
-          role="button"
-          className={classes.socialLinks}
-          color="primary"
-          aria-label="link to Linkedin account of Arshad shah"
-          data-block="linktoLinkedin"
-          href="https://www.linkedin.com/in/arshadshah"
-        >
-          <LinkedInIcon fontSize="large" />
-        </IconButton>
+        <Tooltip title="LinkedIn Profile" arrow>
+          <IconButton
+            data-testid="linkedInForHero"
+            role="button"
+            className={classes.socialLinks}
+            color="primary"
+            aria-label="link to Linkedin account of Arshad shah"
+            data-block="linktoLinkedin"
+            href="https://www.linkedin.com/in/arshadshah"
+          >
+            <LinkedInIcon fontSize="large" />
+          </IconButton>
+        </Tooltip>
 
-        <IconButton
-          data-testid="mailForHero"
-          className={classes.socialLinks}
-          color="primary"
-          role="button"
-          aria-label="link to mail account of Arshad shah"
-          data-block="linktoMail"
-          href="mailto:arshad@arshadshah.com"
-        >
-          <MailIcon fontSize="large" />
-        </IconButton>
+        <Tooltip title="Email Me" arrow>
+          <IconButton
+            data-testid="mailForHero"
+            className={classes.socialLinks}
+            color="primary"
+            role="button"
+            aria-label="link to mail account of Arshad shah"
+            data-block="linktoMail"
+            href="mailto:arshad@arshadshah.com"
+          >
+            <MailIcon fontSize="large" />
+          </IconButton>
+        </Tooltip>
       </Box>
-      <Link to="aboutme" spy={true} smooth={true}>
-        <Button
-          data-testid="scrollDown"
-          aria-label="scroll down button"
-          size="large"
-          color="secondary"
-          variant="outlined"
-          data-block="scrolldown"
-        >
-          <ArrowDownwardRoundedIcon fontSize="large" />
-        </Button>
-      </Link>
+      <Tooltip title="Scroll Down" arrow>
+        <Link to="aboutme" spy={true} smooth={true}>
+          <Button
+            data-testid="scrollDown"
+            aria-label="scroll down button"
+            size="large"
+            color="secondary"
+            variant="outlined"
+            data-block="scrolldown"
+          >
+            <ArrowDownwardRoundedIcon fontSize="large" />
+          </Button>
+        </Link>
+      </Tooltip>
     </Box>
   );
 }

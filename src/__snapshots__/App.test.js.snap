@@ -113,6 +113,7 @@ exports[`the full app: should render the full app 1`] = `
             href="https://github.com/arshad-shah"
             role="button"
             tabindex="0"
+            title="Github Profile"
           >
             <span
               class="MuiIconButton-label"
@@ -141,6 +142,7 @@ exports[`the full app: should render the full app 1`] = `
             href="https://www.linkedin.com/in/arshadshah"
             role="button"
             tabindex="0"
+            title="LinkedIn Profile"
           >
             <span
               class="MuiIconButton-label"
@@ -169,6 +171,7 @@ exports[`the full app: should render the full app 1`] = `
             href="mailto:arshad@arshadshah.com"
             role="button"
             tabindex="0"
+            title="Email Me"
           >
             <span
               class="MuiIconButton-label"
@@ -189,7 +192,10 @@ exports[`the full app: should render the full app 1`] = `
             />
           </a>
         </div>
-        <a>
+        <a
+          class=""
+          title="Scroll Down"
+        >
           <button
             aria-label="scroll down button"
             class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-outlinedSizeLarge MuiButton-sizeLarge"

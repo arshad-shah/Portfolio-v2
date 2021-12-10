@@ -1,4 +1,4 @@
-import { Box, IconButton, Typography } from "@material-ui/core";
+import { Box, IconButton, Tooltip, Typography } from "@material-ui/core";
 import React from "react";
 import useStyles from "./Footer.styles";
 
@@ -15,41 +15,47 @@ export default function Footer() {
         &copy; {new Date().getFullYear()} Arshad Shah
       </Typography>
       <Box>
-        <IconButton
-          role="button"
-          className={classes.socialLinks}
-          color="default"
-          aria-label="link to Github account of Arshad shah"
-          data-block="linktoGithub"
-          href="https://github.com/arshad-shah"
-        >
-          <GitHubIcon fontSize="large" />
-        </IconButton>
+        <Tooltip title="Github Profile" arrow>
+          <IconButton
+            role="button"
+            className={classes.socialLinks}
+            color="default"
+            aria-label="link to Github account of Arshad shah"
+            data-block="linktoGithub"
+            href="https://github.com/arshad-shah"
+          >
+            <GitHubIcon fontSize="large" />
+          </IconButton>
+        </Tooltip>
 
-        <IconButton
-          role="button"
-          className={classes.socialLinks}
-          color="default"
-          aria-label="link to Linkedin account of Arshad shah"
-          data-block="linktoLinkedin"
-          href="https://www.linkedin.com/in/arshadshah"
-        >
-          <LinkedInIcon fontSize="large" />
-        </IconButton>
+        <Tooltip title="LinkedIn Profile" arrow>
+          <IconButton
+            role="button"
+            className={classes.socialLinks}
+            color="default"
+            aria-label="link to Linkedin account of Arshad shah"
+            data-block="linktoLinkedin"
+            href="https://www.linkedin.com/in/arshadshah"
+          >
+            <LinkedInIcon fontSize="large" />
+          </IconButton>
+        </Tooltip>
 
-        <IconButton
-          className={classes.socialLinks}
-          color="default"
-          role="button"
-          aria-label="link to mail account of Arshad shah"
-          data-block="linktoMail"
-          href="mailto:arshad@arshadshah.com"
-        >
-          <MailIcon fontSize="large" />
-        </IconButton>
+        <Tooltip title="Email Me" arrow>
+          <IconButton
+            className={classes.socialLinks}
+            color="default"
+            role="button"
+            aria-label="link to mail account of Arshad shah"
+            data-block="linktoMail"
+            href="mailto:arshad@arshadshah.com"
+          >
+            <MailIcon fontSize="large" />
+          </IconButton>
+        </Tooltip>
       </Box>
       <Typography variant="subtitle2">
-        V2.4 Date: 14 / November / 2021
+        V2.5 Date: 24 / November / 2021
       </Typography>
     </Box>
   );

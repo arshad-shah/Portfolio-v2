@@ -34,7 +34,7 @@ Scenario(
   ({ I }) => {
     I.scrollPageToTop();
     I.seeElementInDOM("$resumeOption");
-    I.click("$resume");
-    I.amOnPage("/static/media/ArshadResume.c8c815b8.pdf");
+    I.click("$resumeOption");
+    I.amOnPage("/static/media/ArshadResume.19d404c6.pdf");
   }
 );

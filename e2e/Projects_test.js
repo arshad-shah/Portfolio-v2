@@ -4,8 +4,8 @@ Scenario(
   "As a user I see the projects section when i click on the menu option in the header",
   ({ I }) => {
     I.scrollPageToTop();
-    I.seeElementInDOM("$projects");
-    I.click("$projects");
+    I.seeElementInDOM("$projectsOption");
+    I.click("$projectsOption");
     I.see("Projects");
   }
 );
@@ -15,15 +15,15 @@ Scenario(
   ({ I }) => {
     I.scrollPageToTop();
     I.waitForElement("$header", 3);
-    I.seeElementInDOM("$projects");
-    I.click("$projects");
+    I.seeElementInDOM("$projectsOption");
+    I.click("$projectsOption");
     I.seeElementInDOM("$projectsSection");
   }
 );
 
 Scenario("As a user I can see the project headings", ({ I }) => {
   I.see("Projects");
-  I.seeNumberOfElements("$projectHeading", 6);
+  I.seeNumberOfElements("$projectHeading", 7);
 });
 
 Scenario(
