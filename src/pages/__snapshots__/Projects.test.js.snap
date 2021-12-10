@@ -70,7 +70,7 @@ exports[`Projects of the site: should render Projects with all the information i
               >
                 <svg
                   aria-hidden="true"
-                  class="MuiSvgIcon-root"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
                   focusable="false"
                   viewBox="0 0 24 24"
                 >
@@ -139,7 +139,7 @@ exports[`Projects of the site: should render Projects with all the information i
               >
                 <svg
                   aria-hidden="true"
-                  class="MuiSvgIcon-root"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
                   focusable="false"
                   viewBox="0 0 24 24"
                 >
@@ -208,7 +208,7 @@ exports[`Projects of the site: should render Projects with all the information i
               >
                 <svg
                   aria-hidden="true"
-                  class="MuiSvgIcon-root"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
                   focusable="false"
                   viewBox="0 0 24 24"
                 >
@@ -277,7 +277,7 @@ exports[`Projects of the site: should render Projects with all the information i
               >
                 <svg
                   aria-hidden="true"
-                  class="MuiSvgIcon-root"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
                   focusable="false"
                   viewBox="0 0 24 24"
                 >
@@ -346,7 +346,7 @@ exports[`Projects of the site: should render Projects with all the information i
               >
                 <svg
                   aria-hidden="true"
-                  class="MuiSvgIcon-root"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
                   focusable="false"
                   viewBox="0 0 24 24"
                 >
@@ -415,7 +415,7 @@ exports[`Projects of the site: should render Projects with all the information i
               >
                 <svg
                   aria-hidden="true"
-                  class="MuiSvgIcon-root"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
                   focusable="false"
                   viewBox="0 0 24 24"
                 >
@@ -484,7 +484,7 @@ exports[`Projects of the site: should render Projects with all the information i
               >
                 <svg
                   aria-hidden="true"
-                  class="MuiSvgIcon-root"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
                   focusable="false"
                   viewBox="0 0 24 24"
                 >

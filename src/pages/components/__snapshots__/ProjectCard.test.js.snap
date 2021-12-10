@@ -40,7 +40,7 @@ exports[`ProjectCard of the site: should render ProjectCard with all the informa
         >
           <svg
             aria-hidden="true"
-            class="MuiSvgIcon-root"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
             focusable="false"
             viewBox="0 0 24 24"
           >

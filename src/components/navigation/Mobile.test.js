@@ -5,7 +5,7 @@ import Mobile from "./Mobile";
 describe("Mobile of the site:", () => {
   it("should render Mobile menu with the opening hamburger button", () => {
     render(<Mobile />);
-    const menuIcon = screen.getByRole("button");
+    const menuIcon = screen.getByLabelText("menu");
     expect(menuIcon).toBeInTheDocument();
   });
 

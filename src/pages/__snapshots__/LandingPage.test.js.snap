@@ -21,7 +21,7 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
       A Second Year Computer Science Student, With a love for everything programming.
     </h4>
     <div
-      class="MuiBox-root MuiBox-root-6"
+      class="MuiBox-root MuiBox-root-6 makeStyles-Links-4"
     >
       <a
         aria-disabled="false"
@@ -37,7 +37,7 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
         >
           <svg
             aria-hidden="true"
-            class="MuiSvgIcon-root"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
             focusable="false"
             viewBox="0 0 24 24"
           >
@@ -64,7 +64,7 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
         >
           <svg
             aria-hidden="true"
-            class="MuiSvgIcon-root"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
             focusable="false"
             viewBox="0 0 24 24"
           >
@@ -91,7 +91,7 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
         >
           <svg
             aria-hidden="true"
-            class="MuiSvgIcon-root"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
             focusable="false"
             viewBox="0 0 24 24"
           >
@@ -118,7 +118,7 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
         >
           <svg
             aria-hidden="true"
-            class="MuiSvgIcon-root"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
             focusable="false"
             viewBox="0 0 24 24"
           >

@@ -14,13 +14,6 @@ import LandingPage from "./pages/LandingPage";
 import Aboutme from "./pages/Aboutme";
 import Projects from "./pages/Projects";
 import useStyles from "./App.styles";
-import WebFont from "webfontloader";
-
-WebFont.load({
-  google: {
-    families: ["Nunito", "sans-serif"],
-  },
-});
 
 let theme = createTheme({
   palette: {
@@ -68,10 +61,10 @@ export default function App(props) {
           <Fab
             data-block="backtotopbutton"
             color="secondary"
-            size="medium"
+            size="large"
             aria-label="scroll back to top"
           >
-            <ArrowUpwardRoundedIcon />
+            <ArrowUpwardRoundedIcon fontSize="large" />
           </Fab>
         </ScrollToTop>
 
