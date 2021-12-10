@@ -46,7 +46,7 @@ export default function ProjectCard({
 
         {siteLink ? (
           <IconButton
-            data-block="projectlink"
+            data-block="projectLinkToSite"
             role="button"
             color="secondary"
             aria-label={linkAriaLabel}
