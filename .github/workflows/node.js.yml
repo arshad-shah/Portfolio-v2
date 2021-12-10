@@ -5,7 +5,7 @@ name: Deploy app to hostinger
 
 on:
   push:
-    branches: [master]
+    branches: [build]
 
 jobs:
   build:
