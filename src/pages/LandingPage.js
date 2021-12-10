@@ -61,11 +61,11 @@ export default function LandingPage() {
         </IconButton>
       </Box>
       <Button
-        aria-label="scrolldownbutton"
+        aria-label="scroll down button"
         size="small"
         color="secondary"
         variant="outlined"
-        data-block="scroll down"
+        data-block="scrolldown"
       >
         <Link to="aboutme" spy={true} smooth={true}>
           <ArrowDownwardRoundedIcon />

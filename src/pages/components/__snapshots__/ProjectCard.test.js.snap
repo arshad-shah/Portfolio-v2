@@ -30,7 +30,7 @@ exports[`ProjectCard of the site: should render ProjectCard with all the informa
     >
       <button
         class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary"
-        data-block="project link"
+        data-block="projectlink"
         role="button"
         tabindex="0"
         type="button"
