@@ -6,8 +6,8 @@ exports[`Desktop of the site: should render Desktop 1`] = `
     aria-label="desktopMenu"
   >
     <a
-      aria-label="menuItem"
-      class="makeStyles-menuItem-5"
+      aria-label="About Me"
+      class="makeStyles-menuItem-4"
       color="default"
       data-block="Aboutmemenuitemdesktop"
     >
@@ -18,8 +18,8 @@ exports[`Desktop of the site: should render Desktop 1`] = `
       </span>
     </a>
     <a
-      aria-label="menuItem"
-      class="makeStyles-menuItem-5"
+      aria-label="Projects"
+      class="makeStyles-menuItem-4"
       color="default"
       data-block="Projectsmenuitemdesktop"
     >
@@ -30,8 +30,8 @@ exports[`Desktop of the site: should render Desktop 1`] = `
       </span>
     </a>
     <a
-      aria-label="menuItem"
-      class="makeStyles-menuItem-5"
+      aria-label="Resume"
+      class="makeStyles-menuItem-4"
       color="default"
       data-block="Resumemenuitemdesktop"
       href="ArshadResume.pdf"

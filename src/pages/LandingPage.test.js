@@ -14,9 +14,28 @@ describe("LandingPage of the site:", () => {
     expect(nameOfArshad).toBeInTheDocument();
   });
 
+  it("should render the social links", () => {
+    render(<LandingPage />);
+    const githubIcon = screen.getByRole("button", {
+      name: /link to Github account of Arshad shah/i,
+    });
+    const linkedInIcon = screen.getByRole("button", {
+      name: /link to Linkedin account of Arshad shah/i,
+    });
+    const mailIcon = screen.getByRole("button", {
+      name: /link to mail account of Arshad shah/i,
+    });
+
+    expect(githubIcon).toBeInTheDocument();
+    expect(linkedInIcon).toBeInTheDocument();
+    expect(mailIcon).toBeInTheDocument();
+  });
+
   it("should render the scroll down button", () => {
     render(<LandingPage />);
-    const scrollDownButton = screen.getByLabelText("scroll down button");
+    const scrollDownButton = screen.getByRole("button", {
+      name: /scroll down button/i,
+    });
     expect(scrollDownButton).toBeInTheDocument();
   });
 });

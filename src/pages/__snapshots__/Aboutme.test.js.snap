@@ -23,7 +23,9 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
         <img
           aria-label="Picture of Arshad shah."
           class="Aboutme-picture-7"
+          height="150"
           src="Picture.webp"
+          width="150"
         />
       </div>
       <div
@@ -78,7 +80,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
           <p
             class="MuiTypography-root MuiTypography-body2"
           >
-            During this internship i worked on one of the UI team reponsible for the HMH flagship product HMH ED.
+            During this internship i worked on one of the UI team responsible for the HMH flagship product HMH ED.
             <br />
             Here i learned the React framework using the Single SPA pattern, unit testing, integration testing, and End to End testing.
             <br />

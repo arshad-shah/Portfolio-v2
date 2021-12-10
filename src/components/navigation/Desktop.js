@@ -37,7 +37,7 @@ export default function Desktop() {
         smooth={true}
         data-block="Aboutmemenuitemdesktop"
         color="default"
-        aria-label="menuItem"
+        aria-label="About Me"
         className={classes.menuItem}
       >
         <Typography variant="button">About Me</Typography>
@@ -48,14 +48,14 @@ export default function Desktop() {
         smooth={true}
         data-block="Projectsmenuitemdesktop"
         color="default"
-        aria-label="menuItem"
+        aria-label="Projects"
         className={classes.menuItem}
       >
         <Typography variant="button">Projects</Typography>
       </Link>
 
       <a
-        aria-label="menuItem"
+        aria-label="Resume"
         data-block="Resumemenuitemdesktop"
         href={Resume}
         color="default"

@@ -80,12 +80,12 @@ export default function Mobile({ click, closeMobileMenu, handleMenu }) {
   };
 
   return (
-    <>
+    <div aria-label="mobileMenu">
       <IconButton
         role="button"
         color="default"
         className={classes.menuButton}
-        aria-label="menu"
+        aria-label="menu toggle"
         onClick={handleMenu}
         data-block="hamburgermenubuttonmobile"
       >
@@ -113,6 +113,7 @@ export default function Mobile({ click, closeMobileMenu, handleMenu }) {
           spy={true}
           smooth={true}
           onClick={() => closeMobileMenu()}
+          aria-label="About Me"
         >
           <Typography variant="button">About Me</Typography>
         </Link>
@@ -123,6 +124,7 @@ export default function Mobile({ click, closeMobileMenu, handleMenu }) {
           spy={true}
           smooth={true}
           onClick={() => closeMobileMenu()}
+          aria-label="Projects"
         >
           <Typography variant="button">Projects</Typography>
         </Link>
@@ -132,10 +134,11 @@ export default function Mobile({ click, closeMobileMenu, handleMenu }) {
           variant="outlined"
           href={Resume}
           data-block="Resumemenuitemmobile"
+          aria-label="Resume"
         >
           <Typography variant="button">Resume</Typography>
         </a>
       </Menu>
-    </>
+    </div>
   );
 }

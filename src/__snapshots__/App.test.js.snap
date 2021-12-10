@@ -33,7 +33,7 @@ exports[`the full app: should render the full app 1`] = `
             aria-label="desktopMenu"
           >
             <a
-              aria-label="menuItem"
+              aria-label="About Me"
               class="makeStyles-menuItem-5"
               color="default"
               data-block="Aboutmemenuitemdesktop"
@@ -45,7 +45,7 @@ exports[`the full app: should render the full app 1`] = `
               </span>
             </a>
             <a
-              aria-label="menuItem"
+              aria-label="Projects"
               class="makeStyles-menuItem-5"
               color="default"
               data-block="Projectsmenuitemdesktop"
@@ -57,7 +57,7 @@ exports[`the full app: should render the full app 1`] = `
               </span>
             </a>
             <a
-              aria-label="menuItem"
+              aria-label="Resume"
               class="makeStyles-menuItem-5"
               color="default"
               data-block="Resumemenuitemdesktop"

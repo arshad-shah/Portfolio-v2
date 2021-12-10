@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { AppBar, Toolbar, Typography, useMediaQuery } from "@material-ui/core";
-
-import { useTheme } from "@material-ui/core/styles";
+import { AppBar, Toolbar, Typography } from "@material-ui/core";
 import HideOnScroll from "./Header.util";
 
 import Desktop from "./navigation/Desktop";
@@ -10,9 +8,8 @@ import useStyles from "./Header.styles";
 import logo from "../assets/logo.svg";
 
 const Header = (props) => {
-  const theme = useTheme();
   const classes = useStyles();
-  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+  const { isMobile } = props;
 
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
@@ -43,14 +40,13 @@ const Header = (props) => {
             {isMobile ? (
               <>
                 <Mobile
-                  aria-label="mobileMenu"
                   click={click}
                   closeMobileMenu={closeMobileMenu}
                   handleMenu={handleMenu}
                 />
               </>
             ) : (
-              <Desktop aria-label="desktopMenu" />
+              <Desktop />
             )}
           </Toolbar>
         </AppBar>
