@@ -20,8 +20,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-        with:
-          ref: 'build'
 
       - name: Set up Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
@@ -45,17 +43,17 @@ jobs:
       - name: publish to build
         uses: s0/git-publish-subdir-action@develop
         env:
-              REPO: self
-              BRANCH: build
-              FOLDER: ./build
-              GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-              MESSAGE: "Build status successfull"
-              
+          REPO: self
+          BRANCH: build
+          FOLDER: ./build
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          MESSAGE: "Build status successfull"
+
       - name: Checkout build branch
         uses: actions/checkout@v2
         with:
-          ref: 'build'
-          
+          ref: "build"
+
       - name: Sync files with hostinger
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
