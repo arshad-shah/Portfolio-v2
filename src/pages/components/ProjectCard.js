@@ -31,6 +31,7 @@ export default function ProjectCard({
       <CardActions>
         {/* Link to github */}
         <IconButton
+          data-testid="githublink"
           data-block="projectlink"
           role="button"
           color="secondary"
@@ -46,6 +47,7 @@ export default function ProjectCard({
 
         {siteLink ? (
           <IconButton
+            data-testid="externalSiteLink"
             data-block="projectLinkToSite"
             role="button"
             color="secondary"

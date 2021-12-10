@@ -56,7 +56,7 @@ export default function App(props) {
         <Suspense fallback={renderLoader()}>
           <Aboutme />
 
-          <Projects />
+          <Projects data-testid="projectsSection" />
 
           <ScrollToTop {...props}>
             <Fab

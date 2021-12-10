@@ -32,7 +32,7 @@ export default function Desktop() {
   return (
     <Box aria-label="desktopMenu" data-testid="desktopMenu">
       <Link
-        data-testid="aboutme"
+        data-testid="aboutmeOption"
         to="aboutme"
         spy={true}
         smooth={true}
@@ -44,7 +44,7 @@ export default function Desktop() {
         <Typography variant="button">About Me</Typography>
       </Link>
       <Link
-        data-testid="projects"
+        data-testid="projectsOption"
         to="projects"
         spy={true}
         smooth={true}
@@ -56,7 +56,7 @@ export default function Desktop() {
         <Typography variant="button">Projects</Typography>
       </Link>
       <a
-        data-testid="resume"
+        data-testid="resumeOption"
         aria-label="Resume"
         data-block="Resumemenuitemdesktop"
         href={Resume}

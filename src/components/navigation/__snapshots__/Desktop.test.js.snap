@@ -12,7 +12,7 @@ exports[`Desktop of the site: should render Desktop 1`] = `
       class="makeStyles-menuItem-7"
       color="default"
       data-block="Aboutmemenuitemdesktop"
-      data-testid="aboutme"
+      data-testid="aboutmeOption"
     >
       <span
         class="MuiTypography-root MuiTypography-button"
@@ -25,7 +25,7 @@ exports[`Desktop of the site: should render Desktop 1`] = `
       class="makeStyles-menuItem-7"
       color="default"
       data-block="Projectsmenuitemdesktop"
-      data-testid="projects"
+      data-testid="projectsOption"
     >
       <span
         class="MuiTypography-root MuiTypography-button"
@@ -38,7 +38,7 @@ exports[`Desktop of the site: should render Desktop 1`] = `
       class="makeStyles-menuItem-7"
       color="default"
       data-block="Resumemenuitemdesktop"
-      data-testid="resume"
+      data-testid="resumeOption"
       href="ArshadResume.pdf"
     >
       <span
