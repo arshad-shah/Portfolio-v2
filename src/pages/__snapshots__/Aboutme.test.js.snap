@@ -34,6 +34,8 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
         <p
           class="MuiTypography-root MuiTypography-body1"
         >
+          I have real world experience with front end technologies, such as React for web developement, Ionic and capacitor for javascript to native application development.
+          <br />
           I like designing and creating stuff for all domains from mobile to desktop.
           <br />
           My goal is to make Cross Platform efficient, Clean application that give an easy and Perfect experience.
@@ -84,7 +86,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
             <br />
             Here i learned the React framework using the Single SPA pattern, unit testing, integration testing, and End to End testing.
             <br />
-            i learned crucial skills, following an agile development methodology participating in sprints, completing tickets. And the most important aspect that i learned was the CI pipeline for building complex software traiging the build process across multiple teams.
+            i learned crucial skills, following an agile development methodology participating in sprints, completing tickets. The most important aspect that i learned was the CI pipeline for building complex software and traiging the build process across multiple teams.
           </p>
           <h6
             class="MuiTypography-root MuiTypography-subtitle2"
