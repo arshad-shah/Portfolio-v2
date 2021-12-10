@@ -2,6 +2,7 @@ import React from "react";
 import useStyles from "./styles/LandingPage.styles";
 import { Box, Typography, Button, IconButton } from "@material-ui/core";
 import { Link } from "react-scroll";
+import TypeWriter from "react-typewriter";
 
 import ArrowDownwardRoundedIcon from "@material-ui/icons/ArrowDownwardRounded";
 // icons
@@ -13,18 +14,18 @@ export default function LandingPage() {
   const classes = useStyles();
   return (
     <Box className={classes.hero}>
-      <Typography className={classes.typography} variant="h4">
-        Hi, My Name Is
-      </Typography>
-
-      <Typography className={classes.typography} variant="h2">
-        Arshad Shah!
-      </Typography>
-
-      <Typography className={classes.typography} variant="h4">
-        A Third Year Computer Science Student, With a love for everything
-        programming.
-      </Typography>
+      <TypeWriter typing={1} initDelay={2000}>
+        <Typography className={classes.typography} variant="h4">
+          Hi, My Name Is
+          <Typography className={classes.typography} variant="h1">
+            Arshad Shah!
+            <Typography className={classes.typography} variant="h4">
+              A Third Year Computer Science Student, With a love for everything
+              programming.
+            </Typography>
+          </Typography>
+        </Typography>
+      </TypeWriter>
 
       <Box className={classes.Links}>
         <IconButton

@@ -3,7 +3,7 @@ import { Box, Grid, Toolbar } from "@material-ui/core";
 import React from "react";
 import useStyles from "./styles/Projects.styles";
 import ProjectCard from "./components/ProjectCard";
-import { cardData } from "./projectData";
+import { cardData } from "../data/projectData";
 
 export default function Projects() {
   const classes = useStyles();

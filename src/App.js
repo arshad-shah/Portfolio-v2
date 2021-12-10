@@ -18,7 +18,6 @@ import LandingPage from "./pages/LandingPage";
 const Footer = lazy(() => import("./components/Footer"));
 const Aboutme = lazy(() => import("./pages/Aboutme"));
 const Projects = lazy(() => import("./pages/Projects"));
-
 let theme = createTheme({
   palette: {
     type: "light",

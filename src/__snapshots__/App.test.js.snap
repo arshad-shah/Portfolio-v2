@@ -79,21 +79,46 @@ exports[`the full app: should render the full app 1`] = `
       <div
         class="MuiBox-root MuiBox-root-10 makeStyles-hero-6"
       >
-        <h4
-          class="MuiTypography-root makeStyles-typography-7 MuiTypography-h4"
+        <span
+          initdelay="2000"
+          maxdelay="100"
+          mindelay="20"
+          typing="1"
         >
-          Hi, My Name Is
-        </h4>
-        <h2
-          class="MuiTypography-root makeStyles-typography-7 MuiTypography-h2"
-        >
-          Arshad Shah!
-        </h2>
-        <h4
-          class="MuiTypography-root makeStyles-typography-7 MuiTypography-h4"
-        >
-          A Third Year Computer Science Student, With a love for everything programming.
-        </h4>
+          <h4
+            class="MuiTypography-root makeStyles-typography-7 MuiTypography-h4"
+          >
+            
+            <span
+              style="display: none;"
+            >
+              Hi, My Name Is
+            </span>
+            
+            <h1
+              class="MuiTypography-root makeStyles-typography-7 MuiTypography-h1"
+            >
+              
+              <span
+                style="display: none;"
+              >
+                Arshad Shah!
+              </span>
+              
+              <h4
+                class="MuiTypography-root makeStyles-typography-7 MuiTypography-h4"
+              >
+                
+                <span
+                  style="display: none;"
+                >
+                  A Third Year Computer Science Student, With a love for everything programming.
+                </span>
+                
+              </h4>
+            </h1>
+          </h4>
+        </span>
         <div
           class="MuiBox-root MuiBox-root-11 makeStyles-Links-9"
         >
