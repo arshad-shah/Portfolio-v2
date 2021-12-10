@@ -49,7 +49,7 @@ export default function ProjectCard({
             data-block="projectLinkToSite"
             role="button"
             color="secondary"
-            aria-label={linkAriaLabel}
+            aria-labelledby={heading}
             href={siteLink}
           >
             <LaunchRoundedIcon fontSize="large" />
