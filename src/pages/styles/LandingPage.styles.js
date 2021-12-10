@@ -9,7 +9,7 @@ export default makeStyles((theme) => ({
     textAlign: "center",
     alignItems: "center",
     justifyContent: "center",
-    padding: "1rem",
+
     minHeight: "100vh",
     [theme.breakpoints.down("xs")]: {
       flexDirection: "column",

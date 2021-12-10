@@ -63,7 +63,7 @@ export default function LandingPage() {
       <Link to="aboutme" spy={true} smooth={true}>
         <Button
           aria-label="scroll down button"
-          size="small"
+          size="large"
           color="secondary"
           variant="outlined"
           data-block="scrolldown"

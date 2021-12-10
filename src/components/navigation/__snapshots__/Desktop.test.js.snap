@@ -4,60 +4,43 @@ exports[`Desktop of the site: should render Desktop 1`] = `
 <div>
   <div
     aria-label="desktopMenu"
-    style="margin-right: 2rem;"
   >
-    <button
-      aria-label="menuItem"
-      class="MuiButtonBase-root MuiButton-root MuiButton-text"
-      data-block="Aboutmemenuitemdesktop"
-      tabindex="0"
-      type="button"
-    >
-      <span
-        class="MuiButton-label"
-      >
-        <a>
-          About Me
-        </a>
-      </span>
-      <span
-        class="MuiTouchRipple-root"
-      />
-    </button>
-    <button
-      aria-label="menuItem"
-      class="MuiButtonBase-root MuiButton-root MuiButton-text"
-      data-block="Projectsmenuitemdesktop"
-      tabindex="0"
-      type="button"
-    >
-      <span
-        class="MuiButton-label"
-      >
-        <a>
-          Projects
-        </a>
-      </span>
-      <span
-        class="MuiTouchRipple-root"
-      />
-    </button>
     <a
-      aria-disabled="false"
       aria-label="menuItem"
-      class="MuiButtonBase-root MuiButton-root MuiButton-outlined"
+      class="makeStyles-menuItem-5"
+      color="default"
+      data-block="Aboutmemenuitemdesktop"
+    >
+      <span
+        class="MuiTypography-root MuiTypography-button"
+      >
+        About Me
+      </span>
+    </a>
+    <a
+      aria-label="menuItem"
+      class="makeStyles-menuItem-5"
+      color="default"
+      data-block="Projectsmenuitemdesktop"
+    >
+      <span
+        class="MuiTypography-root MuiTypography-button"
+      >
+        Projects
+      </span>
+    </a>
+    <a
+      aria-label="menuItem"
+      class="makeStyles-menuItem-5"
+      color="default"
       data-block="Resumemenuitemdesktop"
       href="ArshadResume.pdf"
-      tabindex="0"
     >
       <span
-        class="MuiButton-label"
+        class="MuiTypography-root MuiTypography-button"
       >
         Resume
       </span>
-      <span
-        class="MuiTouchRipple-root"
-      />
     </a>
   </div>
 </div>

@@ -5,7 +5,7 @@ import Footer from "./Footer";
 describe("Footer of the site:", () => {
   it("should render footer with the creater name in it", () => {
     render(<Footer />);
-    const creator = screen.getByText(/Designed and Created By: Arshad Shah/i);
+    const creator = screen.getByText(/Arshad Shah/i);
     expect(creator).toBeInTheDocument();
   });
 
