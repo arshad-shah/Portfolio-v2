@@ -7,7 +7,7 @@ export default function Desktop() {
   return (
     <div style={{ marginRight: "2rem" }}>
       <Button
-        data-block="About-me-menu-item-desktop"
+        data-block="Aboutmemenuitemdesktop"
         variant="text"
         color="default"
       >
@@ -16,7 +16,7 @@ export default function Desktop() {
         </Link>
       </Button>
       <Button
-        data-block="Projects-menu-item-desktop"
+        data-block="Projectsmenuitemdesktop"
         variant="text"
         color="default"
       >
@@ -26,7 +26,7 @@ export default function Desktop() {
       </Button>
 
       <Button
-        data-block="Resume-menu-item-desktop"
+        data-block="Resumemenuitemdesktop"
         href={Resume}
         variant="outlined"
         color="default"

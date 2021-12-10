@@ -14,12 +14,4 @@ export default makeStyles((theme) => ({
   socialLinks: {
     padding: "1rem",
   },
-  socialLinksFooter: {
-    "&:visited": {
-      color: "#000000",
-    },
-    "&:link": {
-      color: "#000000",
-    },
-  },
 }));

@@ -27,7 +27,7 @@ export default function Mobile(props) {
         className={classes.menuButton}
         aria-label="menu"
         onClick={handleMenu}
-        data-block="hamburger-menu-button-mobile"
+        data-block="hamburgermenubuttonmobile"
       >
         <MenuRoundedIcon />
       </IconButton>
@@ -47,7 +47,7 @@ export default function Mobile(props) {
         open={open}
       >
         <Link
-          data-block="About-me-menu-item-mobile"
+          data-block="Aboutmemenuitemmobile"
           to="aboutme"
           spy={true}
           smooth={true}
@@ -55,7 +55,7 @@ export default function Mobile(props) {
           <MenuItem onClick={() => closeMobileMenu()}>About Me</MenuItem>
         </Link>
         <Link
-          data-block="Projects-menu-item-mobile"
+          data-block="Projectsmenuitemmobile"
           to="projects"
           spy={true}
           smooth={true}
@@ -64,7 +64,7 @@ export default function Mobile(props) {
         </Link>
 
         <MenuItem
-          data-block="Resume-menu-item-mobile"
+          data-block="Resumemenuitemmobile"
           onClick={() => closeMobileMenu()}
         >
           <Button variant="text" href={Resume}>

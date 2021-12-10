@@ -29,7 +29,7 @@ export default function ProjectCard({
       <CardActions>
         {/* Link to github */}
         <IconButton
-          data-block="project link"
+          data-block="projectlink"
           role="button"
           color="secondary"
           aria-label={linkAriaLabel}
