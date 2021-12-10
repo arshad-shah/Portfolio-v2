@@ -17,12 +17,12 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Mobile(props) {
+export default function Mobile({ anchor, open, closeMobileMenu, handleMenu }) {
   const classes = useStyles();
-  const { anchor, open, closeMobileMenu, handleMenu } = props;
   return (
     <>
       <IconButton
+        role="button"
         color="default"
         className={classes.menuButton}
         aria-label="menu"
@@ -52,7 +52,9 @@ export default function Mobile(props) {
           spy={true}
           smooth={true}
         >
-          <MenuItem onClick={() => closeMobileMenu()}>About Me</MenuItem>
+          <MenuItem role="menu-item" onClick={() => closeMobileMenu()}>
+            About Me
+          </MenuItem>
         </Link>
         <Link
           data-block="Projectsmenuitemmobile"
@@ -60,10 +62,13 @@ export default function Mobile(props) {
           spy={true}
           smooth={true}
         >
-          <MenuItem onClick={() => closeMobileMenu()}>Projects</MenuItem>
+          <MenuItem role="menu-item" onClick={() => closeMobileMenu()}>
+            Projects
+          </MenuItem>
         </Link>
 
         <MenuItem
+          role="menu-item"
           data-block="Resumemenuitemmobile"
           onClick={() => closeMobileMenu()}
         >

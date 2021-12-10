@@ -35,7 +35,7 @@ const Header = (props) => {
       <HideOnScroll {...props}>
         <AppBar>
           <Toolbar>
-            <img src={logo} className={classes.logo} alt="" />
+            <img aria-label="Logo" src={logo} className={classes.logo} alt="" />
             <Typography
               variant="h5"
               component="p"
@@ -47,6 +47,7 @@ const Header = (props) => {
             {isMobile ? (
               <>
                 <Mobile
+                  aria-label="mobileMenu"
                   anchor={anchor}
                   click={click}
                   open={open}
@@ -55,7 +56,7 @@ const Header = (props) => {
                 />
               </>
             ) : (
-              <Desktop />
+              <Desktop aria-label="desktopMenu" />
             )}
           </Toolbar>
         </AppBar>
