@@ -8,10 +8,10 @@ describe("Projects of the site:", () => {
     expect(container).toMatchSnapshot();
   });
 
-  it("should have 7 project cards", () => {
+  it("should have 6 project cards", () => {
     render(<Projects />);
     const numberOfProjects = screen.getAllByLabelText("ProjectCard");
-    expect(numberOfProjects.length).toEqual(8);
+    expect(numberOfProjects.length).toEqual(6);
   });
 
   it("should render the heading 'Projects'", () => {
