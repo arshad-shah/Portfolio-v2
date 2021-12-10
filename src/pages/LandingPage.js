@@ -4,9 +4,7 @@ import { Link } from 'react-scroll';
 
 import ArrowDownwardRoundedIcon from '@material-ui/icons/ArrowDownwardRounded';
 // icons
-import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import MailIcon from '@material-ui/icons/Mail';
+import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
 import useStyles from '../styles/LandingPage.styles';
 
 import PropTypes from 'prop-types';
@@ -37,7 +35,7 @@ export default function LandingPage({ isMobile }) {
 						aria-label="link to Github account of Arshad shah"
 						data-block="linktoGithub"
 						href="https://github.com/arshad-shah">
-						<GitHubIcon fontSize="large" />
+						<FiGithub />
 					</IconButton>
 				</Tooltip>
 
@@ -50,7 +48,7 @@ export default function LandingPage({ isMobile }) {
 						aria-label="link to Linkedin account of Arshad shah"
 						data-block="linktoLinkedin"
 						href="https://www.linkedin.com/in/arshadshah">
-						<LinkedInIcon fontSize="large" />
+						<FiLinkedin />
 					</IconButton>
 				</Tooltip>
 
@@ -63,7 +61,7 @@ export default function LandingPage({ isMobile }) {
 						aria-label="link to mail account of Arshad shah"
 						data-block="linktoMail"
 						href="mailto:arshad@arshadshah.com">
-						<MailIcon fontSize="large" />
+						<FiMail />
 					</IconButton>
 				</Tooltip>
 			</Box>

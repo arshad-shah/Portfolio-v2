@@ -24,5 +24,6 @@ export default makeStyles((theme) => ({
 	},
 	socialLinks: {
 		padding: '1rem',
+		color: '#000000',
 	},
 }));

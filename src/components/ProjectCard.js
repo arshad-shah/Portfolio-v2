@@ -4,9 +4,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardHeader from '@material-ui/core/CardHeader';
 import { Chip, IconButton, Tooltip, Typography } from '@material-ui/core';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import ShopRoundedIcon from '@material-ui/icons/ShopRounded';
-import LaunchRoundedIcon from '@material-ui/icons/LaunchRounded';
+import { FiGithub, FiExternalLink } from 'react-icons/fi';
 import {
 	SiCss3,
 	SiHtml5,
@@ -21,6 +19,7 @@ import {
 	SiSqlite,
 	SiStyledcomponents,
 	SiTailwindcss,
+	SiGoogleplay,
 } from 'react-icons/si';
 import useStyles from '../styles/ProjectCard.styles';
 import PropTypes from 'prop-types';
@@ -99,7 +98,7 @@ export default function ProjectCard({
 						color="secondary"
 						aria-label={linkAriaLabel}
 						href={repoLink}>
-						<GitHubIcon fontSize="large" />
+						<FiGithub />
 					</IconButton>
 				</Tooltip>
 
@@ -112,7 +111,7 @@ export default function ProjectCard({
 							color="secondary"
 							aria-label={linkAriaLabel}
 							href={shopLink}>
-							<ShopRoundedIcon fontSize="large" />
+							<SiGoogleplay />
 						</IconButton>
 					</Tooltip>
 				)}
@@ -126,7 +125,7 @@ export default function ProjectCard({
 							color="secondary"
 							aria-labelledby={heading}
 							href={siteLink}>
-							<LaunchRoundedIcon fontSize="large" />
+							<FiExternalLink />
 						</IconButton>
 					</Tooltip>
 				) : null}
