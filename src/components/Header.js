@@ -12,17 +12,17 @@ export default function Header(props) {
 	const { isMobile } = props;
 
 	return (
-		<div className={classes.root}>
+		<div className={isMobile ? '' : classes.root}>
 			<Toolbar id="back-to-top-anchor" />
 			{isMobile ? (
 				<AppBar data-testid="header">
-					<Toolbar>
+					<Toolbar className={classes.MobileHeader}>
 						<img aria-label="Logo" src={logo} className={classes.logo} alt="" />
 						<Typography
 							variant="h5"
 							component="p"
 							color="textPrimary"
-							className={classes.title}>
+							className={classes.titleMobile}>
 							A SHAH
 						</Typography>
 					</Toolbar>
