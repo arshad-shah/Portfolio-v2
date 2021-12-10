@@ -5,7 +5,7 @@ import React from "react";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import MailIcon from "@material-ui/icons/Mail";
-import useStyles from "./Footer.styles";
+import useStyles from "../styles/Footer.styles";
 
 export default function Footer() {
   const classes = useStyles();

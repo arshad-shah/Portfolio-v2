@@ -9,7 +9,7 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import Fab from "@material-ui/core/Fab";
 import ArrowUpwardRoundedIcon from "@material-ui/icons/ArrowUpwardRounded";
 import ScrollToTop, { ScrollToFade } from "./App.util";
-import useStyles from "./App.styles";
+import useStyles from "./styles/App.styles";
 import Loading from "./components/Loading";
 
 import Header from "./components/Header";

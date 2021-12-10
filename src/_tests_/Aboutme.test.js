@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import Aboutme from "./Aboutme";
+import Aboutme from "../pages/Aboutme";
 
 describe("Aboutme of the site:", () => {
   it("should render Aboutme with all the information in it", () => {

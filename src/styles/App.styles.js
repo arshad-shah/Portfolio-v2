@@ -1,6 +1,6 @@
 import { makeStyles } from "@material-ui/core/styles";
-import backgroundImage from "./assets/background.webp";
-import backgroundImageMobile from "./assets/backgroundmobile.jpg";
+import backgroundImage from "../assets/background.webp";
+import backgroundImageMobile from "../assets/backgroundmobile.jpg";
 
 export default makeStyles(
   (theme) => ({

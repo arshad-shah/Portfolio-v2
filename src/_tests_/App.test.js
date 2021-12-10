@@ -1,11 +1,11 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import App from "./App";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import LandingPage from "./pages/LandingPage";
-import Aboutme from "./pages/Aboutme";
-import Projects from "./pages/Projects";
+import App from "../App";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import LandingPage from "../pages/LandingPage";
+import Aboutme from "../pages/Aboutme";
+import Projects from "../pages/Projects";
 
 describe("the full app:", () => {
   it("should render the full app", () => {

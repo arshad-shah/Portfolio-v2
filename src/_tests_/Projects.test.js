@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import Projects from "./Projects";
+import Projects from "../pages/Projects";
 
 describe("Projects of the site:", () => {
   it("should render Projects with all the information in it", () => {

@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import LandingPage from "./LandingPage";
+import LandingPage from "../pages/LandingPage";
 
 describe("LandingPage of the site:", () => {
   it("should render LandingPage with all the information in it", () => {
