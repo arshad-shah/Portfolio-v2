@@ -1,34 +1,23 @@
 import React from 'react';
-import { Box, IconButton, List, ListItem, Typography } from '@material-ui/core';
+import { Box, List, ListItem, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { Link } from 'react-scroll';
-import { Divide as Hamburger } from 'hamburger-react';
-import { slide as Menu } from 'react-burger-menu';
 import Resume from '../../assets/ArshadResume.pdf';
 import PropTypes from 'prop-types';
 
-const useStyles = makeStyles(() => ({
-	root: {
-		flexGrow: 1,
-	},
-	title: {
-		flexGrow: 1,
-	},
+const useStyles = makeStyles((theme) => ({
 	button: {
 		'&:hover': {
 			backgroundColor: 'transparent',
 		},
 		'&:active': {
-			backgroundColor: 'transparent',
+			backgroundColor: theme.palette.secondary.main,
 		},
-		'&:visited': {
-			backgroundColor: 'transparent',
+		'&:focus': {
+			backgroundColor: theme.palette.secondary.main,
 		},
-		'&:link': {
-			backgroundColor: 'none',
-		},
-		color: '#000000',
-		padding: '0.7rem',
+		color: theme.palette.text.primary,
+		padding: '0.5rem',
 		textDecoration: 'none',
 		cursor: 'pointer',
 		borderRadius: '0.5rem',
@@ -36,126 +25,60 @@ const useStyles = makeStyles(() => ({
 	},
 	mobileMenuList: {
 		display: 'flex',
-		flexDirection: 'column',
+		flexDirection: 'row',
+		bottom: '0',
+		position: 'fixed',
+		width: '100%',
+		backgroundColor: theme.palette.primary.main,
+		zIndex: '100',
 	},
 	mobileMenuItem: {
 		justifyContent: 'center',
 	},
 }));
 
-const styles = {
-	bmMenuWrap: {
-		position: 'fixed',
-		height: 'auto',
-		top: '4.5rem',
-	},
-	bmMenu: {
-		background: '#fdff95',
-		padding: '0.5rem',
-		borderRadius: '0 0 0 1rem',
-		border: '1px solid black',
-	},
-	bmMorphShape: {
-		fill: '#fdff95',
-	},
-	bmItemList: {
-		color: '#fdff95',
-		display: 'flex',
-		flexDirection: 'column',
-		alignContent: 'center',
-		alignItems: 'stretch',
-		justifyContent: 'space-between',
-	},
-	bmItem: {
-		display: 'inherit',
-	},
-	bmOverlay: {
-		background: 'transparent',
-		display: 'hidden',
-		zIndex: '0',
-	},
-};
-
-export default function Mobile({ click, closeMobileMenu, handleMenu }) {
+export default function Mobile() {
 	const classes = useStyles();
-
-	let prevScrollpos = window.scrollY;
-	window.onscroll = function () {
-		const currentScrollPos = window.scrollY;
-		if (prevScrollpos < currentScrollPos) {
-			closeMobileMenu();
-		}
-		prevScrollpos = currentScrollPos;
-	};
 
 	return (
 		<Box aria-label="mobileMenu" data-toggle="mobileMenu">
-			<IconButton
-				data-testid="menuToggle"
-				role="button"
-				color="default"
-				className={classes.menuButton}
-				onClick={handleMenu}
-				aria-label="menu toggle"
-				data-block="hamburgermenubuttonmobile">
-				<Hamburger
-					distance="md"
-					toggled={click}
-					size={48}
-					rounded
-					color="#c78f00"
-					aria-label="menu toggle"
-				/>
-			</IconButton>
-
-			<Menu
-				right
-				isOpen={click}
-				customBurgerIcon={false}
-				customCrossIcon={false}
-				width={180}
-				styles={styles}>
-				<List className={classes.mobileMenuList}>
-					<ListItem divider className={classes.mobileMenuItem}>
-						<Link
-							className={classes.button}
-							data-block="Aboutmemenuitemmobile"
-							to="aboutme"
-							data-testid="aboutmeOption"
-							spy
-							smooth
-							onClick={() => closeMobileMenu()}
-							aria-label="About Me">
-							<Typography variant="button">About Me</Typography>
-						</Link>
-					</ListItem>
-					<ListItem divider className={classes.mobileMenuItem}>
-						<Link
-							className={classes.button}
-							data-block="Projectsmenuitemmobile"
-							to="projects"
-							data-testid="projectsOption"
-							spy
-							smooth
-							onClick={() => closeMobileMenu()}
-							aria-label="Projects">
-							<Typography variant="button">Projects</Typography>
-						</Link>
-					</ListItem>
-					<ListItem className={classes.mobileMenuItem}>
-						<a
-							className={classes.button}
-							onClick={() => closeMobileMenu()}
-							data-testid="resumeOption"
-							variant="outlined"
-							href={Resume}
-							data-block="Resumemenuitemmobile"
-							aria-label="Resume">
-							<Typography variant="button">Resume</Typography>
-						</a>
-					</ListItem>
-				</List>
-			</Menu>
+			<List className={classes.mobileMenuList}>
+				<ListItem className={classes.mobileMenuItem}>
+					<Link
+						className={classes.button}
+						data-block="Aboutmemenuitemmobile"
+						to="aboutme"
+						data-testid="aboutmeOption"
+						spy
+						smooth
+						aria-label="About Me">
+						<Typography variant="button">About Me</Typography>
+					</Link>
+				</ListItem>
+				<ListItem className={classes.mobileMenuItem}>
+					<Link
+						className={classes.button}
+						data-block="Projectsmenuitemmobile"
+						to="projects"
+						data-testid="projectsOption"
+						spy
+						smooth
+						aria-label="Projects">
+						<Typography variant="button">Projects</Typography>
+					</Link>
+				</ListItem>
+				<ListItem className={classes.mobileMenuItem}>
+					<a
+						className={classes.button}
+						data-testid="resumeOption"
+						variant="outlined"
+						href={Resume}
+						data-block="Resumemenuitemmobile"
+						aria-label="Resume">
+						<Typography variant="button">Resume</Typography>
+					</a>
+				</ListItem>
+			</List>
 		</Box>
 	);
 }

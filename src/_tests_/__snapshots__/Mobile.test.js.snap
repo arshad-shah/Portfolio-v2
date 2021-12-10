@@ -4,130 +4,63 @@ exports[`Mobile layout of the site: should render Mobile 1`] = `
 <div>
   <div
     aria-label="mobileMenu"
-    class="MuiBox-root MuiBox-root-30"
+    class="MuiBox-root MuiBox-root-16"
     data-toggle="mobileMenu"
   >
-    <button
-      aria-label="menu toggle"
-      class="MuiButtonBase-root MuiIconButton-root"
-      data-block="hamburgermenubuttonmobile"
-      data-testid="menuToggle"
-      role="button"
-      tabindex="0"
-      type="button"
+    <ul
+      class="MuiList-root makeStyles-mobileMenuList-14 MuiList-padding"
     >
-      <span
-        class="MuiIconButton-label"
+      <li
+        class="MuiListItem-root makeStyles-mobileMenuItem-15 MuiListItem-gutters"
       >
-        <div
-          class="hamburger-react"
-          role="button"
-          style="cursor: pointer; height: 48px; position: relative; transition: 0.4s cubic-bezier(0, 0, 0, 1); user-select: none; width: 48px; outline: none;"
-          tabindex="0"
+        <a
+          aria-label="About Me"
+          class="makeStyles-button-13"
+          data-block="Aboutmemenuitemmobile"
+          data-testid="aboutmeOption"
         >
-          <div
-            style="background: rgb(199, 143, 0); height: 4px; left: 0px; position: absolute; border-radius: 9em 0 0 9em; width: 24px; top: 7px; transition: 0.4s cubic-bezier(0, 0, 0, 1); transform: none;"
-          />
-          <div
-            style="background: rgb(199, 143, 0); height: 4px; left: 50%; position: absolute; border-radius: 0 9em 9em 0; width: 24px; top: 7px; transition: 0.4s cubic-bezier(0, 0, 0, 1); transform: none;"
-          />
-          <div
-            style="background: rgb(199, 143, 0); height: 4px; left: 0px; position: absolute; border-radius: 9em 0 0 9em; width: 24px; top: 22px; transition: 0.4s cubic-bezier(0, 0, 0, 1); opacity: 1; transform: none;"
-          />
-          <div
-            style="background: rgb(199, 143, 0); height: 4px; left: 50%; position: absolute; border-radius: 0 9em 9em 0; width: 24px; top: 22px; transition: 0.4s cubic-bezier(0, 0, 0, 1); opacity: 1; transform: none;"
-          />
-          <div
-            style="background: rgb(199, 143, 0); height: 4px; left: 0px; position: absolute; border-radius: 9em 0 0 9em; width: 24px; top: 37px; transition: 0.4s cubic-bezier(0, 0, 0, 1); transform: none;"
-          />
-          <div
-            style="background: rgb(199, 143, 0); height: 4px; left: 50%; position: absolute; border-radius: 0 9em 9em 0; width: 24px; top: 37px; transition: 0.4s cubic-bezier(0, 0, 0, 1); transform: none;"
-          />
-        </div>
-      </span>
-      <span
-        class="MuiTouchRipple-root"
-      />
-    </button>
-    <div>
-      <div
-        class="bm-overlay"
-        style="position: fixed; z-index: 0; width: 100%; height: 100%; background: transparent; opacity: 0; transform: translate3d(100%, 0, 0); transition: opacity 0.3s, transform 0s 0.3s; display: hidden;"
-      />
-      <div
-        aria-hidden="true"
-        class="bm-menu-wrap"
-        id=""
-        style="position: fixed; right: 0px; z-index: 1100; width: 180px; height: auto; transform: translate3d(100%, 0, 0); transition: all 0.5s; top: 4.5rem;"
-      >
-        <div
-          class="bm-menu"
-          style="height: 100%; box-sizing: border-box; overflow: auto; background: rgb(253, 255, 149); padding: 0.5rem; border-radius: 0 0 0 1rem; border: 1px solid black;"
-        >
-          <nav
-            class="bm-item-list"
-            style="height: 100%; color: rgb(253, 255, 149); display: flex; flex-direction: column; align-content: center; align-items: stretch; justify-content: space-between;"
+          <span
+            class="MuiTypography-root MuiTypography-button"
           >
-            <ul
-              class="MuiList-root bm-item makeStyles-mobileMenuList-28 MuiList-padding"
-              style="display: inherit;"
-              tabindex="-1"
-            >
-              <li
-                class="MuiListItem-root makeStyles-mobileMenuItem-29 MuiListItem-gutters MuiListItem-divider"
-              >
-                <a
-                  aria-label="About Me"
-                  class="makeStyles-button-27"
-                  data-block="Aboutmemenuitemmobile"
-                  data-testid="aboutmeOption"
-                >
-                  <span
-                    class="MuiTypography-root MuiTypography-button"
-                  >
-                    About Me
-                  </span>
-                </a>
-              </li>
-              <li
-                class="MuiListItem-root makeStyles-mobileMenuItem-29 MuiListItem-gutters MuiListItem-divider"
-              >
-                <a
-                  aria-label="Projects"
-                  class="makeStyles-button-27"
-                  data-block="Projectsmenuitemmobile"
-                  data-testid="projectsOption"
-                >
-                  <span
-                    class="MuiTypography-root MuiTypography-button"
-                  >
-                    Projects
-                  </span>
-                </a>
-              </li>
-              <li
-                class="MuiListItem-root makeStyles-mobileMenuItem-29 MuiListItem-gutters"
-              >
-                <a
-                  aria-label="Resume"
-                  class="makeStyles-button-27"
-                  data-block="Resumemenuitemmobile"
-                  data-testid="resumeOption"
-                  href="ArshadResume.pdf"
-                  variant="outlined"
-                >
-                  <span
-                    class="MuiTypography-root MuiTypography-button"
-                  >
-                    Resume
-                  </span>
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </div>
+            About Me
+          </span>
+        </a>
+      </li>
+      <li
+        class="MuiListItem-root makeStyles-mobileMenuItem-15 MuiListItem-gutters"
+      >
+        <a
+          aria-label="Projects"
+          class="makeStyles-button-13"
+          data-block="Projectsmenuitemmobile"
+          data-testid="projectsOption"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-button"
+          >
+            Projects
+          </span>
+        </a>
+      </li>
+      <li
+        class="MuiListItem-root makeStyles-mobileMenuItem-15 MuiListItem-gutters"
+      >
+        <a
+          aria-label="Resume"
+          class="makeStyles-button-13"
+          data-block="Resumemenuitemmobile"
+          data-testid="resumeOption"
+          href="ArshadResume.pdf"
+          variant="outlined"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-button"
+          >
+            Resume
+          </span>
+        </a>
+      </li>
+    </ul>
   </div>
 </div>
 `;

@@ -20,18 +20,16 @@
 		"@testing-library/react": "^12.1.2",
 		"@testing-library/user-event": "^13.2.1",
 		"@types/jest": "^27.0.2",
+		"ansi-regex": "^5.0.1",
 		"eslint-config-airbnb": "^19.0.1",
 		"eslint-plugin-react": "^7.27.1",
-		"hamburger-react": "^2.4.1",
 		"lint-staged": "^12.1.2",
 		"react": "^17.0.2",
-		"react-burger-menu": "^3.0.6",
 		"react-dom": "^17.0.2",
 		"react-ga": "^3.3.0",
 		"react-router-dom": "^5.3.0",
 		"react-scripts": "4.0.3",
-		"react-scroll": "^1.8.4",
-		"ansi-regex": "^5.0.1"
+		"react-scroll": "^1.8.4"
 	},
 	"scripts": {
 		"start": "react-scripts start",
