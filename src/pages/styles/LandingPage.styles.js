@@ -16,8 +16,18 @@ export default makeStyles((theme) => ({
       fontSize: theme.spacing(2),
     },
   },
-  typography: {
+  landingIntro: {
     padding: "0.7rem",
+    transition: "width 0.5s, height 0.5s, opacity 0.5s 0.5s",
+  },
+  landingName: {
+    padding: "0.7rem",
+    transition: "width 0.5s, height 0.5s, opacity 0.5s 0.5s",
+  },
+  landingDesc: {
+    padding: "0.7rem",
+    transitionDelay: "3s",
+    transition: "width 1s, height 1s, opacity 1s 1s",
   },
   socialLinks: {
     padding: "1rem",
