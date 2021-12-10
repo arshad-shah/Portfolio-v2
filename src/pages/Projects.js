@@ -29,6 +29,7 @@ export default function Projects() {
                 languages={data.languages}
                 linkAriaLabel={data.linkAriaLabel}
                 repoLink={data.repoLink}
+                siteLink={data.siteLink}
               />
             </Grid>
           );

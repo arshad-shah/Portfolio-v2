@@ -6,6 +6,7 @@ export const cardData = [
     languages: "HTML | CSS | Javascript | jQuery",
     linkAriaLabel: "link to Github for portfolio version 1",
     repoLink: "https://github.com/arshad-shah/portfoliov1",
+    siteLink: "https://arshad-shah.github.io/portfoliov1/index.html",
   },
 
   {
@@ -39,6 +40,8 @@ export const cardData = [
     languages: "HTML 5 | CSS 3 | Javascript | jQuery",
     linkAriaLabel: "link to Github for yaer wbsite project repo",
     repoLink: "https://github.com/arshad-shah/Year-1-Web-Dev-Project.git",
+    siteLink:
+      "https://arshad-shah.github.io/Year-1-Web-Dev-Project/website/index.html",
   },
   {
     heading: "School Exercises Year 1",
