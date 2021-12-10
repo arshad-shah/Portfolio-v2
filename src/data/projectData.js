@@ -6,7 +6,7 @@ export const cardData = [
     languages: "HTML | CSS | Javascript | jQuery",
     linkAriaLabel: "link to Github for portfolio version 1",
     repoLink: "https://github.com/arshad-shah/portfoliov1",
-    siteLink: "https://arshad-shah.github.io/portfoliov1/index.html",
+    siteLink: "https://arshad-shah.github.io/portfoliov1/",
   },
 
   {
