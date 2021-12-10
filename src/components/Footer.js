@@ -49,7 +49,7 @@ export default function Footer() {
         </IconButton>
       </Box>
       <Typography variant="subtitle2">
-        V2.3 Date: 14 / November / 2021
+        V2.4 Date: 14 / November / 2021
       </Typography>
     </Box>
   );
