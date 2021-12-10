@@ -22,7 +22,7 @@ export default function LandingPage() {
       </Typography>
 
       <Typography className={classes.typography} variant="h4">
-        A Second Year Computer Science Student, With a love for everything
+        A Third Year Computer Science Student, With a love for everything
         programming.
       </Typography>
 
