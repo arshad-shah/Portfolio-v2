@@ -31,8 +31,8 @@ Scenario('As a user I am redirected to the site when i click on external site li
 
 Scenario('As a user I am redirected to the google shop site when i click on shop link', ({ I }) => {
 	I.amOnPage('/');
-	I.seeElementInDOM('$shoplinkfornimaz');
-	I.click('$shoplinkfornimaz');
+	I.seeElementInDOM('$shoplink');
+	I.click('$shoplink');
 	I.amOnPage(
 		'https://play.google.com/store/apps/details?id=com.arshadshah.nimaz&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
 	);

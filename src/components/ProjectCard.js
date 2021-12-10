@@ -54,8 +54,8 @@ export default function ProjectCard({
 				{shopLink && (
 					<Tooltip title="Play Store Link" arrow>
 						<IconButton
-							data-testid="shoplinkfornimaz"
-							data-block="shoplinkfornimaz"
+							data-testid="shoplink"
+							data-block="shoplink"
 							role="button"
 							color="secondary"
 							aria-label={linkAriaLabel}
