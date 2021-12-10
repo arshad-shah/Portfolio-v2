@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { AppBar, Toolbar, Typography } from "@material-ui/core";
-import HideOnScroll from "./Header.util";
+import HideOnScroll from "./HideOnScroll";
 
 import Desktop from "./navigation/Desktop";
 import Mobile from "./navigation/Mobile";

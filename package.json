@@ -10,7 +10,6 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.2.1",
     "@types/jest": "^27.0.2",
-    "gh-pages": "^3.2.3",
     "hamburger-react": "^2.4.1",
     "react": "^17.0.2",
     "react-burger-menu": "^3.0.6",
@@ -41,7 +40,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "clean:output": "cd ./e2e && rmdir /s /q output",
-    "e2e": "concurrently --kill-others \"chromedriver\" \"cd ./e2e && npm run clean:output && npm run codeceptjs\"",
+    "e2e:clean": "concurrently --kill-others \"chromedriver\" \"npm run clean:output && cd ./e2e && npm run codeceptjs\"",
+    "e2e": "concurrently --kill-others \"chromedriver\" \"cd ./e2e && npm run codeceptjs\"",
     "allure:reports": "cd ./e2e && allure serve output"
   },
   "eslintConfig": {
