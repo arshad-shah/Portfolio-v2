@@ -11,6 +11,7 @@ exports[`Header of the site: should render Header 1`] = `
     />
     <header
       class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary mui-fixed MuiPaper-elevation4"
+      data-testid="header"
     >
       <div
         class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -49,6 +50,7 @@ exports[`Header of the site: should render Header 1`] = `
             class="makeStyles-menuItem-28"
             color="default"
             data-block="Projectsmenuitemdesktop"
+            data-testid="projects"
           >
             <span
               class="MuiTypography-root MuiTypography-button"
@@ -61,6 +63,7 @@ exports[`Header of the site: should render Header 1`] = `
             class="makeStyles-menuItem-28"
             color="default"
             data-block="Resumemenuitemdesktop"
+            data-testid="resume"
             href="ArshadResume.pdf"
           >
             <span

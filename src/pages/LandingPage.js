@@ -13,7 +13,7 @@ import MailIcon from "@material-ui/icons/Mail";
 export default function LandingPage() {
   const classes = useStyles();
   return (
-    <Box className={classes.hero}>
+    <Box className={classes.hero} data-testid="hero">
       <TypeWriter typing={1} initDelay={2000}>
         <Typography className={classes.typography} variant="h4">
           Hi, My Name Is
@@ -29,6 +29,7 @@ export default function LandingPage() {
 
       <Box className={classes.Links}>
         <IconButton
+          data-testid="githubForHero"
           role="button"
           className={classes.socialLinks}
           color="primary"
@@ -40,6 +41,7 @@ export default function LandingPage() {
         </IconButton>
 
         <IconButton
+          data-testid="linkedInForHero"
           role="button"
           className={classes.socialLinks}
           color="primary"
@@ -51,6 +53,7 @@ export default function LandingPage() {
         </IconButton>
 
         <IconButton
+          data-testid="mailForHero"
           className={classes.socialLinks}
           color="primary"
           role="button"
@@ -63,6 +66,7 @@ export default function LandingPage() {
       </Box>
       <Link to="aboutme" spy={true} smooth={true}>
         <Button
+          data-testid="scrollDown"
           aria-label="scroll down button"
           size="large"
           color="secondary"

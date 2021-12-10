@@ -26,6 +26,7 @@ exports[`Projects of the site: should render Projects with all the information i
         >
           <div
             class="MuiCardHeader-root"
+            data-testid="projectHeading"
             id="heading"
           >
             <div
@@ -123,6 +124,7 @@ exports[`Projects of the site: should render Projects with all the information i
         >
           <div
             class="MuiCardHeader-root"
+            data-testid="projectHeading"
             id="heading"
           >
             <div
@@ -193,6 +195,7 @@ exports[`Projects of the site: should render Projects with all the information i
         >
           <div
             class="MuiCardHeader-root"
+            data-testid="projectHeading"
             id="heading"
           >
             <div
@@ -263,6 +266,7 @@ exports[`Projects of the site: should render Projects with all the information i
         >
           <div
             class="MuiCardHeader-root"
+            data-testid="projectHeading"
             id="heading"
           >
             <div
@@ -333,6 +337,7 @@ exports[`Projects of the site: should render Projects with all the information i
         >
           <div
             class="MuiCardHeader-root"
+            data-testid="projectHeading"
             id="heading"
           >
             <div
@@ -430,6 +435,7 @@ exports[`Projects of the site: should render Projects with all the information i
         >
           <div
             class="MuiCardHeader-root"
+            data-testid="projectHeading"
             id="heading"
           >
             <div
@@ -500,6 +506,7 @@ exports[`Projects of the site: should render Projects with all the information i
         >
           <div
             class="MuiCardHeader-root"
+            data-testid="projectHeading"
             id="heading"
           >
             <div
@@ -570,6 +577,7 @@ exports[`Projects of the site: should render Projects with all the information i
         >
           <div
             class="MuiCardHeader-root"
+            data-testid="projectHeading"
             id="heading"
           >
             <div

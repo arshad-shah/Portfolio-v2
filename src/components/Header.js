@@ -26,7 +26,7 @@ const Header = (props) => {
     <div className={classes.root}>
       <Toolbar id="back-to-top-anchor" />
       <HideOnScroll {...props}>
-        <AppBar>
+        <AppBar data-testid="header">
           <Toolbar>
             <img aria-label="Logo" src={logo} className={classes.logo} alt="" />
             <Typography
