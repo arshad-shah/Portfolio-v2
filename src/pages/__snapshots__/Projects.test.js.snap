@@ -61,7 +61,7 @@ exports[`Projects of the site: should render Projects with all the information i
               aria-label="link to Github for portfolio version 1"
               class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary"
               data-block="projectlink"
-              href="https://github.com/arshad-shah/arshad-shah.github.io"
+              href="https://github.com/arshad-shah/portfoliov1"
               role="button"
               tabindex="0"
             >
@@ -130,7 +130,7 @@ exports[`Projects of the site: should render Projects with all the information i
               aria-label="link to Github for portfolio version 2"
               class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary"
               data-block="projectlink"
-              href="https://github.com/arshad-shah/portfolio-v2.0"
+              href="https://github.com/arshad-shah/arshad-shah.github.io"
               role="button"
               tabindex="0"
             >
