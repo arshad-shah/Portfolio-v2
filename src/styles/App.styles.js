@@ -15,6 +15,9 @@ export default makeStyles(
 			backgroundSize: 'cover',
 			backgroundAttachment: 'fixed',
 		},
+		fab: {
+			fontSize: '2rem',
+		},
 	}),
 	{ name: 'App' }
 );

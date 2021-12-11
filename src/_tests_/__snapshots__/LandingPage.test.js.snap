@@ -155,7 +155,7 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
     >
       <button
         aria-label="scroll down button"
-        class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-outlinedSizeLarge MuiButton-sizeLarge"
+        class="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-socialLinks-5 MuiButton-outlinedSecondary MuiButton-outlinedSizeLarge MuiButton-sizeLarge"
         data-block="scrolldown"
         data-testid="scrollDown"
         tabindex="0"
@@ -165,13 +165,24 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
           class="MuiButton-label"
         >
           <svg
-            aria-hidden="true"
-            class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
-            focusable="false"
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
             viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <path
-              d="M11 5v11.17l-4.88-4.88c-.39-.39-1.03-.39-1.42 0-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41a.9959.9959 0 00-1.41 0L13 16.17V5c0-.55-.45-1-1-1s-1 .45-1 1z"
+            <line
+              x1="12"
+              x2="12"
+              y1="5"
+              y2="19"
+            />
+            <polyline
+              points="19 12 12 19 5 12"
             />
           </svg>
         </span>

@@ -29,6 +29,7 @@ export default makeStyles((theme) => ({
 	},
 	socialLinks: {
 		padding: '1rem',
+		fontSize: '2rem',
 	},
 	Links: {
 		padding: '1rem',

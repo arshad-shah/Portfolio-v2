@@ -3,7 +3,7 @@ import { ThemeProvider, createTheme, responsiveFontSizes } from '@material-ui/co
 import { useMediaQuery } from '@material-ui/core';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Fab from '@material-ui/core/Fab';
-import ArrowUpwardRoundedIcon from '@material-ui/icons/ArrowUpwardRounded';
+import { FiArrowUp } from 'react-icons/fi';
 import ScrollToTop, { ScrollToFade } from './App.util';
 import useStyles from './styles/App.styles';
 import Loading from './components/Loading';
@@ -64,8 +64,9 @@ export default function App(props) {
 							data-block="backtotopbutton"
 							data-testid="backtoTopButton"
 							size="large"
+							className={classes.fab}
 							aria-label="scroll back to top">
-							<ArrowUpwardRoundedIcon fontSize="large" />
+							<FiArrowUp />
 						</Fab>
 					</ScrollToTop>
 

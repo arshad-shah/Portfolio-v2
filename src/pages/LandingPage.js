@@ -1,10 +1,8 @@
 import React from 'react';
 import { Box, Typography, Button, IconButton, Tooltip } from '@material-ui/core';
 import { Link } from 'react-scroll';
-
-import ArrowDownwardRoundedIcon from '@material-ui/icons/ArrowDownwardRounded';
 // icons
-import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiMail, FiArrowDown } from 'react-icons/fi';
 import useStyles from '../styles/LandingPage.styles';
 
 import PropTypes from 'prop-types';
@@ -72,10 +70,11 @@ export default function LandingPage({ isMobile }) {
 							data-testid="scrollDown"
 							aria-label="scroll down button"
 							size="large"
+							className={classes.socialLinks}
 							color="secondary"
 							variant="outlined"
 							data-block="scrolldown">
-							<ArrowDownwardRoundedIcon fontSize="large" />
+							<FiArrowDown />
 						</Button>
 					</Link>
 				</Tooltip>
