@@ -1,22 +1,8 @@
 # My Personal Portfolio in React and Material UI.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-[![Publish](https://github.com/arshad-shah/Portfolio-v2/actions/workflows/publish.yml/badge.svg)](https://github.com/arshad-shah/Portfolio-v2/actions/workflows/publish.yml)
-=======
 [![build](https://github.com/arshad-shah/Portfolio-v2/actions/workflows/publish.yml/badge.svg)](https://github.com/arshad-shah/Portfolio-v2/actions/workflows/publish.yml)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ae3da47 (Update README.md)
-=======
-
-
->>>>>>> 0be2540 (Update README.md)
-=======
->>>>>>> d90ecd0 (read me updated)
 [![CodeQL](https://github.com/arshad-shah/portfolio-v2.0/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/arshad-shah/portfolio-v2.0/actions/workflows/codeql-analysis.yml)
 [![SonarScan](https://github.com/arshad-shah/Portfolio-v2/actions/workflows/sonarScan.yml/badge.svg)](https://github.com/arshad-shah/Portfolio-v2/actions/workflows/sonarScan.yml)
-
 
 [![codecov](https://codecov.io/gh/arshad-shah/Portfolio-v2/branch/master/graph/badge.svg?token=JVIBKZ5AWF)](https://codecov.io/gh/arshad-shah/Portfolio-v2)
 
@@ -26,32 +12,15 @@
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=arshad-shah_Portfolio-v2&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=arshad-shah_Portfolio-v2)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=arshad-shah_Portfolio-v2&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=arshad-shah_Portfolio-v2)
 
-
-=======
-[![build](https://github.com/arshad-shah/Portfolio-v2/actions/workflows/publish.yml/badge.svg)](https://github.com/arshad-shah/Portfolio-v2/actions/workflows/publish.yml)
-[![CodeQL](https://github.com/arshad-shah/portfolio-v2.0/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/arshad-shah/portfolio-v2.0/actions/workflows/codeql-analysis.yml)
-[![SonarScan](https://github.com/arshad-shah/Portfolio-v2/actions/workflows/sonarScan.yml/badge.svg)](https://github.com/arshad-shah/Portfolio-v2/actions/workflows/sonarScan.yml)
-
-
-[![codecov](https://codecov.io/gh/arshad-shah/Portfolio-v2/branch/master/graph/badge.svg?token=JVIBKZ5AWF)](https://codecov.io/gh/arshad-shah/Portfolio-v2)
-
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=arshad-shah_Portfolio-v2&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=arshad-shah_Portfolio-v2)
-
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=arshad-shah_Portfolio-v2&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=arshad-shah_Portfolio-v2)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=arshad-shah_Portfolio-v2&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=arshad-shah_Portfolio-v2)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=arshad-shah_Portfolio-v2&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=arshad-shah_Portfolio-v2)
-
-
->>>>>>> 40100283e5dee5792f3467357323880e9fb409ba
 [<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=2b9348">](https://github.com/SamKirkland/FTP-Deploy-Action)
-
 
 ---
 
 # The structure of the app
+
 The app is structured into several folders to separate code as much as possible.
 The main structure is as follows:
-    
+
     Folders:
         1. .github
             All the github actions go here.
@@ -81,10 +50,12 @@ The main structure is as follows:
                         sections of the app
                     -   styles
                         all the styles for the whole app
+
 # To start off
+
 Open source directory in terminal,
 
-1. Run:
+1.  Run:
 
         yarn
 
@@ -93,10 +64,10 @@ Open source directory in terminal,
 2.  Next change directory using:
 
         cd ./e2e
-    
-    - And Run:
 
-            yarn
+    -   And Run:
+
+              yarn
 
 3.  After All the dependencies are installed, Run:
 
@@ -109,6 +80,7 @@ Open source directory in terminal,
     You may also see any lint errors in the console.
 
 ---
+
 # To run the unit tests
 
 ### Run
@@ -119,22 +91,23 @@ Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ---
+
 # To run End to End tests
 
 You need to setup chromedriver for it to work.
 See this article i found About [Set up chrome driver](https://chromedriver.chromium.org/getting-started)
 
 After chromedriver is setup:
-    
-- Run the command below in the src directory
-    
-        yarn run e2e
 
-if everythings goes correct 🤞 You should see the tests executed. 
+-   Run the command below in the src directory
+          yarn run e2e
+
+if everythings goes correct 🤞 You should see the tests executed.
 
 # To build the project
 
 ### Run
+
     yarn run build
 
 Builds the app for production to the `build` folder.\
