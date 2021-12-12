@@ -1,7 +1,7 @@
 import React from "react";
-import { Box, Typography } from "@material-ui/core";
+import { Box, Typography } from "@mui/material";
 import { Link } from "react-scroll";
-import { makeStyles } from "@material-ui/core/styles";
+import makeStyles from '@mui/styles/makeStyles';
 import Resume from "../../assets/ArshadResume.pdf";
 
 const useStyles = makeStyles((theme) => ({

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Box, List, ListItem, Link as ExternalLink } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
+import { Box, List, ListItem, Link as ExternalLink } from '@mui/material';
+import makeStyles from '@mui/styles/makeStyles';
 import { Link } from 'react-scroll';
 import Resume from '../../assets/ArshadResume.pdf';
 

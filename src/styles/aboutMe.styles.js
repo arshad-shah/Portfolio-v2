@@ -1,4 +1,4 @@
-import { makeStyles } from '@material-ui/core/styles';
+import makeStyles from '@mui/styles/makeStyles';
 
 export default makeStyles(
 	(theme) => ({
@@ -19,10 +19,10 @@ export default makeStyles(
 			display: 'flex',
 			flexDirection: 'row',
 			padding: '1rem',
-			[theme.breakpoints.down('md')]: {
+			[theme.breakpoints.down('lg')]: {
 				flexDirection: 'row',
 			},
-			[theme.breakpoints.down('sm')]: {
+			[theme.breakpoints.down('md')]: {
 				flexDirection: 'column',
 			},
 		},
@@ -33,17 +33,17 @@ export default makeStyles(
 			width: '25%',
 			height: '60%',
 			margin: 'auto',
-			[theme.breakpoints.down('md')]: {
+			[theme.breakpoints.down('lg')]: {
 				flexDirection: 'column',
 				width: '30%',
 				height: '100%',
 			},
-			[theme.breakpoints.down('sm')]: {
+			[theme.breakpoints.down('md')]: {
 				flexDirection: 'column',
 				width: '50%',
 				height: '100%',
 			},
-			[theme.breakpoints.down('xs')]: {
+			[theme.breakpoints.down('sm')]: {
 				flexDirection: 'column',
 				width: '100%',
 				height: '100%',

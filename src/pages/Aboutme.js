@@ -1,4 +1,4 @@
-import { Typography, Toolbar, Box, Chip } from '@material-ui/core';
+import { Typography, Toolbar, Box, Chip } from '@mui/material';
 import React from 'react';
 import useStyles from '../styles/aboutMe.styles';
 import Picture from '../assets/Picture.webp';

@@ -1,9 +1,9 @@
 import React, { lazy, Suspense } from 'react';
 import useStyles from './styles/App.styles';
-import { useMediaQuery, useTheme } from '@material-ui/core';
+import { useMediaQuery, useTheme } from '@mui/material';
 
-import CssBaseline from '@material-ui/core/CssBaseline';
-import Fab from '@material-ui/core/Fab';
+import CssBaseline from '@mui/material/CssBaseline';
+import Fab from '@mui/material/Fab';
 import { FiArrowUp } from 'react-icons/fi';
 import ScrollToTop, { ScrollToFade } from './App.util';
 
@@ -21,7 +21,7 @@ const renderLoader = () => <Loading />;
 function MainSite(props) {
 	const classes = useStyles();
 	const theme = useTheme();
-	const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+	const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 	return (
 		<div className={classes.root}>
 			<Suspense fallback={renderLoader()}>

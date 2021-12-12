@@ -1,4 +1,4 @@
-import { makeStyles } from '@material-ui/core/styles';
+import makeStyles from '@mui/styles/makeStyles';
 import backgroundImage from '../assets/background.webp';
 import backgroundImageMobile from '../assets/backgroundmobile.webp';
 
@@ -7,7 +7,7 @@ export default makeStyles(
 		root: {
 			minHeight: '100vh',
 			minWidth: '100%',
-			[theme.breakpoints.down('xs')]: {
+			[theme.breakpoints.down('sm')]: {
 				backgroundImage: `url(${backgroundImageMobile})`,
 			},
 			backgroundImage: `url(${backgroundImage})`,

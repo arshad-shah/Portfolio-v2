@@ -1,9 +1,9 @@
 import React from 'react';
-import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import CardHeader from '@material-ui/core/CardHeader';
-import { Chip, IconButton, Tooltip, Typography } from '@material-ui/core';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardHeader from '@mui/material/CardHeader';
+import { Chip, IconButton, Tooltip, Typography } from '@mui/material';
 import { FiGithub, FiExternalLink } from 'react-icons/fi';
 import {
 	SiCss3,
@@ -70,7 +70,7 @@ export default function ProjectCard({
 	};
 
 	return (
-		<Card raised className={classes.root}>
+        <Card raised className={classes.root}>
 			<CardHeader id="heading" title={heading} data-testid="projectHeading" />
 			<CardContent>
 				<Typography variant="body2">{description}</Typography>
@@ -92,12 +92,13 @@ export default function ProjectCard({
 				{/* Link to github */}
 				<Tooltip title="Github Repo" arrow>
 					<IconButton
-						data-testid="githublink"
-						data-block="projectlink"
-						role="button"
-						color="secondary"
-						aria-label={linkAriaLabel}
-						href={repoLink}>
+                        data-testid="githublink"
+                        data-block="projectlink"
+                        role="button"
+                        color="secondary"
+                        aria-label={linkAriaLabel}
+                        href={repoLink}
+                        size="large">
 						<FiGithub />
 					</IconButton>
 				</Tooltip>
@@ -105,12 +106,13 @@ export default function ProjectCard({
 				{shopLink && (
 					<Tooltip title="Play Store Link" arrow>
 						<IconButton
-							data-testid="shoplink"
-							data-block="shoplink"
-							role="button"
-							color="secondary"
-							aria-label={linkAriaLabel}
-							href={shopLink}>
+                            data-testid="shoplink"
+                            data-block="shoplink"
+                            role="button"
+                            color="secondary"
+                            aria-label={linkAriaLabel}
+                            href={shopLink}
+                            size="large">
 							<SiGoogleplay />
 						</IconButton>
 					</Tooltip>
@@ -119,19 +121,20 @@ export default function ProjectCard({
 				{siteLink ? (
 					<Tooltip title="Live Site Link" arrow>
 						<IconButton
-							data-testid="externalSiteLink"
-							data-block="projectLinkToSite"
-							role="button"
-							color="secondary"
-							aria-labelledby={heading}
-							href={siteLink}>
+                            data-testid="externalSiteLink"
+                            data-block="projectLinkToSite"
+                            role="button"
+                            color="secondary"
+                            aria-labelledby={heading}
+                            href={siteLink}
+                            size="large">
 							<FiExternalLink />
 						</IconButton>
 					</Tooltip>
 				) : null}
 			</CardActions>
 		</Card>
-	);
+    );
 }
 
 ProjectCard.propTypes = {

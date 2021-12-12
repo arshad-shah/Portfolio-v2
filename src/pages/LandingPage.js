@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Button, IconButton, Tooltip } from '@material-ui/core';
+import { Box, Typography, Button, IconButton, Tooltip } from '@mui/material';
 import { Link } from 'react-scroll';
 // icons
 import { FiGithub, FiLinkedin, FiMail, FiArrowDown } from 'react-icons/fi';
@@ -32,7 +32,8 @@ export default function LandingPage({ isMobile }) {
 						color="primary"
 						aria-label="link to Github account of Arshad shah"
 						data-block="linktoGithub"
-						href="https://github.com/arshad-shah">
+						href="https://github.com/arshad-shah"
+						size="large">
 						<FiGithub />
 					</IconButton>
 				</Tooltip>
@@ -45,7 +46,8 @@ export default function LandingPage({ isMobile }) {
 						color="primary"
 						aria-label="link to Linkedin account of Arshad shah"
 						data-block="linktoLinkedin"
-						href="https://www.linkedin.com/in/arshadshah">
+						href="https://www.linkedin.com/in/arshadshah"
+						size="large">
 						<FiLinkedin />
 					</IconButton>
 				</Tooltip>
@@ -58,25 +60,26 @@ export default function LandingPage({ isMobile }) {
 						role="button"
 						aria-label="link to mail account of Arshad shah"
 						data-block="linktoMail"
-						href="mailto:arshad@arshadshah.com">
+						href="mailto:arshad@arshadshah.com"
+						size="large">
 						<FiMail />
 					</IconButton>
 				</Tooltip>
 			</Box>
 			{!isMobile ? (
 				<Tooltip title="Scroll Down" arrow>
-					<Link to="aboutme" spy smooth>
-						<Button
-							data-testid="scrollDown"
-							aria-label="scroll down button"
-							size="large"
-							className={classes.socialLinks}
-							color="secondary"
-							variant="outlined"
-							data-block="scrolldown">
-							<FiArrowDown />
-						</Button>
-					</Link>
+					{/* <Link to="aboutme" spy smooth> */}
+					<Button
+						data-testid="scrollDown"
+						aria-label="scroll down button"
+						size="large"
+						className={classes.socialLinks}
+						color="secondary"
+						variant="outlined"
+						data-block="scrolldown">
+						<FiArrowDown />
+					</Button>
+					{/* </Link> */}
 				</Tooltip>
 			) : null}
 		</Box>

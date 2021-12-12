@@ -1,4 +1,4 @@
-import { Box, Grid, Toolbar, Typography } from '@material-ui/core';
+import { Box, Grid, Toolbar, Typography } from '@mui/material';
 import React from 'react';
 import useStyles from '../styles/Projects.styles';
 import ProjectCard from '../components/ProjectCard';

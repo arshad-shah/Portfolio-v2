@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
-import useScrollTrigger from '@material-ui/core/useScrollTrigger';
-import Zoom from '@material-ui/core/Zoom';
-import { Fade, useMediaQuery } from '@material-ui/core';
+import { useTheme } from '@mui/material/styles';
+import makeStyles from '@mui/styles/makeStyles';
+import useScrollTrigger from '@mui/material/useScrollTrigger';
+import Zoom from '@mui/material/Zoom';
+import { Fade, useMediaQuery } from '@mui/material';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -20,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
 
 const ScrollToTop = function (props) {
 	const theme = useTheme();
-	const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+	const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 	const { children } = props;
 	const classes = useStyles();
 	const trigger = useScrollTrigger({

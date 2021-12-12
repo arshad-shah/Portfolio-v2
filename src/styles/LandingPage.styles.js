@@ -1,4 +1,4 @@
-import { makeStyles } from '@material-ui/core/styles';
+import makeStyles from '@mui/styles/makeStyles';
 
 export default makeStyles((theme) => ({
 	hero: {
@@ -10,14 +10,14 @@ export default makeStyles((theme) => ({
 		alignItems: 'center',
 		justifyContent: 'center',
 		minHeight: '100vh',
-		[theme.breakpoints.down('xs')]: {
+		[theme.breakpoints.down('sm')]: {
 			flexDirection: 'column',
 			fontSize: theme.spacing(2),
 		},
 	},
 	landingIntro: {
 		padding: '0.7rem',
-		[theme.breakpoints.down('xs')]: {
+		[theme.breakpoints.down('sm')]: {
 			paddingBottom: '0',
 		},
 	},
@@ -33,7 +33,7 @@ export default makeStyles((theme) => ({
 	},
 	Links: {
 		padding: '1rem',
-		[theme.breakpoints.down('xs')]: {
+		[theme.breakpoints.down('sm')]: {
 			paddingTop: '0',
 		},
 	},
