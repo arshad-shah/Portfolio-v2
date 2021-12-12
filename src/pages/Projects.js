@@ -6,42 +6,37 @@ import { cardData } from '../data/projectData';
 const PREFIX = 'Projects';
 
 const classes = {
-    root: `${PREFIX}-root`,
-    projectsLink: `${PREFIX}-projectsLink`,
-    projectsCard: `${PREFIX}-projectsCard`,
-    githubLinksAnchor: `${PREFIX}-githubLinksAnchor`
+	root: `${PREFIX}-root`,
+	projectsLink: `${PREFIX}-projectsLink`,
+	projectsCard: `${PREFIX}-projectsCard`,
+	githubLinksAnchor: `${PREFIX}-githubLinksAnchor`,
 };
 
-const StyledBox = styled(Box)((
-    {
-        theme
-    }
-) => ({
-    [`&.${classes.root}`]: {
+const StyledBox = styled(Box)(({ theme }) => ({
+	[`&.${classes.root}`]: {
 		backgroundColor: '#ffffff',
 		padding: '1rem',
 	},
 
-    [`& .${classes.projectsLink}`]: {
+	[`& .${classes.projectsLink}`]: {
 		minHeight: 0,
 	},
 
-    [`& .${classes.projectsCard}`]: {},
+	[`& .${classes.projectsCard}`]: {},
 
-    [`& .${classes.githubLinksAnchor}`]: {
+	[`& .${classes.githubLinksAnchor}`]: {
 		'&:visited': {
 			color: '#000000',
 		},
 		'&:link': {
 			color: '#000000',
 		},
-	}
+	},
 }));
 
 export default function Projects() {
-
 	return (
-        <StyledBox className={classes.root}>
+		<StyledBox className={classes.root}>
 			<Toolbar className={classes.projectsLink} id="projects" />
 			<Typography align="center" gutterBottom variant="h2">
 				Projects
@@ -49,11 +44,11 @@ export default function Projects() {
 			<Grid
 				container
 				spacing={4}
-				justifyContent="space-around"
+				alignItems="center"
 				alignContent="center"
-				alignItems="center">
+				justifyContent="space-around">
 				{cardData.map((data, key) => (
-					<Grid key={key} aria-label="ProjectCard" item lg={4} xs={12} sm={6}>
+					<Grid key={key} aria-label="ProjectCard" item lg={4} md={6} sm={10} xs={12}>
 						<ProjectCard
 							heading={data.heading}
 							description={data.description}
@@ -67,5 +62,5 @@ export default function Projects() {
 				))}
 			</Grid>
 		</StyledBox>
-    );
+	);
 }

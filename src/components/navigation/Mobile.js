@@ -23,6 +23,12 @@ const StyledBox = styled(Box)(({ theme }) => ({
 		cursor: 'pointer',
 		borderRadius: '0.5rem',
 		transition: 'all 0.5s ease',
+		[theme.breakpoints.down('sm')]: {
+			fontSize: '1rem',
+		},
+		[theme.breakpoints.down('smxs')]: {
+			fontSize: '0.8rem',
+		},
 	},
 
 	[`& .${classes.mobileMenuList}`]: {

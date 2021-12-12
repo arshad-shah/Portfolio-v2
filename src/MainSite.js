@@ -37,6 +37,9 @@ const Root = styled('div')(({ theme }) => ({
 		[theme.breakpoints.down('sm')]: {
 			marginBottom: '4rem',
 		},
+		[theme.breakpoints.down('md')]: {
+			marginBottom: '4rem',
+		},
 	},
 }));
 
