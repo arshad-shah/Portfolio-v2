@@ -1,16 +1,74 @@
 import React from 'react';
+import { styled } from '@mui/material/styles';
 import { Box, Typography, Button, IconButton, Tooltip } from '@mui/material';
 import { Link } from 'react-scroll';
 // icons
 import { FiGithub, FiLinkedin, FiMail, FiArrowDown } from 'react-icons/fi';
-import useStyles from '../styles/LandingPage.styles';
 
 import PropTypes from 'prop-types';
+const PREFIX = 'LandingPage';
+
+const classes = {
+    hero: `${PREFIX}-hero`,
+    landingIntro: `${PREFIX}-landingIntro`,
+    landingName: `${PREFIX}-landingName`,
+    landingDesc: `${PREFIX}-landingDesc`,
+    socialLinks: `${PREFIX}-socialLinks`,
+    Links: `${PREFIX}-Links`
+};
+
+const StyledBox = styled(Box)((
+    {
+        theme
+    }
+) => ({
+    [`&.${classes.hero}`]: {
+		display: 'flex',
+		flexDirection: 'column',
+		flexWrap: 'wrap',
+		color: '#ffffff',
+		textAlign: 'center',
+		alignItems: 'center',
+		justifyContent: 'center',
+		minHeight: '100vh',
+		[theme.breakpoints.down('sm')]: {
+			flexDirection: 'column',
+			fontSize: theme.spacing(2),
+		},
+	},
+
+    [`& .${classes.landingIntro}`]: {
+		padding: '0.7rem',
+		[theme.breakpoints.down('sm')]: {
+			paddingBottom: '0',
+		},
+	},
+
+    [`& .${classes.landingName}`]: {
+		padding: '0.7rem',
+	},
+
+    [`& .${classes.landingDesc}`]: {
+		padding: '0.7rem',
+	},
+
+    [`& .${classes.socialLinks}`]: {
+		padding: '1rem',
+		fontSize: '2rem',
+	},
+
+    [`& .${classes.Links}`]: {
+		padding: '1rem',
+		[theme.breakpoints.down('sm')]: {
+			paddingTop: '0',
+		},
+	}
+}));
 
 export default function LandingPage({ isMobile }) {
-	const classes = useStyles();
+
 	return (
-		<Box className={classes.hero} data-testid="hero">
+        <StyledBox className={classes.hero} data-testid="hero">
 			<Typography className={classes.landingIntro} variant="h4">
 				Hi, My Name Is -
 			</Typography>
@@ -82,8 +140,8 @@ export default function LandingPage({ isMobile }) {
 					{/* </Link> */}
 				</Tooltip>
 			) : null}
-		</Box>
-	);
+		</StyledBox>
+    );
 }
 
 LandingPage.propTypes = {

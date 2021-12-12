@@ -1,11 +1,23 @@
 import React from 'react';
+import { styled } from '@mui/material/styles';
 import { Box, List, ListItem, Link as ExternalLink } from '@mui/material';
-import makeStyles from '@mui/styles/makeStyles';
 import { Link } from 'react-scroll';
 import Resume from '../../assets/ArshadResume.pdf';
 
-const useStyles = makeStyles((theme) => ({
-	button: {
+const PREFIX = 'Mobile';
+
+const classes = {
+    button: `${PREFIX}-button`,
+    mobileMenuList: `${PREFIX}-mobileMenuList`,
+    mobileMenuItem: `${PREFIX}-mobileMenuItem`
+};
+
+const StyledBox = styled(Box)((
+    {
+        theme
+    }
+) => ({
+    [`& .${classes.button}`]: {
 		'&:hover': {
 			backgroundColor: 'transparent',
 		},
@@ -16,7 +28,8 @@ const useStyles = makeStyles((theme) => ({
 		borderRadius: '0.5rem',
 		transition: 'all 0.5s ease',
 	},
-	mobileMenuList: {
+
+    [`& .${classes.mobileMenuList}`]: {
 		display: 'flex',
 		flexDirection: 'row',
 		bottom: '0',
@@ -26,17 +39,18 @@ const useStyles = makeStyles((theme) => ({
 		zIndex: '100',
 		padding: '10px',
 	},
-	mobileMenuItem: {
+
+    [`& .${classes.mobileMenuItem}`]: {
 		justifyContent: 'center',
 		padding: '10px',
-	},
+	}
 }));
 
 export default function Mobile() {
-	const classes = useStyles();
+
 
 	return (
-		<Box aria-label="mobileMenu" data-toggle="mobileMenu">
+        <StyledBox aria-label="mobileMenu" data-toggle="mobileMenu">
 			<List className={classes.mobileMenuList}>
 				<ListItem button className={classes.mobileMenuItem}>
 					<Link
@@ -74,6 +88,6 @@ export default function Mobile() {
 					</ExternalLink>
 				</ListItem>
 			</List>
-		</Box>
-	);
+		</StyledBox>
+    );
 }

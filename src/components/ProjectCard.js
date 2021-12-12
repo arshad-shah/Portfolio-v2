@@ -1,4 +1,5 @@
 import React from 'react';
+import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -21,8 +22,41 @@ import {
 	SiTailwindcss,
 	SiGoogleplay,
 } from 'react-icons/si';
-import useStyles from '../styles/ProjectCard.styles';
 import PropTypes from 'prop-types';
+const PREFIX = 'ProjectCard';
+
+const classes = {
+    root: `${PREFIX}-root`,
+    githubLinksAnchor: `${PREFIX}-githubLinksAnchor`,
+    LanguageChip: `${PREFIX}-LanguageChip`
+};
+
+const StyledCard = styled(Card)((
+    {
+        theme
+    }
+) => ({
+    [`&.${classes.root}`]: {
+		backgroundColor: '#ffffff',
+		padding: '1rem',
+	},
+
+    [`& .${classes.githubLinksAnchor}`]: {
+		'&:visited': {
+			color: '#000000',
+		},
+		'&:link': {
+			color: '#000000',
+		},
+	},
+
+    [`& .${classes.LanguageChip}`]: {
+		margin: '0.3rem',
+		borderRadius: '5px',
+		padding: '0.5rem',
+		fontWeight: 'bold',
+	}
+}));
 
 export default function ProjectCard({
 	heading,
@@ -33,7 +67,7 @@ export default function ProjectCard({
 	siteLink,
 	shopLink,
 }) {
-	const classes = useStyles();
+
 	//a function that find the correct icon for a given language array
 	const getIcon = (language) => {
 		switch (language) {
@@ -70,7 +104,7 @@ export default function ProjectCard({
 	};
 
 	return (
-        <Card raised className={classes.root}>
+        <StyledCard raised className={classes.root}>
 			<CardHeader id="heading" title={heading} data-testid="projectHeading" />
 			<CardContent>
 				<Typography variant="body2">{description}</Typography>
@@ -92,13 +126,13 @@ export default function ProjectCard({
 				{/* Link to github */}
 				<Tooltip title="Github Repo" arrow>
 					<IconButton
-                        data-testid="githublink"
-                        data-block="projectlink"
-                        role="button"
-                        color="secondary"
-                        aria-label={linkAriaLabel}
-                        href={repoLink}
-                        size="large">
+						data-testid="githublink"
+						data-block="projectlink"
+						role="button"
+						color="secondary"
+						aria-label={linkAriaLabel}
+						href={repoLink}
+						size="large">
 						<FiGithub />
 					</IconButton>
 				</Tooltip>
@@ -106,13 +140,13 @@ export default function ProjectCard({
 				{shopLink && (
 					<Tooltip title="Play Store Link" arrow>
 						<IconButton
-                            data-testid="shoplink"
-                            data-block="shoplink"
-                            role="button"
-                            color="secondary"
-                            aria-label={linkAriaLabel}
-                            href={shopLink}
-                            size="large">
+							data-testid="shoplink"
+							data-block="shoplink"
+							role="button"
+							color="secondary"
+							aria-label={linkAriaLabel}
+							href={shopLink}
+							size="large">
 							<SiGoogleplay />
 						</IconButton>
 					</Tooltip>
@@ -121,19 +155,19 @@ export default function ProjectCard({
 				{siteLink ? (
 					<Tooltip title="Live Site Link" arrow>
 						<IconButton
-                            data-testid="externalSiteLink"
-                            data-block="projectLinkToSite"
-                            role="button"
-                            color="secondary"
-                            aria-labelledby={heading}
-                            href={siteLink}
-                            size="large">
+							data-testid="externalSiteLink"
+							data-block="projectLinkToSite"
+							role="button"
+							color="secondary"
+							aria-labelledby={heading}
+							href={siteLink}
+							size="large">
 							<FiExternalLink />
 						</IconButton>
 					</Tooltip>
 				) : null}
 			</CardActions>
-		</Card>
+		</StyledCard>
     );
 }
 

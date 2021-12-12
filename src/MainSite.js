@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react';
-import useStyles from './styles/App.styles';
+import { styled } from '@mui/material/styles';
 import { useMediaQuery, useTheme } from '@mui/material';
 
 import CssBaseline from '@mui/material/CssBaseline';
@@ -10,6 +10,33 @@ import ScrollToTop, { ScrollToFade } from './App.util';
 import Loading from './components/Loading';
 import Mobile from './components/navigation/Mobile';
 
+import backgroundImage from './assets/background.webp';
+import backgroundImageMobile from './assets/backgroundmobile.webp';
+const PREFIX = 'MainSite';
+
+const classes = {
+	root: `${PREFIX}-root`,
+	fab: `${PREFIX}-fab`,
+};
+
+const Root = styled('div')(({ theme }) => ({
+	[`&.${classes.root}`]: {
+		minHeight: '100vh',
+		minWidth: '100%',
+		[theme.breakpoints.down('sm')]: {
+			backgroundImage: `url(${backgroundImageMobile})`,
+		},
+		backgroundImage: `url(${backgroundImage})`,
+		backgroundRepeat: 'no-repeat',
+		backgroundSize: 'cover',
+		backgroundAttachment: 'fixed',
+	},
+
+	[`& .${classes.fab}`]: {
+		fontSize: '2rem',
+	},
+}));
+
 const Header = lazy(() => import('./components/Header'));
 const LandingPage = lazy(() => import('./pages/LandingPage'));
 const Aboutme = lazy(() => import('./pages/Aboutme'));
@@ -19,11 +46,10 @@ const Footer = lazy(() => import('./components/Footer'));
 const renderLoader = () => <Loading />;
 
 function MainSite(props) {
-	const classes = useStyles();
 	const theme = useTheme();
 	const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 	return (
-		<div className={classes.root}>
+		<Root className={classes.root}>
 			<Suspense fallback={renderLoader()}>
 				<CssBaseline />
 				<Header isMobile={isMobile} data-testid="header" />
@@ -52,7 +78,7 @@ function MainSite(props) {
 
 				<Footer isMobile={isMobile} />
 			</Suspense>
-		</div>
+		</Root>
 	);
 }
 

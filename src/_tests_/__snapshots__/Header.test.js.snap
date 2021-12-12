@@ -3,71 +3,71 @@
 exports[`Header of the site: should render Header 1`] = `
 <div>
   <div
-    class="makeStyles-root-29"
+    class="Header-root css-np1iaq"
   >
     <div
-      class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1t29gy6-MuiToolbar-root"
       id="back-to-top-anchor"
     />
     <header
-      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary mui-fixed MuiPaper-elevation4"
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-11b3ww9-MuiPaper-root-MuiAppBar-root"
       data-testid="header"
     >
       <div
-        class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+        class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1t29gy6-MuiToolbar-root"
       >
         <img
           alt=""
           aria-label="Logo"
-          class="makeStyles-logo-33"
+          class="Header-logo"
           src="logo.svg"
         />
         <p
-          class="MuiTypography-root makeStyles-title-31 MuiTypography-h5 MuiTypography-colorTextPrimary"
+          class="MuiTypography-root MuiTypography-h5 Header-title css-1xszx61-MuiTypography-root"
         >
           A SHAH
         </p>
         <div
           aria-label="desktopMenu"
-          class="MuiBox-root MuiBox-root-35"
+          class="MuiBox-root css-4d5d66"
           data-testid="desktopMenu"
         >
           <a
             aria-label="About Me"
-            class="makeStyles-menuItem-34"
+            class="Desktop-menuItem"
             color="default"
             data-block="Aboutmemenuitemdesktop"
             data-testid="aboutmeOption"
           >
             <span
-              class="MuiTypography-root MuiTypography-button"
+              class="MuiTypography-root MuiTypography-button css-1f0on15-MuiTypography-root"
             >
               About Me
             </span>
           </a>
           <a
             aria-label="Projects"
-            class="makeStyles-menuItem-34"
+            class="Desktop-menuItem"
             color="default"
             data-block="Projectsmenuitemdesktop"
             data-testid="projectsOption"
           >
             <span
-              class="MuiTypography-root MuiTypography-button"
+              class="MuiTypography-root MuiTypography-button css-1f0on15-MuiTypography-root"
             >
               Projects
             </span>
           </a>
           <a
             aria-label="Resume"
-            class="makeStyles-menuItem-34"
+            class="Desktop-menuItem"
             color="default"
             data-block="Resumemenuitemdesktop"
             data-testid="resumeOption"
             href="ArshadResume.pdf"
           >
             <span
-              class="MuiTypography-root MuiTypography-button"
+              class="MuiTypography-root MuiTypography-button css-1f0on15-MuiTypography-root"
             >
               Resume
             </span>

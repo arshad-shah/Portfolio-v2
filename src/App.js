@@ -1,14 +1,13 @@
 import React from 'react';
 import {
-    ThemeProvider,
-    StyledEngineProvider,
-    createTheme,
-    responsiveFontSizes,
-    adaptV4Theme,
+	ThemeProvider,
+	StyledEngineProvider,
+	createTheme,
+	responsiveFontSizes,
 } from '@mui/material/styles';
 import MainSite from './MainSite';
 
-let theme = createTheme(adaptV4Theme({
+let theme = createTheme({
 	palette: {
 		mode: 'light',
 		primary: {
@@ -25,16 +24,16 @@ let theme = createTheme(adaptV4Theme({
 		fontFamily: 'Nunito',
 		fontSize: 18,
 	},
-}));
+});
 
 theme = responsiveFontSizes(theme);
 
 export default function App() {
 	return (
-        <StyledEngineProvider injectFirst>
-            <ThemeProvider theme={theme}>
-                <MainSite />
-            </ThemeProvider>
-        </StyledEngineProvider>
-    );
+		<StyledEngineProvider injectFirst>
+			<ThemeProvider theme={theme}>
+				<MainSite />
+			</ThemeProvider>
+		</StyledEngineProvider>
+	);
 }

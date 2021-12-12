@@ -1,29 +1,41 @@
 import React from 'react';
+import { styled } from '@mui/material/styles';
 import PropTypes from 'prop-types';
 import { useTheme } from '@mui/material/styles';
-import makeStyles from '@mui/styles/makeStyles';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Zoom from '@mui/material/Zoom';
 import { Fade, useMediaQuery } from '@mui/material';
 
-const useStyles = makeStyles((theme) => ({
-	root: {
+const PREFIX = 'ScrollToTop';
+
+const classes = {
+    root: `${PREFIX}-root`,
+    rootMobile: `${PREFIX}-rootMobile`
+};
+
+const StyledFade = styled(Fade)((
+    {
+        theme
+    }
+) => ({
+    [`& .${classes.root}`]: {
 		position: 'fixed',
 		bottom: theme.spacing(2),
 		right: theme.spacing(2),
 	},
-	rootMobile: {
+
+    [`& .${classes.rootMobile}`]: {
 		position: 'fixed',
 		bottom: theme.spacing(10),
 		right: theme.spacing(2),
-	},
+	}
 }));
 
 const ScrollToTop = function (props) {
 	const theme = useTheme();
 	const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 	const { children } = props;
-	const classes = useStyles();
+
 	const trigger = useScrollTrigger({
 		disableHysteresis: true,
 		threshold: 300,
@@ -67,10 +79,10 @@ export var ScrollToFade = function (props) {
 
 	if (!trigger) {
 		return (
-			<Fade in timeout={1000}>
+            <StyledFade in timeout={1000}>
 				<div>{children}</div>
-			</Fade>
-		);
+			</StyledFade>
+        );
 	}
 	return (
 		<Fade out={trigger.toString()} timeout={1000}>

@@ -4,57 +4,54 @@ exports[`Mobile layout of the site: should render Mobile 1`] = `
 <div>
   <div
     aria-label="mobileMenu"
-    class="MuiBox-root MuiBox-root-16"
+    class="MuiBox-root css-1yrtqt9"
     data-toggle="mobileMenu"
   >
     <ul
-      class="MuiList-root makeStyles-mobileMenuList-14 MuiList-padding"
+      class="MuiList-root MuiList-padding Mobile-mobileMenuList css-h4y409-MuiList-root"
     >
       <div
-        aria-disabled="false"
-        class="MuiButtonBase-root MuiListItem-root makeStyles-mobileMenuItem-15 MuiListItem-gutters MuiListItem-button"
+        class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button Mobile-mobileMenuItem css-bshv44-MuiButtonBase-root-MuiListItem-root"
         role="button"
         tabindex="0"
       >
         <a
           aria-label="About Me"
-          class="makeStyles-button-13"
+          class="Mobile-button"
           data-block="Aboutmemenuitemmobile"
           data-testid="aboutmeOption"
         >
           ABOUT ME
         </a>
         <span
-          class="MuiTouchRipple-root"
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
         />
       </div>
       <div
-        aria-disabled="false"
-        class="MuiButtonBase-root MuiListItem-root makeStyles-mobileMenuItem-15 MuiListItem-gutters MuiListItem-button"
+        class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button Mobile-mobileMenuItem css-bshv44-MuiButtonBase-root-MuiListItem-root"
         role="button"
         tabindex="0"
       >
         <a
           aria-label="Projects"
-          class="makeStyles-button-13"
+          class="Mobile-button"
           data-block="Projectsmenuitemmobile"
           data-testid="projectsOption"
         >
           PROJECTS
         </a>
         <span
-          class="MuiTouchRipple-root"
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
         />
       </div>
       <div
-        aria-disabled="false"
-        class="MuiButtonBase-root MuiListItem-root makeStyles-mobileMenuItem-15 MuiListItem-gutters MuiListItem-button"
+        class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button Mobile-mobileMenuItem css-bshv44-MuiButtonBase-root-MuiListItem-root"
         role="button"
         tabindex="0"
       >
         <a
           aria-label="Resume"
-          class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-button-13 MuiTypography-colorPrimary"
+          class="MuiTypography-root MuiTypography-outlined MuiLink-root MuiLink-underlineAlways Mobile-button css-1iwtne7-MuiTypography-root-MuiLink-root"
           data-block="Resumemenuitemmobile"
           data-testid="resumeOption"
           href="ArshadResume.pdf"
@@ -62,7 +59,7 @@ exports[`Mobile layout of the site: should render Mobile 1`] = `
           RESUME
         </a>
         <span
-          class="MuiTouchRipple-root"
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
         />
       </div>
     </ul>

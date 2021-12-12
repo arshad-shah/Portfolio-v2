@@ -3,60 +3,60 @@
 exports[`Projects of the site: should render Projects with all the information in it 1`] = `
 <div>
   <div
-    class="MuiBox-root MuiBox-root-5 Projects-root-1"
+    class="Projects-root MuiBox-root css-kec0kv"
   >
     <div
-      class="MuiToolbar-root MuiToolbar-regular Projects-projectsLink-2 MuiToolbar-gutters"
+      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular Projects-projectsLink css-1t29gy6-MuiToolbar-root"
       id="projects"
     />
     <h2
-      class="MuiTypography-root MuiTypography-h2 MuiTypography-gutterBottom MuiTypography-alignCenter"
+      class="MuiTypography-root MuiTypography-h2 MuiTypography-alignCenter MuiTypography-gutterBottom css-6exuqi-MuiTypography-root"
     >
       Projects
     </h2>
     <div
-      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 MuiGrid-align-items-xs-center MuiGrid-align-content-xs-center MuiGrid-justify-content-xs-space-around"
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-l090nh-MuiGrid-root"
     >
       <div
         aria-label="ProjectCard"
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1oljlpb-MuiGrid-root"
       >
         <div
-          class="MuiPaper-root MuiCard-root ProjectCard-root-6 MuiPaper-elevation8 MuiPaper-rounded"
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root ProjectCard-root css-c6x3ll-MuiPaper-root-MuiCard-root"
         >
           <div
-            class="MuiCardHeader-root"
+            class="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
             data-testid="projectHeading"
             id="heading"
           >
             <div
-              class="MuiCardHeader-content"
+              class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
             >
               <span
-                class="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-displayBlock"
+                class="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
               >
                 Android App | Nimaz
               </span>
             </div>
           </div>
           <div
-            class="MuiCardContent-root"
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
             <p
-              class="MuiTypography-root MuiTypography-body2"
+              class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
             >
               An app that calculates Muslim Prayer times and displays it in a clean UI. Features are Alarms for each prayer, Tasbeeh counter, Qibla compass, Names of Allah with translation and transliterations
             </p>
             <span
-              class="MuiTypography-root MuiTypography-overline"
+              class="MuiTypography-root MuiTypography-overline css-b3fch5-MuiTypography-root"
             >
               <br />
               <div
-                class="MuiChip-root ProjectCard-LanguageChip-8 MuiChip-colorSecondary"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
-                  class="MuiChip-icon MuiChip-iconColorSecondary"
+                  class="MuiChip-icon MuiChip-iconMedium MuiChip-iconColorSecondary"
                   fill="currentColor"
                   height="1em"
                   role="img"
@@ -72,7 +72,7 @@ exports[`Projects of the site: should render Projects with all the information i
                   />
                 </svg>
                 <span
-                  class="MuiChip-label"
+                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
                 >
                   Kotlin
                 </span>
@@ -80,74 +80,64 @@ exports[`Projects of the site: should render Projects with all the information i
             </span>
           </div>
           <div
-            class="MuiCardActions-root MuiCardActions-spacing"
+            class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
           >
             <a
-              aria-disabled="false"
               aria-label="link to Google play store for Nimaz App"
-              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary"
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeLarge css-1f88mc5-MuiButtonBase-root-MuiIconButton-root"
               data-block="projectlink"
+              data-mui-internal-clone-element="true"
               data-testid="githublink"
               href="https://github.com/arshad-shah/Nimaz"
               role="button"
               tabindex="0"
-              title="Github Repo"
             >
-              <span
-                class="MuiIconButton-label"
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  fill="none"
-                  height="1em"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                />
+              </svg>
               <span
-                class="MuiTouchRipple-root"
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
               />
             </a>
             <a
-              aria-disabled="false"
               aria-label="link to Google play store for Nimaz App"
-              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary"
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeLarge css-1f88mc5-MuiButtonBase-root-MuiIconButton-root"
               data-block="shoplink"
+              data-mui-internal-clone-element="true"
               data-testid="shoplink"
               href="https://play.google.com/store/apps/details?id=com.arshadshah.nimaz&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
               role="button"
               tabindex="0"
-              title="Play Store Link"
             >
-              <span
-                class="MuiIconButton-label"
+              <svg
+                fill="currentColor"
+                height="1em"
+                role="img"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  fill="currentColor"
-                  height="1em"
-                  role="img"
-                  stroke="currentColor"
-                  stroke-width="0"
-                  viewBox="0 0 24 24"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <title />
-                  <path
-                    d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594zM1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924zm12.207 10.065l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973zm0 2.067l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"
-                  />
-                </svg>
-              </span>
+                <title />
+                <path
+                  d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594zM1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924zm12.207 10.065l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973zm0 2.067l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"
+                />
+              </svg>
               <span
-                class="MuiTouchRipple-root"
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
               />
             </a>
           </div>
@@ -155,44 +145,44 @@ exports[`Projects of the site: should render Projects with all the information i
       </div>
       <div
         aria-label="ProjectCard"
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1oljlpb-MuiGrid-root"
       >
         <div
-          class="MuiPaper-root MuiCard-root ProjectCard-root-6 MuiPaper-elevation8 MuiPaper-rounded"
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root ProjectCard-root css-c6x3ll-MuiPaper-root-MuiCard-root"
         >
           <div
-            class="MuiCardHeader-root"
+            class="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
             data-testid="projectHeading"
             id="heading"
           >
             <div
-              class="MuiCardHeader-content"
+              class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
             >
               <span
-                class="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-displayBlock"
+                class="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
               >
                 Uber Clone
               </span>
             </div>
           </div>
           <div
-            class="MuiCardContent-root"
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
             <p
-              class="MuiTypography-root MuiTypography-body2"
+              class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
             >
               A clone app of uber in react native, for the purpose of learning redux state management.
             </p>
             <span
-              class="MuiTypography-root MuiTypography-overline"
+              class="MuiTypography-root MuiTypography-overline css-b3fch5-MuiTypography-root"
             >
               <br />
               <div
-                class="MuiChip-root ProjectCard-LanguageChip-8 MuiChip-colorSecondary"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
-                  class="MuiChip-icon MuiChip-iconColorSecondary"
+                  class="MuiChip-icon MuiChip-iconMedium MuiChip-iconColorSecondary"
                   fill="currentColor"
                   height="1em"
                   role="img"
@@ -208,17 +198,17 @@ exports[`Projects of the site: should render Projects with all the information i
                   />
                 </svg>
                 <span
-                  class="MuiChip-label"
+                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
                 >
                   React Native
                 </span>
               </div>
               <div
-                class="MuiChip-root ProjectCard-LanguageChip-8 MuiChip-colorSecondary"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
-                  class="MuiChip-icon MuiChip-iconColorSecondary"
+                  class="MuiChip-icon MuiChip-iconMedium MuiChip-iconColorSecondary"
                   fill="currentColor"
                   height="1em"
                   role="img"
@@ -234,17 +224,17 @@ exports[`Projects of the site: should render Projects with all the information i
                   />
                 </svg>
                 <span
-                  class="MuiChip-label"
+                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
                 >
                   Redux toolkit
                 </span>
               </div>
               <div
-                class="MuiChip-root ProjectCard-LanguageChip-8 MuiChip-colorSecondary"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
-                  class="MuiChip-icon MuiChip-iconColorSecondary"
+                  class="MuiChip-icon MuiChip-iconMedium MuiChip-iconColorSecondary"
                   fill="currentColor"
                   height="1em"
                   role="img"
@@ -260,7 +250,7 @@ exports[`Projects of the site: should render Projects with all the information i
                   />
                 </svg>
                 <span
-                  class="MuiChip-label"
+                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
                 >
                   Tailwind CSS
                 </span>
@@ -268,40 +258,35 @@ exports[`Projects of the site: should render Projects with all the information i
             </span>
           </div>
           <div
-            class="MuiCardActions-root MuiCardActions-spacing"
+            class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
           >
             <a
-              aria-disabled="false"
               aria-label="link to Github for Uber Clone repo"
-              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary"
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeLarge css-1f88mc5-MuiButtonBase-root-MuiIconButton-root"
               data-block="projectlink"
+              data-mui-internal-clone-element="true"
               data-testid="githublink"
               href="https://github.com/arshad-shah/uber-clone"
               role="button"
               tabindex="0"
-              title="Github Repo"
             >
-              <span
-                class="MuiIconButton-label"
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  fill="none"
-                  height="1em"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                />
+              </svg>
               <span
-                class="MuiTouchRipple-root"
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
               />
             </a>
           </div>
@@ -309,44 +294,44 @@ exports[`Projects of the site: should render Projects with all the information i
       </div>
       <div
         aria-label="ProjectCard"
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1oljlpb-MuiGrid-root"
       >
         <div
-          class="MuiPaper-root MuiCard-root ProjectCard-root-6 MuiPaper-elevation8 MuiPaper-rounded"
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root ProjectCard-root css-c6x3ll-MuiPaper-root-MuiCard-root"
         >
           <div
-            class="MuiCardHeader-root"
+            class="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
             data-testid="projectHeading"
             id="heading"
           >
             <div
-              class="MuiCardHeader-content"
+              class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
             >
               <span
-                class="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-displayBlock"
+                class="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
               >
                 Android App | MedicineReminder
               </span>
             </div>
           </div>
           <div
-            class="MuiCardContent-root"
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
             <p
-              class="MuiTypography-root MuiTypography-body2"
+              class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
             >
               A reminder designed for medicine doses, the primary focus of the app is to show a notification when it is time for a medicine dose, it uses sqlite for storage of the reminders, uses alarm manager for showing notifications.
             </p>
             <span
-              class="MuiTypography-root MuiTypography-overline"
+              class="MuiTypography-root MuiTypography-overline css-b3fch5-MuiTypography-root"
             >
               <br />
               <div
-                class="MuiChip-root ProjectCard-LanguageChip-8 MuiChip-colorSecondary"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
-                  class="MuiChip-icon MuiChip-iconColorSecondary"
+                  class="MuiChip-icon MuiChip-iconMedium MuiChip-iconColorSecondary"
                   fill="currentColor"
                   height="1em"
                   role="img"
@@ -362,17 +347,17 @@ exports[`Projects of the site: should render Projects with all the information i
                   />
                 </svg>
                 <span
-                  class="MuiChip-label"
+                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
                 >
                   Java
                 </span>
               </div>
               <div
-                class="MuiChip-root ProjectCard-LanguageChip-8 MuiChip-colorSecondary"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
-                  class="MuiChip-icon MuiChip-iconColorSecondary"
+                  class="MuiChip-icon MuiChip-iconMedium MuiChip-iconColorSecondary"
                   fill="currentColor"
                   height="1em"
                   role="img"
@@ -388,7 +373,7 @@ exports[`Projects of the site: should render Projects with all the information i
                   />
                 </svg>
                 <span
-                  class="MuiChip-label"
+                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
                 >
                   SQLite
                 </span>
@@ -396,40 +381,35 @@ exports[`Projects of the site: should render Projects with all the information i
             </span>
           </div>
           <div
-            class="MuiCardActions-root MuiCardActions-spacing"
+            class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
           >
             <a
-              aria-disabled="false"
               aria-label="link to Github for MedicineReminder App"
-              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary"
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeLarge css-1f88mc5-MuiButtonBase-root-MuiIconButton-root"
               data-block="projectlink"
+              data-mui-internal-clone-element="true"
               data-testid="githublink"
               href="https://github.com/arshad-shah/medicineReminder"
               role="button"
               tabindex="0"
-              title="Github Repo"
             >
-              <span
-                class="MuiIconButton-label"
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  fill="none"
-                  height="1em"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                />
+              </svg>
               <span
-                class="MuiTouchRipple-root"
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
               />
             </a>
           </div>
@@ -437,44 +417,44 @@ exports[`Projects of the site: should render Projects with all the information i
       </div>
       <div
         aria-label="ProjectCard"
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1oljlpb-MuiGrid-root"
       >
         <div
-          class="MuiPaper-root MuiCard-root ProjectCard-root-6 MuiPaper-elevation8 MuiPaper-rounded"
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root ProjectCard-root css-c6x3ll-MuiPaper-root-MuiCard-root"
         >
           <div
-            class="MuiCardHeader-root"
+            class="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
             data-testid="projectHeading"
             id="heading"
           >
             <div
-              class="MuiCardHeader-content"
+              class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
             >
               <span
-                class="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-displayBlock"
+                class="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
               >
                 Chat App
               </span>
             </div>
           </div>
           <div
-            class="MuiCardContent-root"
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
             <p
-              class="MuiTypography-root MuiTypography-body2"
+              class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
             >
               A chat app created in nextjs, styled components, and Material UI with firebase database for storage to learn server side rendering
             </p>
             <span
-              class="MuiTypography-root MuiTypography-overline"
+              class="MuiTypography-root MuiTypography-overline css-b3fch5-MuiTypography-root"
             >
               <br />
               <div
-                class="MuiChip-root ProjectCard-LanguageChip-8 MuiChip-colorSecondary"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
-                  class="MuiChip-icon MuiChip-iconColorSecondary"
+                  class="MuiChip-icon MuiChip-iconMedium MuiChip-iconColorSecondary"
                   fill="currentColor"
                   height="1em"
                   role="img"
@@ -490,17 +470,17 @@ exports[`Projects of the site: should render Projects with all the information i
                   />
                 </svg>
                 <span
-                  class="MuiChip-label"
+                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
                 >
                   ReactJS
                 </span>
               </div>
               <div
-                class="MuiChip-root ProjectCard-LanguageChip-8 MuiChip-colorSecondary"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
-                  class="MuiChip-icon MuiChip-iconColorSecondary"
+                  class="MuiChip-icon MuiChip-iconMedium MuiChip-iconColorSecondary"
                   fill="currentColor"
                   height="1em"
                   role="img"
@@ -516,17 +496,17 @@ exports[`Projects of the site: should render Projects with all the information i
                   />
                 </svg>
                 <span
-                  class="MuiChip-label"
+                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
                 >
                   NextJS
                 </span>
               </div>
               <div
-                class="MuiChip-root ProjectCard-LanguageChip-8 MuiChip-colorSecondary"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
-                  class="MuiChip-icon MuiChip-iconColorSecondary"
+                  class="MuiChip-icon MuiChip-iconMedium MuiChip-iconColorSecondary"
                   fill="currentColor"
                   height="1em"
                   role="img"
@@ -542,17 +522,17 @@ exports[`Projects of the site: should render Projects with all the information i
                   />
                 </svg>
                 <span
-                  class="MuiChip-label"
+                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
                 >
                   Material UI
                 </span>
               </div>
               <div
-                class="MuiChip-root ProjectCard-LanguageChip-8 MuiChip-colorSecondary"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
-                  class="MuiChip-icon MuiChip-iconColorSecondary"
+                  class="MuiChip-icon MuiChip-iconMedium MuiChip-iconColorSecondary"
                   fill="currentColor"
                   height="1em"
                   role="img"
@@ -568,7 +548,7 @@ exports[`Projects of the site: should render Projects with all the information i
                   />
                 </svg>
                 <span
-                  class="MuiChip-label"
+                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
                 >
                   Styled components
                 </span>
@@ -576,40 +556,35 @@ exports[`Projects of the site: should render Projects with all the information i
             </span>
           </div>
           <div
-            class="MuiCardActions-root MuiCardActions-spacing"
+            class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
           >
             <a
-              aria-disabled="false"
               aria-label="link to Github for Chat App repo"
-              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary"
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeLarge css-1f88mc5-MuiButtonBase-root-MuiIconButton-root"
               data-block="projectlink"
+              data-mui-internal-clone-element="true"
               data-testid="githublink"
               href="https://github.com/arshad-shah/chatty"
               role="button"
               tabindex="0"
-              title="Github Repo"
             >
-              <span
-                class="MuiIconButton-label"
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  fill="none"
-                  height="1em"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                />
+              </svg>
               <span
-                class="MuiTouchRipple-root"
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
               />
             </a>
           </div>
@@ -617,44 +592,44 @@ exports[`Projects of the site: should render Projects with all the information i
       </div>
       <div
         aria-label="ProjectCard"
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1oljlpb-MuiGrid-root"
       >
         <div
-          class="MuiPaper-root MuiCard-root ProjectCard-root-6 MuiPaper-elevation8 MuiPaper-rounded"
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root ProjectCard-root css-c6x3ll-MuiPaper-root-MuiCard-root"
         >
           <div
-            class="MuiCardHeader-root"
+            class="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
             data-testid="projectHeading"
             id="heading"
           >
             <div
-              class="MuiCardHeader-content"
+              class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
             >
               <span
-                class="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-displayBlock"
+                class="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
               >
                 Portfolio website version 1.0
               </span>
             </div>
           </div>
           <div
-            class="MuiCardContent-root"
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
             <p
-              class="MuiTypography-root MuiTypography-body2"
+              class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
             >
               A Portfolio site that contains all the work i have done so far. Includes work from college such as exercises, projects and also from outside college such as the android app.This is the first version written in pure HTML, CSS and javascript with a pinch of jquery.
             </p>
             <span
-              class="MuiTypography-root MuiTypography-overline"
+              class="MuiTypography-root MuiTypography-overline css-b3fch5-MuiTypography-root"
             >
               <br />
               <div
-                class="MuiChip-root ProjectCard-LanguageChip-8 MuiChip-colorSecondary"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
-                  class="MuiChip-icon MuiChip-iconColorSecondary"
+                  class="MuiChip-icon MuiChip-iconMedium MuiChip-iconColorSecondary"
                   fill="currentColor"
                   height="1em"
                   role="img"
@@ -670,17 +645,17 @@ exports[`Projects of the site: should render Projects with all the information i
                   />
                 </svg>
                 <span
-                  class="MuiChip-label"
+                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
                 >
                   HTML
                 </span>
               </div>
               <div
-                class="MuiChip-root ProjectCard-LanguageChip-8 MuiChip-colorSecondary"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
-                  class="MuiChip-icon MuiChip-iconColorSecondary"
+                  class="MuiChip-icon MuiChip-iconMedium MuiChip-iconColorSecondary"
                   fill="currentColor"
                   height="1em"
                   role="img"
@@ -696,17 +671,17 @@ exports[`Projects of the site: should render Projects with all the information i
                   />
                 </svg>
                 <span
-                  class="MuiChip-label"
+                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
                 >
                   CSS
                 </span>
               </div>
               <div
-                class="MuiChip-root ProjectCard-LanguageChip-8 MuiChip-colorSecondary"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
-                  class="MuiChip-icon MuiChip-iconColorSecondary"
+                  class="MuiChip-icon MuiChip-iconMedium MuiChip-iconColorSecondary"
                   fill="currentColor"
                   height="1em"
                   role="img"
@@ -722,17 +697,17 @@ exports[`Projects of the site: should render Projects with all the information i
                   />
                 </svg>
                 <span
-                  class="MuiChip-label"
+                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
                 >
                   Javascript
                 </span>
               </div>
               <div
-                class="MuiChip-root ProjectCard-LanguageChip-8 MuiChip-colorSecondary"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
-                  class="MuiChip-icon MuiChip-iconColorSecondary"
+                  class="MuiChip-icon MuiChip-iconMedium MuiChip-iconColorSecondary"
                   fill="currentColor"
                   height="1em"
                   role="img"
@@ -748,7 +723,7 @@ exports[`Projects of the site: should render Projects with all the information i
                   />
                 </svg>
                 <span
-                  class="MuiChip-label"
+                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
                 >
                   JQuery
                 </span>
@@ -756,83 +731,74 @@ exports[`Projects of the site: should render Projects with all the information i
             </span>
           </div>
           <div
-            class="MuiCardActions-root MuiCardActions-spacing"
+            class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
           >
             <a
-              aria-disabled="false"
               aria-label="link to Github for portfolio version 1"
-              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary"
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeLarge css-1f88mc5-MuiButtonBase-root-MuiIconButton-root"
               data-block="projectlink"
+              data-mui-internal-clone-element="true"
               data-testid="githublink"
               href="https://github.com/arshad-shah/portfoliov1"
               role="button"
               tabindex="0"
-              title="Github Repo"
             >
-              <span
-                class="MuiIconButton-label"
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  fill="none"
-                  height="1em"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                />
+              </svg>
               <span
-                class="MuiTouchRipple-root"
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
               />
             </a>
             <a
-              aria-disabled="false"
+              aria-label="Live Site Link"
               aria-labelledby="Portfolio website version 1.0"
-              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary"
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeLarge css-1f88mc5-MuiButtonBase-root-MuiIconButton-root"
               data-block="projectLinkToSite"
+              data-mui-internal-clone-element="true"
               data-testid="externalSiteLink"
               href="https://arshad-shah.github.io/portfoliov1/"
               role="button"
               tabindex="0"
-              title="Live Site Link"
             >
-              <span
-                class="MuiIconButton-label"
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  fill="none"
-                  height="1em"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
-                  />
-                  <polyline
-                    points="15 3 21 3 21 9"
-                  />
-                  <line
-                    x1="10"
-                    x2="21"
-                    y1="14"
-                    y2="3"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                />
+                <polyline
+                  points="15 3 21 3 21 9"
+                />
+                <line
+                  x1="10"
+                  x2="21"
+                  y1="14"
+                  y2="3"
+                />
+              </svg>
               <span
-                class="MuiTouchRipple-root"
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
               />
             </a>
           </div>
@@ -840,44 +806,44 @@ exports[`Projects of the site: should render Projects with all the information i
       </div>
       <div
         aria-label="ProjectCard"
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1oljlpb-MuiGrid-root"
       >
         <div
-          class="MuiPaper-root MuiCard-root ProjectCard-root-6 MuiPaper-elevation8 MuiPaper-rounded"
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root ProjectCard-root css-c6x3ll-MuiPaper-root-MuiCard-root"
         >
           <div
-            class="MuiCardHeader-root"
+            class="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
             data-testid="projectHeading"
             id="heading"
           >
             <div
-              class="MuiCardHeader-content"
+              class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
             >
               <span
-                class="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-displayBlock"
+                class="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
               >
                 Portfolio website version 2.0
               </span>
             </div>
           </div>
           <div
-            class="MuiCardContent-root"
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
             <p
-              class="MuiTypography-root MuiTypography-body2"
+              class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
             >
               The current version of the Portfolio site that contains all the work i have done so far. Includes work from college such as exercises, projects and also from outside college such as the android app.This is the second version written in javascript using the React framework, and designed using Material UI.
             </p>
             <span
-              class="MuiTypography-root MuiTypography-overline"
+              class="MuiTypography-root MuiTypography-overline css-b3fch5-MuiTypography-root"
             >
               <br />
               <div
-                class="MuiChip-root ProjectCard-LanguageChip-8 MuiChip-colorSecondary"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
-                  class="MuiChip-icon MuiChip-iconColorSecondary"
+                  class="MuiChip-icon MuiChip-iconMedium MuiChip-iconColorSecondary"
                   fill="currentColor"
                   height="1em"
                   role="img"
@@ -893,17 +859,17 @@ exports[`Projects of the site: should render Projects with all the information i
                   />
                 </svg>
                 <span
-                  class="MuiChip-label"
+                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
                 >
                   HTML
                 </span>
               </div>
               <div
-                class="MuiChip-root ProjectCard-LanguageChip-8 MuiChip-colorSecondary"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
-                  class="MuiChip-icon MuiChip-iconColorSecondary"
+                  class="MuiChip-icon MuiChip-iconMedium MuiChip-iconColorSecondary"
                   fill="currentColor"
                   height="1em"
                   role="img"
@@ -919,17 +885,17 @@ exports[`Projects of the site: should render Projects with all the information i
                   />
                 </svg>
                 <span
-                  class="MuiChip-label"
+                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
                 >
                   Javascript
                 </span>
               </div>
               <div
-                class="MuiChip-root ProjectCard-LanguageChip-8 MuiChip-colorSecondary"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
-                  class="MuiChip-icon MuiChip-iconColorSecondary"
+                  class="MuiChip-icon MuiChip-iconMedium MuiChip-iconColorSecondary"
                   fill="currentColor"
                   height="1em"
                   role="img"
@@ -945,17 +911,17 @@ exports[`Projects of the site: should render Projects with all the information i
                   />
                 </svg>
                 <span
-                  class="MuiChip-label"
+                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
                 >
                   ReactJS
                 </span>
               </div>
               <div
-                class="MuiChip-root ProjectCard-LanguageChip-8 MuiChip-colorSecondary"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
-                  class="MuiChip-icon MuiChip-iconColorSecondary"
+                  class="MuiChip-icon MuiChip-iconMedium MuiChip-iconColorSecondary"
                   fill="currentColor"
                   height="1em"
                   role="img"
@@ -971,7 +937,7 @@ exports[`Projects of the site: should render Projects with all the information i
                   />
                 </svg>
                 <span
-                  class="MuiChip-label"
+                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
                 >
                   Material UI
                 </span>
@@ -979,40 +945,35 @@ exports[`Projects of the site: should render Projects with all the information i
             </span>
           </div>
           <div
-            class="MuiCardActions-root MuiCardActions-spacing"
+            class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
           >
             <a
-              aria-disabled="false"
               aria-label="link to Github for portfolio version 2"
-              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary"
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeLarge css-1f88mc5-MuiButtonBase-root-MuiIconButton-root"
               data-block="projectlink"
+              data-mui-internal-clone-element="true"
               data-testid="githublink"
               href="https://github.com/arshad-shah/portfolio-v2"
               role="button"
               tabindex="0"
-              title="Github Repo"
             >
-              <span
-                class="MuiIconButton-label"
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  fill="none"
-                  height="1em"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                />
+              </svg>
               <span
-                class="MuiTouchRipple-root"
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
               />
             </a>
           </div>

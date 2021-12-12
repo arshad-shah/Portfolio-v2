@@ -1,13 +1,47 @@
 import { Box, Grid, Toolbar, Typography } from '@mui/material';
+import { styled } from '@mui/material/styles';
 import React from 'react';
-import useStyles from '../styles/Projects.styles';
 import ProjectCard from '../components/ProjectCard';
 import { cardData } from '../data/projectData';
+const PREFIX = 'Projects';
+
+const classes = {
+    root: `${PREFIX}-root`,
+    projectsLink: `${PREFIX}-projectsLink`,
+    projectsCard: `${PREFIX}-projectsCard`,
+    githubLinksAnchor: `${PREFIX}-githubLinksAnchor`
+};
+
+const StyledBox = styled(Box)((
+    {
+        theme
+    }
+) => ({
+    [`&.${classes.root}`]: {
+		backgroundColor: '#ffffff',
+		padding: '1rem',
+	},
+
+    [`& .${classes.projectsLink}`]: {
+		minHeight: 0,
+	},
+
+    [`& .${classes.projectsCard}`]: {},
+
+    [`& .${classes.githubLinksAnchor}`]: {
+		'&:visited': {
+			color: '#000000',
+		},
+		'&:link': {
+			color: '#000000',
+		},
+	}
+}));
 
 export default function Projects() {
-	const classes = useStyles();
+
 	return (
-		<Box className={classes.root}>
+        <StyledBox className={classes.root}>
 			<Toolbar className={classes.projectsLink} id="projects" />
 			<Typography align="center" gutterBottom variant="h2">
 				Projects
@@ -32,6 +66,6 @@ export default function Projects() {
 					</Grid>
 				))}
 			</Grid>
-		</Box>
-	);
+		</StyledBox>
+    );
 }
