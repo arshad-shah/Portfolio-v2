@@ -5,7 +5,7 @@ import { useMediaQuery, useTheme } from '@mui/material';
 import CssBaseline from '@mui/material/CssBaseline';
 import Fab from '@mui/material/Fab';
 import { FiArrowUp } from 'react-icons/fi';
-import ScrollToTop, { ScrollToFade } from './App.util';
+import { ScrollToFade, ScrollToTop } from './App.util';
 
 import Loading from './components/Loading';
 import Mobile from './components/navigation/Mobile';
@@ -34,6 +34,9 @@ const Root = styled('div')(({ theme }) => ({
 
 	[`& .${classes.fab}`]: {
 		fontSize: '2rem',
+		[theme.breakpoints.down('sm')]: {
+			marginBottom: '4rem',
+		},
 	},
 }));
 
@@ -53,17 +56,12 @@ function MainSite(props) {
 			<Suspense fallback={renderLoader()}>
 				<CssBaseline />
 				<Header isMobile={isMobile} data-testid="header" />
-
 				{isMobile ? <Mobile /> : null}
-
 				<ScrollToFade {...props}>
 					<LandingPage isMobile={isMobile} />
 				</ScrollToFade>
-
 				<Aboutme />
-
 				<Projects data-testid="projectsSection" />
-
 				<ScrollToTop {...props}>
 					<Fab
 						color="secondary"
@@ -75,7 +73,6 @@ function MainSite(props) {
 						<FiArrowUp />
 					</Fab>
 				</ScrollToTop>
-
 				<Footer isMobile={isMobile} />
 			</Suspense>
 		</Root>

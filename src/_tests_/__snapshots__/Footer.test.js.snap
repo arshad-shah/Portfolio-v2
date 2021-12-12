@@ -3,7 +3,7 @@
 exports[`Footer of the site: should render footer 1`] = `
 <div>
   <div
-    class="Footer-root MuiBox-root css-163qigw"
+    class="MuiBox-root css-1mayosb"
   >
     <h6
       class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
@@ -17,7 +17,7 @@ exports[`Footer of the site: should render footer 1`] = `
     >
       <a
         aria-label="link to Github account of Arshad shah"
-        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge Footer-socialLinks css-mf1cb5-MuiButtonBase-root-MuiIconButton-root"
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-13eoe5i-MuiButtonBase-root-MuiIconButton-root"
         data-block="linktoGithub"
         data-mui-internal-clone-element="true"
         data-testid="githubForFooter"
@@ -46,7 +46,7 @@ exports[`Footer of the site: should render footer 1`] = `
       </a>
       <a
         aria-label="link to Linkedin account of Arshad shah"
-        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge Footer-socialLinks css-mf1cb5-MuiButtonBase-root-MuiIconButton-root"
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-13eoe5i-MuiButtonBase-root-MuiIconButton-root"
         data-block="linktoLinkedin"
         data-mui-internal-clone-element="true"
         data-testid="linkedinForFooter"
@@ -86,7 +86,7 @@ exports[`Footer of the site: should render footer 1`] = `
       </a>
       <a
         aria-label="link to mail account of Arshad shah"
-        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge Footer-socialLinks css-mf1cb5-MuiButtonBase-root-MuiIconButton-root"
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-13eoe5i-MuiButtonBase-root-MuiIconButton-root"
         data-block="linktoMail"
         data-mui-internal-clone-element="true"
         data-testid="emailForFooter"

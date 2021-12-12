@@ -7,17 +7,13 @@ import Resume from '../../assets/ArshadResume.pdf';
 const PREFIX = 'Mobile';
 
 const classes = {
-    button: `${PREFIX}-button`,
-    mobileMenuList: `${PREFIX}-mobileMenuList`,
-    mobileMenuItem: `${PREFIX}-mobileMenuItem`
+	button: `${PREFIX}-button`,
+	mobileMenuList: `${PREFIX}-mobileMenuList`,
+	mobileMenuItem: `${PREFIX}-mobileMenuItem`,
 };
 
-const StyledBox = styled(Box)((
-    {
-        theme
-    }
-) => ({
-    [`& .${classes.button}`]: {
+const StyledBox = styled(Box)(({ theme }) => ({
+	[`& .${classes.button}`]: {
 		'&:hover': {
 			backgroundColor: 'transparent',
 		},
@@ -29,7 +25,7 @@ const StyledBox = styled(Box)((
 		transition: 'all 0.5s ease',
 	},
 
-    [`& .${classes.mobileMenuList}`]: {
+	[`& .${classes.mobileMenuList}`]: {
 		display: 'flex',
 		flexDirection: 'row',
 		bottom: '0',
@@ -40,17 +36,15 @@ const StyledBox = styled(Box)((
 		padding: '10px',
 	},
 
-    [`& .${classes.mobileMenuItem}`]: {
+	[`& .${classes.mobileMenuItem}`]: {
 		justifyContent: 'center',
 		padding: '10px',
-	}
+	},
 }));
 
 export default function Mobile() {
-
-
 	return (
-        <StyledBox aria-label="mobileMenu" data-toggle="mobileMenu">
+		<StyledBox aria-label="mobileMenu" data-toggle="mobileMenu">
 			<List className={classes.mobileMenuList}>
 				<ListItem button className={classes.mobileMenuItem}>
 					<Link
@@ -89,5 +83,5 @@ export default function Mobile() {
 				</ListItem>
 			</List>
 		</StyledBox>
-    );
+	);
 }

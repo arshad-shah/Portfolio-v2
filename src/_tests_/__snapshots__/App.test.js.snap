@@ -3,15 +3,13 @@
 exports[`the full app: should render the full app 1`] = `
 <div>
   <div
-    class="MainSite-root css-civl5v"
+    class="MainSite-root css-1icj39n"
   >
     <div
-      class="css-pq8lrb"
       style="opacity: 1; display: none; webkit-transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     />
     <div
-      class="ScrollToTop-root"
-      data-block="backtotopbutton"
+      class="MuiBox-root css-mgur8"
       role="presentation"
       style="transform: scale(0); visibility: hidden; display: none;"
     >

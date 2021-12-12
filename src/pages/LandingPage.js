@@ -9,20 +9,16 @@ import PropTypes from 'prop-types';
 const PREFIX = 'LandingPage';
 
 const classes = {
-    hero: `${PREFIX}-hero`,
-    landingIntro: `${PREFIX}-landingIntro`,
-    landingName: `${PREFIX}-landingName`,
-    landingDesc: `${PREFIX}-landingDesc`,
-    socialLinks: `${PREFIX}-socialLinks`,
-    Links: `${PREFIX}-Links`
+	hero: `${PREFIX}-hero`,
+	landingIntro: `${PREFIX}-landingIntro`,
+	landingName: `${PREFIX}-landingName`,
+	landingDesc: `${PREFIX}-landingDesc`,
+	socialLinks: `${PREFIX}-socialLinks`,
+	Links: `${PREFIX}-Links`,
 };
 
-const StyledBox = styled(Box)((
-    {
-        theme
-    }
-) => ({
-    [`&.${classes.hero}`]: {
+const StyledBox = styled(Box)(({ theme }) => ({
+	[`&.${classes.hero}`]: {
 		display: 'flex',
 		flexDirection: 'column',
 		flexWrap: 'wrap',
@@ -37,38 +33,37 @@ const StyledBox = styled(Box)((
 		},
 	},
 
-    [`& .${classes.landingIntro}`]: {
+	[`& .${classes.landingIntro}`]: {
 		padding: '0.7rem',
 		[theme.breakpoints.down('sm')]: {
 			paddingBottom: '0',
 		},
 	},
 
-    [`& .${classes.landingName}`]: {
+	[`& .${classes.landingName}`]: {
 		padding: '0.7rem',
 	},
 
-    [`& .${classes.landingDesc}`]: {
+	[`& .${classes.landingDesc}`]: {
 		padding: '0.7rem',
 	},
 
-    [`& .${classes.socialLinks}`]: {
+	[`& .${classes.socialLinks}`]: {
 		padding: '1rem',
 		fontSize: '2rem',
 	},
 
-    [`& .${classes.Links}`]: {
+	[`& .${classes.Links}`]: {
 		padding: '1rem',
 		[theme.breakpoints.down('sm')]: {
 			paddingTop: '0',
 		},
-	}
+	},
 }));
 
 export default function LandingPage({ isMobile }) {
-
 	return (
-        <StyledBox className={classes.hero} data-testid="hero">
+		<StyledBox className={classes.hero} data-testid="hero">
 			<Typography className={classes.landingIntro} variant="h4">
 				Hi, My Name Is -
 			</Typography>
@@ -125,8 +120,7 @@ export default function LandingPage({ isMobile }) {
 				</Tooltip>
 			</Box>
 			{!isMobile ? (
-				<Tooltip title="Scroll Down" arrow>
-					{/* <Link to="aboutme" spy smooth> */}
+				<Link to="aboutme" spy smooth>
 					<Button
 						data-testid="scrollDown"
 						aria-label="scroll down button"
@@ -137,11 +131,10 @@ export default function LandingPage({ isMobile }) {
 						data-block="scrolldown">
 						<FiArrowDown />
 					</Button>
-					{/* </Link> */}
-				</Tooltip>
+				</Link>
 			) : null}
 		</StyledBox>
-    );
+	);
 }
 
 LandingPage.propTypes = {

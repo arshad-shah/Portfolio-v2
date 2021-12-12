@@ -1,44 +1,15 @@
-import React from 'react';
-import { styled } from '@mui/material/styles';
+import * as React from 'react';
 import PropTypes from 'prop-types';
-import { useTheme } from '@mui/material/styles';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
+import Box from '@mui/material/Box';
 import Zoom from '@mui/material/Zoom';
-import { Fade, useMediaQuery } from '@mui/material';
+import { Fade } from '@mui/material';
 
-const PREFIX = 'ScrollToTop';
-
-const classes = {
-    root: `${PREFIX}-root`,
-    rootMobile: `${PREFIX}-rootMobile`
-};
-
-const StyledFade = styled(Fade)((
-    {
-        theme
-    }
-) => ({
-    [`& .${classes.root}`]: {
-		position: 'fixed',
-		bottom: theme.spacing(2),
-		right: theme.spacing(2),
-	},
-
-    [`& .${classes.rootMobile}`]: {
-		position: 'fixed',
-		bottom: theme.spacing(10),
-		right: theme.spacing(2),
-	}
-}));
-
-const ScrollToTop = function (props) {
-	const theme = useTheme();
-	const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+export function ScrollToTop(props) {
 	const { children } = props;
-
 	const trigger = useScrollTrigger({
 		disableHysteresis: true,
-		threshold: 300,
+		threshold: 100,
 	});
 
 	const handleClick = (event) => {
@@ -47,28 +18,28 @@ const ScrollToTop = function (props) {
 		);
 
 		if (anchor) {
-			anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
+			anchor.scrollIntoView({
+				behavior: 'smooth',
+				block: 'center',
+			});
 		}
 	};
 
 	return (
 		<Zoom in={trigger}>
-			<div
+			<Box
 				onClick={handleClick}
 				role="presentation"
-				data-block="backtotopbutton"
-				className={isMobile ? classes.rootMobile : classes.root}>
+				sx={{ position: 'fixed', bottom: 16, right: 16 }}>
 				{children}
-			</div>
+			</Box>
 		</Zoom>
 	);
-};
+}
 
 ScrollToTop.propTypes = {
 	children: PropTypes.element.isRequired,
 };
-
-export default ScrollToTop;
 
 export var ScrollToFade = function (props) {
 	const { children } = props;
@@ -79,10 +50,10 @@ export var ScrollToFade = function (props) {
 
 	if (!trigger) {
 		return (
-            <StyledFade in timeout={1000}>
+			<Fade in={trigger.toString()} timeout={1000}>
 				<div>{children}</div>
-			</StyledFade>
-        );
+			</Fade>
+		);
 	}
 	return (
 		<Fade out={trigger.toString()} timeout={1000}>

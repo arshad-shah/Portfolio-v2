@@ -1,62 +1,36 @@
 import { Box, IconButton, Tooltip, Typography } from '@mui/material';
-import { styled } from '@mui/material/styles';
 import React from 'react';
 import PropTypes from 'prop-types';
 
 // icons
 import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
-const PREFIX = 'Footer';
-
-const classes = {
-    root: `${PREFIX}-root`,
-    rootMobileFooter: `${PREFIX}-rootMobileFooter`,
-    socialLinks: `${PREFIX}-socialLinks`
-};
-
-const StyledBox = styled(Box)((
-    {
-        theme
-    }
-) => ({
-    [`& .${classes.root}`]: {
-		display: 'flex',
-		flexDirection: 'column',
-		backgroundColor: '#ffffff',
-		flexWrap: 'wrap',
-		alignContent: 'center',
-		justifyContent: 'center',
-		alignItems: 'center',
-		padding: '2rem',
-	},
-
-    [`& .${classes.rootMobileFooter}`]: {
-		display: 'flex',
-		flexDirection: 'column',
-		backgroundColor: '#ffffff',
-		flexWrap: 'wrap',
-		alignContent: 'center',
-		justifyContent: 'center',
-		alignItems: 'center',
-		padding: '2rem',
-		marginBottom: '3rem',
-	},
-
-    [`& .${classes.socialLinks}`]: {
-		padding: '1rem',
-		color: '#000000',
-	}
-}));
-
 export default function Footer({ isMobile }) {
+	const desktopStyles = {
+		display: 'flex',
+		flexDirection: 'column',
+		alignItems: 'center',
+		backgroundColor: '#ffffff',
+		padding: '1rem',
+	};
 
+	const mobileStyles = {
+		display: 'flex',
+		flexDirection: 'column',
+		alignItems: 'center',
+		backgroundColor: '#ffffff',
+		padding: '1rem',
+		marginBottom: '5rem',
+	};
 	return (
-        <StyledBox className={isMobile ? classes.rootMobileFooter : classes.root}>
+		<Box sx={isMobile ? mobileStyles : desktopStyles}>
 			<Typography variant="h6">&copy; {new Date().getFullYear()} Arshad Shah</Typography>
 			<Box>
 				<Tooltip title="Github Profile" arrow>
 					<IconButton
+						sx={{
+							color: '#000000',
+						}}
 						role="button"
-						className={classes.socialLinks}
 						color="default"
 						aria-label="link to Github account of Arshad shah"
 						data-block="linktoGithub"
@@ -69,8 +43,10 @@ export default function Footer({ isMobile }) {
 
 				<Tooltip title="LinkedIn Profile" arrow>
 					<IconButton
+						sx={{
+							color: '#000000',
+						}}
 						role="button"
-						className={classes.socialLinks}
 						color="default"
 						aria-label="link to Linkedin account of Arshad shah"
 						data-block="linktoLinkedin"
@@ -83,7 +59,9 @@ export default function Footer({ isMobile }) {
 
 				<Tooltip title="Email Me" arrow>
 					<IconButton
-						className={classes.socialLinks}
+						sx={{
+							color: '#000000',
+						}}
 						color="default"
 						role="button"
 						aria-label="link to mail account of Arshad shah"
@@ -96,8 +74,8 @@ export default function Footer({ isMobile }) {
 				</Tooltip>
 			</Box>
 			<Typography variant="subtitle2">V2.7 Date: 09 / December / 2021</Typography>
-		</StyledBox>
-    );
+		</Box>
+	);
 }
 
 Footer.propTypes = {

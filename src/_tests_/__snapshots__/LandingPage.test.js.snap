@@ -134,40 +134,41 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
         />
       </a>
     </div>
-    <button
-      aria-label="scroll down button"
-      class="MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeLarge MuiButton-outlinedSizeLarge MuiButtonBase-root LandingPage-socialLinks css-140mie5-MuiButtonBase-root-MuiButton-root"
-      data-block="scrolldown"
-      data-mui-internal-clone-element="true"
-      data-testid="scrollDown"
-      tabindex="0"
-      type="button"
-    >
-      <svg
-        fill="none"
-        height="1em"
-        stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        viewBox="0 0 24 24"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
+    <a>
+      <button
+        aria-label="scroll down button"
+        class="MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeLarge MuiButton-outlinedSizeLarge MuiButtonBase-root LandingPage-socialLinks css-140mie5-MuiButtonBase-root-MuiButton-root"
+        data-block="scrolldown"
+        data-testid="scrollDown"
+        tabindex="0"
+        type="button"
       >
-        <line
-          x1="12"
-          x2="12"
-          y1="5"
-          y2="19"
+        <svg
+          fill="none"
+          height="1em"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line
+            x1="12"
+            x2="12"
+            y1="5"
+            y2="19"
+          />
+          <polyline
+            points="19 12 12 19 5 12"
+          />
+        </svg>
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
         />
-        <polyline
-          points="19 12 12 19 5 12"
-        />
-      </svg>
-      <span
-        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-      />
-    </button>
+      </button>
+    </a>
   </div>
 </div>
 `;
