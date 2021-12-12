@@ -4,7 +4,7 @@ exports[`Mobile layout of the site: should render Mobile 1`] = `
 <div>
   <div
     aria-label="mobileMenu"
-    class="MuiBox-root css-1yrtqt9"
+    class="MuiBox-root css-1i1000g"
     data-toggle="mobileMenu"
   >
     <ul

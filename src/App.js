@@ -20,6 +20,16 @@ let theme = createTheme({
 			hoverOpacity: 0.09,
 		},
 	},
+	breakpoints: {
+		values: {
+			xs: 320,
+			smxs: 350,
+			sm: 460,
+			md: 786,
+			lg: 1024,
+			xl: 1440,
+		},
+	},
 	typography: {
 		fontFamily: 'Nunito',
 		fontSize: 18,

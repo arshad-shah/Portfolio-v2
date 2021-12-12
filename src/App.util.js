@@ -50,7 +50,7 @@ export var ScrollToFade = function (props) {
 
 	if (!trigger) {
 		return (
-			<Fade in={trigger.toString()} timeout={1000}>
+			<Fade in timeout={1000}>
 				<div>{children}</div>
 			</Fade>
 		);

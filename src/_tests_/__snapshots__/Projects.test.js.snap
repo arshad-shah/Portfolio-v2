@@ -15,11 +15,11 @@ exports[`Projects of the site: should render Projects with all the information i
       Projects
     </h2>
     <div
-      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-l090nh-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-1snqaz0-MuiGrid-root"
     >
       <div
         aria-label="ProjectCard"
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1oljlpb-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-c9m0lc-MuiGrid-root"
       >
         <div
           class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root ProjectCard-root css-c6x3ll-MuiPaper-root-MuiCard-root"
@@ -145,7 +145,7 @@ exports[`Projects of the site: should render Projects with all the information i
       </div>
       <div
         aria-label="ProjectCard"
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1oljlpb-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-c9m0lc-MuiGrid-root"
       >
         <div
           class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root ProjectCard-root css-c6x3ll-MuiPaper-root-MuiCard-root"
@@ -294,7 +294,7 @@ exports[`Projects of the site: should render Projects with all the information i
       </div>
       <div
         aria-label="ProjectCard"
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1oljlpb-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-c9m0lc-MuiGrid-root"
       >
         <div
           class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root ProjectCard-root css-c6x3ll-MuiPaper-root-MuiCard-root"
@@ -417,7 +417,7 @@ exports[`Projects of the site: should render Projects with all the information i
       </div>
       <div
         aria-label="ProjectCard"
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1oljlpb-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-c9m0lc-MuiGrid-root"
       >
         <div
           class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root ProjectCard-root css-c6x3ll-MuiPaper-root-MuiCard-root"
@@ -592,7 +592,7 @@ exports[`Projects of the site: should render Projects with all the information i
       </div>
       <div
         aria-label="ProjectCard"
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1oljlpb-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-c9m0lc-MuiGrid-root"
       >
         <div
           class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root ProjectCard-root css-c6x3ll-MuiPaper-root-MuiCard-root"
@@ -806,7 +806,7 @@ exports[`Projects of the site: should render Projects with all the information i
       </div>
       <div
         aria-label="ProjectCard"
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 css-1oljlpb-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-c9m0lc-MuiGrid-root"
       >
         <div
           class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root ProjectCard-root css-c6x3ll-MuiPaper-root-MuiCard-root"
