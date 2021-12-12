@@ -13,11 +13,11 @@ describe('the full app:', () => {
 	//and click of the button scrolls the page to top
 	it('back to top button click scrolls the page to top', async () => {
 		render(<App />);
-		window.HTMLElement.prototype.scrollIntoView = function () {};
+		window.HTMLElement.prototype.scrollIntoView = jest.fn();
 		window.scrollTo(0, 1000);
 		const linkElement = await screen.findByLabelText('scroll back to top');
 		expect(linkElement).toBeInTheDocument();
 		linkElement.click();
-		expect(window.pageYOffset).toBe(0);
+		expect(window.scrollY).toBe(0);
 	});
 });
