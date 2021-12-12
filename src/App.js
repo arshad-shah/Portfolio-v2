@@ -1,22 +1,15 @@
-import React, { lazy, Suspense } from 'react';
-import { ThemeProvider, createTheme, responsiveFontSizes } from '@material-ui/core/styles';
-import { useMediaQuery } from '@material-ui/core';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import Fab from '@material-ui/core/Fab';
-import { FiArrowUp } from 'react-icons/fi';
-import ScrollToTop, { ScrollToFade } from './App.util';
-import useStyles from './styles/App.styles';
-import Loading from './components/Loading';
-import Mobile from './components/navigation/Mobile';
+import React from 'react';
+import {
+	ThemeProvider,
+	StyledEngineProvider,
+	createTheme,
+	responsiveFontSizes,
+} from '@mui/material/styles';
+import MainSite from './MainSite';
 
-const Header = lazy(() => import('./components/Header'));
-const LandingPage = lazy(() => import('./pages/LandingPage'));
-const Aboutme = lazy(() => import('./pages/Aboutme'));
-const Projects = lazy(() => import('./pages/Projects'));
-const Footer = lazy(() => import('./components/Footer'));
 let theme = createTheme({
 	palette: {
-		type: 'light',
+		mode: 'light',
 		primary: {
 			main: '#fdff95',
 		},
@@ -35,44 +28,12 @@ let theme = createTheme({
 
 theme = responsiveFontSizes(theme);
 
-const renderLoader = () => <Loading />;
-
-export default function App(props) {
-	const classes = useStyles();
-	const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-
+export default function App() {
 	return (
-		<ThemeProvider theme={theme}>
-			<div className={classes.root}>
-				<Suspense fallback={renderLoader()}>
-					<CssBaseline />
-					<Header isMobile={isMobile} data-testid="header" />
-
-					{isMobile ? <Mobile /> : null}
-
-					<ScrollToFade {...props}>
-						<LandingPage isMobile={isMobile} />
-					</ScrollToFade>
-
-					<Aboutme />
-
-					<Projects data-testid="projectsSection" />
-
-					<ScrollToTop {...props}>
-						<Fab
-							color="secondary"
-							data-block="backtotopbutton"
-							data-testid="backtoTopButton"
-							size="large"
-							className={classes.fab}
-							aria-label="scroll back to top">
-							<FiArrowUp />
-						</Fab>
-					</ScrollToTop>
-
-					<Footer isMobile={isMobile} />
-				</Suspense>
-			</div>
-		</ThemeProvider>
+		<StyledEngineProvider injectFirst>
+			<ThemeProvider theme={theme}>
+				<MainSite />
+			</ThemeProvider>
+		</StyledEngineProvider>
 	);
 }

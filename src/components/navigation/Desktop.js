@@ -1,11 +1,21 @@
 import React from "react";
-import { Box, Typography } from "@material-ui/core";
+import { styled } from '@mui/material/styles';
+import { Box, Typography } from "@mui/material";
 import { Link } from "react-scroll";
-import { makeStyles } from "@material-ui/core/styles";
 import Resume from "../../assets/ArshadResume.pdf";
 
-const useStyles = makeStyles((theme) => ({
-  menuItem: {
+const PREFIX = 'Desktop';
+
+const classes = {
+  menuItem: `${PREFIX}-menuItem`
+};
+
+const StyledBox = styled(Box)((
+  {
+    theme
+  }
+) => ({
+  [`& .${classes.menuItem}`]: {
     marginRight: "1.5rem",
     "&:hover": {
       backgroundColor: "#fff152",
@@ -25,12 +35,13 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: "0.5rem",
     transition: "all 0.5s ease",
     padding: "1rem",
-  },
+  }
 }));
+
 export default function Desktop() {
-  const classes = useStyles();
+
   return (
-    <Box aria-label="desktopMenu" data-testid="desktopMenu">
+    <StyledBox aria-label="desktopMenu" data-testid="desktopMenu">
       <Link
         data-testid="aboutmeOption"
         to="aboutme"
@@ -65,6 +76,6 @@ export default function Desktop() {
       >
         <Typography variant="button">Resume</Typography>
       </a>
-    </Box>
+    </StyledBox>
   );
 }

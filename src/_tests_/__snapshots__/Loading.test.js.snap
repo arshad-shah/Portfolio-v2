@@ -3,19 +3,19 @@
 exports[`Header of the site: should render Header 1`] = `
 <div>
   <div
-    class="Loading-root-1"
+    class="Loading-root css-1qz95ku"
   >
-    <div
-      class="MuiCircularProgress-root Loading-progress-3 MuiCircularProgress-colorSecondary MuiCircularProgress-indeterminate"
+    <span
+      class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorSecondary Loading-progress css-1szo49z-MuiCircularProgress-root"
       role="progressbar"
       style="width: 100px; height: 100px;"
     >
       <svg
-        class="MuiCircularProgress-svg"
+        class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
         viewBox="22 22 44 44"
       >
         <circle
-          class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+          class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
           cx="44"
           cy="44"
           fill="none"
@@ -23,9 +23,9 @@ exports[`Header of the site: should render Header 1`] = `
           stroke-width="5"
         />
       </svg>
-    </div>
+    </span>
     <h3
-      class="MuiTypography-root Loading-name-2 MuiTypography-h3"
+      class="MuiTypography-root MuiTypography-h3 Loading-name css-gepadz-MuiTypography-root"
     >
       Loading...
     </h3>

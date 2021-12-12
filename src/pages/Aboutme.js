@@ -1,14 +1,111 @@
-import { Typography, Toolbar, Box, Chip } from '@material-ui/core';
+import { Typography, Toolbar, Box, Chip } from '@mui/material';
+import { styled } from '@mui/material/styles';
 import React from 'react';
-import useStyles from '../styles/aboutMe.styles';
 import Picture from '../assets/Picture.webp';
 import { aboutMeData } from '../data/aboutMeData';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+const PREFIX = 'Aboutme';
+
+const classes = {
+    root: `${PREFIX}-root`,
+    intro: `${PREFIX}-intro`,
+    aboutMeLink: `${PREFIX}-aboutMeLink`,
+    row: `${PREFIX}-row`,
+    aboutMePicture: `${PREFIX}-aboutMePicture`,
+    aboutMeDesc: `${PREFIX}-aboutMeDesc`,
+    picture: `${PREFIX}-picture`,
+    subheading: `${PREFIX}-subheading`,
+    TechChip: `${PREFIX}-TechChip`
+};
+
+const StyledBox = styled(Box)((
+    {
+        theme
+    }
+) => ({
+    [`&.${classes.root}`]: {
+		display: 'flex',
+		flexDirection: 'column',
+		backgroundColor: '#ffffff',
+		padding: '1rem',
+		textAlign: 'center',
+	},
+
+    [`& .${classes.intro}`]: {
+		padding: '1rem',
+	},
+
+    [`& .${classes.aboutMeLink}`]: {
+		minHeight: 0,
+	},
+
+    [`& .${classes.row}`]: {
+		display: 'flex',
+		flexDirection: 'row',
+		padding: '1rem',
+		[theme.breakpoints.down('lg')]: {
+			flexDirection: 'row',
+		},
+		[theme.breakpoints.down('md')]: {
+			flexDirection: 'column',
+		},
+	},
+
+    [`& .${classes.aboutMePicture}`]: {
+		display: 'flex',
+		flexDirection: 'column',
+		padding: '1rem',
+		width: '25%',
+		height: '60%',
+		margin: 'auto',
+		[theme.breakpoints.down('lg')]: {
+			flexDirection: 'column',
+			width: '30%',
+			height: '100%',
+		},
+		[theme.breakpoints.down('md')]: {
+			flexDirection: 'column',
+			width: '50%',
+			height: '100%',
+		},
+		[theme.breakpoints.down('sm')]: {
+			flexDirection: 'column',
+			width: '100%',
+			height: '100%',
+		},
+	},
+
+    [`& .${classes.aboutMeDesc}`]: {
+		display: 'flex',
+		flexDirection: 'column',
+		padding: '1rem',
+		textAlign: 'left',
+	},
+
+    [`& .${classes.picture}`]: {
+		borderRadius: '1rem',
+		width: 'auto',
+		height: 'auto',
+		boxShadow: '0px 0px 10px #000000',
+		transition: 'all 0.5s ease-out',
+	},
+
+    [`& .${classes.subheading}`]: {
+		paddingTop: '1rem',
+	},
+
+    [`& .${classes.TechChip}`]: {
+		margin: '0.3rem',
+		borderRadius: '5px',
+		padding: '0.5rem',
+		fontWeight: 'bold',
+	}
+}));
 
 export default function Aboutme(props) {
-	const classes = useStyles();
+
 	return (
-		<Box className={classes.root}>
+        <StyledBox className={classes.root}>
 			<Toolbar className={classes.aboutMeLink} id="aboutme" />
 			<Typography align="center" gutterBottom variant="h2">
 				{aboutMeData.aboutMeTitle}
@@ -84,6 +181,6 @@ export default function Aboutme(props) {
 					</Typography>
 				</Box>
 			</Box>
-		</Box>
-	);
+		</StyledBox>
+    );
 }

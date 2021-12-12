@@ -1,31 +1,15 @@
-import React from 'react';
+import * as React from 'react';
 import PropTypes from 'prop-types';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
-import useScrollTrigger from '@material-ui/core/useScrollTrigger';
-import Zoom from '@material-ui/core/Zoom';
-import { Fade, useMediaQuery } from '@material-ui/core';
+import useScrollTrigger from '@mui/material/useScrollTrigger';
+import Box from '@mui/material/Box';
+import Zoom from '@mui/material/Zoom';
+import { Fade } from '@mui/material';
 
-const useStyles = makeStyles((theme) => ({
-	root: {
-		position: 'fixed',
-		bottom: theme.spacing(2),
-		right: theme.spacing(2),
-	},
-	rootMobile: {
-		position: 'fixed',
-		bottom: theme.spacing(10),
-		right: theme.spacing(2),
-	},
-}));
-
-const ScrollToTop = function (props) {
-	const theme = useTheme();
-	const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+export function ScrollToTop(props) {
 	const { children } = props;
-	const classes = useStyles();
 	const trigger = useScrollTrigger({
 		disableHysteresis: true,
-		threshold: 300,
+		threshold: 100,
 	});
 
 	const handleClick = (event) => {
@@ -34,28 +18,28 @@ const ScrollToTop = function (props) {
 		);
 
 		if (anchor) {
-			anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
+			anchor.scrollIntoView({
+				behavior: 'smooth',
+				block: 'center',
+			});
 		}
 	};
 
 	return (
 		<Zoom in={trigger}>
-			<div
+			<Box
 				onClick={handleClick}
 				role="presentation"
-				data-block="backtotopbutton"
-				className={isMobile ? classes.rootMobile : classes.root}>
+				sx={{ position: 'fixed', bottom: 16, right: 16 }}>
 				{children}
-			</div>
+			</Box>
 		</Zoom>
 	);
-};
+}
 
 ScrollToTop.propTypes = {
 	children: PropTypes.element.isRequired,
 };
-
-export default ScrollToTop;
 
 export var ScrollToFade = function (props) {
 	const { children } = props;
@@ -66,7 +50,7 @@ export var ScrollToFade = function (props) {
 
 	if (!trigger) {
 		return (
-			<Fade in timeout={1000}>
+			<Fade in={trigger.toString()} timeout={1000}>
 				<div>{children}</div>
 			</Fade>
 		);

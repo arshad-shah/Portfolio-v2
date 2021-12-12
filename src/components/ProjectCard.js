@@ -1,9 +1,10 @@
 import React from 'react';
-import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import CardHeader from '@material-ui/core/CardHeader';
-import { Chip, IconButton, Tooltip, Typography } from '@material-ui/core';
+import { styled } from '@mui/material/styles';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardHeader from '@mui/material/CardHeader';
+import { Chip, IconButton, Tooltip, Typography } from '@mui/material';
 import { FiGithub, FiExternalLink } from 'react-icons/fi';
 import {
 	SiCss3,
@@ -21,8 +22,41 @@ import {
 	SiTailwindcss,
 	SiGoogleplay,
 } from 'react-icons/si';
-import useStyles from '../styles/ProjectCard.styles';
 import PropTypes from 'prop-types';
+const PREFIX = 'ProjectCard';
+
+const classes = {
+    root: `${PREFIX}-root`,
+    githubLinksAnchor: `${PREFIX}-githubLinksAnchor`,
+    LanguageChip: `${PREFIX}-LanguageChip`
+};
+
+const StyledCard = styled(Card)((
+    {
+        theme
+    }
+) => ({
+    [`&.${classes.root}`]: {
+		backgroundColor: '#ffffff',
+		padding: '1rem',
+	},
+
+    [`& .${classes.githubLinksAnchor}`]: {
+		'&:visited': {
+			color: '#000000',
+		},
+		'&:link': {
+			color: '#000000',
+		},
+	},
+
+    [`& .${classes.LanguageChip}`]: {
+		margin: '0.3rem',
+		borderRadius: '5px',
+		padding: '0.5rem',
+		fontWeight: 'bold',
+	}
+}));
 
 export default function ProjectCard({
 	heading,
@@ -33,7 +67,7 @@ export default function ProjectCard({
 	siteLink,
 	shopLink,
 }) {
-	const classes = useStyles();
+
 	//a function that find the correct icon for a given language array
 	const getIcon = (language) => {
 		switch (language) {
@@ -70,7 +104,7 @@ export default function ProjectCard({
 	};
 
 	return (
-		<Card raised className={classes.root}>
+        <StyledCard raised className={classes.root}>
 			<CardHeader id="heading" title={heading} data-testid="projectHeading" />
 			<CardContent>
 				<Typography variant="body2">{description}</Typography>
@@ -97,7 +131,8 @@ export default function ProjectCard({
 						role="button"
 						color="secondary"
 						aria-label={linkAriaLabel}
-						href={repoLink}>
+						href={repoLink}
+						size="large">
 						<FiGithub />
 					</IconButton>
 				</Tooltip>
@@ -110,7 +145,8 @@ export default function ProjectCard({
 							role="button"
 							color="secondary"
 							aria-label={linkAriaLabel}
-							href={shopLink}>
+							href={shopLink}
+							size="large">
 							<SiGoogleplay />
 						</IconButton>
 					</Tooltip>
@@ -124,14 +160,15 @@ export default function ProjectCard({
 							role="button"
 							color="secondary"
 							aria-labelledby={heading}
-							href={siteLink}>
+							href={siteLink}
+							size="large">
 							<FiExternalLink />
 						</IconButton>
 					</Tooltip>
 				) : null}
 			</CardActions>
-		</Card>
-	);
+		</StyledCard>
+    );
 }
 
 ProjectCard.propTypes = {

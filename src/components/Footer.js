@@ -1,52 +1,74 @@
-import { Box, IconButton, Tooltip, Typography } from '@material-ui/core';
+import { Box, IconButton, Tooltip, Typography } from '@mui/material';
 import React from 'react';
 import PropTypes from 'prop-types';
 
 // icons
 import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
-import useStyles from '../styles/Footer.styles';
-
 export default function Footer({ isMobile }) {
-	const classes = useStyles();
+	const desktopStyles = {
+		display: 'flex',
+		flexDirection: 'column',
+		alignItems: 'center',
+		backgroundColor: '#ffffff',
+		padding: '1rem',
+	};
+
+	const mobileStyles = {
+		display: 'flex',
+		flexDirection: 'column',
+		alignItems: 'center',
+		backgroundColor: '#ffffff',
+		padding: '1rem',
+		marginBottom: '5rem',
+	};
 	return (
-		<Box className={isMobile ? classes.rootMobileFooter : classes.root}>
+		<Box sx={isMobile ? mobileStyles : desktopStyles}>
 			<Typography variant="h6">&copy; {new Date().getFullYear()} Arshad Shah</Typography>
 			<Box>
 				<Tooltip title="Github Profile" arrow>
 					<IconButton
+						sx={{
+							color: '#000000',
+						}}
 						role="button"
-						className={classes.socialLinks}
 						color="default"
 						aria-label="link to Github account of Arshad shah"
 						data-block="linktoGithub"
 						data-testid="githubForFooter"
-						href="https://github.com/arshad-shah">
+						href="https://github.com/arshad-shah"
+						size="large">
 						<FiGithub />
 					</IconButton>
 				</Tooltip>
 
 				<Tooltip title="LinkedIn Profile" arrow>
 					<IconButton
+						sx={{
+							color: '#000000',
+						}}
 						role="button"
-						className={classes.socialLinks}
 						color="default"
 						aria-label="link to Linkedin account of Arshad shah"
 						data-block="linktoLinkedin"
 						data-testid="linkedinForFooter"
-						href="https://www.linkedin.com/in/arshadshah">
+						href="https://www.linkedin.com/in/arshadshah"
+						size="large">
 						<FiLinkedin />
 					</IconButton>
 				</Tooltip>
 
 				<Tooltip title="Email Me" arrow>
 					<IconButton
-						className={classes.socialLinks}
+						sx={{
+							color: '#000000',
+						}}
 						color="default"
 						role="button"
 						aria-label="link to mail account of Arshad shah"
 						data-block="linktoMail"
 						data-testid="emailForFooter"
-						href="mailto:arshad@arshadshah.com">
+						href="mailto:arshad@arshadshah.com"
+						size="large">
 						<FiMail />
 					</IconButton>
 				</Tooltip>

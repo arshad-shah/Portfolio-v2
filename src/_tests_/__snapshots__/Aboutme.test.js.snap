@@ -3,37 +3,37 @@
 exports[`Aboutme of the site: should render Aboutme with all the information in it 1`] = `
 <div>
   <div
-    class="MuiBox-root MuiBox-root-10 Aboutme-root-1"
+    class="Aboutme-root MuiBox-root css-1y374f9"
   >
     <div
-      class="MuiToolbar-root MuiToolbar-regular Aboutme-aboutMeLink-3 MuiToolbar-gutters"
+      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular Aboutme-aboutMeLink css-1t29gy6-MuiToolbar-root"
       id="aboutme"
     />
     <h2
-      class="MuiTypography-root MuiTypography-h2 MuiTypography-gutterBottom MuiTypography-alignCenter"
+      class="MuiTypography-root MuiTypography-h2 MuiTypography-alignCenter MuiTypography-gutterBottom css-6exuqi-MuiTypography-root"
     >
       About Me
     </h2>
     <div
-      class="MuiBox-root MuiBox-root-11 Aboutme-row-4"
+      class="Aboutme-row MuiBox-root css-0"
     >
       <div
-        class="MuiBox-root MuiBox-root-12 Aboutme-aboutMePicture-5"
+        class="Aboutme-aboutMePicture MuiBox-root css-0"
       >
         <img
           alt="Picture of Arshad shah."
           aria-label="Picture of Arshad shah."
-          class="Aboutme-picture-7"
+          class="Aboutme-picture"
           height="150"
           src="Picture.webp"
           width="150"
         />
       </div>
       <div
-        class="MuiBox-root MuiBox-root-13 Aboutme-aboutMeDesc-6"
+        class="Aboutme-aboutMeDesc MuiBox-root css-0"
       >
         <p
-          class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-d3wcwz-MuiTypography-root"
         >
           I am a student 
           <b>
@@ -113,201 +113,201 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
            that give an easy and Perfect experience.
         </p>
         <h5
-          class="MuiTypography-root Aboutme-subheading-8 MuiTypography-h5 MuiTypography-gutterBottom"
+          class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom Aboutme-subheading css-h93ljk-MuiTypography-root"
         >
           Technologies I Use
         </h5>
         <p
-          class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-d3wcwz-MuiTypography-root"
         >
           <div
-            class="MuiChip-root Aboutme-TechChip-9 MuiChip-colorSecondary"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
             data-testid="languageChip"
           >
             <span
-              class="MuiChip-label"
+              class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
             >
               React
             </span>
           </div>
           <div
-            class="MuiChip-root Aboutme-TechChip-9 MuiChip-colorSecondary"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
             data-testid="languageChip"
           >
             <span
-              class="MuiChip-label"
+              class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
             >
               Redux
             </span>
           </div>
           <div
-            class="MuiChip-root Aboutme-TechChip-9 MuiChip-colorSecondary"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
             data-testid="languageChip"
           >
             <span
-              class="MuiChip-label"
+              class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
             >
               Node
             </span>
           </div>
           <div
-            class="MuiChip-root Aboutme-TechChip-9 MuiChip-colorSecondary"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
             data-testid="languageChip"
           >
             <span
-              class="MuiChip-label"
+              class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
             >
               Express
             </span>
           </div>
           <div
-            class="MuiChip-root Aboutme-TechChip-9 MuiChip-colorSecondary"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
             data-testid="languageChip"
           >
             <span
-              class="MuiChip-label"
+              class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
             >
               MongoDB
             </span>
           </div>
           <div
-            class="MuiChip-root Aboutme-TechChip-9 MuiChip-colorSecondary"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
             data-testid="languageChip"
           >
             <span
-              class="MuiChip-label"
+              class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
             >
               Mongoose
             </span>
           </div>
           <div
-            class="MuiChip-root Aboutme-TechChip-9 MuiChip-colorSecondary"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
             data-testid="languageChip"
           >
             <span
-              class="MuiChip-label"
+              class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
             >
               Jest
             </span>
           </div>
           <div
-            class="MuiChip-root Aboutme-TechChip-9 MuiChip-colorSecondary"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
             data-testid="languageChip"
           >
             <span
-              class="MuiChip-label"
+              class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
             >
               Codeceptjs
             </span>
           </div>
           <div
-            class="MuiChip-root Aboutme-TechChip-9 MuiChip-colorSecondary"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
             data-testid="languageChip"
           >
             <span
-              class="MuiChip-label"
+              class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
             >
               Java
             </span>
           </div>
           <div
-            class="MuiChip-root Aboutme-TechChip-9 MuiChip-colorSecondary"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
             data-testid="languageChip"
           >
             <span
-              class="MuiChip-label"
+              class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
             >
               HTML
             </span>
           </div>
           <div
-            class="MuiChip-root Aboutme-TechChip-9 MuiChip-colorSecondary"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
             data-testid="languageChip"
           >
             <span
-              class="MuiChip-label"
+              class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
             >
               CSS
             </span>
           </div>
           <div
-            class="MuiChip-root Aboutme-TechChip-9 MuiChip-colorSecondary"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
             data-testid="languageChip"
           >
             <span
-              class="MuiChip-label"
+              class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
             >
               TailwindCSS
             </span>
           </div>
           <div
-            class="MuiChip-root Aboutme-TechChip-9 MuiChip-colorSecondary"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
             data-testid="languageChip"
           >
             <span
-              class="MuiChip-label"
+              class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
             >
               JavaScript
             </span>
           </div>
           <div
-            class="MuiChip-root Aboutme-TechChip-9 MuiChip-colorSecondary"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
             data-testid="languageChip"
           >
             <span
-              class="MuiChip-label"
+              class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
             >
               Ionic
             </span>
           </div>
           <div
-            class="MuiChip-root Aboutme-TechChip-9 MuiChip-colorSecondary"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
             data-testid="languageChip"
           >
             <span
-              class="MuiChip-label"
+              class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
             >
               Capacitor
             </span>
           </div>
           <div
-            class="MuiChip-root Aboutme-TechChip-9 MuiChip-colorSecondary"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
             data-testid="languageChip"
           >
             <span
-              class="MuiChip-label"
+              class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
             >
               Electron
             </span>
           </div>
           <div
-            class="MuiChip-root Aboutme-TechChip-9 MuiChip-colorSecondary"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
             data-testid="languageChip"
           >
             <span
-              class="MuiChip-label"
+              class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
             >
               Firebase
             </span>
           </div>
           <div
-            class="MuiChip-root Aboutme-TechChip-9 MuiChip-colorSecondary"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
             data-testid="languageChip"
           >
             <span
-              class="MuiChip-label"
+              class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
             >
               Firestore
             </span>
           </div>
         </p>
         <h5
-          class="MuiTypography-root Aboutme-subheading-8 MuiTypography-h5 MuiTypography-gutterBottom"
+          class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom Aboutme-subheading css-h93ljk-MuiTypography-root"
         >
           Work Experience
         </h5>
         <p
-          class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-d3wcwz-MuiTypography-root"
         >
           <b>
             Software Engineer
@@ -316,7 +316,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
           06/2021 - 08/2021
         </p>
         <h6
-          class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-gutterBottom"
+          class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-gutterBottom css-1wniyei-MuiTypography-root"
         >
           <b>
             Houghton Mifflin Harcourt
@@ -324,7 +324,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
            - Dublin, Ireland
         </h6>
         <p
-          class="MuiTypography-root MuiTypography-body2"
+          class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
         >
           During this 
           <b>
