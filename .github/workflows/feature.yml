@@ -5,7 +5,8 @@ name: build
 
 on:
   push:
-    branches: [master]
+    branches: 
+      - 'feature-*'
 
 jobs:
   build:
@@ -34,27 +35,3 @@ jobs:
         uses: codecov/codecov-action@v1
         with:
           token: ${{ secrets.WEBSITESECRET }}
-
-      - name: Build project
-        run: yarn run build
-
-      - name: publish to build
-        uses: s0/git-publish-subdir-action@develop
-        env:
-          REPO: self
-          BRANCH: build
-          FOLDER: ./build
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          MESSAGE: "Build status successfull"
-
-      - name: Checkout build branch
-        uses: actions/checkout@v2
-        with:
-          ref: "build"
-
-      - name: Sync files with hostinger
-        uses: SamKirkland/FTP-Deploy-Action@4.1.0
-        with:
-          server: ${{ secrets.PORTFOLIO_SITE_SERVER}}
-          username: ${{ secrets.PORTFOLIO_SITE_USER}}
-          password: ${{ secrets.PORTFOLIO_SITE_PASS}}
