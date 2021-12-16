@@ -35,10 +35,6 @@ jobs:
         with:
           token: ${{ secrets.WEBSITESECRET }}
 
-      - name: Run End to End tests
-        run: |
-        cd ./e2e && npx codeceptjs run --override '{"helpers": {"WebDriver": {"show": false}}}' --steps
-
       - name: Build project
         run: yarn run build
 
