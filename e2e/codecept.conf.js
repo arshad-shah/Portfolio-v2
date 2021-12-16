@@ -14,6 +14,7 @@ exports.config = {
 			browser: 'chrome',
 			path: '/',
 			restart: false,
+			show: true,
 		},
 	},
 	include: {

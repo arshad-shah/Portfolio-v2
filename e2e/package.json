@@ -7,7 +7,7 @@
 	},
 	"scripts": {
 		"codeceptjs": "codeceptjs run --steps --plugins allure",
-		"codeceptjs:headless": "HEADLESS=true codeceptjs run --steps",
+		"codeceptjs:headless": "set HEADLESS=true && codeceptjs run --steps",
 		"codeceptjs:ui": "codecept-ui --app"
 	},
 	"devDependencies": {
