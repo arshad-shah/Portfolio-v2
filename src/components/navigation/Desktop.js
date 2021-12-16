@@ -1,20 +1,16 @@
 import React from "react";
-import { styled } from '@mui/material/styles';
+import { styled } from "@mui/material/styles";
 import { Box, Typography } from "@mui/material";
 import { Link } from "react-scroll";
 import Resume from "../../assets/ArshadResume.pdf";
 
-const PREFIX = 'Desktop';
+const PREFIX = "Desktop";
 
 const classes = {
-  menuItem: `${PREFIX}-menuItem`
+  menuItem: `${PREFIX}-menuItem`,
 };
 
-const StyledBox = styled(Box)((
-  {
-    theme
-  }
-) => ({
+const StyledBox = styled(Box)(({ theme }) => ({
   [`& .${classes.menuItem}`]: {
     marginRight: "1.5rem",
     "&:hover": {
@@ -35,11 +31,10 @@ const StyledBox = styled(Box)((
     borderRadius: "0.5rem",
     transition: "all 0.5s ease",
     padding: "1rem",
-  }
+  },
 }));
 
 export default function Desktop() {
-
   return (
     <StyledBox aria-label="desktopMenu" data-testid="desktopMenu">
       <Link

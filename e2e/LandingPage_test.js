@@ -17,6 +17,7 @@ Scenario('As a user i see the social links on the hero section', ({ I }) => {
 	I.scrollPageToTop();
 	I.seeElementInDOM('$githubForHero');
 	I.seeElementInDOM('$linkedInForHero');
+	I.seeElementInDOM('$hackerRankForHero');
 	I.seeElementInDOM('$mailForHero');
 });
 
@@ -34,6 +35,14 @@ Scenario('As a user i see the main linkedin account when i click on linkedin lin
 	I.seeElementInDOM('$linkedInForHero');
 	I.click('$linkedInForHero');
 	I.amOnPage('https://www.linkedin.com/in/arshadshah');
+});
+
+Scenario('As a user i see the main hacker ranck account when i click on hacker rank link', ({ I }) => {
+	I.amOnPage('/');
+	I.scrollPageToTop();
+	I.seeElementInDOM('$hackerRankForHero');
+	I.click('$hackerRankForHero');
+	I.amOnPage('https://www.hackerrank.com/shaharshad57');
 });
 
 Scenario('As a user i see the email account when i click on email link', ({ I }) => {

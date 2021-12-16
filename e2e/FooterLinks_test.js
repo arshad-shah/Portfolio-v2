@@ -27,6 +27,14 @@ Scenario('As a user i see the main linkedin account when i click on linkedin lin
 	I.amOnPage('https://www.linkedin.com/in/arshadshah');
 });
 
+Scenario('As a user i see the main hacker ranck account when i click on hacker rank link', ({ I }) => {
+	I.amOnPage('/');
+	I.scrollPageToTop();
+	I.seeElementInDOM('$hackerRankForFooter');
+	I.click('$hackerRankForFooter');
+	I.amOnPage('https://www.hackerrank.com/shaharshad57');
+});
+
 Scenario('As a user i see the email account when i click on email link', ({ I }) => {
 	I.amOnPage('/');
 	I.seeElementInDOM('$emailForFooter');
