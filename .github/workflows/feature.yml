@@ -35,3 +35,7 @@ jobs:
         uses: codecov/codecov-action@v1
         with:
           token: ${{ secrets.WEBSITESECRET }}
+
+      - name: Run End to End tests
+        run: |
+        cd ./e2e && npx codeceptjs run --override '{"helpers": {"WebDriver": {"show": false}}}' --steps
