@@ -12,6 +12,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      PUSH_PACKAGES: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
 
     strategy:
       matrix:
@@ -38,9 +40,11 @@ jobs:
           token: ${{ secrets.WEBSITESECRET }}
 
       - name: Build project
+        if: ${{ env.PUSH_PACKAGES }}
         run: yarn run build
 
       - name: publish to build
+        if: ${{ env.PUSH_PACKAGES }}
         uses: s0/git-publish-subdir-action@develop
         env:
           REPO: self
@@ -50,11 +54,13 @@ jobs:
           MESSAGE: "Build status successfull"
 
       - name: Checkout build branch
+        if: ${{ env.PUSH_PACKAGES }}
         uses: actions/checkout@v2
         with:
           ref: "build"
 
       - name: Sync files with hostinger
+        if: ${{ env.PUSH_PACKAGES }}
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
           server: ${{ secrets.PORTFOLIO_SITE_SERVER}}
