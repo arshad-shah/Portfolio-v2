@@ -171,7 +171,7 @@ exports[`Projects of the site: should render Projects with all the information i
             <p
               class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
             >
-              A clone app of uber in react native, for the purpose of learning redux state management.
+              A clone app of uber in react native, for the purpose of learning redux state management. it uses google api's for autocomplete, distance measurement, and map for start and finish of journey.
             </p>
             <span
               class="MuiTypography-root MuiTypography-overline css-b3fch5-MuiTypography-root"
@@ -443,7 +443,7 @@ exports[`Projects of the site: should render Projects with all the information i
             <p
               class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
             >
-              A chat app created in nextjs, styled components, and Material UI with firebase database for storage to learn server side rendering
+              A chat app created in nextjs, styled components, and Material UI with firebase database for storage to learn server side rendering. it uses firebase authentication for login and signup, and firebase firestore for storage of messages. 
             </p>
             <span
               class="MuiTypography-root MuiTypography-overline css-b3fch5-MuiTypography-root"
@@ -618,7 +618,7 @@ exports[`Projects of the site: should render Projects with all the information i
             <p
               class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
             >
-              A Portfolio site that contains all the work i have done so far. Includes work from college such as exercises, projects and also from outside college such as the android app.This is the first version written in pure HTML, CSS and javascript with a pinch of jquery.
+              The version 1 of my Portfolio site that contains all the work i have done so far. Includes work from college such as exercises, projects and also from outside college such as the android app.This version is written in pure HTML, CSS and javascript with a pinch of jquery.
             </p>
             <span
               class="MuiTypography-root MuiTypography-overline css-b3fch5-MuiTypography-root"
@@ -832,7 +832,7 @@ exports[`Projects of the site: should render Projects with all the information i
             <p
               class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
             >
-              The current version of the Portfolio site that contains all the work i have done so far. Includes work from college such as exercises, projects and also from outside college such as the android app.This is the second version written in javascript using the React framework, and designed using Material UI.
+              The current version of the Portfolio site that contains all the work i have done so far.Includes work from college such as exercises, projects and also from outside college such as the android app.This is the second version written in javascript using the React framework, and designed using Material UI. The site has google analytics implemented with google tag manager and collects data for click events and page views.
             </p>
             <span
               class="MuiTypography-root MuiTypography-overline css-b3fch5-MuiTypography-root"
