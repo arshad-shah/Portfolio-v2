@@ -3,7 +3,7 @@
 exports[`LandingPage of the site: should render LandingPage with all the information in it 1`] = `
 <div>
   <div
-    class="LandingPage-hero MuiBox-root css-487y61"
+    class="LandingPage-hero MuiBox-root css-8q5fj"
     data-testid="hero"
   >
     <h4
@@ -23,22 +23,21 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
       <b>
         Computer Science
       </b>
-       Student and a
-       
+       Student and a 
       <b>
         Software Engineer
       </b>
       .
     </h4>
     <div
-      class="LandingPage-Links MuiBox-root css-0"
+      class="MuiBox-root css-0"
     >
       <a
         aria-label="link to Github account of Arshad shah"
-        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge LandingPage-socialLinks css-15rynab-MuiButtonBase-root-MuiIconButton-root"
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-1mxisat-MuiButtonBase-root-MuiIconButton-root"
         data-block="linktoGithub"
         data-mui-internal-clone-element="true"
-        data-testid="githubForHero"
+        data-testid="githubLink"
         href="https://github.com/arshad-shah"
         role="button"
         tabindex="0"
@@ -64,10 +63,10 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
       </a>
       <a
         aria-label="link to Linkedin account of Arshad shah"
-        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge LandingPage-socialLinks css-15rynab-MuiButtonBase-root-MuiIconButton-root"
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-1mxisat-MuiButtonBase-root-MuiIconButton-root"
         data-block="linktoLinkedin"
         data-mui-internal-clone-element="true"
-        data-testid="linkedInForHero"
+        data-testid="linkedInLink"
         href="https://www.linkedin.com/in/arshadshah"
         role="button"
         tabindex="0"
@@ -104,10 +103,10 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
       </a>
       <a
         aria-label="link to Hacker Rank account of Arshad shah"
-        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge LandingPage-socialLinks css-15rynab-MuiButtonBase-root-MuiIconButton-root"
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-1mxisat-MuiButtonBase-root-MuiIconButton-root"
         data-block="linktoHackerRank"
         data-mui-internal-clone-element="true"
-        data-testid="hackerRankForHero"
+        data-testid="hackerRankLink"
         href="https://www.hackerrank.com/shaharshad57"
         role="button"
         tabindex="0"
@@ -131,10 +130,10 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
       </a>
       <a
         aria-label="link to mail account of Arshad shah"
-        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge LandingPage-socialLinks css-15rynab-MuiButtonBase-root-MuiIconButton-root"
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-1mxisat-MuiButtonBase-root-MuiIconButton-root"
         data-block="linktoMail"
         data-mui-internal-clone-element="true"
-        data-testid="mailForHero"
+        data-testid="mailLink"
         href="mailto:arshad@arshadshah.com"
         role="button"
         tabindex="0"
@@ -165,7 +164,7 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
     <a>
       <button
         aria-label="scroll down button"
-        class="MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeLarge MuiButton-outlinedSizeLarge MuiButtonBase-root LandingPage-socialLinks css-140mie5-MuiButtonBase-root-MuiButton-root"
+        class="MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeLarge MuiButton-outlinedSizeLarge MuiButtonBase-root LandingPage-scrollDown css-140mie5-MuiButtonBase-root-MuiButton-root"
         data-block="scrolldown"
         data-testid="scrollDown"
         tabindex="0"

@@ -123,11 +123,11 @@ exports[`ProjectCard of the site: should render ProjectCard with all the informa
       </span>
     </div>
     <div
-      class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+      class="MuiCardActions-root MuiCardActions-spacing css-khne5s-MuiCardActions-root"
     >
       <a
         aria-label="link to Github for portfolio version 1"
-        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeLarge css-1f88mc5-MuiButtonBase-root-MuiIconButton-root"
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeLarge css-1eq9d5f-MuiButtonBase-root-MuiIconButton-root"
         data-block="projectlink"
         data-mui-internal-clone-element="true"
         data-testid="githublink"
@@ -157,7 +157,7 @@ exports[`ProjectCard of the site: should render ProjectCard with all the informa
       <a
         aria-label="Live Site Link"
         aria-labelledby="Portfolio website version 1.0"
-        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeLarge css-1f88mc5-MuiButtonBase-root-MuiIconButton-root"
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeLarge css-1eq9d5f-MuiButtonBase-root-MuiIconButton-root"
         data-block="projectLinkToSite"
         data-mui-internal-clone-element="true"
         data-testid="externalSiteLink"
