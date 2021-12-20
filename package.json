@@ -40,6 +40,7 @@
 		"e2e:clean": "concurrently --kill-others \"chromedriver\" \"yarn clean:output && cd ./e2e && yarn codeceptjs\"",
 		"e2e": "concurrently --kill-others \"chromedriver\" \"cd ./e2e && yarn codeceptjs\"",
 		"e2e:headless": "concurrently --kill-others \"chromedriver\" \"cd ./e2e && yarn codeceptjs:headless\"",
+		"e2e:ui": "concurrently --kill-others \"chromedriver\" \"cd ./e2e && yarn codeceptjs:ui\"",
 		"allure:reports": "cd ./e2e && allure serve output",
 		"lint": "eslint --ext .js src",
 		"fix": "eslint --ext .js src --fix",
