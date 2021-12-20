@@ -132,11 +132,11 @@ export default function ProjectCard({
 						role="button"
 						color="secondary"
 						sx={{
-							transition: 'all 0.2s ease-out',
+							transition: 'all 0.3s ease-out',
 							'&:hover': {
 								boxShadow: '0px 0px 10px #e0e0e0',
 								transform: 'scale(1.2)',
-								transition: 'all 0.2s ease-in',
+								transition: 'all 0.13s ease-in',
 							},
 						}}
 						aria-label={linkAriaLabel}
@@ -154,11 +154,11 @@ export default function ProjectCard({
 							role="button"
 							color="secondary"
 							sx={{
-								transition: 'all 0.2s ease-out',
+								transition: 'all 0.3s ease-out',
 								'&:hover': {
 									boxShadow: '0px 0px 10px #e0e0e0',
 									transform: 'scale(1.2)',
-									transition: 'all 0.2s ease-in',
+									transition: 'all 0.13s ease-in',
 								},
 							}}
 							aria-label={linkAriaLabel}
@@ -177,11 +177,11 @@ export default function ProjectCard({
 							role="button"
 							color="secondary"
 							sx={{
-								transition: 'all 0.2s ease-out',
+								transition: 'all 0.3s ease-out',
 								'&:hover': {
 									boxShadow: '0px 0px 10px #e0e0e0',
 									transform: 'scale(1.2)',
-									transition: 'all 0.2s ease-in',
+									transition: 'all 0.13s ease-in',
 								},
 							}}
 							aria-labelledby={heading}
