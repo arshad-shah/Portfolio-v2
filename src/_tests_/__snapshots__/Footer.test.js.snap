@@ -18,7 +18,7 @@ exports[`Footer of the site: should render footer 1`] = `
     >
       <a
         aria-label="link to Github account of Arshad shah"
-        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-1ec3ugf-MuiButtonBase-root-MuiIconButton-root"
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-nkneg1-MuiButtonBase-root-MuiIconButton-root"
         data-block="linktoGithub"
         data-mui-internal-clone-element="true"
         data-testid="githubLink"
@@ -47,7 +47,7 @@ exports[`Footer of the site: should render footer 1`] = `
       </a>
       <a
         aria-label="link to Linkedin account of Arshad shah"
-        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-1ec3ugf-MuiButtonBase-root-MuiIconButton-root"
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-nkneg1-MuiButtonBase-root-MuiIconButton-root"
         data-block="linktoLinkedin"
         data-mui-internal-clone-element="true"
         data-testid="linkedInLink"
@@ -87,7 +87,7 @@ exports[`Footer of the site: should render footer 1`] = `
       </a>
       <a
         aria-label="link to Hacker Rank account of Arshad shah"
-        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-1ec3ugf-MuiButtonBase-root-MuiIconButton-root"
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-nkneg1-MuiButtonBase-root-MuiIconButton-root"
         data-block="linktoHackerRank"
         data-mui-internal-clone-element="true"
         data-testid="hackerRankLink"
@@ -114,7 +114,7 @@ exports[`Footer of the site: should render footer 1`] = `
       </a>
       <a
         aria-label="link to mail account of Arshad shah"
-        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-1ec3ugf-MuiButtonBase-root-MuiIconButton-root"
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-nkneg1-MuiButtonBase-root-MuiIconButton-root"
         data-block="linktoMail"
         data-mui-internal-clone-element="true"
         data-testid="mailLink"

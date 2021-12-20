@@ -72,11 +72,11 @@ export default function LandingPage({ isMobile }) {
 			<SocialLinks
 				sx={{
 					color: '#fdff95',
-					transition: 'all 0.2s ease-out',
+					transition: 'all 0.3s ease-out',
 					'&:hover': {
 						boxShadow: '0px 0px 10px #fdff95',
 						transform: 'scale(1.2)',
-						transition: 'all 0.2s ease-in',
+						transition: 'all 0.13s ease-in',
 					},
 				}}
 			/>

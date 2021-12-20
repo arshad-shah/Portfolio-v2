@@ -34,7 +34,7 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
     >
       <a
         aria-label="link to Github account of Arshad shah"
-        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-1mxisat-MuiButtonBase-root-MuiIconButton-root"
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-ux5jdd-MuiButtonBase-root-MuiIconButton-root"
         data-block="linktoGithub"
         data-mui-internal-clone-element="true"
         data-testid="githubLink"
@@ -63,7 +63,7 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
       </a>
       <a
         aria-label="link to Linkedin account of Arshad shah"
-        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-1mxisat-MuiButtonBase-root-MuiIconButton-root"
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-ux5jdd-MuiButtonBase-root-MuiIconButton-root"
         data-block="linktoLinkedin"
         data-mui-internal-clone-element="true"
         data-testid="linkedInLink"
@@ -103,7 +103,7 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
       </a>
       <a
         aria-label="link to Hacker Rank account of Arshad shah"
-        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-1mxisat-MuiButtonBase-root-MuiIconButton-root"
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-ux5jdd-MuiButtonBase-root-MuiIconButton-root"
         data-block="linktoHackerRank"
         data-mui-internal-clone-element="true"
         data-testid="hackerRankLink"
@@ -130,7 +130,7 @@ exports[`LandingPage of the site: should render LandingPage with all the informa
       </a>
       <a
         aria-label="link to mail account of Arshad shah"
-        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-1mxisat-MuiButtonBase-root-MuiIconButton-root"
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-ux5jdd-MuiButtonBase-root-MuiIconButton-root"
         data-block="linktoMail"
         data-mui-internal-clone-element="true"
         data-testid="mailLink"
