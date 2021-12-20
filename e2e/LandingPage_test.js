@@ -15,41 +15,41 @@ Scenario('As a user i see the hero landing page', ({ I }) => {
 Scenario('As a user i see the social links on the hero section', ({ I }) => {
 	I.amOnPage('/');
 	I.scrollPageToTop();
-	I.seeElementInDOM('$githubForHero');
-	I.seeElementInDOM('$linkedInForHero');
-	I.seeElementInDOM('$hackerRankForHero');
-	I.seeElementInDOM('$mailForHero');
+	I.seeElementInDOM('$githubLink');
+	I.seeElementInDOM('$linkedInLink');
+	I.seeElementInDOM('$hackerRankLink');
+	I.seeElementInDOM('$mailLink');
 });
 
 Scenario('As a user i see the main github account when i click on github link', ({ I }) => {
 	I.amOnPage('/');
 	I.scrollPageToTop();
-	I.seeElementInDOM('$githubForHero');
-	I.click('$githubForHero');
+	I.seeElementInDOM('$githubLink');
+	I.click('$githubLink');
 	I.amOnPage('https://github.com/arshad-shah');
 });
 
 Scenario('As a user i see the main linkedin account when i click on linkedin link', ({ I }) => {
 	I.amOnPage('/');
 	I.scrollPageToTop();
-	I.seeElementInDOM('$linkedInForHero');
-	I.click('$linkedInForHero');
+	I.seeElementInDOM('$linkedInLink');
+	I.click('$linkedInLink');
 	I.amOnPage('https://www.linkedin.com/in/arshadshah');
 });
 
 Scenario('As a user i see the main hacker ranck account when i click on hacker rank link', ({ I }) => {
 	I.amOnPage('/');
 	I.scrollPageToTop();
-	I.seeElementInDOM('$hackerRankForHero');
-	I.click('$hackerRankForHero');
+	I.seeElementInDOM('$hackerRankLink');
+	I.click('$hackerRankLink');
 	I.amOnPage('https://www.hackerrank.com/shaharshad57');
 });
 
 Scenario('As a user i see the email account when i click on email link', ({ I }) => {
 	I.amOnPage('/');
 	I.scrollPageToTop();
-	I.seeElementInDOM('$mailForHero');
-	I.click('$mailForHero');
+	I.seeElementInDOM('$mailLink');
+	I.click('$mailLink');
 	I.amOnPage('mailto:arshad@arshadshah.com');
 });
 Scenario('As a user i see the about me section when i click the scroll down button', ({ I }) => {
