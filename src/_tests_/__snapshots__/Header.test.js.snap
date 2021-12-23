@@ -17,19 +17,19 @@ exports[`Header of the site: should render Header 1`] = `
         class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1t29gy6-MuiToolbar-root"
       >
         <img
-          alt=""
+          alt="Logo"
           aria-label="Logo"
           class="Header-logo"
           src="logo.svg"
         />
-        <p
+        <h5
           class="MuiTypography-root MuiTypography-h5 Header-title css-1xszx61-MuiTypography-root"
         >
           A SHAH
-        </p>
+        </h5>
         <div
           aria-label="desktopMenu"
-          class="MuiBox-root css-cd6g3w"
+          class="MuiBox-root css-yv9lcr"
           data-testid="desktopMenu"
         >
           <a

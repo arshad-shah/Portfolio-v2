@@ -126,7 +126,7 @@ exports[`ProjectCard of the site: should render ProjectCard with all the informa
       class="MuiCardActions-root MuiCardActions-spacing css-khne5s-MuiCardActions-root"
     >
       <a
-        aria-label="link to Github for portfolio version 1"
+        aria-label="Link to github Repo of Portfolio website version 1.0"
         class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeLarge css-wrxors-MuiButtonBase-root-MuiIconButton-root"
         data-block="projectlink"
         data-mui-internal-clone-element="true"
@@ -155,8 +155,7 @@ exports[`ProjectCard of the site: should render ProjectCard with all the informa
         />
       </a>
       <a
-        aria-label="Live Site Link"
-        aria-labelledby="Portfolio website version 1.0"
+        aria-label="Link to live website of Portfolio website version 1.0"
         class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeLarge css-wrxors-MuiButtonBase-root-MuiIconButton-root"
         data-block="projectLinkToSite"
         data-mui-internal-clone-element="true"
