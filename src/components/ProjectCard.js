@@ -139,7 +139,7 @@ export default function ProjectCard({
 								transition: 'all 0.13s ease-in',
 							},
 						}}
-						aria-label={linkAriaLabel}
+						aria-label={'Link to github Repo of ' + heading}
 						href={repoLink}
 						size="large">
 						<FiGithub />
@@ -184,7 +184,7 @@ export default function ProjectCard({
 									transition: 'all 0.13s ease-in',
 								},
 							}}
-							aria-labelledby={heading}
+							aria-label={'Link to live website of ' + heading}
 							href={siteLink}
 							size="large">
 							<FiExternalLink />

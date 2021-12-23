@@ -1,6 +1,6 @@
 export const cardData = [
 	{
-		heading: 'Android App | Nimaz',
+		heading: 'Nimaz',
 		description:
 			'An app that calculates Muslim Prayer times and displays it in a clean UI. Features are Alarms for each prayer, Tasbeeh counter, Qibla compass, Names of Allah with translation and transliterations',
 		languages: ['Kotlin'],
@@ -18,7 +18,7 @@ export const cardData = [
 		repoLink: 'https://github.com/arshad-shah/uber-clone',
 	},
 	{
-		heading: 'Android App | MedicineReminder',
+		heading: 'MedicineReminder',
 		description:
 			'A reminder designed for medicine doses, the primary focus of the app is to show a notification when it is time for a medicine dose, it uses sqlite for storage of the reminders, uses alarm manager for showing notifications.',
 		languages: ['Java', 'SQLite'],
@@ -34,7 +34,7 @@ export const cardData = [
 		repoLink: 'https://github.com/arshad-shah/chatty',
 	},
 	{
-		heading: 'Portfolio website version 1.0',
+		heading: 'Portfolio version 1.0',
 		description:
 			'The version 1 of my Portfolio site that contains all the work i have done so far. Includes work from college such as exercises, projects and also from outside college such as the android app.This version is written in pure HTML, CSS and javascript with a pinch of jquery.',
 		languages: ['HTML', 'CSS', 'Javascript', 'JQuery'],
@@ -43,7 +43,7 @@ export const cardData = [
 		siteLink: 'https://arshad-shah.github.io/portfoliov1/',
 	},
 	{
-		heading: 'Portfolio website version 2.0',
+		heading: 'Portfolio version 2.0',
 		description:
 			'The current version of the Portfolio site that contains all the work i have done so far.Includes work from college such as exercises, projects and also from outside college such as the android app.This is the second version written in javascript using the React framework, and designed using Material UI. The site has google analytics implemented with google tag manager and collects data for click events and page views.',
 		languages: ['HTML', 'Javascript', 'ReactJS', 'Material UI'],

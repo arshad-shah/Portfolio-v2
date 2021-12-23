@@ -47,29 +47,14 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
           <b>
             Intuitive
           </b>
-           user interfaces and
-           
+           user interfaces and 
           <b>
             Learning
           </b>
-           new technologies to building products that
            
+          new technologies to building products that 
           <b>
             solve real-world problems
-          </b>
-          .
-          <br />
-          I am a 
-          <b>
-            Team Player
-          </b>
-           and 
-          <b>
-            Hard Worker
-          </b>
-           and I am always
-          <b>
-             Looking for new challenges
           </b>
           .
           <br />
@@ -77,8 +62,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
           <b>
             Frontend technologies
           </b>
-           
-          like
+           like
           <b>
              React 
           </b>
@@ -86,15 +70,14 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
           <b>
             Backend technologies
           </b>
-           
-          such as Node.js, Express.js, MongoDB, Firebase, and Firestore as well as with different frameworks such as NextJS, React Native, and Flutter.
+           such as Node.js, Express.js, MongoDB, Firebase, and Firestore as well as with different frameworks such as NextJS, React Native, and Flutter.
           <br />
-          I like designing and creating stuff for all domains from
-           
+          I like designing and creating stuff for all domains from 
           <b>
             Mobile
           </b>
-           to 
+           
+          to 
           <b>
             Desktop
           </b>
@@ -337,8 +320,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
           <b>
             Frontend Team
           </b>
-           
-          team responsible for the HMH flagship product 
+           team responsible for the HMH flagship product 
           <b>
             HMH ED
           </b>
@@ -348,15 +330,13 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
           <b>
             React framework
           </b>
-           using the
-           
+           using the 
           <b>
             SPA pattern
           </b>
           , unit testing, integration testing, and End to End testing.
           <br />
-          I learned crucial skills, following an
-           
+          I learned crucial skills, following an 
           <b>
              Agile development 
           </b>

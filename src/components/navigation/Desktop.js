@@ -15,7 +15,7 @@ const StyledBox = styled(Box)(({ theme }) => ({
 		marginRight: '1.5rem',
 		'&:hover': {
 			backgroundColor: '#fff152',
-			boxShadow: '0px 0px 10px #1e1e1e',
+			boxShadow: '0px 0px 10px #B1A739',
 			transform: 'scale(1.3)',
 			fontWeight: 'bold',
 			transition: 'all 0.13s ease-in',

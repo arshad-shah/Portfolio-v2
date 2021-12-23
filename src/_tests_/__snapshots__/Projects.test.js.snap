@@ -35,7 +35,7 @@ exports[`Projects of the site: should render Projects with all the information i
               <span
                 class="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
               >
-                Android App | Nimaz
+                Nimaz
               </span>
             </div>
           </div>
@@ -83,7 +83,7 @@ exports[`Projects of the site: should render Projects with all the information i
             class="MuiCardActions-root MuiCardActions-spacing css-khne5s-MuiCardActions-root"
           >
             <a
-              aria-label="link to Google play store for Nimaz App"
+              aria-label="Link to github Repo of Nimaz"
               class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeLarge css-wrxors-MuiButtonBase-root-MuiIconButton-root"
               data-block="projectlink"
               data-mui-internal-clone-element="true"
@@ -261,7 +261,7 @@ exports[`Projects of the site: should render Projects with all the information i
             class="MuiCardActions-root MuiCardActions-spacing css-khne5s-MuiCardActions-root"
           >
             <a
-              aria-label="link to Github for Uber Clone repo"
+              aria-label="Link to github Repo of Uber Clone"
               class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeLarge css-wrxors-MuiButtonBase-root-MuiIconButton-root"
               data-block="projectlink"
               data-mui-internal-clone-element="true"
@@ -310,7 +310,7 @@ exports[`Projects of the site: should render Projects with all the information i
               <span
                 class="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
               >
-                Android App | MedicineReminder
+                MedicineReminder
               </span>
             </div>
           </div>
@@ -384,7 +384,7 @@ exports[`Projects of the site: should render Projects with all the information i
             class="MuiCardActions-root MuiCardActions-spacing css-khne5s-MuiCardActions-root"
           >
             <a
-              aria-label="link to Github for MedicineReminder App"
+              aria-label="Link to github Repo of MedicineReminder"
               class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeLarge css-wrxors-MuiButtonBase-root-MuiIconButton-root"
               data-block="projectlink"
               data-mui-internal-clone-element="true"
@@ -559,7 +559,7 @@ exports[`Projects of the site: should render Projects with all the information i
             class="MuiCardActions-root MuiCardActions-spacing css-khne5s-MuiCardActions-root"
           >
             <a
-              aria-label="link to Github for Chat App repo"
+              aria-label="Link to github Repo of Chat App"
               class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeLarge css-wrxors-MuiButtonBase-root-MuiIconButton-root"
               data-block="projectlink"
               data-mui-internal-clone-element="true"
@@ -608,7 +608,7 @@ exports[`Projects of the site: should render Projects with all the information i
               <span
                 class="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
               >
-                Portfolio website version 1.0
+                Portfolio version 1.0
               </span>
             </div>
           </div>
@@ -734,7 +734,7 @@ exports[`Projects of the site: should render Projects with all the information i
             class="MuiCardActions-root MuiCardActions-spacing css-khne5s-MuiCardActions-root"
           >
             <a
-              aria-label="link to Github for portfolio version 1"
+              aria-label="Link to github Repo of Portfolio version 1.0"
               class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeLarge css-wrxors-MuiButtonBase-root-MuiIconButton-root"
               data-block="projectlink"
               data-mui-internal-clone-element="true"
@@ -763,8 +763,7 @@ exports[`Projects of the site: should render Projects with all the information i
               />
             </a>
             <a
-              aria-label="Live Site Link"
-              aria-labelledby="Portfolio website version 1.0"
+              aria-label="Link to live website of Portfolio version 1.0"
               class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeLarge css-wrxors-MuiButtonBase-root-MuiIconButton-root"
               data-block="projectLinkToSite"
               data-mui-internal-clone-element="true"
@@ -822,7 +821,7 @@ exports[`Projects of the site: should render Projects with all the information i
               <span
                 class="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
               >
-                Portfolio website version 2.0
+                Portfolio version 2.0
               </span>
             </div>
           </div>
@@ -948,7 +947,7 @@ exports[`Projects of the site: should render Projects with all the information i
             class="MuiCardActions-root MuiCardActions-spacing css-khne5s-MuiCardActions-root"
           >
             <a
-              aria-label="link to Github for portfolio version 2"
+              aria-label="Link to github Repo of Portfolio version 2.0"
               class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeLarge css-wrxors-MuiButtonBase-root-MuiIconButton-root"
               data-block="projectlink"
               data-mui-internal-clone-element="true"
