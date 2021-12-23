@@ -1,10 +1,19 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./styles/index.css";
-import ReactGA from "react-ga";
-import App from "./App";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import ReactGA from 'react-ga';
+import App from './App';
 
-ReactGA.initialize("UA-205064366-1"); // add your tracking id here.
-ReactGA.pageview(window.location.pathname + window.location.search);
+import TagManager from 'react-gtm-module';
 
-ReactDOM.render(<App />, document.getElementById("root"));
+const env = process.env.NODE_ENV;
+if (env === 'production') {
+	const tagManagerArgs = {
+		gtmId: process.env.REACT_APP_GOOGLE_CONTAINER_ID,
+	};
+
+	TagManager.initialize(tagManagerArgs);
+	ReactGA.initialize(process.env.REACT_APP_GOOGLE_TRACKING_ID);
+	ReactGA.pageview(window.location.pathname + window.location.search);
+}
+ReactDOM.render(<App />, document.getElementById('root'));
