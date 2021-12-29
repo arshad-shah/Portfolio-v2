@@ -27,7 +27,7 @@ exports[`Header of the site: should render Header 1`] = `
     <h3
       class="MuiTypography-root MuiTypography-h3 Loading-name css-gepadz-MuiTypography-root"
     >
-      Loading...
+      Loading....
     </h3>
   </div>
 </div>

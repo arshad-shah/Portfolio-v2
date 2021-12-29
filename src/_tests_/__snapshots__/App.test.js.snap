@@ -72,7 +72,7 @@ exports[`the full app: should render the full app 1`] = `
       <h3
         class="MuiTypography-root MuiTypography-h3 Loading-name css-qfl46w-MuiTypography-root"
       >
-        Loading...
+        Loading....
       </h3>
     </div>
   </div>
