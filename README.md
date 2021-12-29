@@ -29,12 +29,6 @@ The main structure is as follows:
                     The codecov token
                 2.  GITHUB_TOKEN
                     Automatically created (dont worry about this)
-                3.  PORTFOLIO_SITE_SERVER
-                    The hosting server name
-                4.  PORTFOLIO_SITE_USER
-                    The hosting server username
-                5.  PORTFOLIO_SITE_PASS
-                    The hosting server password
 
         2.  e2e
             All the E2E test, config are here.
