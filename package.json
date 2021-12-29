@@ -1,8 +1,8 @@
 {
 	"name": "portfolio-v2.0",
 	"version": "0.1.0",
-	"private": true,
-	"homepage": "https://arshadshah.com",
+	"private": false,
+	"homepage": "https://arshadshah.com/portfolio",
 	"description": "A portfolio website for Arshad Shah",
 	"main": "index.js",
 	"keywords": [
