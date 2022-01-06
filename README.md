@@ -12,8 +12,6 @@
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=arshad-shah_Portfolio-v2&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=arshad-shah_Portfolio-v2)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=arshad-shah_Portfolio-v2&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=arshad-shah_Portfolio-v2)
 
-[<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=2b9348">](https://github.com/SamKirkland/FTP-Deploy-Action)
-
 ---
 
 # The structure of the app
@@ -94,7 +92,7 @@ See this article i found About [Set up chrome driver](https://chromedriver.chrom
 After chromedriver is setup:
 
 -   Run the command below in the src directory
-          yarn run e2e
+    yarn run e2e
 
 if everythings goes correct 🤞 You should see the tests executed.
 
