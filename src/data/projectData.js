@@ -31,7 +31,7 @@ export const cardData = [
 			'A chat app created in nextjs, styled components, and Material UI with firebase database for storage to learn server side rendering. it uses firebase authentication for login and signup, and firebase firestore for storage of messages. ',
 		languages: ['ReactJS', 'NextJS', 'Material UI', 'Styled components'],
 		linkAriaLabel: 'link to Github for Chat App repo',
-		repoLink: 'https://github.com/arshad-shah/chatty',
+		repoLink: 'https://github.com/arshad-shah/chatty_v1.0',
 	},
 	{
 		heading: 'Portfolio version 1.0',

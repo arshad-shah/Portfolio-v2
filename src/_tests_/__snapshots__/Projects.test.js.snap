@@ -564,7 +564,7 @@ exports[`Projects of the site: should render Projects with all the information i
               data-block="projectlink"
               data-mui-internal-clone-element="true"
               data-testid="githublink"
-              href="https://github.com/arshad-shah/chatty"
+              href="https://github.com/arshad-shah/chatty_v1.0"
               role="button"
               tabindex="0"
             >
