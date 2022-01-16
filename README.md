@@ -32,7 +32,7 @@ The main structure is as follows:
             All the E2E test, config are here.
         3.  src
                 divided into:
-                    -   _tests
+                    -   _tests_
                         all the tests
                     -   assets
                         The static assets
