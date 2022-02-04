@@ -45,7 +45,7 @@ exports[`Projects of the site: should render Projects with all the information i
             <p
               class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
             >
-              An app that calculates Muslim Prayer times and displays it in a clean UI. Features are Alarms for each prayer, Tasbeeh counter, Qibla compass, Names of Allah with translation and transliterations
+              An app that calculates Muslim Prayer times and displays it in a clean UI. Features are Alarms for each prayer, Tasbeeh with list of Dikhr, Qibla compass, Names of Allah with translation and transliterations, and full Quran in English and Urdu translations separated by juz and surah
             </p>
             <span
               class="MuiTypography-root MuiTypography-overline css-b3fch5-MuiTypography-root"

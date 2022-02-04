@@ -33,7 +33,7 @@ export default function Footer({ isMobile }) {
 					},
 				}}
 			/>
-			<Typography variant="subtitle2">V2.8 20 / December / 2021</Typography>
+			<Typography variant="subtitle2">V3.0 04 / February / 2022</Typography>
 		</Box>
 	);
 }

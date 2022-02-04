@@ -2,7 +2,7 @@ export const cardData = [
 	{
 		heading: 'Nimaz',
 		description:
-			'An app that calculates Muslim Prayer times and displays it in a clean UI. Features are Alarms for each prayer, Tasbeeh counter, Qibla compass, Names of Allah with translation and transliterations',
+			'An app that calculates Muslim Prayer times and displays it in a clean UI. Features are Alarms for each prayer, Tasbeeh with list of Dikhr, Qibla compass, Names of Allah with translation and transliterations, and full Quran in English and Urdu translations separated by juz and surah',
 		languages: ['Kotlin'],
 		linkAriaLabel: 'link to Google play store for Nimaz App',
 		shopLink:

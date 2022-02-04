@@ -47,8 +47,7 @@
 		"fix": "eslint --ext .js src --fix",
 		"lint:fix": "yarn lint && yarn fix",
 		"prettier:check": "prettier --check ./src",
-		"prettier:write": "prettier --write ./src",
-		"prepare": "husky install"
+		"prettier:write": "prettier --write ./src"
 	},
 	"prettier": "eslint-config-prettier",
 	"lint-staged": {
@@ -75,7 +74,6 @@
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-prettier": "^4.0.0",
 		"eslint-plugin-react": "^7.27.1",
-		"husky": "^7.0.4",
 		"prettier": "^2.5.0",
 		"pretty-quick": "^3.1.2",
 		"react-test-renderer": "^17.0.2"
