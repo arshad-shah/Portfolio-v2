@@ -8,6 +8,7 @@ export const cardData = [
 		shopLink:
 			'https://play.google.com/store/apps/details?id=com.arshadshah.nimaz&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1',
 		repoLink: 'https://github.com/arshad-shah/Nimaz',
+		siteLink: 'https://nimaz.arshadshah.com/',
 	},
 	{
 		heading: 'Uber Clone',
