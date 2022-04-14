@@ -110,7 +110,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
           class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-d3wcwz-MuiTypography-root"
         >
           <div
-            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-1ximusq-MuiChip-root"
             data-testid="languageChip"
           >
             <span
@@ -120,7 +120,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
             </span>
           </div>
           <div
-            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-1ximusq-MuiChip-root"
             data-testid="languageChip"
           >
             <span
@@ -130,7 +130,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
             </span>
           </div>
           <div
-            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-1ximusq-MuiChip-root"
             data-testid="languageChip"
           >
             <span
@@ -140,7 +140,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
             </span>
           </div>
           <div
-            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-1ximusq-MuiChip-root"
             data-testid="languageChip"
           >
             <span
@@ -150,7 +150,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
             </span>
           </div>
           <div
-            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-1ximusq-MuiChip-root"
             data-testid="languageChip"
           >
             <span
@@ -160,7 +160,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
             </span>
           </div>
           <div
-            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-1ximusq-MuiChip-root"
             data-testid="languageChip"
           >
             <span
@@ -170,7 +170,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
             </span>
           </div>
           <div
-            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-1ximusq-MuiChip-root"
             data-testid="languageChip"
           >
             <span
@@ -180,7 +180,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
             </span>
           </div>
           <div
-            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-1ximusq-MuiChip-root"
             data-testid="languageChip"
           >
             <span
@@ -190,7 +190,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
             </span>
           </div>
           <div
-            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-1ximusq-MuiChip-root"
             data-testid="languageChip"
           >
             <span
@@ -200,7 +200,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
             </span>
           </div>
           <div
-            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-1ximusq-MuiChip-root"
             data-testid="languageChip"
           >
             <span
@@ -210,7 +210,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
             </span>
           </div>
           <div
-            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-1ximusq-MuiChip-root"
             data-testid="languageChip"
           >
             <span
@@ -220,7 +220,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
             </span>
           </div>
           <div
-            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-1ximusq-MuiChip-root"
             data-testid="languageChip"
           >
             <span
@@ -230,7 +230,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
             </span>
           </div>
           <div
-            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-1ximusq-MuiChip-root"
             data-testid="languageChip"
           >
             <span
@@ -240,7 +240,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
             </span>
           </div>
           <div
-            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-1ximusq-MuiChip-root"
             data-testid="languageChip"
           >
             <span
@@ -250,7 +250,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
             </span>
           </div>
           <div
-            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-1ximusq-MuiChip-root"
             data-testid="languageChip"
           >
             <span
@@ -260,7 +260,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
             </span>
           </div>
           <div
-            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-1ximusq-MuiChip-root"
             data-testid="languageChip"
           >
             <span
@@ -270,7 +270,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
             </span>
           </div>
           <div
-            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-1ximusq-MuiChip-root"
             data-testid="languageChip"
           >
             <span
@@ -280,7 +280,7 @@ exports[`Aboutme of the site: should render Aboutme with all the information in 
             </span>
           </div>
           <div
-            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-kf42lv-MuiChip-root"
+            class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary Aboutme-TechChip css-1ximusq-MuiChip-root"
             data-testid="languageChip"
           >
             <span

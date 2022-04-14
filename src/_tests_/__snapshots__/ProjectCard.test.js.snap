@@ -33,7 +33,7 @@ exports[`ProjectCard of the site: should render ProjectCard with all the informa
       >
         <br />
         <div
-          class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
+          class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-1ximusq-MuiChip-root"
           data-testid="languageChip"
         >
           <svg
@@ -59,7 +59,7 @@ exports[`ProjectCard of the site: should render ProjectCard with all the informa
           </span>
         </div>
         <div
-          class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
+          class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-1ximusq-MuiChip-root"
           data-testid="languageChip"
         >
           <svg
@@ -85,7 +85,7 @@ exports[`ProjectCard of the site: should render ProjectCard with all the informa
           </span>
         </div>
         <div
-          class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
+          class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-1ximusq-MuiChip-root"
           data-testid="languageChip"
         >
           <svg
@@ -111,7 +111,7 @@ exports[`ProjectCard of the site: should render ProjectCard with all the informa
           </span>
         </div>
         <div
-          class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
+          class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-1ximusq-MuiChip-root"
           data-testid="languageChip"
         >
           <span

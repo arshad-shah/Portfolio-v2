@@ -6,48 +6,6 @@ exports[`the full app: should render the full app 1`] = `
     class="MainSite-root css-1wokjyq"
   >
     <div
-      style="opacity: 1; display: none; webkit-transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
-    />
-    <div
-      class="MuiBox-root css-mgur8"
-      role="presentation"
-      style="transform: scale(0); visibility: hidden; display: none;"
-    >
-      <button
-        aria-label="scroll back to top"
-        class="MuiButtonBase-root MuiFab-root MuiFab-circular MuiFab-sizeLarge MuiFab-secondary MainSite-fab css-1ifk6x9-MuiButtonBase-root-MuiFab-root"
-        data-block="backtotopbutton"
-        data-testid="backtoTopButton"
-        tabindex="0"
-        type="button"
-      >
-        <svg
-          fill="none"
-          height="1em"
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          viewBox="0 0 24 24"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <line
-            x1="12"
-            x2="12"
-            y1="19"
-            y2="5"
-          />
-          <polyline
-            points="5 12 12 5 19 12"
-          />
-        </svg>
-        <span
-          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-        />
-      </button>
-    </div>
-    <div
       class="Loading-root css-1qz95ku"
     >
       <span

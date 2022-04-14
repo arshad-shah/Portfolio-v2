@@ -51,7 +51,7 @@ exports[`Mobile layout of the site: should render Mobile 1`] = `
       >
         <a
           aria-label="Resume"
-          class="MuiTypography-root MuiTypography-outlined MuiLink-root MuiLink-underlineAlways Mobile-button css-1iwtne7-MuiTypography-root-MuiLink-root"
+          class="MuiTypography-root MuiTypography-outlined MuiLink-root MuiLink-underlineAlways Mobile-button css-1ps4owl-MuiTypography-root-MuiLink-root"
           data-block="Resumemenuitemmobile"
           data-testid="resumeOption"
           href="ArshadResume.pdf"

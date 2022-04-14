@@ -19,7 +19,7 @@ exports[`Projects of the site: should render Projects with all the information i
     >
       <div
         aria-label="ProjectCard"
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-c9m0lc-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-1x38vav-MuiGrid-root"
       >
         <div
           class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root ProjectCard-root css-c6x3ll-MuiPaper-root-MuiCard-root"
@@ -52,7 +52,7 @@ exports[`Projects of the site: should render Projects with all the information i
             >
               <br />
               <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-1ximusq-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
@@ -183,7 +183,7 @@ exports[`Projects of the site: should render Projects with all the information i
       </div>
       <div
         aria-label="ProjectCard"
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-c9m0lc-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-1x38vav-MuiGrid-root"
       >
         <div
           class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root ProjectCard-root css-c6x3ll-MuiPaper-root-MuiCard-root"
@@ -216,7 +216,7 @@ exports[`Projects of the site: should render Projects with all the information i
             >
               <br />
               <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-1ximusq-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
@@ -242,7 +242,7 @@ exports[`Projects of the site: should render Projects with all the information i
                 </span>
               </div>
               <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-1ximusq-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
@@ -268,7 +268,7 @@ exports[`Projects of the site: should render Projects with all the information i
                 </span>
               </div>
               <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-1ximusq-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
@@ -332,7 +332,7 @@ exports[`Projects of the site: should render Projects with all the information i
       </div>
       <div
         aria-label="ProjectCard"
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-c9m0lc-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-1x38vav-MuiGrid-root"
       >
         <div
           class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root ProjectCard-root css-c6x3ll-MuiPaper-root-MuiCard-root"
@@ -365,7 +365,7 @@ exports[`Projects of the site: should render Projects with all the information i
             >
               <br />
               <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-1ximusq-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
@@ -391,7 +391,7 @@ exports[`Projects of the site: should render Projects with all the information i
                 </span>
               </div>
               <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-1ximusq-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
@@ -455,7 +455,7 @@ exports[`Projects of the site: should render Projects with all the information i
       </div>
       <div
         aria-label="ProjectCard"
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-c9m0lc-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-1x38vav-MuiGrid-root"
       >
         <div
           class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root ProjectCard-root css-c6x3ll-MuiPaper-root-MuiCard-root"
@@ -488,7 +488,7 @@ exports[`Projects of the site: should render Projects with all the information i
             >
               <br />
               <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-1ximusq-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
@@ -514,7 +514,7 @@ exports[`Projects of the site: should render Projects with all the information i
                 </span>
               </div>
               <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-1ximusq-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
@@ -540,7 +540,7 @@ exports[`Projects of the site: should render Projects with all the information i
                 </span>
               </div>
               <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-1ximusq-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
@@ -566,7 +566,7 @@ exports[`Projects of the site: should render Projects with all the information i
                 </span>
               </div>
               <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-1ximusq-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
@@ -630,7 +630,7 @@ exports[`Projects of the site: should render Projects with all the information i
       </div>
       <div
         aria-label="ProjectCard"
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-c9m0lc-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-1x38vav-MuiGrid-root"
       >
         <div
           class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root ProjectCard-root css-c6x3ll-MuiPaper-root-MuiCard-root"
@@ -663,7 +663,7 @@ exports[`Projects of the site: should render Projects with all the information i
             >
               <br />
               <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-1ximusq-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
@@ -689,7 +689,7 @@ exports[`Projects of the site: should render Projects with all the information i
                 </span>
               </div>
               <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-1ximusq-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
@@ -715,7 +715,7 @@ exports[`Projects of the site: should render Projects with all the information i
                 </span>
               </div>
               <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-1ximusq-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
@@ -741,7 +741,7 @@ exports[`Projects of the site: should render Projects with all the information i
                 </span>
               </div>
               <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-1ximusq-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
@@ -843,7 +843,7 @@ exports[`Projects of the site: should render Projects with all the information i
       </div>
       <div
         aria-label="ProjectCard"
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-c9m0lc-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-1x38vav-MuiGrid-root"
       >
         <div
           class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root ProjectCard-root css-c6x3ll-MuiPaper-root-MuiCard-root"
@@ -876,7 +876,7 @@ exports[`Projects of the site: should render Projects with all the information i
             >
               <br />
               <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-1ximusq-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
@@ -902,7 +902,7 @@ exports[`Projects of the site: should render Projects with all the information i
                 </span>
               </div>
               <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-1ximusq-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
@@ -928,7 +928,7 @@ exports[`Projects of the site: should render Projects with all the information i
                 </span>
               </div>
               <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-1ximusq-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
@@ -954,7 +954,7 @@ exports[`Projects of the site: should render Projects with all the information i
                 </span>
               </div>
               <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-kf42lv-MuiChip-root"
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-filledSecondary ProjectCard-LanguageChip css-1ximusq-MuiChip-root"
                 data-testid="languageChip"
               >
                 <svg
