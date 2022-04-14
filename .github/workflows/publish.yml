@@ -4,10 +4,8 @@
 name: build
 
 on:
-  workflow_run:
-    workflows: ["CodeQL","SonarScan"]
-    types:
-      - completed
+  push:
+    branches: [master]
 
 jobs:
   build:
