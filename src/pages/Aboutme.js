@@ -40,55 +40,12 @@ const StyledBox = styled(Box)(({ theme }) => ({
     minHeight: 0,
   },
 
-  [`& .${classes.row}`]: {
-    display: "flex",
-    flexDirection: "row",
-    padding: "1rem",
-    [theme.breakpoints.down("lg")]: {
-      flexDirection: "row",
-    },
-    [theme.breakpoints.down("md")]: {
-      flexDirection: "column",
-    },
-  },
-
-  [`& .${classes.aboutMePicture}`]: {
-    display: "flex",
-    flexDirection: "column",
-    padding: "1rem",
-    width: "25%",
-    height: "60%",
-    margin: "auto",
-    [theme.breakpoints.down("lg")]: {
-      flexDirection: "column",
-      width: "30%",
-      height: "100%",
-    },
-    [theme.breakpoints.down("md")]: {
-      flexDirection: "column",
-      width: "50%",
-      height: "100%",
-    },
-    [theme.breakpoints.down("sm")]: {
-      flexDirection: "column",
-      width: "100%",
-      height: "100%",
-    },
-  },
-
   [`& .${classes.aboutMeDesc}`]: {
     display: "flex",
     flexDirection: "column",
     padding: "1rem",
     textAlign: "left",
-  },
-
-  [`& .${classes.picture}`]: {
-    borderRadius: "1rem",
-    width: "auto",
-    height: "auto",
-    boxShadow: "0px 0px 10px #000000",
-    transition: "all 0.5s ease-out",
+    marginBottom: "2.5rem",
   },
 
   [`& .${classes.subheading}`]: {
