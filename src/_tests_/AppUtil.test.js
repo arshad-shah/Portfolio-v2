@@ -2,11 +2,11 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import App from "../App";
 
-describe("the full app:", () => {
+describe("All the App Utils:", () => {
   it("back to top button appears if user scrolls down", async () => {
     render(<App />);
     window.scrollTo(0, 1000);
-    const linkElement = await screen.findByLabelText("scroll back to top");
+    const linkElement = await screen.findByTestId("backtoTopButton");
     expect(linkElement).toBeInTheDocument();
   });
 

@@ -3,7 +3,7 @@
 exports[`Header of the site: should render Header 1`] = `
 <div>
   <div
-    class="Header-root css-np1iaq"
+    class="Header-root css-1ev3ynq"
   >
     <div
       class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1t29gy6-MuiToolbar-root"
@@ -16,17 +16,11 @@ exports[`Header of the site: should render Header 1`] = `
       <div
         class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1t29gy6-MuiToolbar-root"
       >
-        <img
-          alt="Logo"
-          aria-label="Logo"
-          class="Header-logo"
-          src="logo.svg"
-        />
-        <h5
-          class="MuiTypography-root MuiTypography-h5 Header-title css-1xszx61-MuiTypography-root"
+        <h6
+          class="MuiTypography-root MuiTypography-subtitle1 Header-title css-65a2cr-MuiTypography-root"
         >
-          A SHAH
-        </h5>
+          ARSHAD SHAH
+        </h6>
         <div
           aria-label="desktopMenu"
           class="MuiBox-root css-yv9lcr"

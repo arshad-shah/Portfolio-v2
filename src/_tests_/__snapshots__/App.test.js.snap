@@ -3,10 +3,10 @@
 exports[`the full app: should render the full app 1`] = `
 <div>
   <div
-    class="MainSite-root css-1wokjyq"
+    class="MainSite-root css-4gshou"
   >
     <div
-      class="Loading-root css-1qz95ku"
+      class="Loading-root css-ii9190"
     >
       <span
         class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorSecondary Loading-progress css-1rcio96-MuiCircularProgress-root"
@@ -28,7 +28,7 @@ exports[`the full app: should render the full app 1`] = `
         </svg>
       </span>
       <h3
-        class="MuiTypography-root MuiTypography-h3 Loading-name css-qfl46w-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h3 Loading-name css-g51uwm-MuiTypography-root"
       >
         Loading....
       </h3>

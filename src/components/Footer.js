@@ -2,22 +2,34 @@ import { Box, Typography } from "@mui/material";
 import React from "react";
 import PropTypes from "prop-types";
 import SocialLinks from "./SocialLinks";
+import polygrid from "../assets/low-poly-grid-haikei.svg";
+
 export default function Footer({ isMobile }) {
   const desktopStyles = {
     display: "flex",
     flexDirection: "column",
-    alignItems: "center",
-    backgroundColor: "#ffffff",
     padding: "1rem",
+    textAlign: "center",
+    alignItems: "center",
+    justifyContent: "center",
+    minHeight: "10vh",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundImage: `url(${polygrid})`,
   };
 
   const mobileStyles = {
     display: "flex",
     flexDirection: "column",
-    alignItems: "center",
-    backgroundColor: "#ffffff",
     padding: "1rem",
     marginBottom: "5rem",
+    textAlign: "center",
+    alignItems: "center",
+    justifyContent: "center",
+    minHeight: "10vh",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundImage: `url(${polygrid})`,
   };
   return (
     <Box data-testid="footer" sx={isMobile ? mobileStyles : desktopStyles}>
@@ -35,7 +47,7 @@ export default function Footer({ isMobile }) {
           },
         }}
       />
-      <Typography variant="subtitle2">V3.0 04 / February / 2022</Typography>
+      <Typography variant="subtitle2">V3.2 - 01 / May / 2022</Typography>
     </Box>
   );
 }

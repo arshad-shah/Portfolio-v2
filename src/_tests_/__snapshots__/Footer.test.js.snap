@@ -3,7 +3,7 @@
 exports[`Footer of the site: should render footer 1`] = `
 <div>
   <div
-    class="MuiBox-root css-1mayosb"
+    class="MuiBox-root css-lsidqv"
     data-testid="footer"
   >
     <h6
@@ -148,7 +148,7 @@ exports[`Footer of the site: should render footer 1`] = `
     <h6
       class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
     >
-      V3.0 04 / February / 2022
+      V3.2 - 01 / May / 2022
     </h6>
   </div>
 </div>

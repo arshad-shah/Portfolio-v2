@@ -17,7 +17,6 @@ const Root = styled("div")(({ theme }) => ({
     justifyContent: "center",
     alignContent: "center",
     flexWrap: "nowrap",
-    backgroundColor: "#ffffff",
     minHeight: "100vh",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",

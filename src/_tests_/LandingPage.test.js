@@ -3,14 +3,14 @@ import { render, screen } from "@testing-library/react";
 import LandingPage from "../pages/LandingPage";
 
 describe("LandingPage of the site:", () => {
-  it("should render LandingPage with all the information in it", () => {
+  it("should render with all the information in it", () => {
     const { container } = render(<LandingPage />);
     expect(container).toMatchSnapshot();
   });
 
   it("should render the Hero text", () => {
     render(<LandingPage />);
-    const nameOfArshad = screen.getByText("Arshad Shah!");
+    const nameOfArshad = screen.getByText("Hello, I am Arshad!");
     expect(nameOfArshad).toBeInTheDocument();
   });
 

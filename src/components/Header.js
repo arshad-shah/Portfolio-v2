@@ -4,7 +4,6 @@ import { AppBar, Toolbar, Typography } from "@mui/material";
 import HideOnScroll from "./HideOnScroll";
 
 import Desktop from "./navigation/Desktop";
-import logo from "../assets/logo.svg";
 import PropTypes from "prop-types";
 const PREFIX = "Header";
 
@@ -33,13 +32,6 @@ const Root = styled("div")(({ theme }) => ({
   [`& .${classes.title}`]: {
     flexGrow: 1,
     padding: "0.9rem",
-    fontWeight: "bold",
-    letterSpacing: "3px",
-  },
-
-  [`& .${classes.titleMobile}`]: {
-    padding: "0.9rem",
-    fontWeight: "bold",
     letterSpacing: "3px",
   },
 
@@ -60,18 +52,12 @@ export default function Header(props) {
         <HideOnScroll {...props}>
           <AppBar data-testid="header">
             <Toolbar className={classes.MobileHeader}>
-              <img
-                aria-label="Logo"
-                src={logo}
-                className={classes.logo}
-                alt="Logo"
-              />
               <Typography
                 variant="h5"
                 color="textPrimary"
-                className={classes.titleMobile}
+                className={classes.title}
               >
-                A SHAH
+                ARSHAD SHAH
               </Typography>
             </Toolbar>
           </AppBar>
@@ -80,18 +66,12 @@ export default function Header(props) {
         <HideOnScroll {...props}>
           <AppBar data-testid="header">
             <Toolbar>
-              <img
-                aria-label="Logo"
-                src={logo}
-                className={classes.logo}
-                alt="Logo"
-              />
               <Typography
-                variant="h5"
+                variant="subtitle1"
                 color="textPrimary"
                 className={classes.title}
               >
-                A SHAH
+                ARSHAD SHAH
               </Typography>
               <Desktop />
             </Toolbar>

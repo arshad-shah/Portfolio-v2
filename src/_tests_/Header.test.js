@@ -5,14 +5,8 @@ import Header from "../components/Header";
 describe("Header of the site:", () => {
   it("should render Header with the creater name in it", () => {
     render(<Header />);
-    const creator = screen.getByText(/A Shah/i);
+    const creator = screen.getByText(/ARSHAD Shah/i);
     expect(creator).toBeInTheDocument();
-  });
-
-  it("should render the logo", () => {
-    render(<Header />);
-    const Logo = screen.getByLabelText("Logo");
-    expect(Logo).toBeInTheDocument();
   });
 
   it("should open mobile menu when menu button is clicked", () => {

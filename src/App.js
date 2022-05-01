@@ -11,10 +11,13 @@ let theme = createTheme({
   palette: {
     mode: "light",
     primary: {
-      main: "#fdff95",
+      main: "#ffe47a",
     },
     secondary: {
       main: "#ffbf0d",
+    },
+    background: {
+      default: "#ffffff",
     },
     action: {
       hoverOpacity: 0.09,
@@ -23,7 +26,6 @@ let theme = createTheme({
   breakpoints: {
     values: {
       xs: 320,
-      smxs: 350,
       sm: 460,
       md: 786,
       lg: 1024,
@@ -31,7 +33,7 @@ let theme = createTheme({
     },
   },
   typography: {
-    fontFamily: "Nunito",
+    fontFamily: "Nunito Sans",
     fontSize: 18,
   },
 });

@@ -3,17 +3,17 @@
 exports[`Projects of the site: should render Projects with all the information in it 1`] = `
 <div>
   <div
-    class="Projects-root MuiBox-root css-kec0kv"
+    class="Projects-root MuiBox-root css-1xtgws8"
   >
     <div
       class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular Projects-projectsLink css-1t29gy6-MuiToolbar-root"
       id="projects"
     />
-    <h2
-      class="MuiTypography-root MuiTypography-h2 MuiTypography-alignCenter MuiTypography-gutterBottom css-6exuqi-MuiTypography-root"
+    <h1
+      class="MuiTypography-root MuiTypography-h1 MuiTypography-alignCenter MuiTypography-gutterBottom css-1bn4tuo-MuiTypography-root"
     >
       Projects
-    </h2>
+    </h1>
     <div
       class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-1snqaz0-MuiGrid-root"
     >

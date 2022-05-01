@@ -3,7 +3,7 @@
 exports[`Header of the site: should render Header 1`] = `
 <div>
   <div
-    class="Loading-root css-1qz95ku"
+    class="Loading-root css-ii9190"
   >
     <span
       class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorSecondary Loading-progress css-1szo49z-MuiCircularProgress-root"
