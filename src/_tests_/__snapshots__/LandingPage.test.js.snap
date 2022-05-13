@@ -3,7 +3,7 @@
 exports[`LandingPage of the site: should render with all the information in it 1`] = `
 <div>
   <div
-    class="LandingPage-hero MuiBox-root css-15ev9ga"
+    class="LandingPage-hero MuiBox-root css-126wx4z"
     data-testid="hero"
   >
     <h1

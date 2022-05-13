@@ -2,7 +2,6 @@ import { Box, Typography } from '@mui/material';
 import React from 'react';
 import PropTypes from 'prop-types';
 import SocialLinks from './SocialLinks';
-import polygrid from '../assets/low-poly-grid-haikei.svg';
 
 export default function Footer({ isMobile }) {
 	const desktopStyles = {
@@ -13,9 +12,6 @@ export default function Footer({ isMobile }) {
 		alignItems: 'center',
 		justifyContent: 'center',
 		minHeight: '10vh',
-		backgroundRepeat: 'no-repeat',
-		backgroundSize: 'cover',
-		backgroundImage: `url(${polygrid})`,
 	};
 
 	const mobileStyles = {
@@ -27,9 +23,6 @@ export default function Footer({ isMobile }) {
 		alignItems: 'center',
 		justifyContent: 'center',
 		minHeight: '10vh',
-		backgroundRepeat: 'no-repeat',
-		backgroundSize: 'cover',
-		backgroundImage: `url(${polygrid})`,
 	};
 	return (
 		<Box data-testid="footer" sx={isMobile ? mobileStyles : desktopStyles}>

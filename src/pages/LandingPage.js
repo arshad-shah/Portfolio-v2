@@ -16,6 +16,10 @@ const classes = {
 	landingName: `${PREFIX}-landingName`,
 	landingDesc: `${PREFIX}-landingDesc`,
 	ScrollDown: `${PREFIX}-scrollDown`,
+	// class to add to the hero when the page is scrolled down
+	scrolled: `${PREFIX}-scrolled`,
+	// class to add to the hero when the page is scrolled up
+	unscrolled: `${PREFIX}-unscrolled`,
 };
 
 const StyledBox = styled(Box)(({ theme }) => ({
@@ -37,6 +41,15 @@ const StyledBox = styled(Box)(({ theme }) => ({
 		},
 	},
 
+	[`&.${classes.scrolled}`]: {
+		opacity: 0,
+		transition: 'opacity 0.8s	',
+	},
+	[`&.${classes.unscrolled}`]: {
+		opacity: 1,
+		transition: 'opacity 0.8s',
+	},
+
 	[`& .${classes.landingName}`]: {
 		padding: '0.7rem',
 	},
@@ -51,64 +64,54 @@ const StyledBox = styled(Box)(({ theme }) => ({
 		fontSize: '2.5rem',
 		color: '#000000',
 		'&:hover': {
-			transform: 'scale(1.2)',
-			transition: 'all 0.13s ease-in',
-			// when mouse comes near the button stop the animation
+			// when mouse comes near the button pause the animation
 			animation: 'none',
+			cursor: 'pointer',
 		},
-		// animation with the scrollDownAnimation that shows for 2 seconds
-		'@keyframes myAnim': {
-			'0%': {
-				animationTimingFunction: 'ease-in',
-				opacity: '1',
-				transform: 'translateY(-45px)',
-			},
-
-			'24%': {
-				opacity: '1',
-			},
-
-			'40%': {
-				animationTimingFunction: 'ease-in',
-				transform: 'translateY(-24px)',
-			},
-
-			'65%': {
-				animationTimingFunction: 'ease-in',
-				transform: 'translateY(-12px)',
-			},
-
-			'82%': {
-				animationTimingFunction: 'ease-in',
-				transform: 'translateY(-6px)',
-			},
-
-			'93%': {
-				animationTimingFunction: 'ease-in',
-				transform: 'translateY(-4px)',
-			},
-
-			'25%, 55%, 75%, 87%': {
-				animationTimingFunction: 'ease-out',
-				transform: 'translateY(0px)',
-			},
-
-			'100%': {
-				animationTimingFunction: 'ease-out',
-				opacity: '1',
-				transform: 'translateY(0px)',
-			},
-		},
-
-		animation: 'myAnim 2s infinite',
-		animationDuration: '1.5s',
-		animationIterationCount: '1',
+		// animation with the scrollDownAnimation that pulsates the button
+		animation: 'pulsateButton 1.5s infinite both',
 		animationTimingFunction: 'ease-in-out',
-		opacity: '1',
+		'@keyframes pulsateButton': {
+			'0%': {
+				transform: 'scale(1)',
+			},
+			'50%': {
+				transform: 'scale(1.3)',
+			},
+			'100%': {
+				transform: 'scale(1)',
+			},
+		},
 	},
 }));
 
 export default function LandingPage({ isMobile }) {
+	// when the page is scrolled down, the hero section is hidden
+	// and the hero section is shown
+	const handleScroll = () => {
+		if (window.scrollY > 500) {
+			document
+				.querySelector(`.${classes.hero}`)
+				.classList.add(classes.scrolled);
+			document
+				.querySelector(`.${classes.hero}`)
+				.classList.remove(classes.unscrolled);
+		} else {
+			document
+				.querySelector(`.${classes.hero}`)
+				.classList.remove(classes.scrolled);
+			document
+				.querySelector(`.${classes.hero}`)
+				.classList.add(classes.unscrolled);
+		}
+	};
+	React.useEffect(() => {
+		window.addEventListener('scroll', handleScroll);
+		return () => {
+			window.removeEventListener('scroll', handleScroll);
+		};
+	}, []);
+
 	return (
 		<StyledBox className={classes.hero} data-testid="hero">
 			<Typography className={classes.landingName} variant="h1">

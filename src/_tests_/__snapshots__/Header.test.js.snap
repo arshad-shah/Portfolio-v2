@@ -23,7 +23,7 @@ exports[`Header of the site: should render Header 1`] = `
         </h6>
         <div
           aria-label="desktopMenu"
-          class="MuiBox-root css-yv9lcr"
+          class="MuiBox-root css-14r63ee"
           data-testid="desktopMenu"
         >
           <a

@@ -4,7 +4,7 @@ exports[`Desktop of the site: should render Desktop 1`] = `
 <div>
   <div
     aria-label="desktopMenu"
-    class="MuiBox-root css-yv9lcr"
+    class="MuiBox-root css-14r63ee"
     data-testid="desktopMenu"
   >
     <a

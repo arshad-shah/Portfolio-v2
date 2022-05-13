@@ -3,7 +3,6 @@ import { styled } from '@mui/material/styles';
 import React from 'react';
 import ProjectCard from '../components/ProjectCard';
 import { cardData } from '../data/projectData';
-import blobscatter from '../assets/blob-scatter-haikei.svg';
 
 const PREFIX = 'Projects';
 
@@ -20,9 +19,6 @@ const StyledBox = styled(Box)(() => ({
 		alignItems: 'center',
 		justifyContent: 'center',
 		minHeight: '100vh',
-		backgroundRepeat: 'no-repeat',
-		backgroundSize: 'cover',
-		backgroundImage: `url(${blobscatter})`,
 	},
 
 	[`& .${classes.projectsLink}`]: {

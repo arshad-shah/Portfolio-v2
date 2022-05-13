@@ -2,7 +2,6 @@ import { Typography, Toolbar, Box, Chip } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import React from 'react';
 import { aboutMeData } from '../data/aboutMeData';
-import blob from '../assets/blob-scene-haikei.svg';
 
 const PREFIX = 'Aboutme';
 
@@ -27,9 +26,6 @@ const StyledBox = styled(Box)(() => ({
 		alignItems: 'center',
 		justifyContent: 'center',
 		minHeight: '100vh',
-		backgroundRepeat: 'no-repeat',
-		backgroundSize: 'cover',
-		backgroundImage: `url(${blob})`,
 	},
 
 	[`& .${classes.intro}`]: {

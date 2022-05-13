@@ -3,7 +3,7 @@
 exports[`Projects of the site: should render Projects with all the information in it 1`] = `
 <div>
   <div
-    class="Projects-root MuiBox-root css-1xtgws8"
+    class="Projects-root MuiBox-root css-16zus4q"
   >
     <div
       class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular Projects-projectsLink css-1t29gy6-MuiToolbar-root"

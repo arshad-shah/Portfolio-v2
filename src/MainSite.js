@@ -1,10 +1,17 @@
-import React, { lazy, Suspense, useEffect } from 'react';
+import React, { lazy, Suspense } from 'react';
 import { styled } from '@mui/material/styles';
-import { useMediaQuery, useTheme } from '@mui/material';
+import {
+	Box,
+	useMediaQuery,
+	useScrollTrigger,
+	useTheme,
+	Zoom,
+} from '@mui/material';
+import { Fab } from '@mui/material';
 
 import CssBaseline from '@mui/material/CssBaseline';
-import Fab from '@mui/material/Fab';
 import { FiArrowUp } from 'react-icons/fi';
+import BlobScatter from './assets/blob-scatter-haikei.svg';
 
 import Loading from './components/Loading';
 import Mobile from './components/navigation/Mobile';
@@ -13,18 +20,19 @@ import Link from 'react-scroll/modules/components/Link';
 const PREFIX = 'MainSite';
 
 const classes = {
-	root: `${PREFIX}-root`,
 	fab: `${PREFIX}-fab`,
 };
 
 const Root = styled('div')(({ theme }) => ({
+	color: '#000000',
+	minHeight: '100vh',
+	backgroundRepeat: 'no-repeat',
+	backgroundSize: 'cover',
+	backgroundImage: `url(${BlobScatter})`,
 	[`& .${classes.fab}`]: {
 		fontSize: '2rem',
 		bottom: theme.spacing(2),
 		right: theme.spacing(2),
-		display: 'none',
-		position: 'fixed',
-		zIndex: '1000',
 		[theme.breakpoints.down('sm')]: {
 			marginBottom: '4rem',
 		},
@@ -46,29 +54,13 @@ function MainSite() {
 	const theme = useTheme();
 	const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 
-	// a function that shows and hides the scroll to top button based on the scroll position
-	const handleScroll = () => {
-		const scrollPosition = window.scrollY;
-		const scrollButton = document.getElementById('scroll-to-top');
-		// if the scroll position is greater than 100px, show the scroll to top button
-		if (scrollPosition > 100) {
-			scrollButton.style.display = 'block';
-		}
-		// if the scroll position is less than 100px, hide the scroll to top button
-		else {
-			scrollButton.style.display = 'none';
-		}
-	};
-
-	useEffect(() => {
-		window.addEventListener('scroll', handleScroll);
-		return () => {
-			window.removeEventListener('scroll', handleScroll);
-		};
-	}, []);
+	const trigger = useScrollTrigger({
+		disableHysteresis: true,
+		threshold: 500,
+	});
 
 	return (
-		<Root className={classes.root}>
+		<Root>
 			<Suspense fallback={renderLoader()}>
 				<CssBaseline />
 				<Header isMobile={isMobile} data-testid="header" />
@@ -77,19 +69,23 @@ function MainSite() {
 				<Aboutme />
 				<Projects data-testid="projectsSection" />
 
-				<Link
-					id="scroll-to-top"
-					data-block="backtotopbutton"
-					data-testid="backtoTopButton"
-					aria-label="scroll back to top"
-					to="back-to-top-anchor"
-					spy
-					smooth
-					className={classes.fab}>
-					<Fab color="secondary" size="large">
-						<FiArrowUp />
-					</Fab>
-				</Link>
+				<Zoom in={trigger}>
+					<Box
+						role="presentation"
+						sx={{ position: 'fixed', bottom: 16, right: 16 }}>
+						<Link to="back-to-top-anchor" smooth spy>
+							<Fab
+								color="secondary"
+								id="backToTopButton"
+								className={classes.fab}
+								data-block="backtotopbutton"
+								data-testid="backtoTopButton"
+								aria-label="scroll back to top">
+								<FiArrowUp />
+							</Fab>
+						</Link>
+					</Box>
+				</Zoom>
 				<Footer isMobile={isMobile} />
 			</Suspense>
 		</Root>

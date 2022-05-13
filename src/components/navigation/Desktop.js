@@ -14,7 +14,7 @@ const StyledBox = styled(Box)(() => ({
 	[`& .${classes.menuItem}`]: {
 		marginRight: '1.5rem',
 		'&:hover': {
-			backgroundColor: '#fff152',
+			backgroundColor: '#ffe47a',
 			boxShadow: '0px 0px 10px #B1A739',
 			transform: 'scale(1.3)',
 			fontWeight: 'bold',

@@ -3,7 +3,7 @@
 exports[`Footer of the site: should render footer 1`] = `
 <div>
   <div
-    class="MuiBox-root css-lsidqv"
+    class="MuiBox-root css-1vos81b"
     data-testid="footer"
   >
     <h6
