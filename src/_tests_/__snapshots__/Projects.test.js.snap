@@ -209,7 +209,7 @@ exports[`Projects of the site: should render Projects with all the information i
             <p
               class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
             >
-              A clone app of uber in react native, for the purpose of learning redux state management. it uses google api's for autocomplete, distance measurement, and map for start and finish of journey.
+              A clone app of uber in react native, for the purpose of learning redux state management. it uses google api&quot;s for autocomplete, distance measurement, and map for start and finish of journey.
             </p>
             <span
               class="MuiTypography-root MuiTypography-overline css-b3fch5-MuiTypography-root"

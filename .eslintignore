@@ -6,3 +6,5 @@
 **/e2e/**
 **/_snapshots_/**
 **/.github/**
+setupTests.js
+**/_tests_/**
