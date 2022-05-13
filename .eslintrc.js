@@ -19,7 +19,6 @@ module.exports = {
 	},
 	plugins: ['react'],
 	rules: {
-		'linebreak-style': ['error', 'windows'],
 		quotes: ['error', 'single'],
 		'spaced-comment': ['error', 'always'],
 

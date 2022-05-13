@@ -45,8 +45,7 @@
 		"e2e:ui": "concurrently --kill-others \"chromedriver\" \"cd ./e2e && yarn codeceptjs:ui\"",
 		"allure:reports": "cd ./e2e && allure serve output",
 		"lint": "eslint --ext .js src",
-		"fix": "eslint --ext .js src --fix",
-		"lint:fix": "concurrently --kill-others \"yarn lint\" \"yarn fix\"",
+		"lint:fix": "eslint --ext .js src --fix",
 		"prettier:check": "prettier --config .prettierrc --check ./src",
 		"prettier:write": "prettier --config .prettierrc --write ./src"
 	},
@@ -70,6 +69,7 @@
 		]
 	},
 	"devDependencies": {
+		"allure": "^0.0.0",
 		"concurrently": "^7.1.0",
 		"eslint": "8.13.0",
 		"eslint-config-prettier": "^8.5.0",
