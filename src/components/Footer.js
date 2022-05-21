@@ -20,7 +20,7 @@ export default function Footer({ isMobile }) {
 		padding: '1rem',
 		marginBottom: '3rem',
 		textAlign: 'center',
-		alignItems: 'center',
+		alignItems: 'flex-start',
 		justifyContent: 'center',
 		minHeight: '10vh',
 	};
@@ -46,5 +46,5 @@ export default function Footer({ isMobile }) {
 }
 
 Footer.propTypes = {
-	isMobile: PropTypes.bool.isRequired,
+	isMobile: PropTypes.bool,
 };

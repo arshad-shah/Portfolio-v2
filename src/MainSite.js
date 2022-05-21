@@ -31,8 +31,8 @@ const Root = styled('div')(({ theme }) => ({
 	backgroundImage: `url(${BlobScatter})`,
 	[`& .${classes.fab}`]: {
 		fontSize: '2rem',
-		bottom: theme.spacing(2),
-		right: theme.spacing(2),
+		bottom: theme.spacing(1),
+		right: theme.spacing(1),
 		[theme.breakpoints.down('sm')]: {
 			marginBottom: '4rem',
 		},
@@ -72,7 +72,7 @@ function MainSite() {
 				<Zoom in={trigger}>
 					<Box
 						role="presentation"
-						sx={{ position: 'fixed', bottom: 16, right: 16 }}>
+						sx={{ position: 'fixed', bottom: 6, right: 6 }}>
 						<Link to="back-to-top-anchor" smooth spy>
 							<Fab
 								color="secondary"

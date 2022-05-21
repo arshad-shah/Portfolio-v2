@@ -152,5 +152,5 @@ export default function LandingPage({ isMobile }) {
 }
 
 LandingPage.propTypes = {
-	isMobile: PropTypes.bool.isRequired,
+	isMobile: PropTypes.bool,
 };
