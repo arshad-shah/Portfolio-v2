@@ -44,7 +44,7 @@ const Root = styled('div')(({ theme }) => ({
 
 const Header = lazy(() => import('./components/Header'));
 const LandingPage = lazy(() => import('./pages/LandingPage'));
-const Aboutme = lazy(() => import('./pages/Aboutme'));
+const AboutMe = lazy(() => import('./pages/AboutMe'));
 const Projects = lazy(() => import('./pages/Projects'));
 const Footer = lazy(() => import('./components/Footer'));
 
@@ -66,13 +66,14 @@ function MainSite() {
 				<Header isMobile={isMobile} data-testid="header" />
 				{isMobile ? <Mobile /> : null}
 				<LandingPage isMobile={isMobile} />
-				<Aboutme />
+				<AboutMe />
 				<Projects data-testid="projectsSection" />
 
 				<Zoom in={trigger}>
 					<Box
 						role="presentation"
-						sx={{ position: 'fixed', bottom: 6, right: 6 }}>
+						sx={{ position: 'fixed', bottom: 6, right: 6 }}
+					>
 						<Link to="back-to-top-anchor" smooth spy>
 							<Fab
 								color="secondary"
@@ -80,7 +81,8 @@ function MainSite() {
 								className={classes.fab}
 								data-block="backtotopbutton"
 								data-testid="backtoTopButton"
-								aria-label="scroll back to top">
+								aria-label="scroll back to top"
+							>
 								<FiArrowUp />
 							</Fab>
 						</Link>

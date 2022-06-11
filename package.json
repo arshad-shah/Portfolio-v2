@@ -1,7 +1,7 @@
 {
 	"name": "portfolio-v2.0",
 	"version": "0.1.0",
-	"private": false,
+	"private": true,
 	"homepage": "https://arshadshah.com/portfolio",
 	"description": "A portfolio website for Arshad Shah",
 	"main": "index.js",
@@ -37,7 +37,7 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"nukestall": "rmdir /s /q node_modules && yarn install",
-		"install:deps": "concurrently --kill-others \"yarn install\" && \"cd ./e2e && yarn install\"",
+		"install:deps": "concurrently --kill-others \"yarn install\" \"cd ./e2e && yarn install\"",
 		"clean:output": "cd ./e2e && rmdir /s /q output",
 		"e2e:clean": "concurrently --kill-others \"chromedriver\" \"yarn clean:output && cd ./e2e && yarn codeceptjs\"",
 		"e2e": "concurrently --kill-others \"chromedriver\" \"cd ./e2e && yarn codeceptjs\"",

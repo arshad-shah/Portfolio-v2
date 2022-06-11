@@ -56,7 +56,7 @@ const StyledBox = styled(Box)(() => ({
 	},
 }));
 
-export default function Aboutme() {
+export default function AboutMe() {
 	return (
 		<StyledBox className={classes.root}>
 			<Toolbar className={classes.aboutMeLink} id="aboutme" />
@@ -65,15 +65,15 @@ export default function Aboutme() {
 			</Typography>
 			<Box className={classes.aboutMeDesc}>
 				<Typography gutterBottom variant="h6">
-					I am a <b>Software Engineer</b> with a passion for building
+          I am a <b>Software Engineer</b> with a passion for building
 					<b> Beautiful</b> and <b>Intuitive</b> user interfaces and{' '}
 					<b>Learning</b> new technologies to building products that{' '}
 					<b>solve real-world problems</b>.
 					<br />I have real world experience in{' '}
 					<b>Frontend ,Backend Development</b> and <b>Full Stack Development</b>
-					.
+          .
 					<br />
-					My goal is to make <b>Cross Platform</b>, <b>Efficient</b>, and{' '}
+          My goal is to make <b>Cross Platform</b>, <b>Efficient</b>, and{' '}
 					<b>Clean Application</b> that give an easy and Perfect experience.
 				</Typography>
 
@@ -94,7 +94,7 @@ export default function Aboutme() {
 				</Typography>
 
 				<Typography className={classes.subheading} gutterBottom variant="h5">
-					Work Experience
+          Work Experience
 				</Typography>
 
 				<Typography gutterBottom variant="body1">
@@ -104,16 +104,16 @@ export default function Aboutme() {
 					<b>Houghton Mifflin Harcourt</b> - Dublin, Ireland
 				</Typography>
 				<Typography variant="body1">
-					I worked on a <b>Frontend Team</b> team responsible for the HMH
-					flagship product <b>HMH ED</b>.
+          I worked on a <b>Frontend Team</b> team responsible for the HMH
+          flagship product <b>HMH ED</b>.
 					<br />
-					My responsibilities included:
+          My responsibilities included:
 					<ul>
 						<li>
-							Developing and maintaining the <b>Frontend</b> of the product
+              Developing and maintaining the <b>Frontend</b> of the product
 						</li>
 						<li>
-							Cross Team Collaboration with multiple teams across the company
+              Cross Team Collaboration with multiple teams across the company
 						</li>
 						<li>
 							<b>Testing</b> and <b>Deployment</b> of the product
