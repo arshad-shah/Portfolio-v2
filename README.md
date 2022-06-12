@@ -17,7 +17,7 @@
 The app is structured into several folders to separate code as much as possible.\
 The main structure is as follows:
 
-- [**workflows**](.github)
+- [**workflows**](.github/workflows)
 - [**e2e**](e2e)
 - [**public**](public)
 - [**src**](src)
