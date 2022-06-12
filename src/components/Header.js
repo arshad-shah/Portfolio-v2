@@ -1,15 +1,16 @@
 import React from 'react';
-import { styled } from '@mui/material/styles';
+import PropTypes from 'prop-types';
 import {
 	AppBar,
 	Toolbar,
 	Typography,
 	useScrollTrigger,
 	Slide,
+	styled,
 } from '@mui/material';
 
 import Desktop from './navigation/Desktop';
-import PropTypes from 'prop-types';
+
 const PREFIX = 'Header';
 
 const classes = {

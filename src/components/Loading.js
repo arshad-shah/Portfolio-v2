@@ -1,6 +1,6 @@
 import React from 'react';
-import { styled } from '@mui/material/styles';
-import { CircularProgress, Typography } from '@mui/material';
+import { CircularProgress, Typography, styled } from '@mui/material';
+
 const PREFIX = 'Loading';
 
 const classes = {

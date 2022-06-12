@@ -4,7 +4,7 @@ import App from '../App';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import LandingPage from '../pages/LandingPage';
-import Aboutme from '../pages/Aboutme';
+import AboutMe from '../pages/AboutMe';
 import Projects from '../pages/Projects';
 
 describe('the full app:', () => {
@@ -24,7 +24,7 @@ describe('the full app:', () => {
 	});
 
 	it('should render the About', () => {
-		const { container } = render(<Aboutme />);
+		const { container } = render(<AboutMe />);
 		expect(container).toBeInTheDocument();
 	});
 

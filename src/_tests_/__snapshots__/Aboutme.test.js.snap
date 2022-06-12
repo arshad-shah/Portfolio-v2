@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Aboutme of the site: should render with all the information in it 1`] = `
+exports[`AboutMe of the site: should render with all the information in it 1`] = `
 <div>
   <div
     class="Aboutme-root MuiBox-root css-1w2427u"

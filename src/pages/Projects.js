@@ -1,6 +1,6 @@
-import { Box, Grid, Toolbar, Typography } from '@mui/material';
-import { styled } from '@mui/material/styles';
 import React from 'react';
+import { Box, Grid, Toolbar, Typography, styled } from '@mui/material';
+
 import ProjectCard from '../components/ProjectCard';
 import { cardData } from '../data/projectData';
 

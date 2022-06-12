@@ -1,10 +1,15 @@
 import React from 'react';
-import { styled } from '@mui/material/styles';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardHeader from '@mui/material/CardHeader';
-import { Chip, IconButton, Tooltip, Typography } from '@mui/material';
+import {
+	Chip,
+	IconButton,
+	Tooltip,
+	Typography,
+	Card,
+	CardActions,
+	CardContent,
+	CardHeader,
+	styled,
+} from '@mui/material';
 import { FiGithub, FiExternalLink } from 'react-icons/fi';
 import {
 	SiCss3,
@@ -23,6 +28,7 @@ import {
 	SiGoogleplay,
 } from 'react-icons/si';
 import PropTypes from 'prop-types';
+
 const PREFIX = 'ProjectCard';
 
 const classes = {
@@ -63,7 +69,7 @@ export default function ProjectCard({
 	siteLink,
 	shopLink,
 }) {
-	// a function that find the correct icon for a given language array
+	// a function that finds the correct icon for a given array of languages,	frameworks, etc.
 	const getIcon = (language) => {
 		switch (language) {
 			case 'Kotlin':

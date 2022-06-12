@@ -1,5 +1,5 @@
-import { Box, IconButton, Tooltip } from '@mui/material';
 import React from 'react';
+import { Box, IconButton, Tooltip } from '@mui/material';
 import { FaHackerrank } from 'react-icons/fa';
 import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
 import PropTypes from 'prop-types';

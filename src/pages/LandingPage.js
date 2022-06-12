@@ -1,11 +1,11 @@
 import React from 'react';
-import { styled } from '@mui/material/styles';
-import { Box, Typography } from '@mui/material';
+import { Box, Typography, styled } from '@mui/material';
 import { Link } from 'react-scroll';
 // icons
 import { FiArrowDown } from 'react-icons/fi';
 
 import PropTypes from 'prop-types';
+
 import SocialLinks from '../components/SocialLinks';
 import Wave from '../assets/layered-waves-haikei.svg';
 

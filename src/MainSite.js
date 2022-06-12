@@ -1,15 +1,15 @@
 import React, { lazy, Suspense } from 'react';
-import { styled } from '@mui/material/styles';
 import {
 	Box,
 	useMediaQuery,
 	useScrollTrigger,
 	useTheme,
 	Zoom,
+	Fab,
+	styled,
+	CssBaseline,
 } from '@mui/material';
-import { Fab } from '@mui/material';
 
-import CssBaseline from '@mui/material/CssBaseline';
 import { FiArrowUp } from 'react-icons/fi';
 import BlobScatter from './assets/blob-scatter-haikei.svg';
 
@@ -72,8 +72,7 @@ function MainSite() {
 				<Zoom in={trigger}>
 					<Box
 						role="presentation"
-						sx={{ position: 'fixed', bottom: 6, right: 6 }}
-					>
+						sx={{ position: 'fixed', bottom: 6, right: 6 }}>
 						<Link to="back-to-top-anchor" smooth spy>
 							<Fab
 								color="secondary"
@@ -81,8 +80,7 @@ function MainSite() {
 								className={classes.fab}
 								data-block="backtotopbutton"
 								data-testid="backtoTopButton"
-								aria-label="scroll back to top"
-							>
+								aria-label="scroll back to top">
 								<FiArrowUp />
 							</Fab>
 						</Link>
