@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the full app: should render the full app 1`] = `
+<div>
+  <div
+    class="css-xzbe8r"
+  >
+    <div
+      class="Loading-root css-ii9190"
+    >
+      <span
+        class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorSecondary Loading-progress css-1rcio96-MuiCircularProgress-root"
+        role="progressbar"
+        style="width: 100px; height: 100px;"
+      >
+        <svg
+          class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+          viewBox="22 22 44 44"
+        >
+          <circle
+            class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+            cx="44"
+            cy="44"
+            fill="none"
+            r="19.5"
+            stroke-width="5"
+          />
+        </svg>
+      </span>
+      <h3
+        class="MuiTypography-root MuiTypography-h3 Loading-name css-g51uwm-MuiTypography-root"
+      >
+        Loading....
+      </h3>
+    </div>
+  </div>
+</div>
+`;

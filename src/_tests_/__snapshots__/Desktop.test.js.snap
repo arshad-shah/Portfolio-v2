@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Desktop of the site: should render Desktop 1`] = `
+<div>
+  <div
+    aria-label="desktopMenu"
+    class="MuiBox-root css-14r63ee"
+    data-testid="desktopMenu"
+  >
+    <a
+      aria-label="About Me"
+      class="Desktop-menuItem"
+      color="default"
+      data-block="Aboutmemenuitemdesktop"
+      data-testid="aboutmeOption"
+    >
+      <span
+        class="MuiTypography-root MuiTypography-button css-1f0on15-MuiTypography-root"
+      >
+        About Me
+      </span>
+    </a>
+    <a
+      aria-label="Projects"
+      class="Desktop-menuItem"
+      color="default"
+      data-block="Projectsmenuitemdesktop"
+      data-testid="projectsOption"
+    >
+      <span
+        class="MuiTypography-root MuiTypography-button css-1f0on15-MuiTypography-root"
+      >
+        Projects
+      </span>
+    </a>
+    <a
+      aria-label="Resume"
+      class="Desktop-menuItem"
+      color="default"
+      data-block="Resumemenuitemdesktop"
+      data-testid="resumeOption"
+      href="ArshadResume.pdf"
+    >
+      <span
+        class="MuiTypography-root MuiTypography-button css-1f0on15-MuiTypography-root"
+      >
+        Resume
+      </span>
+    </a>
+  </div>
+</div>
+`;

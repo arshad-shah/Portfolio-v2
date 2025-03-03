@@ -1,0 +1,20 @@
+{
+	"name": "codeceptjs-tests",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"ansi-regex": "^5.0.1"
+	},
+	"scripts": {
+		"codeceptjs": "codeceptjs run --steps --plugins allure",
+		"codeceptjs:headless": "set HEADLESS=true && codeceptjs run --steps",
+		"codeceptjs:ui": "codecept-ui --app"
+	},
+	"devDependencies": {
+		"@codeceptjs/configure": "^0.7.0",
+		"@codeceptjs/examples": "^1.2.1",
+		"@codeceptjs/ui": "^0.4.6",
+		"codeceptjs": "^3.1.3",
+		"webdriverio": "^7.14.1"
+	}
+}
